@@ -1,0 +1,3 @@
+event: complete
+data: [{"status": "accepted", "replayed": false, "team_name": "HumanSlop", "final_answer_score": "1.000000", "reasoning_steps_score": "1.000000", "receipt_id": "fr1-dev-b49fa74eb81568d156d688bdb049ccc24bb4158ea75770290859f2ade49f18b0", "current_rank": 1, "accepted_at": "2026-10-08T02:30:19Z"}]
+

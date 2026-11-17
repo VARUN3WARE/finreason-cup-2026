@@ -1,0 +1,114 @@
+{
+  "summary": "Gold-free multi-lens program synthesis + adjudication for FinReason Task 1 hidden-structure test clusters",
+  "agentCount": 3,
+  "logs": [
+    "Hidden synthesis over 1 clusters",
+    "methods: {\"arbitrated\":1}"
+  ],
+  "result": {
+    "decisions": [
+      {
+        "cluster": "h091",
+        "lenses": [],
+        "adjA": {
+          "decision": "adjudicated",
+          "variant": "adjA",
+          "rationale": "I wrote finreason/solvers/zs_hidden/h091_adjA.py as a copy of lit. Only attrition_case_ebitda_checkpoint is disputed. Every variant gives the same finals, the same uninsured tax exposure and the same attrition-case EV of (V-D+S)*M1, so the finals do not depend on this dispute.\n\nDisputed field: lit and hand give V-D (91, 83, 81). dom and skep give (V+S)-D, which is 102 in all three instances because D equals S each time. The text calls only V \"verified recurring EBITDA is 102\". It describes the savings as a separate item, \"not already included in that amount\", so they are not part of recurring EBITDA. The attrition sentence's subject is \"recurring EBITDA falls by D\", and the slot asks for \"recurring EBITDA in the customer-attrition state\". That gives V-D. The savings are added back only to get the valuation EBITDA used for EV. The (V+S)-D reading would also make the checkpoint the same value, 102, in every instance.\n\nThe fact that D equals S in all three instances suggests the question-writer had some deliberate design here, so the 102 reading cannot be fully ruled out. I judged the plain text to point to V-D.\n\nI also checked the fields everyone agrees on: the uninsured exposure G*(1-f) is taken before the probability is applied, as its description \"remaining after insurance recovery\" says; the multiple \"compresses to\" M1 is taken as the new value; and the comparison of p*(EV_base-EV_attr) against q*G*(1-f) is exact, with no rounding inside. I found no shared mistake."
+        },
+        "adjB": {
+          "decision": "adjudicated",
+          "variant": "adjB",
+          "rationale": "I wrote finreason/solvers/zs_hidden/h091_adjB.py as a copy of h091_skep.py; only the docstring header changed. It produces the same outputs as dom and skep. All four variants agreed on the final answers and on uninsured_tax_exposure_checkpoint. The only disputed field was attrition_case_ebitda_checkpoint: dom/skep give 102, 102, 102 and lit/hand give 91, 83, 81. That call is likely, not certain.\n\nDisputed field, attrition_case_ebitda_checkpoint (adjB returns E+S-D = 102 in all three instances):\n- Text: verified recurring EBITDA E=102, and \"target-controlled confirmed run-rate savings not already included in that amount are S\". The words \"not already included\" mean S is added once, so the base-case valuation EBITDA is E+S. All four analysts already accept this, because every variant computes base EV = (E+S)*M0.\n- Text: \"In a customer-attrition state, recurring EBITDA falls by D and the valuation multiple compresses to M1\". All four variants also agree that the attrition-case EV is (E+S-D)*M1. So the question is only which number the checkpoint reports: the EBITDA that is multiplied by M1 (E+S-D), or verified EBITDA alone minus the fall (E-D).\n- The slot id \"attrition_case_ebitda\" mirrors the text's \"attrition-case enterprise values\". The natural reading is the EBITDA that produces the attrition-case EV, which is E+S-D.\n- In all three instances D equals S (11/11, 19/19, 21/21), and E is fixed at 102. This looks deliberate. It makes the checkpoint 102 under either way of building the adjusted EBITDA ((E+S)-D or (E-D)+S), and it lets the checkpoint catch a solver that leaves out the savings. Reading the checkpoint as E-D would give the same number as a solver that ignores S entirely, so it would test nothing.\n- The case for lit/hand: the slot description says \"recurring EBITDA in the customer-attrition state\", and the text applies \"recurring EBITDA\" to the 102 figure before savings. I judged the slot id, the EV parallel and the D=S design to outweigh that literal label.\n\nFields everyone agreed on, checked for a shared mistake:\n- uninsured_tax_exposure_checkpoint = G*(1-f), taken before the crystallization probability. The description \"tax exposure remaining after insurance recovery\" and the phrase \"insurance recovers fraction f if it crystallizes\" support this. Values: 79.2, 203, 241.5.\n- Expected tax loss = q*G*(1-f), as defined in the text.\n- Expected customer loss = p*((E+S)*M0 - (E+S-D)*M1). \"Compresses to\" means the new multiple is M1 itself, not a reduction by M1.\n- Comparison of the exact unrounded losses, with \"Expected losses are equal\" only on an exact tie. Results: instance 1 is 38 vs 39.6, so \"Tax exposure loss is larger\". Instances 2 and 3 give \"Customer attrition loss is larger\".\n- The final answer depends on the savings being included in both states, which all variants do. The disputed checkpoint does not affect the final answer under either reading."
+        },
+        "arbiter": {
+          "adjudicators_agreed": false,
+          "variant": "final",
+          "rationale": "The two adjudicators disagreed only on attrition_case_ebitda_checkpoint. I wrote /home/varun/Desktop/someProj/FinReason Cup 2026/finreason/solvers/zs_hidden/h091_final.py, which copies h091_adjA.py with an added arbiter note in the docstring. The compare run confirms that final and adjA match on every field.\n\nRuling: the checkpoint is R - D, giving 91, 83 and 81. The text names only R as \"verified recurring EBITDA is 102\". It describes the savings S as a separate item, \"not already included in that amount\", so S is not part of recurring EBITDA. The attrition sentence's subject is \"recurring EBITDA falls by D\", and the slot asks to \"Compute recurring EBITDA in the customer-attrition state\". Read literally, that is 102 - D. The savings are added back only to build the EBITDA used for EV: EV_attr = (R - D + S) * M1. All variants agree on that EV.\n\nadjB pointed out that D equals S in all three instances, so its reading gives 102 every time. That suggests the setter chose D = S on purpose, but it is not enough to override the literal label. A checkpoint that is the same constant in every instance is also odd in its own right.\n\nAll solvers agree on the other fields, and I confirmed them:\n- uninsured_tax_exposure = G*(1-f), taken before the probability is applied: 79.2, 203, 241.5.\n- The multiple \"compresses to\" M1 is read as the new multiple, M1 itself.\n- The comparison uses exact values, so instance 1 is 38 vs 39.6. Finals: Tax exposure loss is larger; Customer attrition loss is larger; Customer attrition loss is larger.\n\nThe adjudicators said the finals do not depend on this dispute. That is wrong for instance 1 if the savings were left out of the attrition EV. That would give (R-D)*M1, a customer loss of 53.4 and a final of Customer. The phrase \"target-controlled confirmed\" savings supports keeping S in both states. Every variant already does this, and so does final."
+        },
+        "variant": "final",
+        "method": "arbitrated"
+      }
+    ],
+    "missing": []
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Synthesize"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Adjudicate"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "h091:adjA",
+      "phaseIndex": 2,
+      "phaseTitle": "Adjudicate",
+      "agentId": "ac9c0b87d67885db2",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791612921443,
+      "queuedAt": 1791612921431,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "adjudicated",
+      "promptPreview": "You are adjudicator A for hidden question cluster h091. Several independent analysts wrote solvers:\nfinreason/solvers/zs_hidden/h091_{lit,dom,skep,hand}.py  (some may be missing).\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; use python3; Python 3.10; no installs needed)\nTASK: FinReason Cup 2026 Task 1 -- financial word problems with a final answer (answer_spec…",
+      "promptFramed": true,
+      "lastProgressAt": 1791612955932,
+      "tokens": 56616,
+      "toolCalls": 4,
+      "durationMs": 34489,
+      "resultPreview": "{\"decision\":\"adjudicated\",\"variant\":\"adjA\",\"rationale\":\"I wrote finreason/solvers/zs_hidden/h091_adjA.py as a copy of lit. Only attrition_case_ebitda_checkpoint is disputed. Every variant gives the same finals, the same uninsured tax exposure and the same attrition-case EV of (V-D+S)*M1, so the finals do not depend on this dispute.\\n\\nDisputed field: lit and hand give V-D (91, 83, 81). dom and ske…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "h091:adjB",
+      "phaseIndex": 2,
+      "phaseTitle": "Adjudicate",
+      "agentId": "a9eb544b426174992",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791612957013,
+      "queuedAt": 1791612957011,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "adjudicated",
+      "promptPreview": "You are adjudicator B for hidden question cluster h091. Several independent analysts wrote solvers:\nfinreason/solvers/zs_hidden/h091_{lit,dom,skep,hand}.py  (some may be missing).\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; use python3; Python 3.10; no installs needed)\nTASK: FinReason Cup 2026 Task 1 -- financial word problems with a final answer (answer_spec…",
+      "promptFramed": true,
+      "lastProgressAt": 1791613006351,
+      "tokens": 57943,
+      "toolCalls": 4,
+      "durationMs": 49338,
+      "resultPreview": "{\"decision\":\"adjudicated\",\"variant\":\"adjB\",\"rationale\":\"I wrote finreason/solvers/zs_hidden/h091_adjB.py as a copy of h091_skep.py; only the docstring header changed. It produces the same outputs as dom and skep. All four variants agreed on the final answers and on uninsured_tax_exposure_checkpoint. The only disputed field was attrition_case_ebitda_checkpoint: dom/skep give 102, 102, 102 and lit/h…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "h091:arbiter",
+      "phaseIndex": 2,
+      "phaseTitle": "Adjudicate",
+      "agentId": "a9976d394e4a34fda",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791613007746,
+      "queuedAt": 1791613007732,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "final",
+      "promptPreview": "You are the final arbiter for hidden question cluster h091. Two blind adjudicators ruled on disagreements between\nindependent solvers. Their solvers: finreason/solvers/zs_hidden/h091_adjA.py and h091_adjB.py.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; use python3; Python 3.10; no installs needed)\nTASK: FinReason Cup 2026 Task 1 -- financial word problems wit…",
+      "promptFramed": true,
+      "lastProgressAt": 1791613044836,
+      "tokens": 53194,
+      "toolCalls": 4,
+      "durationMs": 37090,
+      "resultPreview": "{\"adjudicators_agreed\":false,\"variant\":\"final\",\"rationale\":\"The two adjudicators disagreed only on attrition_case_ebitda_checkpoint. I wrote /home/varun/Desktop/someProj/FinReason Cup 2026/finreason/solvers/zs_hidden/h091_final.py, which copies h091_adjA.py with an added arbiter note in the docstring. The compare run confirms that final and adjA match on every field.\\n\\nRuling: the checkpoint is R…"
+    }
+  ],
+  "totalTokens": 167753,
+  "totalToolCalls": 12
+}

@@ -1,0 +1,8 @@
+data: {"msg":"estimation","event_id":"93bc2e22869e4fdd9a6bd97fe89ba568","rank":0,"queue_size":1,"rank_eta":2.772880792617798}
+
+data: {"msg":"process_starts","event_id":"93bc2e22869e4fdd9a6bd97fe89ba568","eta":2.772880792617798}
+
+data: {"msg":"process_completed","event_id":"93bc2e22869e4fdd9a6bd97fe89ba568","output":{"data":["Format check: Valid\nSubmission status: Accepted\nReceipt ID: test-20261010T063016Z-a174c4cc12bf221b38dc33fa2bc736976dd6a5ff006b2401\nAccepted UTC: 2026-10-10T06:30:16Z\nTest scores and ranks remain hidden until final results."],"is_generating":false,"duration":2.3155298233032227,"average_duration":2.6030526161193848,"render_config":null,"changed_state_ids":[],"used_cache":null},"success":true,"title":null,"used_cache":null,"cache_duration":2.3155298233032227,"avg_time":2.6030526161193848}
+
+data: {"msg":"close_stream","event_id":null}
+

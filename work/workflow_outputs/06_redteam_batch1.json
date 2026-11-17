@@ -1,0 +1,1112 @@
+{
+  "summary": "Red-team every decided hidden cluster; two blind reviewers + arbiter only when a concrete challenge or CoT disagreement exists",
+  "agentCount": 35,
+  "logs": [
+    "Red-team review over 35 clusters",
+    "review methods: {\"redteam_cleared\":35}"
+  ],
+  "result": {
+    "decisions": [
+      {
+        "cluster": "h001",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading under which the h001_lit.py outputs are wrong, so I did not write h001_red.py. Here is what I checked against the question text:\n\n- **Checkpoint slot:** \"current assets remaining after the planned non-current-asset purchase\" means CA − P. The text says the purchase \"reduces current assets by the purchase amount\", and nothing says to round it. That gives 124, 120.315 and 225.267, which render as 124.00, 120.32 and 225.27.\n- **Required ratio:** \"one plus the ratio 0.4/0.8\" is 1.4 or 1.8 as a plain number. It is not a percent or basis points, and the 0.4/0.8 is not an alternative base.\n- **Borrowing equation:** \"added to both cash and current liabilities while exactly meeting the required current ratio\" gives (CA_post + B)/(CL + B) = R. Solving it gives B = (CA_post − R·CL)/(R − 1).\n- **\"Maximum\":** since R > 1, adding the same B to both sides lowers the ratio. So the largest B that still meets the requirement is where the ratio equals R exactly. The solver's choice of this as the binding point is right.\n- **Floor at zero:** CA_post > R·CL in all 3 instances, so B is positive everywhere and the question of a zero floor never comes up.\n- **Units:** all figures are in USD millions, so no unit conversion is needed. The fractional current liabilities (1975/28, 541/9, 44461/700) are kept exact.\n\nI recomputed the finals by hand:\n- **Instance 1:** (124 − 98.75)/0.4 = 63.125, which rounds half-up to 63.13.\n- **Instance 2:** (120.315 − 108.2)/0.8 = 15.14375, which rounds to 15.14.\n- **Instance 3:** (225.267 − 88.9220)/0.4 = 340.8625, which rounds to 340.86.\n\nAll three match the solver's output. There are no branches, enum outputs or tie-break rules in this cluster."
+        }
+      },
+      {
+        "cluster": "h002",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading under which the current outputs are wrong. I checked each step of the question by hand on all three instances.\n\n- **Probabilities:** P(minor) is 0.2. \"Conditional on the minor state not occurring, the moderate state has probability 0.5\", so P(moderate) = 0.8 × 0.5 = 0.4 and P(severe) = 0.4. The sum is 1, so these are true conditional probabilities. Reading 0.5 as an unconditional probability would contradict the word \"Conditional\".\n- **Checkpoint slots:** each slot is P(state) × gross loss in USD, not the reimbursed amount. The slot descriptions say \"gross loss\" explicitly.\n  - moderate: 0.4 × 196 = 78.4, and 0.4 × 201 = 80.4\n  - severe: 0.4 × 394 = 157.6, and 0.4 × 406 = 162.4\n  - These match the solver.\n- **Rate order:** losses and reimbursement fractions are paired in minor/moderate/severe order (\"Their gross fraud losses ... and the account reimburses fractions\").\n- **Actual expected reimbursement:** Σ p·r·L.\n- **Benchmark:** \"probability-weighted mean reimbursement rate\" is Σ p·r. It is not a loss-weighted rate, which would make the benchmark identical to the actual value. That rate is applied \"uniformly to expected gross loss\" (Σ p·L). The final answer is therefore E[rL] − E[r]·E[L].\n- **Hand checks:**\n  - Instance 1: 116.94 − 0.47 × 255.6 = −3.192, reported as −3.19\n  - Instance 2: 117.0968125 − 0.44996875 × 261.2 = −0.435025, reported as −0.44. This is not an exact half, so the half-up rule on negatives does not matter here.\n  - Instance 3: 116.38 − 0.45 × 258.4 = 0.10\n- **Other checks:** there are no floors, caps, branches or rounding of intermediate values in the text. The answer is in USD (not millions), and the sign is actual minus benchmark, as stated.\n\nI did not write h002_red.py, because no issue was found."
+        }
+      },
+      {
+        "cluster": "h003",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading that a careful exam-setter would clearly intend and that gives different outputs. Here is what I checked.\n\n1. **Pre-tax profit.** Margins are \"after all segment-specific operating costs but before allocating one shared deductible cost pool\", so pre-shared-cost pre-tax profit is revenue x margin. Segment A's profit is R_A*m_A - x*S and Segment B's is R_B*m_B - (1-x)*S. That matches \"fraction x ... to A and the complementary fraction to B exactly once\".\n\n2. **After-tax margin.** The after-tax margin is (1-t)*profit / revenue. The solver also handles \"positive pre-tax profit\" by taxing only when profit is above zero. All three roots fall in the regime where both segments are taxed: x is between 0 and 1 and both profits stay positive, so the floor never changes a result.\n\n3. **Hand checks.** I re-derived instance 1 by hand: 0.8(459.84375 - 101x)/981 = 0.7(144 + 101x)/490, which gives x = 116248.5/155641 = 0.74690, or 74.69. Instance 3 gives x = 54019.41/107721.9 = 0.50147, or 50.15. Both match the solver's output. Instance 2 (39.83) uses the same formula.\n\n4. **Final answer unit.** The question asks for \"What percentage x\", and the answer spec unit is percent, so returning x*100 is correct. It is not a ratio or basis points.\n\n5. **Checkpoint slots.** They say \"Report the shared cost pool as a ratio of Segment A/B revenue\". That is the full pool divided by revenue: 101/981 = 0.102956 and 101/490 = 0.206122. It is not the allocated share x*S/R. The wording says \"shared cost pool\", not \"allocated share\", and the slots come at positions 1–2, before x is solved. The values are ratios, not percentages, which matches the ratio unit in the spec.\n\n6. **Rounding and enums.** The text rounds nothing along the way (\"round only the final percentage\"), and there are no tie-breaks or enum answers.\n\nI did not write `h003_red.py`."
+        }
+      },
+      {
+        "cluster": "h004",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I couldn't find a misreading. I checked all three instances by hand.\n- Market loss = V × market shock × sensitivity. \"With loss sensitivity\" modifies the market shock.\n- Liquidity loss = V × liquidity shock. The text says it is \"applied directly to portfolio value\", so sensitivity does not apply to it.\n- Gross loss = market loss + liquidity loss. This is the \"combined gross loss\" that the recovery ratio applies to.\n- Net = gross − ratio × gross. The text says \"after subtracting the recoverable amount from gross stress loss\".\n\nResults:\n- Instance 1: 6.0368 + 0.49 = 6.5268, rounding to 6.53 and slot 6.04.\n- Instance 2: 0.99 + 0.99 = 1.98, all of it recovered, so 0.00 and slot 0.99.\n- Instance 3: 7.84 + 3.92 = 11.76, minus 2.9253 = 8.8347, rounding to 8.83 and slot 7.84.\n\nThe slot asks for the \"market stress dollar loss\", and the solver returns the market component only, which matches. All inputs are ratios, not percents or basis points. The text sets no floor, cap or rounding for intermediate values. No result sits near a rounding boundary. The only edge case is the recovery ratio of 1 in instance 2, and a net of 0 is correct there. I did not write h004_red.py."
+        }
+      },
+      {
+        "cluster": "h005",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading of the question that a careful exam-setter would clearly intend and that changes any of the 6 fields.\n\n**Planned abatement slot.** Q = capacity × utilization: 203 × 0.5 = 101.5, 203.1601 × 0.5 = 101.58005 and 298 × 0.4 = 119.2. The text says \"commits to utilization 0.5\", which is a plain ratio, not a percent. Nothing tells the solver to round to whole tons before using Q, and the slot's 4 decimal places fit the 101.58005 value, which reports as 101.5801.\n\n**Internal cost.** Internal cost = K + v·Q. \"plus v USD for each ton internally abated\" applies to the planned tons Q, not to full capacity: the company only abates Q. The fixed mobilization cost is in plain USD, not millions.\n\n**Break-even price.** Setting P·Q = K + v·Q gives P = K/Q + v, using \"buying credits for the same planned abatement quantity\" and the one-credit-per-ton rule:\n- 989.5/101.5 + 19 = 28.7488, reported as 28.75\n- 1942/101.58005 + 11 = 30.1181, reported as 30.12\n- 1783/119.2 + 14 = 28.9581, reported as 28.96\n\n**Readings I tested and rejected:**\n- Per-ton cost applied to full capacity: contradicted by \"each ton internally abated\".\n- Average cost over capacity: contradicted by \"for the same planned abatement quantity\".\n- Q floored to whole tons or whole credits: not stated anywhere.\n- Utilization read as a percent: the value is 0.5, which is a ratio.\n\nNone of these is supported by the wording. There are no branches, enum tokens, caps or tie-breaks. Q is never zero in any instance, and none of the final values sits near a rounding boundary.\n\nI didn't write `/home/varun/Desktop/someProj/FinReason Cup 2026/finreason/solvers/zs_hidden/h005_red.py` because no issue survived checking."
+        }
+      },
+      {
+        "cluster": "h006",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I checked the solver at /home/varun/Desktop/someProj/FinReason Cup 2026/finreason/solvers/zs_hidden/h006_lit.py against each sentence of the question and found nothing it gets wrong.\n\n- **\"only share 0.5 is exposed\"**: in all three instances the share is written as a plain fraction, so the exposed value is portfolio value × share: 98, 101.5 and 101.555. The last one is exact as a Fraction, so half-up rounding gives 101.56. These values match the slot description \"factor-exposed portfolio value\" in USD.\n- **\"The exposed portion has signed sensitivity b\"**: the sensitivity applies to the exposed value, not to the whole portfolio, so the value change is exposed value × b × shock. Applying it to the whole portfolio would ignore \"only share ... is exposed\", so that reading is not credible.\n- **\"signed factor shock ... report that shock as a percentage\"**: the solver computes shock = target change / (exposed value × b) and multiplies by 100. The sign is kept, there is no floor or cap, and nothing is rounded before the end.\n- **Recomputed answers**: \n  - -205/98 gives -209.18%.\n  - 6.18/304.5 = 0.020296 gives 2.03%.\n  - 297.4708218/101.555 = 2.929159 gives 292.92%.\n- **Other readings ruled out**: the shock is a decimal fraction, not basis points. The question has no branches, comparisons or enum answers. The only case where a ratio would need converting to a percent is a share written with \"%\" or \"percent\", and the solver already handles that.\n\nI did not write h006_red.py, since that is only required for a \"suspect\" verdict."
+        }
+      },
+      {
+        "cluster": "h007",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I re-derived all 9 fields by hand from the question text and found no reading under which the current outputs are wrong.\n\nSlots: each is \"total acquisition outlay = clean price + settlement cost\" in USD, with nothing else added. The text says settlement cost already covers accrued interest and fees (\"do not add those amounts again\"). The values are I1 A=103.482 -> 103.48, B=112.864 -> 112.86; I2 A=106.00, B=120.565 -> 120.57 (half-up on an exact Fraction, so no float error); I3 A=102.00, B=110.00.\n\nFinal answers:\n- I1: A's HPR = 15.5639/103.482 ≈ 0.1504, but its duration 7 is above the cap of 6, so it fails. B's HPR = 8.75776/112.864 ≈ 0.0776, which is at least 0.05, and its duration 5 is at most 6, so it qualifies. Answer: Bond B.\n- I2: A's HPR = 14.75/106 ≈ 0.1392 with duration 3, so it qualifies. B's HPR = 19.9629/120.565 ≈ 0.1656 with duration 4, so it qualifies too. B's return is higher, so the answer is Bond B.\n- I3: A's HPR = 20.208/102 ≈ 0.1981, which is below 0.2 (a deliberate near-miss), and its duration 5 is above the cap of 4. B's HPR = 15/110 ≈ 0.136, also below 0.2. Answer: Neither.\n\nWhat I checked:\n- \"at least\" and \"at most\" are inclusive in the solver. No instance lands exactly on a threshold, so this cannot change any answer.\n- The threshold is read as \"the exact ratio\" (0.05 or 0.2), not as a percent.\n- The exact-tie rule picks Bond A, as the text says. No tie occurs in any instance.\n- The text asks for no rounding of intermediates, and the solver does none.\n- The enum tokens match the allowed values exactly.\n- The regex parsing picks up the per-instance thresholds correctly (6 vs 4, 0.05 vs 0.2).\n\nI did not write a red-team solver because nothing was suspect."
+        }
+      },
+      {
+        "cluster": "h008",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found nothing wrong with h008_lit.py. I went through each sentence of all 3 instances.\n- The slot description says \"Recover accumulated depreciation from cost and target carrying amount\", so it is AD = cost - carrying. Values: 24.68, 32.19, 42.30.\n- The straight-line rule is AD = elapsed fraction * (cost - residual), so residual = cost - AD / elapsed.\n- The elapsed value is a plain fraction (0.75 or 0.8), not a percent. The solver uses it as-is, so there is no percent/ratio mix-up.\n- All amounts are already in USD millions, so no unit conversion is needed.\n- The text says to round only the final value, and the solver keeps every intermediate exact.\n- There are no branches, floors, caps or enum tokens. All residuals come out positive, so no instance falls into an edge case.\n\nI checked the arithmetic by hand:\n- Instance 1: cost 73.9707 and target 49.2933 give AD 24.6773. 24.6773 / 0.75 = 32.9031, so residual = 41.0676, which rounds to 41.07.\n- Instance 2: AD 32.19025, so residual = 31.4923, which rounds to 31.49.\n- Instance 3: AD 42.30 and 42.30 / 0.8 = 52.875, so residual is exactly 19.135. Half-up rounding gives 19.14. This tie is handled correctly because the solver uses exact Fractions.\n\nI did not write h008_red.py, since I found no other reading that a careful exam-setter would have intended."
+        }
+      },
+      {
+        "cluster": "h009",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading of the questions under which the current outputs are wrong. I recomputed all three instances by hand with exact arithmetic.\n\n- **Instance 1 (153 USD):** Network A keeps 153 × (1 − 8999/30000) = 107.1051, then subtracts the 6 USD fixed fee, giving 101.1051. That is at least the 94 threshold, so A is selected and the final is 101.11. The checkpoint is Network B after its proportional fee: 153 × 0.6 = 91.80.\n- **Instance 2 (148 USD):** A gives 148 × 0.7 − 4 = 99.6, which is at least 99, so A is selected and the final is 99.60. B after its proportional fee is 148 × 0.60002 = 88.80296, which rounds to 88.80.\n- **Instance 3 (202 USD):** A gives 202 × 0.63 − 5 = 122.26, which is at least 109, so A is selected and the final is 122.26. B after its proportional fee is 202 × 0.650025 = 131.30505 exactly, which rounds half up to 131.31. That is the rounding trap in this cluster, and the solver keeps exact Fractions, so it handles it correctly.\n\nWhat I checked:\n- **Fee meaning:** \"deducts fee ratio r\" is read as amount × (1 − r), in the stated order (ratio first, then fixed fee, then the bonus on the post-fee amount for B). A reading of the fee as fee ÷ net has no support in the wording.\n- **Checkpoint:** the slot description says \"after its proportional fee and before its fixed fee and bonus\", which is B's amount after the ratio fee only, in USD. The solver returns exactly that.\n- **Threshold:** \"at least … including exact equality\" means greater than or equal. No instance lands on or near its threshold: the margins are about 7.1, 0.6 and 13.26 USD.\n- **Rounding:** the question says \"using unrounded intermediate amounts\", and nothing is rounded before the final value.\n- **Branches:** all three instances pick Network A, so B's bonus never reaches a final answer. Even so, B's full net is computed the way the text describes.\n\nI did not write `h009_red.py`, because there was no suspect reading to implement."
+        }
+      },
+      {
+        "cluster": "h010",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading of the question text that a careful exam-setter would clearly intend and that changes any of the current outputs. I did not write h010_red.py.\n\nReading and checks, sentence by sentence:\n- **Expected net benefit:** it is linear in the joint probability: p_c*B_c + p_r*B_r + p_joint*X - K. Here \"incremental benefit ... earned beyond the standalone benefits\" means X is added on top of both standalone payoffs, not substituted for them. \"Unconditional integration cost\" means K is subtracted with no probability weight.\n- **gross_requirement_checkpoint:** the slot is \"gross expected benefit required before the integration cost is deducted\", which is target + K: 28, 25 and 32.3553 USD millions. The other candidate, the gross amount minus the standalone part, is not \"before the integration cost is deducted\". It is just an intermediate step on the way to p_joint.\n- **frechet_lower_bound_checkpoint:** p_r - (1 - p_c) gives 0.3 in all three instances (0.55-0.25, 0.5-0.2, 0.6-0.4). The values are given as ratios, as the slot's unit requires, not percent. This matches the formula stated in the text.\n- **Band width:** the band width is 1 - p_c and the upper bound is p_r, as stated. The ordering premise holds in every instance: p_c > p_r and p_c + p_r > 1.\n- **Final answer:** it is (p_joint - lower)/width*100 in percent. Instance 1: p_joint = 6.2/9, giving 155.56. Instance 2: p_joint = 5.7/11, giving 109.09. Instance 3: p_joint = 8.0553/21, giving 27.86. I verified each by hand.\n- **No clamping:** the text says \"a result above one hundred percent is infeasible\", which describes the result. It does not tell you to cap it or swap in an enum, and the answer type is a decimal in percent. So reporting 155.56 and 109.09 unclamped is correct.\n- **Rounding:** the text never asks for an intermediate value to be rounded, and none is."
+        }
+      },
+      {
+        "cluster": "h011",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading of the question under which the current outputs are wrong. I checked the text sentence by sentence and recomputed all three instances by hand.\n\n- **Checkpoint slot:** \"derivative-equivalent shares\" is the derivative reference shares times delta, as a share count. The values are 63.7575×0.4 = 25.503 → 25.50, 48.7875×0.4 = 19.515 → 19.52 (half-up applies at the 5), and 74×0.4 = 29.6 → 29.60.\n- **Long exposure:** \"Add all long exposure\" means direct shares plus attributed shares plus the derivative equivalent.\n- **Short hedge:** it is subtracted with no floor at zero, because the text says \"divide the signed result\". Instance 2 goes negative: 92+49+19.515−194 = −33.485.\n- **Final answer:** the result is divided by shares outstanding and multiplied by 100, as \"convert the ratio to a percentage\" says. The finals are 53.503/2441 = 2.1918% → 2.19, −33.485/1974 = −1.6963% → −1.70, and 46.8/2053 = 2.2796% → 2.28.\n- **Rounding:** \"independently using half-up rounding\" means the rounded checkpoint is not fed back into the final, so the solver is right to keep it unrounded. Neither rounding of the derivative equivalent changes the final at 2 decimal places anyway.\n- **Other checks:** there are no branches, enums, caps or unit conversions. The answer unit is percent, so returning 2.19 rather than 0.0219 is correct.\n\nI did not write h011_red.py, because the verdict is consensus_correct."
+        }
+      },
+      {
+        "cluster": "h012",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I checked h012_lit.py against every sentence of all 3 instances and found nothing it misreads.\n\n- **Slot `single_threshold_retention_checkpoint`:** the slot asks for \"the retained fraction\". That is 1 − haircut, which the text spells out as \"times (1-single-threshold haircut ratio)\", not the haircut itself. The solver reports 0.750001, 0.800000 and 0.700000. It keeps 0.2499995 and 0.2999997 exact, as required.\n- **Concentration:** computed as current transfer ÷ stated total activity (1314, 1228, 1213), exactly as worded. It is not divided by the sum of the three transfers. The comparison is `>=`, matching \"at least ... including exact equality\".\n- **Instance 1:** 885/1314 ≈ 0.6735, at least 0.65, so the haircut branch applies. 885 − 978 × 0.7500005 = 151.499511, which rounds to 151.50.\n- **Instance 2:** 920.975/1228 ≈ 0.74998, at least 0.7, so the haircut branch applies. 920.975 − 808.8 = 112.175, which rounds half up to 112.18. This is a deliberate rounding edge and the solver handles it correctly.\n- **Instance 3:** 876/1213 ≈ 0.7222, below 0.8, so the other branch applies. The \"three-transfer total\" is 876 + 81 + 122 = 1079, and 1079 − 975 = 104.00.\n\nI considered one alternative reading: taking \"three-transfer total\" to mean the stated total activity (1213 − 975 = 238). I rejected it. The total activity covers the whole \"monitoring horizon\" and is larger than the sum of the transfers in every instance (1314 vs 1191, 1228 vs 1072.975, 1213 vs 1079), so it is a separate quantity. The text also uses the distinct phrase \"three-transfer total\" for the branch payoff.\n\nThe text does not mention a zero floor, and every excess is positive anyway. No intermediate value is rounded early. I did not write h012_red.py because I found no reading worth implementing."
+        }
+      },
+      {
+        "cluster": "h013",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading that clearly beats the current solver. One weak spot is worth noting.\n\nWhat I checked:\n- **Slots:** \"period-1 equity/bond value\" means the values at the end of period-1 growth, before the midpoint charge. That gives eq1 = 0.25 / 0.25 / 1.0 and bd1 = 0.5 in every instance. \"Per unit of original notional\" makes these ratios, not percents.\n- **Charge and fee:** the 0.1 charge is fixed in notional units and comes off the bond side. The fee is 0.1 times the purchase, also off the bond side. The purchase solves E1 + P = t * (W_after_charge - f*P), so P = (tW - E1) / (1 + t f).\n- **Target:** t = 0.5. It is the only equity weight given, so \"its equity target\" can only mean that.\n- **Benchmark:** it holds the original 0.5/0.5 through both periods with no charges, and the solver does exactly that.\n- **Final answer:** (managed - benchmark) x 100, as a percentage of a notional of 1.\n- **Hand check of instance 1:** P = 0.075/1.05, managed = 1.453163, benchmark = 1.630225, giving -17.71. This matches.\n\nWeak spot, instance t1_plqmv4jswglfiibv3fybk: equity grows by 2, so after the charge equity is 1.0 of wealth 1.4, about 71%. That is ABOVE the 50% target. This contradicts the fixed template sentences \"The portfolio is then below its equity target. The advisor buys equity\". The solver's formula gives a negative purchase (-0.285714) and so a negative fee, which works like a rebate. Result: -17.86. The alternatives are:\n- Sell equity and charge the fee on the sale: S = (E1 - tW)/(1 - t f) = 0.315789, giving -22.37.\n- Make no trade because no purchase is possible: managed = 1.2, giving -5.00.\n\nI kept the current answer for three reasons:\n- The text never mentions selling.\n- \"Solve the purchase so equity equals its target fraction\" is a single linear equation, and its algebraic solution is what the solver computes.\n- The fixed \"below target\" sentence holding for an instance where it is false suggests the generator never checked the sign and just applied the same formula.\n\nSo the current value is the most likely key for that instance, but it is the least certain of the three. Slots for that instance (1.0, 0.5) are the same under every reading."
+        }
+      },
+      {
+        "cluster": "h014",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I recomputed all three instances by hand and they match finreason/solvers/zs_hidden/h014_lit.py on all 9 fields.\n\n- Slots: \"weighted volatility\" is weight × volatility, reported as a ratio and not squared. The slot values are 0.075/0.14, 0.09/0.11 and 0.08/0.09.\n- Contributions: the question says they \"already equal twice the product of both portfolio weights and the regime covariance\". So they are added as given, with no extra 2·wA·wB scaling.\n- Branch: \"at least\" means >=. Instance 1 has 0.8 >= 0.4, so it uses stress. Instance 2 is the tie 0.5 >= 0.5, so it also uses stress. Instance 3 has 0.2 < 0.5, so it uses base.\n- Variance: (wA·σA)^2 + (wB·σB)^2 + selected contribution. That gives 0.036475, 0.0322 and 0.0177.\n- Score: excess return − λ·variance = S, so total return R = S + rf + λ·variance. That gives 0.11377, 0.0562 and 0.0354. As percentages these are 11.38, 5.62 and 3.54.\n- Answer type: \"total portfolio return\" (not the excess return) is the quantity asked for, with rf added back, and \"Report a percentage\" means ×100.\n\nI found no other plausible reading: the question is clear on percent vs ratio, rounding, and strict vs non-strict comparison. I did not write an h014_red.py."
+        }
+      },
+      {
+        "cluster": "h015",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading of the question that the current outputs get wrong. I checked h015_lit.py one sentence at a time against all 3 instances.\n\n- **Distributable earnings:** \"net income of X and must first retain R\" means distributable = NI - R, in USD millions. That gives 100.958984375, 123 and 141.\n- **Policy limit:** the text spells out the formula itself: \"distributable earnings times (1-t)^3\". The solver multiplies the 100% starting share by (1-t) once per stage, three times, which matches. There is no rounding between stages and no conversion between percent and basis points. t is given as a fraction (0.2 and so on), so treating it as a ratio is correct.\n- **Slot:** \"authorized payout share remaining after one ratchet stage\" with unit ratio is 1 × (1-t). That gives 0.800000, 0.765433 and 0.812346. The unrounded value for instance 3 is 0.81234567, which rounds half up to 0.812346. Reading the slot as the amount removed (t) would conflict with the word \"remaining\", and reading it as a dollar amount would conflict with the unit \"ratio\".\n- **Final answer:** \"maximum total cash dividend satisfying both limits\" is the lesser of the policy limit and the liquidity cap. The branches resolve differently across instances, which is intended:\n  - Instance 1: 100.958984375 × 0.512 = 51.691 is below the cap of 56, so the answer is 51.69.\n  - Instance 2: 123 × 0.7654325³ ≈ 55.16 is below the cap of 59.7, so the answer is 55.16.\n  - Instance 3: 141 × 0.536 ≈ 75.6 is above the cap of 58.88, so the cap binds and the answer is 58.88.\n- **Edge cases:** the floor at zero never triggers. No instance lands on a tie, so strict versus non-strict comparison does not matter. Nothing is rounded early, and the final value is half-up rounded to 2 decimals in USD millions.\n\nSince the cluster gave no grounds for a different reading, I did not write h015_red.py."
+        }
+      },
+      {
+        "cluster": "h016",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no misreading. I checked every sentence against finreason/solvers/zs_hidden/h016_lit.py and confirmed all 9 fields from the run output.\n\n- **Slot 1:** \"Actual first-phase compound growth factor\" is (1+r1)^n, a multiple. The rate ratios are decimals, not percent. Example: 1.1^8 = 2.143589.\n- **Slot 2:** \"One-phase compound growth factor under the smoothed counterfactual\" is ((g1+g2)/2)^n. The text says the \"arithmetic mean of the two annual growth factors\", which is the mean of the factors, not of the rates and not a geometric mean. The text says \"one-phase\", so it is not squared over both phases.\n- **Contribution dates:** \"Preserving both contribution dates\" means the initial cash compounds over 2n periods (phase 1 then phase 2) and the boundary cash compounds over the phase-2 n periods only, in both the actual and smoothed paths.\n- **Drag:** c0*(gbar^(2n) - g1^n*g2^n). It is positive because the square of the arithmetic mean is at least the product.\n- **Uplift:** c1*(g2^n - gbar^n). It is positive because g2 > gbar, since the second-phase rate is \"strictly higher\".\n- **Denominator:** \"Nominal, undiscounted sum of contributed cash\" is c0 + c1.\n- **Final:** \"Multiply the resulting decimal ratios once, and convert the product to percent\" gives (drag/S)*(uplift/S)*100.\n- **Rounding and branches:** The text says to round nothing before the end, and the solver doesn't. There are no conditional branches, floors or tie rules. All 3 instances have the same sign pattern.\n\nThe 11790.65 result on the second instance is large but follows from the definition: 11 USD initial and 18 USD at the boundary, compounded over 7 periods at 65%. It is not a units error."
+        }
+      },
+      {
+        "cluster": "h017",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I checked h017_lit.py against all 3 instances, sentence by sentence, and found no reading that would change the outputs.\n\n- **Linear rates:** each is shock × sensitivity. That is the standard meaning of \"contribute linear loss rates\".\n- **Interaction rate:** computed as market shock × credit shock × k. \"Their product\" most naturally means the product of the two shock ratios, which are the grammatical subjects of the clause; this also matches the usual stress formula ρ·ΔM·ΔC.\n  - The other reading is the product of the two linear rates. In instance 3 it would give 0.05040358 instead of 0.090358, which has more than 6 decimals, while the current reading lands exactly on 6dp.\n  - Under that reading all three final enums stay the same (pass, fail, fail), and only the slot would change.\n  - I don't think a careful exam-setter meant that reading.\n- **Checkpoint slot:** \"total joint-scenario loss ratio\" is the joint rate (linear + linear + interaction), unrounded, so the value is right.\n- **Alternative scenario:** s² × m.\n- **Dollar losses:** both rates are multiplied by the portfolio value. The solver takes the larger loss and subtracts it from available capital.\n- **Pass/fail test:** \"meets the minimum\" is treated as ≥ (non-strict). No instance is close to a tie, so this choice doesn't affect any answer.\n\nHand recomputation of each instance:\n- **Instance 1:** joint 0.0225 → loss 2.205; alt loss 0.735; remaining 4.795 ≥ 3 → capital_pass.\n- **Instance 2:** joint 0.01 → loss 0.98; alt 0.08 → loss 7.84; remaining 1.16 < 6 → capital_fail.\n- **Instance 3:** joint 0.090358 → loss 8.855084; alt loss 0.735; remaining 0.144916 < 7 → capital_fail.\n\nThe text asks for no intermediate rounding and no zero floors, and none apply. I did not write h017_red.py."
+        }
+      },
+      {
+        "cluster": "h018",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading the question supports under which the current outputs are wrong.\n\nWhat I checked:\n- **Slot:** this is Option A's share multiple after one stage, 1 + r_A. The outputs are 1.2345675 → 1.234568, 0.3141593 → 1.314159 and 0.7 → 1.700000, all correctly rounded half-up to 6 places.\n- **Final answer:** pro forma EPS = (EPS0 + added earnings per current share) / (1 + r)^3, with a non-strict floor (\"at least\"), higher exact EPS wins, and \"option_a\" wins an exact tie.\n- **Instance 1:** A = 1.5 / 1.2345675^3 ≈ 0.7972 < 0.8. Even using the rounded 1.234568^3, A stays below 0.8. B = 1 / 2.744 ≈ 0.364. Answer: neither_option.\n- **Instance 2:** A = 4 / 1.3141593^3 ≈ 1.762 and B = 3.00915 / 1.314166^3 ≈ 1.326. Both clear the floor of 1, and A is higher. Answer: option_a.\n- **Instance 3:** A = 1 / 4.913 ≈ 0.204 and B = 1.5 / 5.832 ≈ 0.257. Both are below 0.8. Answer: neither_option.\n\n**Alternative reading tested:** \"adds total earnings of X\" could mean X is the new total earnings per current share rather than an addition. Under that reading:\n- Instance 1: A ≈ 0.53, so still neither_option.\n- Instance 2: A = 2 / 2.2696 ≈ 0.881, below 1, so the answer would flip to neither_option.\n\nThat reading contradicts the verb \"adds\" and the phrase \"Option B analogously adds\", so an exam-setter would not intend it.\n\nNo intermediate rounding is called for, and the stage count matches both exponents (3). I wrote no h018_red.py."
+        }
+      },
+      {
+        "cluster": "h019",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no misreading that I can tie to specific words and that the setter clearly intended. The current solver's output stands. What I checked:\n\n- **k slot.** Minimum capital ratio plus buffer ratio, kept as a plain ratio (not a percent). In instance 1, k = 0.1000005, which rounds half up to 0.100001. The other two give 0.150000 and 0.132468. The exact k is used downstream, as the text requires.\n- **Capacities.** The three formulas are spelled out word for word, and the solver copies them. The stress coefficients are positive adverse amounts and go into each denominator as k*increase or ratio*increase. All values are in USD millions, so units are consistent and no percent or basis-point conversion applies. The text rounds nothing before the final answer.\n- **Exact values.**\n  - Instance 1: capital 1.89200, leverage 2.47034, liquidity -326/23 = -14.1739. The minimum is -14.17.\n  - Instance 2: capital 3.632, leverage 1.8247, liquidity 77/80 = 0.9625. The minimum is 0.96.\n  - Instance 3: capital 1.35374, leverage 2.4214, liquidity 6.4077. The minimum is 1.35.\n- **Variants.** All four solvers (lit, dom, hand, skep) agree on all 6 fields.\n\n**One open risk (not strong enough to call \"suspect\"): instance 1, final answer -14.17.** That instance starts with HQLA 45.6 against a requirement of 0.2*391 = 78.2. So the liquidity constraint is already breached, and its capacity is negative. The phrase \"Solve exactly for the positive x at which each constraint first binds\" and the label \"maximum common stress activity allowed by all constraints\" allow two other answers:\n- 0.00, if the answer is floored at zero because no stress is allowed;\n- 1.89, if only positive capacities count and the capital constraint binds.\n\nThe eligible capital of 104.47928074 looks back-solved for a capital capacity of about 1.892, which hints the generator may have expected capital to bind. Against that:\n- The text says \"Return the smallest of the three capacities\" and defines capacities by explicit formulas.\n- It states no floor and no positive-only filter.\n- This dataset normally spells out floors: \"floor\" appears 56 times in the test file and \"max(0\" 4 times.\n\nSo the literal minimum, -14.17, remains the best-supported answer. If the team wants to hedge, 0.00 is the most plausible alternative for instance 1. I did not write h019_red.py because none of the alternatives meets the \"clearly intended\" bar."
+        }
+      },
+      {
+        "cluster": "h020",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading under which the current outputs are wrong. Checks I made:\n- **Penalty cap slot:** \"cap amount available for penalty\" is the maximum total remedy minus the fixed interest (\"of which Y USD is fixed interest\"). Values: 179.96, 147.836 → 147.84, 103.055 → 103.06. The last one rounds half-up correctly because the solver keeps it as an exact Fraction.\n- **Pre-credit base:** \"greater of those two amounts\" is the larger of gain × multiplier and the statutory floor. Both branches occur across the instances: 306 vs 152 picks the gain, 82 vs 204 picks the floor, 306 vs 153 picks the gain. None are ties.\n- **Credit:** solving \"(1 - c) times the pre-credit amount\" plus interest = maximum remedy gives c = 1 - cap/base. This is reported as a percentage (×100), as \"cooperation credit percentage\" asks. Results are 41.19, 27.53 and 66.32. All three fall between 0 and 100, so no floor or cap question comes up.\n- **Rounding:** the question says to round each answer \"independently\", and the solver rounds nothing before the end.\n- **Units:** the slot is in USD (not millions) and the final answer is a percent, both matching the spec."
+        }
+      },
+      {
+        "cluster": "h021",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I went through the question for h021 sentence by sentence and found nothing the current solver gets wrong. I did not write h021_red.py.\n\n- **Checkpoint slots:** Each slot is described as the comparable's \"tax-adjusted debt term used in its Hamada factor\", in USD. That matches (1 − t) × D, the term inside \"[equity plus (one minus tax rate) times debt]\". The solver reports exactly that, unrounded, for A and B.\n- **Unit:** The values are in plain USD (no millions), which matches the slot spec \"usd\".\n- **Unlevering:** The question says to \"divide observed levered beta by [E + (1−t)D]/E\". The solver computes β_L × E / (E + (1−t)D), which is the same thing.\n- **Averaging and relevering:** \"Unweighted arithmetic mean of the two unlevered betas, then multiply by the target company's factor of the same form\" is implemented as written.\n- **Things that don't apply here:** The tax rate is 0.2 everywhere, so it is a ratio, not a percent. The solver's percent conversion only fires for values above 1 and never fires here. The text has no floors, caps, branches, enum answers or rounding of intermediate values. The odd inputs in instance 3 (2444.0000375 and 1.0631520027) are captured and used exactly. \"Never feed displayed checkpoints into the gold calculation\" also rules out rounding the debt terms before they are used.\n- **Spot check:** For instance 1, comparable A's unlevered beta is 0.696224 × 9804 / 11856. Combined with B and relevered with the target factor, this gives the reported final of 0.7801."
+        }
+      },
+      {
+        "cluster": "h022",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading that would make the current outputs wrong. I ran `zs show` and `zs run` on h022 and checked each sentence against the solver.\n\n- **Checkpoint slot:** it is the upfront consideration paid in acquirer shares, which is base × (1 − cash fraction): 5056×0.8 = 4044.8, 98×0.4 = 39.2 and 98×0.3 = 29.4. The text gives no unit, so the slot's usd_million unit simply matches the inputs.\n- **Share price:** the question says shares are issued \"at one fixed contractual share price\" and \"at the same unchanged price\", so the price cancels out. Ownership is a ratio of values. Nothing says to convert share counts to whole shares, so there is no rounding before the final step.\n- **Final answer:** sellers' shares are the upfront shares plus the earnout shares. The base is predeal shares plus upfront shares plus earnout shares. \"The target sellers retain all upfront shares\" means none of their shares drop out, and \"incremental to the base consideration\" means the earnout is added on top.\n  - Instance 1: 5987.8/20307.8 = 29.485 → 29.49\n  - Instance 2: 78.2/373.2 = 20.954 → 20.95\n  - Instance 3: 88.4/498.4 = 17.737 → 17.74\n- **Other checks:**\n  - The question has no conditional branches, floors, caps or enum answers.\n  - The answer unit is percent, so the solver's ×100 is correct.\n  - Cash consideration does not create shares, so it is correctly left out of both counts.\n  - The other-events clause (\"no other issuance, repurchase...\") rules out any further adjustment.\n\nI did not write `h022_red.py`."
+        }
+      },
+      {
+        "cluster": "h023",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I checked all 6 fields of h023_lit.py by hand and found no reading under which they are wrong.\n- **Slot:** \"leverage ceiling remaining after one covenant-ratchet stage\" is the ceiling left after one stage, 1.00*(1-t). It is not the amount cut (t), and it is not the final ceiling (1-t)^3. The values are 0.8000005, 0.7000003 and 0.9. The first one sits exactly on the rounding midpoint. The solver keeps it as an exact Fraction, so half-up gives 0.800001, which matches the spec. The others give 0.700000 and 0.900000.\n- **Qualifying test:** \"does not exceed the final ceiling\" means ratio <= ceiling, and the solver uses <=. Each ratio is computed exactly as (debt ± change)/(equity + new equity). Plan A adds its borrowing to debt. Plan B subtracts its repayment.\n- **Instance 1:** the ceiling is about 0.512001. A = 122/295 ≈ 0.4136 and B = 92/199 ≈ 0.4623. Both qualify and A is lower, so the answer is plan_a.\n- **Instance 2:** the ceiling is about 0.343000. A = 148/302 ≈ 0.4901 and B = 88/148 ≈ 0.5946. Neither qualifies, so the answer is neither_plan.\n- **Instance 3:** the ceiling is 0.729. A = 122/196 ≈ 0.6224 and B = 90/157 ≈ 0.5732. Both qualify and B is lower, so the answer is plan_b.\n- **Ties:** the tie rule (plan_a on an exact tie) is implemented, but no instance has a tie.\n- **Margins:** no ratio is close to its ceiling, so neither the percent-vs-ratio question nor the strict-vs-non-strict comparison changes any outcome.\n\nI did not write h023_red.py, because I found no reading that changes any field."
+        }
+      },
+      {
+        "cluster": "h024",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading that changes the outputs, so the current solver stands. I checked the following:\n- **Slot:** \"increases the common-share base by ratio g\" means the post-issuance multiple is 1+g. That gives 1.2345675, rounded half up to 1.234568; 1.2 to 1.200000; and 1.3141593 to 1.314159. The slot description \"post-issuance share-base multiple\" confirms the multiple is 1+g, not g alone.\n- **Final:** The earnings are normalized per current share, and the preferred allocation is also per current share. So post-issuance EPS = (E - P)/(1+g). \"At or above\" allows equality, which gives P_max = E - T(1+g):\n  - 4.81078375 - 1.5 × 1.2345675 = 2.9589325, rounded to 2.96\n  - 5.67 - 1.2 = 4.47\n  - 4.1586695 - 2 × 1.3141593 = 1.5303509, rounded to 1.53\n- **Other checks:**\n  - All three results are positive, so a floor at zero never applies.\n  - The text asks for no rounding of intermediates.\n  - The answer is already in USD per current share, so no unit or percent conversion is needed.\n  - There are no branches.\n  - I considered dividing the allocation by the post-issuance base, but the text says \"per current common share\", so the current reading is right.\n\nI did not write an h024_red.py, since there is no alternative reading to implement."
+        }
+      },
+      {
+        "cluster": "h026",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I checked h026_lit.py against all 3 instances and found no misreading that changes any of the 6 fields.\n\n- **Slot:** The slot is described as the \"retention factor after one stage\". That is 1-u, which the solver returns (0.800001 / 0.800000 / 0.750000). The cumulative (1-u)^3 is the factor for all three stages, not one. Instance 1 has u=0.1999995, so 1-u=0.8000005, which half-up rounds to 0.800001.\n- **Instance 1 (Neutral):** 24*(0.8000005)^3 + 7 - 19.406462199848874901875 = -0.11844 exactly. That sits between -1 and 6, so Neutral. The long market value looks like a trap, so I tried other stage counts (n=1,2,4) and u=0.2. None of them reaches either threshold at n=3. n=1 gives 6.79, which would be Bullish, but the text says \"exactly three\" and \"(1-u)^3\", so that reading has no support.\n- **Instance 2 (Bullish):** 10.3125*0.512 + 49/11 + 5 = 14.73. That is at least 9, so Bullish.\n- **Instance 3 (Bearish):** -5*0.421875 - 77/19 - 5 = -11.16. That is at most -9, so Bearish.\n- **Other checks:** Both comparisons are inclusive (\"at least\", \"at most\"), and \"the negative of L\" is read as -L. Signs and multiplication order are correct. Nothing is rounded before the final classification, since the text classifies \"the exact aggregate\". No instance is close enough to a threshold for the inclusive-vs-strict question to matter.\n\nI did not write a red-team solver."
+        }
+      },
+      {
+        "cluster": "h027",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I checked all three instances by hand and agree with h027_lit.py on every field. The decisions are not close calls.\n- t1_5eth: distributable earnings = 276 - 69 = 207. Target dividend = 82.8, which is within the cap of 88, and leaves 124.2 retained (floor 104), so it qualifies. Stable dividend = 42.849 * 1.2345675^3, about 80.63, which is within the cap and leaves about 126.4 retained (floor 94), so it qualifies. Both qualify and 82.8 >= 80.63, so the answer is target_payout. The slot is 1.2345675, which rounds half-up to 1.234568. The 7th-decimal tie is resolved correctly because the solver uses Fraction, not float.\n- t1_oizx: distributable earnings = 205. Target dividend = 92.25, within the cap of 101, leaving 112.75 retained (floor 81), so it qualifies. Stable dividend = 51 * 1.16^3, about 79.60, leaving about 125.4 retained (floor 91), so it qualifies. Target is larger, so the answer is target_payout. Slot = 1.160000.\n- t1_zdao: distributable earnings = 176. Target dividend = 84.48, which is over the cap of 74, so it fails. Stable dividend = 41 * 1.17543219^3, about 66.58. That is within the cap, but it leaves about 109.4 retained, below the floor of 123, so it fails. Neither qualifies, so the answer is no_feasible_policy. Slot = 1.175432.\nWhat I checked in the wording:\n- \"retained distributable earnings\" means distributable earnings minus that policy's own dividend.\n- \"does not exceed\" and \"at least\" are both non-strict, and the solver uses <= and >=.\n- The tie rule is the stated \"at least ... including an exact tie\" (>=).\n- Each policy uses its own floor.\n- The text asks for no rounding of intermediate values.\n- The slot \"one-period growth multiple\" is 1 + g, not g and not the three-period multiple (1 + g)^3.\nNo reading I can support from the text changes any field, so I did not write h027_red.py."
+        }
+      },
+      {
+        "cluster": "h028",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading under which h028_lit.py is wrong.\n\nChecks against the question text:\n- **Share count.** The predeal shares equal V/P, and P is never given. Every share count is a value divided by the same \"fixed contractual share price\", so P cancels out and the shares can be counted directly in value units.\n- **Deal shares.** These are the stock part of the upfront payment, B*(1-c), plus the earnout settlement value E. The earnout is \"incremental to the base consideration\", is \"settled entirely in common shares at the same unchanged price\", and \"every deal share is outstanding for the full year\". So including the earnout shares in the deal shares, and in the pro forma share count, is correct.\n- **Slot 1.** This is deal shares divided by predeal shares, as a ratio and not a percent. Instance 1 gives (49.5+49)/504 = 0.195437.\n- **Slot 2.** The interest is charged only on the upfront cash: B*c*r. Instance 1 gives 49.5*0.1 = 4.95 USD million. This is a pre-tax, annual figure, matching the slot description.\n- **Net income.** Pro forma net income is A + T + S(1-t) - I(1-t). The synergies are excluded from target net income, so adding them is not double counting. The full tax shield is usable.\n- **Final answer.** It is (pro forma EPS / standalone EPS - 1) * 100, as a percent with positive meaning accretion. I recomputed instance 1 by hand: 120.64 / (102*1.195437) - 1 = -1.06%, which matches.\n\nThe text says to round nothing before the final answer, and there are no branches, caps or tie-break rules. The third instance's oddly precise synergy figure (19.195) just pushes that instance into slight accretion (0.26%). It does not trigger a different rule."
+        }
+      },
+      {
+        "cluster": "h029",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading the question supports that changes any field. Each instance asks for the transfer X that solves prior1 + prior2 + X = base*(1+r) + E.\n\nWhat I checked:\n- Slot \"multiplicative risk-adjustment factor\": the base threshold \"is increased by risk-adjustment ratio r\", so the factor is 1+r, not r. The outputs are 1.307470, 1.125000 and 1.296191 (rounded to 6 places).\n- No intermediate value is rounded early; only the final answer is rounded half-up to 2 places.\n- I recomputed instance 1 by hand: 912*1.3074703 = 1192.4129136, plus 198 = 1390.4129136, minus 1252.98027 = 137.4326, which rounds to 137.43. Instances 3 (331.88) and 2 also match.\n\nOne weak spot is instance 2 (k64...). Its two prior transfers already total 1223.59, which is above the adjusted threshold of 1093.5, so the formula gives a negative transfer of -54.09. A floor-at-zero reading would answer 0.00. I rejected it because the question asks for an excess of \"exactly 76 USD\", and a 0 transfer leaves an excess of 130.09. The generator almost certainly applies the formula directly, so -54.09 stays. Nothing else in the text (no caps, branches or \"greater of\") points to a floor. I did not write h029_red.py."
+        }
+      },
+      {
+        "cluster": "h030",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading of the question under which the current outputs are wrong, so I did not write h030_red.py. I checked the text sentence by sentence and recomputed all three instances by hand.\n\n- **Delay charge:** \"A reporting delay of D days incurs R USD per day\" gives D × R, a flat per-day charge with no compounding.\n- **Credit base:** \"applied to the combined assessment and delay charge\" means the credit applies to base + delay.\n- **Checkpoint slot:** \"the retained fraction is one minus that rate\" is the slot. The slot description says \"fraction of the combined assessment retained\", unit ratio, so it is 1 − c and not the credit amount, the credited dollars, or a percent.\n- **Monitoring cost:** \"add ... outside the credit base\" means it is added after the credit and is not reduced by it.\n- **Rounding:** \"Report the retained-fraction checkpoint independently\" means the checkpoint is rounded on its own, with no rounding before it is used in the final total. Using the 6-dp rounded fraction instead does not change any final value anyway (63.618081, 52.9807 and 29.7183 still round to 63.62, 52.98 and 29.72).\n\nRecomputed values:\n- **Instance 1:** (31 + 50) × 0.7000005 + 6.918 = 63.6180405, which rounds to 63.62. The slot 0.7000005 rounds half-up to 0.700001.\n- **Instance 2:** 60 × 0.8123453 + 4.24 = 52.980718, which rounds to 52.98. The slot is 0.812345.\n- **Instance 3:** 33 × 0.73 + 5.625 = 29.715, which rounds half-up to 29.72 because the arithmetic is exact Fraction. The slot is 0.730000.\n\nThe question has no branches, floors, caps, tie rules, percent or basis-point conversions, or unit-scale problems."
+        }
+      },
+      {
+        "cluster": "h032",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I checked h032_lit.py against all 3 instances and found no reading of the question text that a careful exam-setter would clearly have intended and that changes any output. Current outputs: final -0.80 / 2.10 / -1.50 percent; market_premium_checkpoint 0.100000 / 0.105000 / 0.060000.\n\nWhat I checked:\n- **Slot meaning.** The slot asks for \"the market risk premium used by the alpha constraint\", which is Rm - rf as a ratio. That is not beta*(Rm - rf), and it is not given in percent. The solver returns Rm - rf, which is correct.\n- **Sharpe constraint.** It is (gross - fee - rf)/vol >= S. \"At least\" means a non-strict bound. Volatility does not change with the fee.\n- **Jensen's alpha constraint.** It is gross - fee - [rf + beta(Rm - rf)] >= A, also non-strict.\n- **Combining them.** The maximum fee is the smaller of the two bounds, and both are linear in the fee. The text asks for no rounding of intermediates, no per-period conversion and no tie-break rule.\n- **Instance 1 (-0.80).** The alpha bound binds: 0.092 - 0.1 = -0.008, so the maximum fee is negative (a rebate).\n- **Instance 2 (2.10).** The alpha bound binds at 0.021. The Sharpe bound is 0.025.\n- **Instance 3 (-1.50).** The Sharpe bound binds at exactly -0.01495, which is -1.495%. The alpha bound is 0.05005.\n\n**Negative fees and a floor at zero.** I considered flooring the fee at zero. The question asks for the \"exact maximum annual management-fee rate that satisfies both constraints\" and gives no non-negativity floor. A fee of 0 does not satisfy the constraints in instances 1 and 3, so clamping to 0.00 would contradict the text. The negative result is the only consistent answer.\n\n**Rounding risk in instance 3.** -1.495% is an exact tie at 2 decimal places, and the inputs look built to produce it. The framework's round_half_up rounds ties away from zero, giving -1.50. A grader that rounds ties toward +infinity would give -1.49. This is the only fragile point I found. It is a framework rounding convention, not a misreading in the solver, so I did not write h032_red.py."
+        }
+      },
+      {
+        "cluster": "h033",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I checked h033_lit.py sentence by sentence against all 3 instances and found no misreading.\n\n- **Stressed price**: the text says it is \"current price times (1-per-stage downside ratio)^3\", and the solver computes exactly that.\n- **Checkpoint slot**: the price-retention ratio after one stage is 1 - d, giving 0.8, 0.7000003 and 0.7500005. At 6 dp half-up these round to 0.800000, 0.700000 and 0.750001. The 0.7500005 value lands exactly on a half and rounds up correctly.\n- **Burn policy**: units are N - burned, and the price is stressed price × 1.2, applied \"once\" as an increase by the ratio.\n- **Emission policy**: units are N + added, and the price is the unsupported stressed price.\n- **Floor test**: \"at least\" means >=. Exact burn caps:\n  - Instance 1: 1081.962 < 1090, so emission is selected, cap 1101.778 -> 1101.78.\n  - Instance 2: 1669.4517 >= 1458, so burn is selected -> 1669.45.\n  - Instance 3: 1401.809 >= 816, so burn is selected -> 1401.81.\n\nNo instance is close to its floor, so a small change in reading would not flip a branch. All arithmetic is exact Fractions with no rounding until the end. Nothing in the text supports any alternative reading: no percent units, no compounding of the support, and no rounding of units. I did not write h033_red.py."
+        }
+      },
+      {
+        "cluster": "h034",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no defect, so I wrote no h034_red.py. I recomputed all 3 instances by hand and they match the solver: 5.20375 rounds to 5.20, 1.03 stays 1.03, and 11.5 is 11.50. The two slot values are also right: 0.963 rounds to 0.96, and the others are 0.00 and 3.00.\n\nWhat I checked:\n- **Checkpoint slot:** \"budget available for the exposure charge\" is the budget minus the capital and liquidity costs. No rounding happens before it is used.\n- **Charge base:** \"charge at ratio r of the excess\" means r × (E − T) when exposure E is above threshold T. Here r is a plain ratio, not a percent and not basis points.\n- **Maximum exposure:** E = T + (B − C1 − C2) / r, where B is the budget and C1, C2 are the capital and liquidity costs. \"At most\" and \"within budget\" are non-strict limits, so the maximum is reached exactly and no epsilon is needed.\n- **Instance 2:** the budget equals the fixed costs exactly (5 = 2 + 3). That contradicts the \"exceeds\" assumption, but the reading still holds. No excess is allowed, so the maximum exposure is the threshold, 1.03. Any other reading that stays within budget gives the same answer.\n- **Instance 3:** liquidity cost is 0, and the solver handles that correctly.\n- **Other readings:** I found no plausible alternative. There are no floors, caps, tie-breaks or unit conversions, and every amount is a plain USD number with no \"millions\" scaling."
+        }
+      },
+      {
+        "cluster": "h035",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I checked every field by hand and found nothing wrong with h035_lit.py.\n\n- **Branch test.** \"At least\" means the threshold counts as severe (loss >= threshold), and this matters in all three instances:\n  - Instance 1: the loss is exactly 1/3 = 0.3333333…, just below 0.3333334, so the mild policy applies. 264 × 2/3 = 176; 176 × 1.4 − 144.4 = 102.00. The severe policy would have given 134.80.\n  - Instance 2: 0.2499995 ≥ 0.24999925, so the severe policy applies. The retained share is 0.7500005, and 465888000/1500001 × 0.7500005 = 232.944 exactly. 232.944 × 1.3 − 129.2 = 173.6272, which rounds to 173.63.\n  - Instance 3: 0.2 < 0.3, so the mild policy applies. 254 × 0.8 = 203.2; 203.2 × 1.4 − 128.66 = 155.82.\n- **Support step.** \"Increases the post-shock price by support ratio s\" means multiplying by (1 + s), and then subtracting the flat per-token deduction. No intermediate value is rounded, as the text requires.\n- **Checkpoint slot.** \"Share of the initial price retained after the shock\" is 1 − loss. It is a ratio, not a percent, and it is measured before any policy, so net/P0 is not the right reading. The slot sits at position 1 in the chain, which fits. Values: 0.666667, 0.750001 (0.7500005 rounded half-up) and 0.800000.\n\nI could not find another reading that an exam-setter would clearly have intended, so I did not write h035_red.py."
+        }
+      },
+      {
+        "cluster": "h036",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading of the question that a careful exam-setter would clearly intend and that changes any of the 9 fields. I recomputed all three instances by hand:\n\n- **Instance 1:** headline sum 41+36+24 = 101. Pairwise sum 11+11+9 = 31. Deduplicated 101−31+6 = 76. Realized 0.9×76 = 68.4. After the charge, 68.4−4.875 = 63.525. After tax, ×0.8 = 50.82. Final 50.82/101 = 50.3168%, which rounds to 50.32.\n- **Instance 2:** headline sum 101. Pairwise sum 16. Deduplicated 86. Realized 77.4. After the charge, 46.4. After tax, 37.12. Final 37.12/101 = 36.75%.\n- **Instance 3:** headline sum 41+34+26 = 101. Pairwise sum 16. Deduplicated 88. Realized 0.5×88 = 44. After the charge, 38. After tax, 30.4. Final 30.4/101 = 30.099%, which rounds to 30.10.\n\nWhat I checked:\n\n1. **Checkpoint 1** is the plain sum of the three headline values, in USD millions. The question says to use that sum as the denominator on purpose.\n2. **Checkpoint 2** is the raw sum of the three pairwise overlaps. The slot says \"before restoring the common three-way overlap\", so the three-way overlap is not taken off three times.\n3. **\"Each pairwise overlap includes the same common three-way overlap\"** means the pairwise figures already contain the three-way part. So the standard inclusion-exclusion formula (sum − pairwise + three-way) is correct, not a version that treats the overlaps as exclusive.\n4. **The charge is deducted after realization.** \"Deduct ... integration charge ... from the positive realized amount\" comes after \"realize ratio ... of that deduplicated amount\".\n5. **Tax applies after the charge.** The charge is \"fully tax-deductible\", and the text says \"before applying tax rate\", so tax applies to (realized − charge).\n6. **The zero floor and loss case never apply.** The realized amount and the after-charge amount are positive in all three instances.\n7. **The answer is a percentage.** It is ×100 against the unadjusted headline sum.\n8. **Nothing is rounded early.** No intermediate is rounded before use.\n\nBecause I found no issue, I did not write `finreason/solvers/zs_hidden/h036_red.py`. The solver I reviewed is `/home/varun/Desktop/someProj/FinReason Cup 2026/finreason/solvers/zs_hidden/h036_lit.py`."
+        }
+      },
+      {
+        "cluster": "h037",
+        "variant": "lit",
+        "method": "redteam_cleared",
+        "red": {
+          "verdict": "consensus_correct",
+          "issues": "I found no reading that changes any of the 6 fields. What I checked, sentence by sentence:\n\n- **Slot `acquisition_outlay_checkpoint`.** It is described as \"clean price plus all additional acquisition cash\", which is the same as the question's \"total acquisition outlay as clean price plus settlement cost\". The settlement cost already \"includ[es] accrued interest and fees\", and the text says \"do not add those amounts again\", so nothing extra gets added. The values are 97.71, 78.00 and 102.00 (99 + 3). The quoted price is used as a dollar amount: the unit is usd and redemption cash is on the same scale, so it is not treated as percent of par.\n- **Target.** \"target return ratio\" is a plain ratio, not a percent, so 0.05, 0.5 and 0.4 are used as given. HPR = (C + R − outlay)/outlay, which gives C = outlay·(1+T) − R.\n  - Instance 1: 97.71 × 1.05 = 102.5955, minus 51 = 51.5955, which rounds to 51.60.\n  - Instance 2: 78 × 1.5 = 117, minus 88.1 = 28.90.\n  - Instance 3: 102 × 1.4 = 142.8, minus 59 = 83.80.\n- **\"minimum … that exactly meets\".** HPR rises strictly as coupon cash rises, so the equality solution is the minimum. All three results are positive, so a floor at zero never applies.\n- **Rounding.** The question gives no instruction to round any intermediate value, so only the final value and the slot are rounded half up to 2 decimal places.\n- **Other checks.** There are no branches, no enum answer, and no unit mismatches (everything is in usd, none of it in millions).\n\nI wrote no h037_red.py because I found no issue."
+        }
+      }
+    ],
+    "missing": []
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "RedTeam"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Review"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "h001:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a135d4b113052561c",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549309834,
+      "queuedAt": 1791549309819,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h001.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549324816,
+      "tokens": 46267,
+      "toolCalls": 2,
+      "durationMs": 14972,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading under which the h001_lit.py outputs are wrong, so I did not write h001_red.py. Here is what I checked against the question text:\\n\\n- **Checkpoint slot:** \\\"current assets remaining after the planned non-current-asset purchase\\\" means CA − P. The text says the purchase \\\"reduces current assets by the purchase amount\\\", and nothing says to…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "h002:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a2d9d98054d9636ff",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549309835,
+      "queuedAt": 1791549309819,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h002.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549329477,
+      "tokens": 47400,
+      "toolCalls": 2,
+      "durationMs": 18476,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading under which the current outputs are wrong. I checked each step of the question by hand on all three instances.\\n\\n- **Probabilities:** P(minor) is 0.2. \\\"Conditional on the minor state not occurring, the moderate state has probability 0.5\\\", so P(moderate) = 0.8 × 0.5 = 0.4 and P(severe) = 0.4. The sum is 1, so these are true conditional …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "h003:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "af970a3384e07afb0",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549309836,
+      "queuedAt": 1791549309819,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h003.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549329512,
+      "tokens": 47549,
+      "toolCalls": 2,
+      "durationMs": 18511,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading that a careful exam-setter would clearly intend and that gives different outputs. Here is what I checked.\\n\\n1. **Pre-tax profit.** Margins are \\\"after all segment-specific operating costs but before allocating one shared deductible cost pool\\\", so pre-shared-cost pre-tax profit is revenue x margin. Segment A's profit is R_A*m_A - x*S and…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "h004:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a400d4b554b05fa64",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549309836,
+      "queuedAt": 1791549309819,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h004.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549324298,
+      "tokens": 46004,
+      "toolCalls": 2,
+      "durationMs": 13296,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I couldn't find a misreading. I checked all three instances by hand.\\n- Market loss = V × market shock × sensitivity. \\\"With loss sensitivity\\\" modifies the market shock.\\n- Liquidity loss = V × liquidity shock. The text says it is \\\"applied directly to portfolio value\\\", so sensitivity does not apply to it.\\n- Gross loss = market loss + liquidity loss. Thi…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "h005:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "af9969efbc6fc0ec2",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549309837,
+      "queuedAt": 1791549309819,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h005.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549325517,
+      "tokens": 46520,
+      "toolCalls": 2,
+      "durationMs": 14515,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading of the question that a careful exam-setter would clearly intend and that changes any of the 6 fields.\\n\\n**Planned abatement slot.** Q = capacity × utilization: 203 × 0.5 = 101.5, 203.1601 × 0.5 = 101.58005 and 298 × 0.4 = 119.2. The text says \\\"commits to utilization 0.5\\\", which is a plain ratio, not a percent. Nothing tells the solver …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "h006:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a5aff5916bfa0696b",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549309838,
+      "queuedAt": 1791549309819,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h006.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549324009,
+      "tokens": 46248,
+      "toolCalls": 2,
+      "durationMs": 13007,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I checked the solver at /home/varun/Desktop/someProj/FinReason Cup 2026/finreason/solvers/zs_hidden/h006_lit.py against each sentence of the question and found nothing it gets wrong.\\n\\n- **\\\"only share 0.5 is exposed\\\"**: in all three instances the share is written as a plain fraction, so the exposed value is portfolio value × share: 98, 101.5 and 101.555.…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "h007:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a2357f32391c0d05f",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549309839,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h007.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549327363,
+      "tokens": 47927,
+      "toolCalls": 2,
+      "durationMs": 16361,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I re-derived all 9 fields by hand from the question text and found no reading under which the current outputs are wrong.\\n\\nSlots: each is \\\"total acquisition outlay = clean price + settlement cost\\\" in USD, with nothing else added. The text says settlement cost already covers accrued interest and fees (\\\"do not add those amounts again\\\"). The values are I1…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "h008:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "ad5f307f5fcd07603",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549309840,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h008.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549324385,
+      "tokens": 46166,
+      "toolCalls": 2,
+      "durationMs": 13382,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found nothing wrong with h008_lit.py. I went through each sentence of all 3 instances.\\n- The slot description says \\\"Recover accumulated depreciation from cost and target carrying amount\\\", so it is AD = cost - carrying. Values: 24.68, 32.19, 42.30.\\n- The straight-line rule is AD = elapsed fraction * (cost - residual), so residual = cost - AD / elapsed.…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "h009:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a8e9f6fcc3ee25094",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549309840,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h009.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549328571,
+      "tokens": 46499,
+      "toolCalls": 2,
+      "durationMs": 17568,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading of the questions under which the current outputs are wrong. I recomputed all three instances by hand with exact arithmetic.\\n\\n- **Instance 1 (153 USD):** Network A keeps 153 × (1 − 8999/30000) = 107.1051, then subtracts the 6 USD fixed fee, giving 101.1051. That is at least the 94 threshold, so A is selected and the final is 101.11. The …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "h010:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a71f73ff28a44e606",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549309841,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h010.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549327304,
+      "tokens": 47556,
+      "toolCalls": 2,
+      "durationMs": 16301,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading of the question text that a careful exam-setter would clearly intend and that changes any of the current outputs. I did not write h010_red.py.\\n\\nReading and checks, sentence by sentence:\\n- **Expected net benefit:** it is linear in the joint probability: p_c*B_c + p_r*B_r + p_joint*X - K. Here \\\"incremental benefit ... earned beyond the …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "h011:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a01ee23a6ae61c88d",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549309842,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h011.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549323515,
+      "tokens": 46388,
+      "toolCalls": 2,
+      "durationMs": 12512,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading of the question under which the current outputs are wrong. I checked the text sentence by sentence and recomputed all three instances by hand.\\n\\n- **Checkpoint slot:** \\\"derivative-equivalent shares\\\" is the derivative reference shares times delta, as a share count. The values are 63.7575×0.4 = 25.503 → 25.50, 48.7875×0.4 = 19.515 → 19.5…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "h012:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a4785c34db38705f7",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549309842,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h012.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549327586,
+      "tokens": 46745,
+      "toolCalls": 2,
+      "durationMs": 16583,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I checked h012_lit.py against every sentence of all 3 instances and found nothing it misreads.\\n\\n- **Slot `single_threshold_retention_checkpoint`:** the slot asks for \\\"the retained fraction\\\". That is 1 − haircut, which the text spells out as \\\"times (1-single-threshold haircut ratio)\\\", not the haircut itself. The solver reports 0.750001, 0.800000 and 0.…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 13,
+      "label": "h013:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "adb237cf99b606dbb",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549309843,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h013.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549342214,
+      "tokens": 47613,
+      "toolCalls": 2,
+      "durationMs": 31211,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading that clearly beats the current solver. One weak spot is worth noting.\\n\\nWhat I checked:\\n- **Slots:** \\\"period-1 equity/bond value\\\" means the values at the end of period-1 growth, before the midpoint charge. That gives eq1 = 0.25 / 0.25 / 1.0 and bd1 = 0.5 in every instance. \\\"Per unit of original notional\\\" makes these ratios, not perc…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 14,
+      "label": "h014:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "aeeff3f70ec20deb6",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549309844,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h014.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549325227,
+      "tokens": 46949,
+      "toolCalls": 2,
+      "durationMs": 14223,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I recomputed all three instances by hand and they match finreason/solvers/zs_hidden/h014_lit.py on all 9 fields.\\n\\n- Slots: \\\"weighted volatility\\\" is weight × volatility, reported as a ratio and not squared. The slot values are 0.075/0.14, 0.09/0.11 and 0.08/0.09.\\n- Contributions: the question says they \\\"already equal twice the product of both portfolio…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 15,
+      "label": "h015:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "ac62d13505581e528",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549324857,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h015.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549338528,
+      "tokens": 46705,
+      "toolCalls": 2,
+      "durationMs": 13671,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading of the question that the current outputs get wrong. I checked h015_lit.py one sentence at a time against all 3 instances.\\n\\n- **Distributable earnings:** \\\"net income of X and must first retain R\\\" means distributable = NI - R, in USD millions. That gives 100.958984375, 123 and 141.\\n- **Policy limit:** the text spells out the formula it…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 16,
+      "label": "h016:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "aa0dbf51a200abd1f",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549325446,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h016.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549339736,
+      "tokens": 47370,
+      "toolCalls": 2,
+      "durationMs": 14290,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no misreading. I checked every sentence against finreason/solvers/zs_hidden/h016_lit.py and confirmed all 9 fields from the run output.\\n\\n- **Slot 1:** \\\"Actual first-phase compound growth factor\\\" is (1+r1)^n, a multiple. The rate ratios are decimals, not percent. Example: 1.1^8 = 2.143589.\\n- **Slot 2:** \\\"One-phase compound growth factor under t…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 17,
+      "label": "h017:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a087518d57343c7cb",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549325602,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h017.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549345824,
+      "tokens": 46660,
+      "toolCalls": 2,
+      "durationMs": 20222,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I checked h017_lit.py against all 3 instances, sentence by sentence, and found no reading that would change the outputs.\\n\\n- **Linear rates:** each is shock × sensitivity. That is the standard meaning of \\\"contribute linear loss rates\\\".\\n- **Interaction rate:** computed as market shock × credit shock × k. \\\"Their product\\\" most naturally means the product…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 18,
+      "label": "h018:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "abae756640571d45a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549326017,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h018.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549345720,
+      "tokens": 46922,
+      "toolCalls": 2,
+      "durationMs": 19703,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading the question supports under which the current outputs are wrong.\\n\\nWhat I checked:\\n- **Slot:** this is Option A's share multiple after one stage, 1 + r_A. The outputs are 1.2345675 → 1.234568, 0.3141593 → 1.314159 and 0.7 → 1.700000, all correctly rounded half-up to 6 places.\\n- **Final answer:** pro forma EPS = (EPS0 + added earnings p…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 19,
+      "label": "h019:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "ae6a22cd9a98b31ce",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549326623,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h019.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549420770,
+      "tokens": 57111,
+      "toolCalls": 11,
+      "durationMs": 94147,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no misreading that I can tie to specific words and that the setter clearly intended. The current solver's output stands. What I checked:\\n\\n- **k slot.** Minimum capital ratio plus buffer ratio, kept as a plain ratio (not a percent). In instance 1, k = 0.1000005, which rounds half up to 0.100001. The other two give 0.150000 and 0.132468. The exact k…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 20,
+      "label": "h020:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a834805de78ce91c0",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549326668,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h020.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549338136,
+      "tokens": 46634,
+      "toolCalls": 2,
+      "durationMs": 11468,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading under which the current outputs are wrong. Checks I made:\\n- **Penalty cap slot:** \\\"cap amount available for penalty\\\" is the maximum total remedy minus the fixed interest (\\\"of which Y USD is fixed interest\\\"). Values: 179.96, 147.836 → 147.84, 103.055 → 103.06. The last one rounds half-up correctly because the solver keeps it as an exa…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 21,
+      "label": "h021:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a568aa2b38a1f2dd9",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549326873,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h021.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549339737,
+      "tokens": 47719,
+      "toolCalls": 2,
+      "durationMs": 12864,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I went through the question for h021 sentence by sentence and found nothing the current solver gets wrong. I did not write h021_red.py.\\n\\n- **Checkpoint slots:** Each slot is described as the comparable's \\\"tax-adjusted debt term used in its Hamada factor\\\", in USD. That matches (1 − t) × D, the term inside \\\"[equity plus (one minus tax rate) times debt]\\\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 22,
+      "label": "h022:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "af41b243e8df26b3a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549328768,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h022.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549341547,
+      "tokens": 46590,
+      "toolCalls": 2,
+      "durationMs": 12779,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading that would make the current outputs wrong. I ran `zs show` and `zs run` on h022 and checked each sentence against the solver.\\n\\n- **Checkpoint slot:** it is the upfront consideration paid in acquirer shares, which is base × (1 − cash fraction): 5056×0.8 = 4044.8, 98×0.4 = 39.2 and 98×0.3 = 29.4. The text gives no unit, so the slot's usd_…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 23,
+      "label": "h023:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a6aacf0ff01afe641",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549328992,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h023.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549343242,
+      "tokens": 47105,
+      "toolCalls": 2,
+      "durationMs": 14250,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I checked all 6 fields of h023_lit.py by hand and found no reading under which they are wrong.\\n- **Slot:** \\\"leverage ceiling remaining after one covenant-ratchet stage\\\" is the ceiling left after one stage, 1.00*(1-t). It is not the amount cut (t), and it is not the final ceiling (1-t)^3. The values are 0.8000005, 0.7000003 and 0.9. The first one sits exa…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 24,
+      "label": "h024:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "aea1ef4965f58b868",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549329096,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h024.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549341428,
+      "tokens": 46031,
+      "toolCalls": 2,
+      "durationMs": 12332,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading that changes the outputs, so the current solver stands. I checked the following:\\n- **Slot:** \\\"increases the common-share base by ratio g\\\" means the post-issuance multiple is 1+g. That gives 1.2345675, rounded half up to 1.234568; 1.2 to 1.200000; and 1.3141593 to 1.314159. The slot description \\\"post-issuance share-base multiple\\\" conf…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 25,
+      "label": "h026:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a8c12712b5704445a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549329953,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h026.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549354988,
+      "tokens": 48793,
+      "toolCalls": 3,
+      "durationMs": 25035,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I checked h026_lit.py against all 3 instances and found no misreading that changes any of the 6 fields.\\n\\n- **Slot:** The slot is described as the \\\"retention factor after one stage\\\". That is 1-u, which the solver returns (0.800001 / 0.800000 / 0.750000). The cumulative (1-u)^3 is the factor for all three stages, not one. Instance 1 has u=0.1999995, so 1-…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 26,
+      "label": "h027:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a3dc5d15704ce21f3",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549330677,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h027.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549347108,
+      "tokens": 47244,
+      "toolCalls": 2,
+      "durationMs": 16431,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I checked all three instances by hand and agree with h027_lit.py on every field. The decisions are not close calls.\\n- t1_5eth: distributable earnings = 276 - 69 = 207. Target dividend = 82.8, which is within the cap of 88, and leaves 124.2 retained (floor 104), so it qualifies. Stable dividend = 42.849 * 1.2345675^3, about 80.63, which is within the cap an…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 27,
+      "label": "h028:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a8eb81b2d6d75f981",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549330897,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h028.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549345741,
+      "tokens": 48110,
+      "toolCalls": 2,
+      "durationMs": 14844,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading under which h028_lit.py is wrong.\\n\\nChecks against the question text:\\n- **Share count.** The predeal shares equal V/P, and P is never given. Every share count is a value divided by the same \\\"fixed contractual share price\\\", so P cancels out and the shares can be counted directly in value units.\\n- **Deal shares.** These are the stock p…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 28,
+      "label": "h029:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a881b65cd14e91e69",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549339276,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h029.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549351552,
+      "tokens": 46191,
+      "toolCalls": 2,
+      "durationMs": 12276,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading the question supports that changes any field. Each instance asks for the transfer X that solves prior1 + prior2 + X = base*(1+r) + E.\\n\\nWhat I checked:\\n- Slot \\\"multiplicative risk-adjustment factor\\\": the base threshold \\\"is increased by risk-adjustment ratio r\\\", so the factor is 1+r, not r. The outputs are 1.307470, 1.125000 and 1.29…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 29,
+      "label": "h030:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "ae9abfe63e508bccc",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549340783,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h030.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549354168,
+      "tokens": 46345,
+      "toolCalls": 2,
+      "durationMs": 13385,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading of the question under which the current outputs are wrong, so I did not write h030_red.py. I checked the text sentence by sentence and recomputed all three instances by hand.\\n\\n- **Delay charge:** \\\"A reporting delay of D days incurs R USD per day\\\" gives D × R, a flat per-day charge with no compounding.\\n- **Credit base:** \\\"applied to …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 30,
+      "label": "h032:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a0ec4c6595f597e97",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549340874,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h032.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549366031,
+      "tokens": 48844,
+      "toolCalls": 3,
+      "durationMs": 25157,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I checked h032_lit.py against all 3 instances and found no reading of the question text that a careful exam-setter would clearly have intended and that changes any output. Current outputs: final -0.80 / 2.10 / -1.50 percent; market_premium_checkpoint 0.100000 / 0.105000 / 0.060000.\\n\\nWhat I checked:\\n- **Slot meaning.** The slot asks for \\\"the market risk …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 31,
+      "label": "h033:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a103c85b16f7ef26e",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549341064,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h033.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549359606,
+      "tokens": 47760,
+      "toolCalls": 3,
+      "durationMs": 18542,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I checked h033_lit.py sentence by sentence against all 3 instances and found no misreading.\\n\\n- **Stressed price**: the text says it is \\\"current price times (1-per-stage downside ratio)^3\\\", and the solver computes exactly that.\\n- **Checkpoint slot**: the price-retention ratio after one stage is 1 - d, giving 0.8, 0.7000003 and 0.7500005. At 6 dp half-up…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 32,
+      "label": "h034:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a37b5b30d871d84ce",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549342749,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h034.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549354988,
+      "tokens": 46213,
+      "toolCalls": 2,
+      "durationMs": 12239,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no defect, so I wrote no h034_red.py. I recomputed all 3 instances by hand and they match the solver: 5.20375 rounds to 5.20, 1.03 stays 1.03, and 11.5 is 11.50. The two slot values are also right: 0.963 rounds to 0.96, and the others are 0.00 and 3.00.\\n\\nWhat I checked:\\n- **Checkpoint slot:** \\\"budget available for the exposure charge\\\" is the bu…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 33,
+      "label": "h035:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "a216ee46fc3a3c6dc",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549342775,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h035.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549356126,
+      "tokens": 46463,
+      "toolCalls": 2,
+      "durationMs": 13351,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I checked every field by hand and found nothing wrong with h035_lit.py.\\n\\n- **Branch test.** \\\"At least\\\" means the threshold counts as severe (loss >= threshold), and this matters in all three instances:\\n  - Instance 1: the loss is exactly 1/3 = 0.3333333…, just below 0.3333334, so the mild policy applies. 264 × 2/3 = 176; 176 × 1.4 − 144.4 = 102.00. The…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 34,
+      "label": "h036:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "ae1f488936b551b9f",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549343454,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h036.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549360311,
+      "tokens": 47266,
+      "toolCalls": 2,
+      "durationMs": 16856,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading of the question that a careful exam-setter would clearly intend and that changes any of the 9 fields. I recomputed all three instances by hand:\\n\\n- **Instance 1:** headline sum 41+36+24 = 101. Pairwise sum 11+11+9 = 31. Deduplicated 101−31+6 = 76. Realized 0.9×76 = 68.4. After the charge, 68.4−4.875 = 63.525. After tax, ×0.8 = 50.82. Fin…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 35,
+      "label": "h037:red",
+      "phaseIndex": 1,
+      "phaseTitle": "RedTeam",
+      "agentId": "aea2033a325f5d275",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791549344661,
+      "queuedAt": 1791549309820,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "consensus_correct",
+      "promptPreview": "You are a RED-TEAM reviewer for hidden cluster h037.\n\nPROJECT: /home/varun/Desktop/someProj/FinReason Cup 2026  (always cd there first; python3; no installs)\nCONTEXT: FinReason Cup 2026 Task 1 hidden test cluster -- 3 questions sharing one never-seen structure. Scoring is exact:\nthe final answer and each checkpoint slot are compared after half-up rounding to the stated places (or exact rational /\n…",
+      "promptFramed": true,
+      "lastProgressAt": 1791549356608,
+      "tokens": 46551,
+      "toolCalls": 2,
+      "durationMs": 11947,
+      "resultPreview": "{\"verdict\":\"consensus_correct\",\"issues\":\"I found no reading that changes any of the 6 fields. What I checked, sentence by sentence:\\n\\n- **Slot `acquisition_outlay_checkpoint`.** It is described as \\\"clean price plus all additional acquisition cash\\\", which is the same as the question's \\\"total acquisition outlay as clean price plus settlement cost\\\". The settlement cost already \\\"includ[es] accru…"
+    }
+  ],
+  "totalTokens": 1654458,
+  "totalToolCalls": 82
+}

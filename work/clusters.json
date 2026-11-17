@@ -1,0 +1,3250 @@
+{
+ "fp.accounting_and_financial_reporting.balance_sheets.balance_sheet_equation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_l466ev24yflvyljrf4n6s",
+   "t1_j7ckkqezpk6gg6lqdfgnk",
+   "t1_hog6hw4nbjddugh26z6x6"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.balance_sheets.business_combination.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_k57lusvtjul4zvjzavqkq",
+   "t1_5gdet4sctvr3gkeu7dapm",
+   "t1_r7wgriylwfgenq62bds6k"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.balance_sheets.cash_accounts_payable.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_l6uisxsd3phstwayvlpk6",
+   "t1_zwzhyyykd4ydh3vr3a2x2",
+   "t1_cj25g2e63qtk57lzbb7r6"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.balance_sheets.current_ratio_with_adjustment.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_dn6jqxuofdgjbht24scvs",
+   "t1_xui2l77wa3hjuzxudqb5i",
+   "t1_54pz362rk3ugyfiwxbzm2"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.balance_sheets.inventory_turnover_days.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_zh2luhmqm7fvogaroda3e",
+   "t1_bz2zjzxychlfajp3vubws",
+   "t1_vir7oqhx4yzjbicudimg2"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.cash_flow_statements.acquisition_cash_flow_impact.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_modr7rtbn45fewongy5hc",
+   "t1_4llgxeihbftahd4kz54is",
+   "t1_6ia3vmaywewcl3gw3z2ly"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.cash_flow_statements.closing_cash_balance.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_efnxlmtamei3y2qzg4mik",
+   "t1_tj3v32ajvkpsnxxvp7e4o",
+   "t1_sa6teeyfulkdoqlqd26yo"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.cash_flow_statements.financing_activities.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_24ucgzebigdbidbqilwk2",
+   "t1_r6jyozacomlwtrcqp3bme",
+   "t1_g2satnmkhn7veg2r2ue5k"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.cash_flow_statements.indirect_cash_flow_operations.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_5ebp5xkxsh2q2mzobgzda",
+   "t1_i5ecpw3zr2pl7d5gz63jw",
+   "t1_6bqon563rvuoxskpfc4ew"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.cash_flow_statements.tax_cash_outflow.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_nzxvz6dubg26rwzxlfz5w",
+   "t1_7rusubvd2d2cr7orh6aw4",
+   "t1_gseauhxazob3ui24xnjuc"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.depreciation_and_amortization.asset_impairment_reversal.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_noj5shttqhx7uqtvrcppq",
+   "t1_ftqdvsvbakvu5nxsztcha",
+   "t1_fcxkk5vrpf4rrhzzqdqcu"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.depreciation_and_amortization.impairment_with_value_in_use.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_btupvfy23s4dss7zeftzw",
+   "t1_mmgjn5wvigty2gtoudpqg",
+   "t1_iwrklyxyiyaifqcvl3pdk"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.depreciation_and_amortization.partial_year_disposal.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_vi63koi2zltheno3wxohm",
+   "t1_ktgjp5n662piixikv6xra",
+   "t1_ememsxa7nlcupulnomw2u"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.depreciation_and_amortization.straight_line_depreciation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_2tnievrdwdiccuqiszgfs",
+   "t1_g4epqf3hrjlxt4vo4f5c4",
+   "t1_xar4cbcqfs3dobyntxggy"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.depreciation_and_amortization.sum_of_years_digits.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_3s4cu4m74qubftb55ckgk",
+   "t1_kjdgj3hkk7wmmhozxhemy",
+   "t1_ztpgoyfjx2ocmw52yafio"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.income_statements.depreciation_ddb.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ndp2mexuo5fs47f6latja",
+   "t1_fzmjatfeonozj4sthm3qg",
+   "t1_knew3ms2qjzyyr2zkmxrq"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.income_statements.dta_warranty_expense.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_gucyz2ii64si74drjvt7m",
+   "t1_6jxa5syjyvkt2a5u3lb7k",
+   "t1_h6kuh7lwp3yo6ft2vdcka"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.income_statements.inventory_turnover.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_xs3u2t5kbbyt3qfelu53g",
+   "t1_3vld447jjna3wivhiugs6",
+   "t1_utpugdy7mgg2kuyqxtb5s"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.income_statements.operating_expenses_effect.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_66fd3jfijzcewegww4avm",
+   "t1_anpifhscybhw2auvj2eme",
+   "t1_xyx3sng2vrflskj6vu6eq"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.income_statements.revenue_vs_cogs.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_zir4ew36bdqtkyibogg6u",
+   "t1_tujtspog63clu57hvb2ee",
+   "t1_qn6t3dnzhkeuvq2eb7dug"
+  ]
+ },
+ "fp.corporate_finance.capital_structure.debt_to_equity_after_asset_sale.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_elg5pwb6hzx7u6bm44vb6",
+   "t1_npc4hqmqxt6nodlivqi3o",
+   "t1_j3prjm4f5pvnk52jnuook"
+  ]
+ },
+ "fp.corporate_finance.capital_structure.debt_to_equity_after_buyback.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ojxzdaugizovyzexr2yes",
+   "t1_r33lajiaia5ffsda6un3e",
+   "t1_7naxav6msrmehv4o26j6u"
+  ]
+ },
+ "fp.corporate_finance.capital_structure.debt_to_equity_aggregate_debt.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_76kdshikskh372hxhdii2",
+   "t1_gal2d2hlzwum6eeyhqqlm",
+   "t1_ds6ualf6dvmgzuq2cmfz6"
+  ]
+ },
+ "fp.corporate_finance.capital_structure.debt_to_equity_bond_and_buyback.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_gqdtxy4p6wnofzvuxnhwy",
+   "t1_4oakhegsmrk5zhhuixmiw",
+   "t1_cj6rymkpvw5vuuo7advqy"
+  ]
+ },
+ "fp.corporate_finance.capital_structure.debt_to_equity_bond_repay_buyback.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_uyidnoy3sfi32h6o6h2go",
+   "t1_oxlvcodjtvmvmfyv5afpk",
+   "t1_4zd3ewbt6sigkj57wztmg"
+  ]
+ },
+ "fp.corporate_finance.div_policies.dividend_lintner_smoothing.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_iemdmuicznl4oua6zmygo",
+   "t1_lwdr5eds2wnasb2bnveji",
+   "t1_6nopjufsi4gidcojgu3uw"
+  ]
+ },
+ "fp.corporate_finance.div_policies.dividend_lintner_three_year_avg.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ak3ob3k7wib6v7vxgpqrm",
+   "t1_x5daqddcjyol3sluzocfe",
+   "t1_oql5x3e53hqresgnxan24"
+  ]
+ },
+ "fp.corporate_finance.div_policies.dividend_stable_growth_policy.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_xiscs46qq33f7pa3eccuu",
+   "t1_zaejb34y4hlvoeh2j42xc",
+   "t1_4hiznhoddhhuz5lmnyut2"
+  ]
+ },
+ "fp.corporate_finance.div_policies.dividend_stock_plus_growth.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_gvvtolu2al7ourhu6efwc",
+   "t1_yn6ovipndpwq2435bnuys",
+   "t1_4qlb647z765x4bmegyc2o"
+  ]
+ },
+ "fp.corporate_finance.div_policies.dividend_target_payout_policy.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ze2uw6qowxitmnhqoltaq",
+   "t1_of2pvlnfcxqcqmnpqrgli",
+   "t1_4fjix6zjdj3esghdfcswg"
+  ]
+ },
+ "fp.corporate_finance.eps.eps_pref_div_split_weighted.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_3cc44nee5z26v6qoswp5k",
+   "t1_wkief4r7rroiqt77ws252",
+   "t1_lnj7viiagvzgmmg6nu5bw"
+  ]
+ },
+ "fp.corporate_finance.eps.eps_pref_div_weighted.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ajqg5g5agilwiynvgmi44",
+   "t1_sfnkxclp7722bnrn6snqq",
+   "t1_wmovy6d5ej6okmiei5r6a"
+  ]
+ },
+ "fp.corporate_finance.eps.eps_quarterly_pref_buyback.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_3pzlpzdvqawijwstx7daa",
+   "t1_jhdmjpjtfr623fursdzdi",
+   "t1_gaghrxs3iuashjib7d2hy"
+  ]
+ },
+ "fp.corporate_finance.eps.eps_quarterly_pref_div.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_l7bvhflewtkggo5idpyjs",
+   "t1_65jhohylyvc2lj7os3zvy",
+   "t1_dxn23lnzizv6kiu7uki5w"
+  ]
+ },
+ "fp.corporate_finance.eps.eps_weighted_average.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_erxl3zox4tkxriukbpqca",
+   "t1_qwqgrl74ks7ex3xne5iuu",
+   "t1_7gdyxphzew6swg4xkw2v4"
+  ]
+ },
+ "fp.corporate_finance.wacc.capm_wacc.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_dcniz7gyr5gqaouem6qaw",
+   "t1_4ukkby4bbf5llymo2hu6s",
+   "t1_3o5uklubb6ewh6dokvcbk"
+  ]
+ },
+ "fp.corporate_finance.wacc.inflation_adjusted_capm_wacc.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_jxvqgd57v37oxuzj2usng",
+   "t1_iwdx3sjeywhrwo5nqroem",
+   "t1_2tfuh2x4a4gpzphebhgs6"
+  ]
+ },
+ "fp.corporate_finance.wacc.preferred_capm_wacc.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ayuzckngnmj7ym6rjzbiu",
+   "t1_kx5gymz5j63mwjwj2jhqk",
+   "t1_te3rrstkcbtms6ymkozdo"
+  ]
+ },
+ "fp.corporate_finance.wacc.standard_wacc.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_vjbrtr64yjgepocao2gdg",
+   "t1_dunpyux3tjzzecs2zb3kw",
+   "t1_vgvp7waoovwxquvyzi3yk"
+  ]
+ },
+ "fp.corporate_finance.wacc.weighted_debt_wacc.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_5islvopzq6gbhtwbijkt4",
+   "t1_ab2ppukr3mttmoamnugt6",
+   "t1_jiibtmrv3e4mkmecazeco"
+  ]
+ },
+ "fp.crypto_finance.defi.liquidity_pool_reward.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_3dj2lpqswpduz67aye6kq",
+   "t1_phw7lldnnytmbcx4hvmdq",
+   "t1_m6rvbfl5rlz7lug3o5y2m"
+  ]
+ },
+ "fp.crypto_finance.defi.multi_factor_portfolio.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_u3uxije3awwy7e6ggx66i",
+   "t1_4lev4ludlcusgi3eantqw",
+   "t1_2w42njljs5vudvitm6ohc"
+  ]
+ },
+ "fp.crypto_finance.defi.staking_return.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_fx6szyt6vpoc3ptcn2abu",
+   "t1_6uqtas6ehzga6l2vargt6",
+   "t1_rjx4z3uehvkgymznakzoe"
+  ]
+ },
+ "fp.crypto_finance.defi.swap_fee.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_cjtky332y4xrdwywcl2ey",
+   "t1_mgfzdfbeztogqa7pnwrb2",
+   "t1_65hsroi372lsduweiysfg"
+  ]
+ },
+ "fp.crypto_finance.defi.yield_farming_roi.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_6ekzr2m3xjxikrfv757cu",
+   "t1_itqy5kq4u6ehae7xv5m7y",
+   "t1_m62rhz5kw6zblxqtnwzu2"
+  ]
+ },
+ "fp.crypto_finance.global_events_impact.crypto_price_drop.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_xx464vdm7ufdktwercsbu",
+   "t1_b4vbggvyh2b7tvpp5sriu",
+   "t1_3khvxfyogv2ozrfakf3l4"
+  ]
+ },
+ "fp.crypto_finance.global_events_impact.crypto_volume_increase.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_yymeqfqcsopaslpqgachs",
+   "t1_ohw7ivktskuotohlxjtsi",
+   "t1_hdlurhuzun57bxhng4jno"
+  ]
+ },
+ "fp.crypto_finance.global_events_impact.global_macro_strategy.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_tlmeinop6xzkxudsenor6",
+   "t1_nqunxph3de7fsvqzetdbs",
+   "t1_rdcg3iyuwvc7lj5t4x2c6"
+  ]
+ },
+ "fp.crypto_finance.global_events_impact.market_sentiment_shift.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_4hxphnnhrly2j5jwy5ceu",
+   "t1_o3bcljpl224xe3mjm6irc",
+   "t1_eaicjn6ylq76elxe3iju2"
+  ]
+ },
+ "fp.crypto_finance.global_events_impact.regulatory_event.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_w4vxx4y7d3zqgit3foq66",
+   "t1_vkxd4753ebdwxryh4a47c",
+   "t1_zoki3w4nihycykgsd74y6"
+  ]
+ },
+ "fp.crypto_finance.regulations.compliance_fee_adjustment.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_kj4vx5tgibslcumrmktr2",
+   "t1_3mbahsqgnjuj6nskldwgi",
+   "t1_qoe7t6y7wk44vicabirzy"
+  ]
+ },
+ "fp.crypto_finance.regulations.crypto_tax_penalty.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_uogcb5ju3v3gqbndzw6pe",
+   "t1_3cwwe4hk6minatk6cmvga",
+   "t1_tufbb3jnjxmr3rsnb4e4u"
+  ]
+ },
+ "fp.crypto_finance.regulations.multi_factor_regulatory_risk.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_wx2lazeofo5klxeqanxt2",
+   "t1_fim5kmyi3ws6g5jn7dpmg",
+   "t1_ihisi64tzeke2u5mqzyc2"
+  ]
+ },
+ "fp.crypto_finance.regulations.regulatory_impact.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_slrqeuajbkb5pzrhare4y",
+   "t1_zn4nff7bdx6hajjhs3ncy",
+   "t1_ddbqha76jetrbbkfej2mi"
+  ]
+ },
+ "fp.crypto_finance.regulations.trade_cost_adjustment.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_6ygo4pgtres4fmthemrae",
+   "t1_gjnaswy4ddau7avq5uipq",
+   "t1_2lzwsbcevczlbydyk37hc"
+  ]
+ },
+ "fp.crypto_finance.sentiments.multi_factor_sentiment.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_3lfdybnxujuexngflu3ie",
+   "t1_ah6iqekomkrvvd5maq4qg",
+   "t1_dqfyp3bibb5xttictti7k"
+  ]
+ },
+ "fp.crypto_finance.sentiments.news_impact.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_kfxzdvv55iuzrwdb2rcvo",
+   "t1_c5rvitqrmawacs4v6xoii",
+   "t1_qhzg3y6syb6m6pvw5khue"
+  ]
+ },
+ "fp.crypto_finance.sentiments.price_sentiment.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_fpora6c25lyumxxm4bwru",
+   "t1_anvgy7sk2ublu23jigcpe",
+   "t1_3ytkr3cszia4vrwsimhak"
+  ]
+ },
+ "fp.crypto_finance.sentiments.tweet_influence.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_nyybis5zki5yy7m6sixe6",
+   "t1_4ppk4rtijaiykbu5vy66q",
+   "t1_75qx4672vb3utz474tbxa"
+  ]
+ },
+ "fp.crypto_finance.sentiments.volume_sentiment.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_y24neddqxjgmcmydghc42",
+   "t1_fjlb7yyye37tca47rcq2g",
+   "t1_xm42nkdctkkfumoq2iodk"
+  ]
+ },
+ "fp.crypto_finance.tokenomics.emission_schedule_impact.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_elcbrauvr4tab45ghqpsq",
+   "t1_jlajw5gkjbfowjxn2xtdy",
+   "t1_urrdippl6c7sxxaebj6re"
+  ]
+ },
+ "fp.crypto_finance.tokenomics.market_cap_calculation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_pqovsxt3shwpavo6egqqu",
+   "t1_swh3hvwpzdhzlvispxp6c",
+   "t1_2izc2qjhlposnxgdtonng"
+  ]
+ },
+ "fp.crypto_finance.tokenomics.multi_factor_tokenomics.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_teko2xfnudak63sbmluhg",
+   "t1_zkydz65repfuf75fekcay",
+   "t1_yoq2xciuyr7edfh6hv76s"
+  ]
+ },
+ "fp.crypto_finance.tokenomics.staking_reward_effect.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_xh2srcwg3htsooxf2bk4o",
+   "t1_apmfaxyj7xwpusspo7chs",
+   "t1_vzim6g4xqf5vty7jrfv64"
+  ]
+ },
+ "fp.crypto_finance.tokenomics.token_price_calculation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_e4u57mkxeqfvw3m3q5kik",
+   "t1_4ajf3vcbgwf3h2dlewlwi",
+   "t1_ldadskgqnxiitocad7qxs"
+  ]
+ },
+ "fp.crypto_finance.transaction_analysis.bulk_transaction_fees.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_eladzdzmf4sfuodc7muzo",
+   "t1_4nrzfozhgmqbz46rzlmsg",
+   "t1_6ta5fexfqp5huie4y6hby"
+  ]
+ },
+ "fp.crypto_finance.transaction_analysis.cross_chain_transfer.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ihnjhgueg72hxejfhbzrg",
+   "t1_qeyudkg5wwwe2o2epsxci",
+   "t1_77ddiots66alomwctdpm4"
+  ]
+ },
+ "fp.crypto_finance.transaction_analysis.fixed_fee_transaction.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_d2xxr72myqcooo4z4svuk",
+   "t1_bgpwknjr7kbbvyqyjvv3a",
+   "t1_lyv6yf36mvxmyt4xuhgbg"
+  ]
+ },
+ "fp.crypto_finance.transaction_analysis.multi_factor_transaction.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_rjcqhs5qxlqciprwnbcgs",
+   "t1_en2twfbxtix5fypu4ghs6",
+   "t1_xv4qh4bb7oybziv5qyjkg"
+  ]
+ },
+ "fp.crypto_finance.transaction_analysis.transaction_fee_calculation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_cbl7vjaggqjclolitnwgk",
+   "t1_u4ro4ujdqv3yttpucl4mc",
+   "t1_6yxnptsyke57po4xk55ta"
+  ]
+ },
+ "fp.crypto_finance.whale_detection.cross_exchange_impact.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_bcegk37jcdgugykoszmss",
+   "t1_bbzzrqyvr5w2bgygz4ddy",
+   "t1_4vvkxkvqe6o7q267jshc6"
+  ]
+ },
+ "fp.crypto_finance.whale_detection.large_transfer_detection.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ta3piho4uknetugn3x6ta",
+   "t1_mw5w4ejumtxkoynq4n2r4",
+   "t1_ngmvb3pbiedjbfw2veo3g"
+  ]
+ },
+ "fp.crypto_finance.whale_detection.multiple_transaction_analysis.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_afy3bn5fnuh6qtggrfop2",
+   "t1_ikslinxuc5a5c72oo3vpk",
+   "t1_57qltxdg4t35aeiuq4nk4"
+  ]
+ },
+ "fp.crypto_finance.whale_detection.threshold_adjustment_detection.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_2uyrv5xpwqx6mi6r6zq3q",
+   "t1_p5azwxmjdsgp4ku2iytdu",
+   "t1_flhya4ywkv756vmps35oq"
+  ]
+ },
+ "fp.crypto_finance.whale_detection.wallet_activity_detection.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_7qoijq7ao3xobpgerkdvm",
+   "t1_bl4uqzzmr64rnd2dk25by",
+   "t1_74n6we4f3fxyrgczskmyo"
+  ]
+ },
+ "fp.finance_regulation.aml.beneficial_ownership.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_n6wkqdpqufkqhyqxeuaw2",
+   "t1_vbdwtchdjvrtljagl6keg",
+   "t1_gewretihhjttrc5eh7msq"
+  ]
+ },
+ "fp.finance_regulation.aml.multi_entity_ownership.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_fzyu4767esbumes2txxfo",
+   "t1_g4bmnmxpqyfdirx6op5am",
+   "t1_qyju6t6slypb27uuytu3y"
+  ]
+ },
+ "fp.finance_regulation.aml.sar_decision.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_t6oxdw6slqkspkyvlkrcy",
+   "t1_xk6irvtanbs6uexr44cx6",
+   "t1_s47ral2e5pe2tlypz5bts"
+  ]
+ },
+ "fp.finance_regulation.aml.structuring_detection.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_kmv6slmyjrwsuhoeky3nk",
+   "t1_ttyek26onvhrkuhcq5fry",
+   "t1_wlshxi7e4ql7afeuhjsmy"
+  ]
+ },
+ "fp.finance_regulation.aml.threshold_violation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_nfcxu3hyknnsrumz5ecky",
+   "t1_pk2pzeoa3v4u5xg7evrj4",
+   "t1_goxmikotwey2xywnjgdpi"
+  ]
+ },
+ "fp.finance_regulation.basel.capital_buffer.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_srlhyy7un5fceimlrce44",
+   "t1_kiqfd4dvqe3rfejasofpu",
+   "t1_77xcr2njczqrdloaqujea"
+  ]
+ },
+ "fp.finance_regulation.basel.leverage_ratio.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_kwdy4zatgmax6jmbjva4k",
+   "t1_zdvkkfpyktgfxq5ztujvs",
+   "t1_2wb3xscgr6x7zq7ipcufa"
+  ]
+ },
+ "fp.finance_regulation.basel.multi_requirement.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ou2v4a62bc7vo64ujpfu6",
+   "t1_l2ajky2t4dhfqgx4lgy5u",
+   "t1_dns7g2dhe25p64wu5yxcs"
+  ]
+ },
+ "fp.finance_regulation.basel.rwa_increase.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_rkfgpqxmmejubsexjgjau",
+   "t1_prnya2s2srdu7plpmkqjw",
+   "t1_3eczzj6jmxemso2mvealy"
+  ]
+ },
+ "fp.finance_regulation.basel.tier1_composition.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_tkovuy76gy3zt4zn3omz4",
+   "t1_ez7q2e3zlcib3udmwxl6q",
+   "t1_5jporrot4ul3576kl7lli"
+  ]
+ },
+ "fp.finance_regulation.compliance.composite_risk.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_4gzl6iacca5zavozgys4s",
+   "t1_mg46a3ernxols7nf7n2lc",
+   "t1_5mcxftkv2zs7gnzb7exn6"
+  ]
+ },
+ "fp.finance_regulation.compliance.delayed_fine.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_wphghpobntm4sj7h47u4e",
+   "t1_3rqeir5mbbktwkwktzzqi",
+   "t1_tly5knqzfuovqog5e25fy"
+  ]
+ },
+ "fp.finance_regulation.compliance.fine_calculation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_qatnsu5gvv5jw7tbdtfbo",
+   "t1_lwrkxoblia5mi5sxmqnhe",
+   "t1_un3mppp3g7vcplims4xfs"
+  ]
+ },
+ "fp.finance_regulation.compliance.regional_weighted_score.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_7wi3lji2x4euv5pitlg4w",
+   "t1_bwl2plwzjgft6md2nl3dm",
+   "t1_ybkq4nwae6lcnw3lh7rdi"
+  ]
+ },
+ "fp.finance_regulation.compliance.risk_score.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_sw7qfkayklnjf2ovnoste",
+   "t1_zwnyxj4lwe4hponucgga2",
+   "t1_4whwkll2ojpw7rpyywi4i"
+  ]
+ },
+ "fp.finance_regulation.kyc.country_sector_risk.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_pkcl5so46bvb2sw4f6uh6",
+   "t1_2jj6loixjcflkotumrs5m",
+   "t1_xstler6w2qyb6md3fovqu"
+  ]
+ },
+ "fp.finance_regulation.kyc.customer_risk_rating.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_r52s36beothqdqfw4cc2m",
+   "t1_eha6wyu2gjmdj5tevc5cu",
+   "t1_yf5iy5b4dwl3cknqm663y"
+  ]
+ },
+ "fp.finance_regulation.kyc.customer_type.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_yqcxyrtbghgtlvkvapo62",
+   "t1_iqpfkk4kn25drtxnb65ma",
+   "t1_yyjqqydyusrdlnqf36e4o"
+  ]
+ },
+ "fp.finance_regulation.kyc.document_validity.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_p33hgguhkaqcab4u7ecy6",
+   "t1_vleqrwzkv6lyg35uvvsmm",
+   "t1_3g7zyksezehfupc2b2kw2"
+  ]
+ },
+ "fp.finance_regulation.kyc.source_of_funds.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_4z6zqzokwtm25t6t6ma6m",
+   "t1_j25avpy4es26msaecb332",
+   "t1_norkpxe44ilixjc6u5zem"
+  ]
+ },
+ "fp.finance_regulation.security.disclosure_threshold.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ry4h264nzankl45lrarx2",
+   "t1_7kfrzo7g577saq6fov3km",
+   "t1_vcbw4u6vtm3cy6ls2gqgm"
+  ]
+ },
+ "fp.finance_regulation.security.merger_timing.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_5hyghc5eynll6jicst3mo",
+   "t1_krsh7k6x3j3y5djwgvsp4",
+   "t1_egltl6fiv6kt2extbycsq"
+  ]
+ },
+ "fp.finance_regulation.security.multiple_reporting_thresholds.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_7zoso3wwhpu5yqleqszn2",
+   "t1_2txttt5oomoxcjlspjhk6",
+   "t1_x4ymoynlowmo64d3z6zoe"
+  ]
+ },
+ "fp.finance_regulation.security.offer_investment_limit.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ml42i7q5uuhjejr4moaik",
+   "t1_2h6arivsdo3aiwr7muqna",
+   "t1_trjkh54bz2zsl37cxic6c"
+  ]
+ },
+ "fp.finance_regulation.security.trading_gain.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_kmxakvotskvbccjqixtq6",
+   "t1_ppqj2o3wvxr2yhclwqd5o",
+   "t1_6azfsvlr6d5sgo2hunasg"
+  ]
+ },
+ "fp.financial_markets.bond_pricing.dirty_price_with_simple_accrual.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_awr4dnrlt5ywgdhvomd7q",
+   "t1_kftpsyvzddepjeuxi2jmw",
+   "t1_xjltnhp6vbpeyelz5zidk"
+  ]
+ },
+ "fp.financial_markets.bond_pricing.one_year_coupon_bond_price.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_kfmhyy2u3netyunkgu24w",
+   "t1_rq53rag42j25xycnawo4i",
+   "t1_tztbxzeijlht3g3adz7wi"
+  ]
+ },
+ "fp.financial_markets.bond_pricing.three_year_coupon_bond_price.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_gjlqwj736a4k5ldzhwz5w",
+   "t1_nog76dnm5gdejssesotkm",
+   "t1_asioj2jpssrd2x57sysmq"
+  ]
+ },
+ "fp.financial_markets.bond_pricing.two_year_par_bond_ytm.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_7knymdh2cjntiad7jfgxq",
+   "t1_nur2us2yrgbouya7bi73i",
+   "t1_4fphj2ttydccvle5rhloq"
+  ]
+ },
+ "fp.financial_markets.bond_pricing.zero_coupon_bond_price.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_nhx7qohfyjwzjrgqxnpuq",
+   "t1_ybyrxhpqoqhbbe7ok3iqq",
+   "t1_4hflphbqrhsp5t45a54qk"
+  ]
+ },
+ "fp.financial_markets.forex_trading.eur_to_gbp_cross_conversion.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_vsly5xdmsyppeetnvqayy",
+   "t1_4vjfvaba6bvmeepx2lxhw",
+   "t1_mx3amlajlhsrjye3hds4u"
+  ]
+ },
+ "fp.financial_markets.forex_trading.foreign_to_usd_conversion.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_d3hcgxg2wmb2kjg6qyffi",
+   "t1_l4rajelilqcwe7cgle77o",
+   "t1_urpb2fsnavjt4puyhmt5k"
+  ]
+ },
+ "fp.financial_markets.forex_trading.long_position_profit_loss.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_2komnyrfhywv4rrm5z3hu",
+   "t1_5icsz6qvjafxylkohpzvo",
+   "t1_a3o2kmtfbup6e5efybl5i"
+  ]
+ },
+ "fp.financial_markets.forex_trading.triangular_arbitrage_profit.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_yjkvik55dmqph3267w7ig",
+   "t1_7rrjglsgvd4qieeaiqo4i",
+   "t1_76mio55hs42rtt3vgarm4"
+  ]
+ },
+ "fp.financial_markets.forex_trading.usd_quote_pip_value.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_7rejak2qso5hp7trn6f4k",
+   "t1_gbrox7xejzdy7iozg3ukc",
+   "t1_tfsr76zycqlfdaj6b7qfg"
+  ]
+ },
+ "fp.financial_markets.option_pricing.call_intrinsic_value.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_l2kfyzm5tdm5mqfxsgmry",
+   "t1_wmdrkcdnavqpknwihsrpu",
+   "t1_4thhc75xbjzzmn3gfgady"
+  ]
+ },
+ "fp.financial_markets.option_pricing.factorized_call_value.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_jr2zpophyvox4lttrgamo",
+   "t1_dlwspz45veaae557c74eo",
+   "t1_27xm5ipqzhkmpz6fvihvs"
+  ]
+ },
+ "fp.financial_markets.option_pricing.long_call_roi.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_jrxknsok6raltcfzjveue",
+   "t1_twbgdnevj6uuxkue42g5a",
+   "t1_mji56gqymyqulmwpu6ybm"
+  ]
+ },
+ "fp.financial_markets.option_pricing.one_period_binomial_call.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_bmlkhlpzhct4ywtjr3b4w",
+   "t1_m6kfjjj4boctcqcwyspkw",
+   "t1_u2hpvfjxgqkpzt3tpyokm"
+  ]
+ },
+ "fp.financial_markets.option_pricing.put_intrinsic_value.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_qw5n7sssrin3ahxnfty7q",
+   "t1_smlnvyiv263eopvllzadg",
+   "t1_mek76wiaff4ngfxrot4tq"
+  ]
+ },
+ "fp.financial_markets.stock_market_analysis.dividend_yield.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_pmvieqhhiemu2jozndlwc",
+   "t1_lcrzx2a3qyma2nnqnxs2o",
+   "t1_vj2x7zm43wynbifo34nj2"
+  ]
+ },
+ "fp.financial_markets.stock_market_analysis.share_price_from_pe.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_w3qwkdibliynykl5gxcxq",
+   "t1_mbkupjgqdaeq6trq2tmnm",
+   "t1_hkevq6i5hxxooyeds226y"
+  ]
+ },
+ "fp.financial_markets.stock_market_analysis.simple_capital_gain.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_g66lvopw4x2hnaookxvz6",
+   "t1_24sh567zidjfqwshy3kua",
+   "t1_togr2ahyhpo7vqkftcm42"
+  ]
+ },
+ "fp.financial_markets.stock_market_analysis.stock_total_dollar_return.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_kdb6yy7bl2ulev4pixlwe",
+   "t1_fh2qhwpgrlajrg6rfi6ty",
+   "t1_blpkqjbu5kcehnuhesuzw"
+  ]
+ },
+ "fp.financial_markets.stock_market_analysis.two_lot_sale_net_profit.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_kndzndagav5y2vvvojjee",
+   "t1_p45kw5ypvxoo5byhtcr6i",
+   "t1_ao6f75by6xcvfqsijzjbu"
+  ]
+ },
+ "fp.financial_ratios.effratio.asset_turnover_average_assets.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_szgko675wtxnvxzbqgfj4",
+   "t1_u3jetbkg2rmiqxxxtazym",
+   "t1_q6u3k2be3moxjzyn6c5jw"
+  ]
+ },
+ "fp.financial_ratios.effratio.asset_turnover_compare_periods.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_5cwwqlg23obgz4ov4yw3e",
+   "t1_xni2tiualuxe7dkbaiklu",
+   "t1_jvug7ceabcem2pykhi57g"
+  ]
+ },
+ "fp.financial_ratios.effratio.asset_turnover_simple.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_iys46fvp7o2coup4fleve",
+   "t1_6wvzelr25jt6uq7qgi3jy",
+   "t1_5qwor6wqvvvu45a5ox6io"
+  ]
+ },
+ "fp.financial_ratios.effratio.asset_turnover_with_depreciation.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ndipjgxpr2cddxyzw73j4",
+   "t1_l23nzlxmslblehsnhlro4",
+   "t1_gbzwcvjrrtp5yuysogzly"
+  ]
+ },
+ "fp.financial_ratios.effratio.investment_vs_sales_push.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_evslruvlh6g7byjpj5tnc",
+   "t1_lrwrwfozupq3yfs4ewbps",
+   "t1_guqkld4fwg23mxgqpas2k"
+  ]
+ },
+ "fp.financial_ratios.levratio.capital_injection.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_j4raou6pcmkkulu6hdfig",
+   "t1_psniveukn7lnyf4nxclui",
+   "t1_rppgsbvjihrrmhndoe4zm"
+  ]
+ },
+ "fp.financial_ratios.levratio.convertible_debt.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_yjppicvklmaqzsqpstbk4",
+   "t1_rk5rfdf2wbvsqir6cqenw",
+   "t1_g6hjsewzt2ckgydr7y272"
+  ]
+ },
+ "fp.financial_ratios.levratio.debt_repayment_and_borrowing.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_py22mvfjvxmjb5gwfn562",
+   "t1_e647f6kdwix3zmh5rhz6c",
+   "t1_4f2qvngeh54zaxmp54qke"
+  ]
+ },
+ "fp.financial_ratios.levratio.debt_to_equity_simple.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_pvq4ffdeo7wz6f4d2ssxs",
+   "t1_m5i354y7kdnibiljuitno",
+   "t1_el7bg3drql7d4l5aojnsk"
+  ]
+ },
+ "fp.financial_ratios.levratio.debt_vs_equity_scenarios.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_hunhgnr6votaehxqtmq7w",
+   "t1_gqgxp55ebyukzevujghh2",
+   "t1_sjjrhc4v2pjqovh3qiv4o"
+  ]
+ },
+ "fp.financial_ratios.liqratio.both_ratios.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ahabyxztyebjmgpjg76qk",
+   "t1_qdxpnaf6gi7qqhrhccox4",
+   "t1_supc4qvkfhce2yneofof2"
+  ]
+ },
+ "fp.financial_ratios.liqratio.current_ratio_simple.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_yhgk3jwfqar6ezalx3hku",
+   "t1_s2lx5voofsqnbdcdraqvi",
+   "t1_ntxnx37skizysoct2v4vo"
+  ]
+ },
+ "fp.financial_ratios.liqratio.liquidity_minimum_quick_ratio.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_wd7f6wjiovj72kp2zsnrs",
+   "t1_vw6keojpaf43b2s2z7gai",
+   "t1_d3s2kg37qsdmnqvudgjeo"
+  ]
+ },
+ "fp.financial_ratios.liqratio.quick_ratio_simple.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_cu3f7wou5q34knb3mwak6",
+   "t1_474o3nrsd7ldw6g7ghhpq",
+   "t1_7hm7ofhntybcd6i4oq7du"
+  ]
+ },
+ "fp.financial_ratios.liqratio.quick_ratio_target.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_y64esefrqgyf74bbbomxe",
+   "t1_v5wbsiq2mlosmuyfrg43c",
+   "t1_glxvynenqn63fi5dwpfpy"
+  ]
+ },
+ "fp.financial_ratios.profitratio.dual_margin_gap.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_f5ef6k3pcvg3l6xs5bvna",
+   "t1_nfbfpdb75sfo4vvmf2la2",
+   "t1_gw3g7jqjdkg5zhvhhqbaa"
+  ]
+ },
+ "fp.financial_ratios.profitratio.gross_profit_margin.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ekyi7ef2qt3b4xflaztre",
+   "t1_2qoj24ouvgo5cvnpmazhg",
+   "t1_6me5m72niqmtvmbyojzmg"
+  ]
+ },
+ "fp.financial_ratios.profitratio.net_profit_margin.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_lte3bjiaa4ugb5aq5mfl4",
+   "t1_oexioa6xiwvddptgtyyti",
+   "t1_zsd3dyvhbn3s42r3qmu66"
+  ]
+ },
+ "fp.financial_ratios.profitratio.operating_margin.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_oo7oycdugvgpnfg3s2xay",
+   "t1_4jbartzyh75vi3jhugz2w",
+   "t1_3zdwjqnhh4z5tm2z5i4us"
+  ]
+ },
+ "fp.financial_ratios.profitratio.target_net_margin.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_t3re2o7beqojjvasmic6u",
+   "t1_vmyyutqtdfsf4wq3sscn6",
+   "t1_7jvnkrvr6cy6ttl3thybm"
+  ]
+ },
+ "fp.fintech.digital_banking.extra_payment_payoff.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_h6g7ojbvfyepmzjjbgna2",
+   "t1_wlbzu7eg6armvfnucwx3c",
+   "t1_37swbpcobikwbeky2e326"
+  ]
+ },
+ "fp.fintech.digital_banking.highest_spend_amount.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_tfgpanbop3ku6g32t3ujq",
+   "t1_k7cnl27onx5lcbgjpr6jy",
+   "t1_2pg4sicyzasogs46p6vmg"
+  ]
+ },
+ "fp.fintech.digital_banking.monthly_deposit_future_value.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_fdj6bsk2kclxixfs2ihzs",
+   "t1_bhpkqexd6veiuh4gbe6oq",
+   "t1_ekbsx3yb7hukoxiajy4mg"
+  ]
+ },
+ "fp.fintech.digital_banking.simple_interest_balance.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_jz7pts764kdxdv7idof4m",
+   "t1_wruu5gmmwsloirz6rnoyo",
+   "t1_43ztqjfme6gz6qx5ptays"
+  ]
+ },
+ "fp.fintech.digital_banking.transfer_total_deduction.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_34bhzhdfarslrwa3mpyky",
+   "t1_zh4kvwmzsirs5dqich2dc",
+   "t1_kgbdvqrssnbnn53yojtso"
+  ]
+ },
+ "fp.fintech.payment_technologies.batch_effective_fee.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_xnaqwsb6h4mfk3ciebfra",
+   "t1_cldok5zlmlmgadi3ovqzi",
+   "t1_egr43uhnoimu45pjyc6ri"
+  ]
+ },
+ "fp.fintech.payment_technologies.bnpl_installment.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_hu5x6hqhs4nshl67s2uzk",
+   "t1_vg27sk6zmej7petcb4xne",
+   "t1_aqrq73jebn3fgc5mzxs5e"
+  ]
+ },
+ "fp.fintech.payment_technologies.card_processing_net.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_z34bpbfqstixhxhb7baiu",
+   "t1_dk35eq73rw5kv6wb2hqwa",
+   "t1_onjjng5r25yxrirawqyia"
+  ]
+ },
+ "fp.fintech.payment_technologies.cross_border_net.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_bsnxgnstulsape3ezmbbu",
+   "t1_ohxkvtwz2uzcdfmffi4dy",
+   "t1_pbn7ibkj3fbbykb5s4b2i"
+  ]
+ },
+ "fp.fintech.payment_technologies.effective_monthly_fee.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_46jlgzh64w2lfnuxgod3w",
+   "t1_vy3pvqr72x4gqd3a6bsy2",
+   "t1_p7zl6kkkjebv3xdd5zix4"
+  ]
+ },
+ "fp.fintech.robo_advisors.equity_rebalance_trade.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_klydpvgxp3y7bhsj6tcze",
+   "t1_7ywrrvjlnql7nhyzhl3vc",
+   "t1_cbsgu5dwlhdq6nprjc532"
+  ]
+ },
+ "fp.fintech.robo_advisors.monthly_contribution_projection.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_vnmgaz26rv77z6tqvu4ec",
+   "t1_o5ow6elootxhbnmy2hymq",
+   "t1_povf7363bofh432ntqy36"
+  ]
+ },
+ "fp.fintech.robo_advisors.net_portfolio_after_fee.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_goguum6dxtr5iyssxal2i",
+   "t1_chh4tgx32ixhm5eimsez6",
+   "t1_oxrvg4lf3ndah2cly64ku"
+  ]
+ },
+ "fp.fintech.robo_advisors.one_year_after_fee.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_kuvdbz5dbxai3brnmbxp4",
+   "t1_u3ybpbtpx3ivgmkb633go",
+   "t1_4376qu6urswuduej2n7bg"
+  ]
+ },
+ "fp.fintech.robo_advisors.tax_loss_savings.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_scs7q4eohmjezjivk7qta",
+   "t1_vemitw2uehk5zobhda35w",
+   "t1_eccjmjub2ue66g6r2blko"
+  ]
+ },
+ "fp.investment_analysis.ci.interest_from_known_total.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_t75h6upp73ixgifhjjo5y",
+   "t1_vda2f7sn6mmwkvfohy67c",
+   "t1_mwy6quq5h7foms2culyp2"
+  ]
+ },
+ "fp.investment_analysis.ci.midterm_deposit_compound_interest.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_zhapr37wuhqi3a3x7d5c2",
+   "t1_yi5ob2jwxcf3edejx23i6",
+   "t1_icegp7i7b73ozxsw3ibd4"
+  ]
+ },
+ "fp.investment_analysis.ci.quarterly_compound_interest.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_j5sorgko6yuwjahrzhkrg",
+   "t1_hulep223jympeaujqsnia",
+   "t1_krshvrs2bvgyzrvm6ezb4"
+  ]
+ },
+ "fp.investment_analysis.ci.simple_annual_compound_interest.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_rixhhp2wrz2hrifw2jpjc",
+   "t1_czf6fpujyfvglwohb4plo",
+   "t1_wadt5vb4oxl2a5uy6vwxa"
+  ]
+ },
+ "fp.investment_analysis.ci.two_phase_semiannual_interest.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_srxcnblox5zl2a2uk64oo",
+   "t1_y2ik42a2icn7xgtg2scfs",
+   "t1_ggcnfi2xclxhfm7zimbwi"
+  ]
+ },
+ "fp.investment_analysis.irr.after_tax_net_sale_cost.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_kvrn3syb3qnamhumiyya4",
+   "t1_fzehdedovrkjcc4qa27r4",
+   "t1_vnibpfmx54umq7q5lixom"
+  ]
+ },
+ "fp.investment_analysis.irr.after_tax_sale.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_2o27jkbcxmbqjlmq52n26",
+   "t1_krdc4wlnjpfhiayinvjsq",
+   "t1_idssx4qcyne674qznfyss"
+  ]
+ },
+ "fp.investment_analysis.irr.bond_coupon_reinvestment.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_zvggfocjr4tojn7zzc6iq",
+   "t1_j4rfbqg3gs46nqxw3nhcw",
+   "t1_pffdk2isrb2vgq2vh4qka"
+  ]
+ },
+ "fp.investment_analysis.irr.net_sale_proceeds.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_sxgkwgxjx3ega4qcnml7k",
+   "t1_ajidshc3gtmbr5uv4ze7s",
+   "t1_o7b6aqctq53kgqbrfk7mm"
+  ]
+ },
+ "fp.investment_analysis.irr.six_month_after_tax_net_sale.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_6b2ezbfl7titad2jfd6ak",
+   "t1_fvyrttnkm4enzfjvf3pug",
+   "t1_26py2te4f43ig6zy3qrsw"
+  ]
+ },
+ "fp.investment_analysis.npv.four_year_annuity_salvage_npv.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_nr5k5psz754jhlwsq4vvo",
+   "t1_2radkaiwtkx7khwuvy56q",
+   "t1_i7qbsubm4ecbmpaonjuim"
+  ]
+ },
+ "fp.investment_analysis.npv.four_year_cleanup_npv.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_zaczlwxlnn4rh6zzk7dk2",
+   "t1_jk3wwfqq7i4baagoqeo4e",
+   "t1_iedyqljugq4i4laqahzwc"
+  ]
+ },
+ "fp.investment_analysis.npv.single_year_npv.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_psfm4z7vfoghzrzit2xyu",
+   "t1_ztxznmufb2jnhdnignn4w",
+   "t1_2jjx2lqsenwwxma6a2fvq"
+  ]
+ },
+ "fp.investment_analysis.npv.three_year_salvage_npv.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_jtcsnukdw7wyrjatfebcm",
+   "t1_lzdliizs3cyjjoh55uh2y",
+   "t1_oahukot5aterghfjhrgwy"
+  ]
+ },
+ "fp.investment_analysis.npv.two_year_npv.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_pv4e4egpbetmfxlu4wtzy",
+   "t1_ny7eiqszqxakailsrnyo4",
+   "t1_72d66ynovj2s4do2rwlfg"
+  ]
+ },
+ "fp.investment_analysis.rar.jensen_alpha.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_o552apxru4kkk25rn6ui2",
+   "t1_t3jsx2eagvzwpdgyscgbo",
+   "t1_27eh4sdwjytketikhjzqw"
+  ]
+ },
+ "fp.investment_analysis.rar.m_squared_measure.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_vil32cvitmkbx3y5lqrnq",
+   "t1_zuutab4ei644l63jcgd6w",
+   "t1_2x7hanxpjiwglmiihdkms"
+  ]
+ },
+ "fp.investment_analysis.rar.sharpe_ratio.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_3yzobgozqup32cbpih26u",
+   "t1_btv74aqfzfceoo6az3zg6",
+   "t1_eu6a6m4kb26t77n7bc3ak"
+  ]
+ },
+ "fp.investment_analysis.rar.three_asset_capm_portfolio.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_4kba3w2fl5c75ipsdcc5k",
+   "t1_dvavgq7wpkn4f47rrm6b2",
+   "t1_hqlcowsbp3tivbpymtvbg"
+  ]
+ },
+ "fp.investment_analysis.rar.two_asset_perfect_correlation_sd.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ukdppumxbxixj6gcjapcs",
+   "t1_fu676estmbuf2n5rukr6o",
+   "t1_vmnwel6i5hphzolaiszcy"
+  ]
+ },
+ "fp.investment_analysis.roi.after_tax_roi.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_jjohvhlemcvodkawr76y6",
+   "t1_pbovpkcfqq4crynrrkowa",
+   "t1_ngvmthq2dvswij42ivzqc"
+  ]
+ },
+ "fp.investment_analysis.roi.compound_growth_roi.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_syqxo5dx463g457yjw5zy",
+   "t1_tg6jcckkavk4hgdpb4xt4",
+   "t1_7bhy7ydoyxuq3ncpdf7zy"
+  ]
+ },
+ "fp.investment_analysis.roi.conversion_campaign_roi.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_qqvu4yac6qc2q5lghrlba",
+   "t1_eyduv3ma64qsxj4h35num",
+   "t1_lbrhp6pskau5r7izm6kry"
+  ]
+ },
+ "fp.investment_analysis.roi.mutual_fund_total_roi.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_f66x5srxo2jc3asmqbzl6",
+   "t1_abnljrqpzjfxvhiemzpyw",
+   "t1_c6mxmklzjqpqpqkaxgcls"
+  ]
+ },
+ "fp.investment_analysis.roi.property_roi.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_xpothscwodi6cs7e2biqc",
+   "t1_lzsypjvmk73sznzt6uxre",
+   "t1_6bjmbsltim5icktkrxxy4"
+  ]
+ },
+ "fp.mergers_and_acquisitions.deal_structure.cash_payment_calculation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_x3mnabvx4txdn255xfhfo",
+   "t1_qhw2gavwd64nabi3yxzzs",
+   "t1_l7tla3xshfv2lavmphfb4"
+  ]
+ },
+ "fp.mergers_and_acquisitions.deal_structure.control_premium_debt_earnout_calculation.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_jbk7cqhkvg7vs34dhvgkg",
+   "t1_evanuxhakr2sid4lktbpu",
+   "t1_kp6ldcnzoinainqftipc4"
+  ]
+ },
+ "fp.mergers_and_acquisitions.deal_structure.earnout_with_bonus_calculation.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_h2z5pghybj4dxu2jsqidm",
+   "t1_qztzf5ouso6ryexctin2c",
+   "t1_wwpbwj5ogw53xvaryq62e"
+  ]
+ },
+ "fp.mergers_and_acquisitions.deal_structure.leveraged_buyout_adjusted_shares_calculation.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_5lk23jk3aqv5p37ccfetq",
+   "t1_6flmby6pimhxonahta24k",
+   "t1_k3ltb7kac53ndo3ihgqi6"
+  ]
+ },
+ "fp.mergers_and_acquisitions.deal_structure.stock_swap_calculation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_qftn3dvuwvf4uw67gifoa",
+   "t1_jmq6i2puklxnkx44hfxni",
+   "t1_pry2i4ey5f7lioab33nyu"
+  ]
+ },
+ "fp.mergers_and_acquisitions.due_diligence.due_diligence_after_tax_interest_cost.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_mmkfqe3ihs3tzvn36yx7w",
+   "t1_fczeiompi7h5dgxnwqsam",
+   "t1_wqqd3yvviso6v2va4jqva"
+  ]
+ },
+ "fp.mergers_and_acquisitions.due_diligence.due_diligence_dcf_valuation.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_hikdyukpq2jmqe37v6n2o",
+   "t1_ozt5awcfbdsjgdsjymhae",
+   "t1_a55cdxz7wr6addtjos7zi"
+  ]
+ },
+ "fp.mergers_and_acquisitions.due_diligence.due_diligence_pe_valuation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_3sgluincbxcvam2nnam3e",
+   "t1_3chrrxre4jg4qojoftyxi",
+   "t1_r4ru6evmxptvwog3x2dn6"
+  ]
+ },
+ "fp.mergers_and_acquisitions.due_diligence.due_diligence_synergy_estimation.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_fsmzbhzpkd4iudtb5zzcc",
+   "t1_udyxpwb7pjfjjqoqmra62",
+   "t1_7oabv43rqo5xaclxiuqdy"
+  ]
+ },
+ "fp.mergers_and_acquisitions.due_diligence.due_diligence_working_capital.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_tntdm223bixisttfjwycw",
+   "t1_3zyr7rxjfrp7lu6t2ehss",
+   "t1_3wetpv3up6isjykgeonta"
+  ]
+ },
+ "fp.mergers_and_acquisitions.post-merger_integration.integration_cost_reduction.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_pjgw3tzmbcy52m644wbxu",
+   "t1_okh7b2lt5bkiprod2yao2",
+   "t1_rxti63tqvvy2lvgfzctro"
+  ]
+ },
+ "fp.mergers_and_acquisitions.post-merger_integration.integration_synergy_calculation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_mgeoxcwvm4vqyjtjynn3a",
+   "t1_rzrjzo6ccslmnzcaxfo5q",
+   "t1_ampvsby4mmwml3tbavry2"
+  ]
+ },
+ "fp.mergers_and_acquisitions.post-merger_integration.revenue_synergy_net_gain.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_7mvlawspzm3rv2kqhptqc",
+   "t1_k3juh5c3637wkje3ode5c",
+   "t1_k7nrcmzdd2rxqyigaxu4y"
+  ]
+ },
+ "fp.mergers_and_acquisitions.post-merger_integration.supply_chain_npv_net_benefit.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_mhk2lpq3erryrn7n7pp4y",
+   "t1_jmkv3s4dtwvggqlcl4akm",
+   "t1_pufke4of6hvwj25y5rpf2"
+  ]
+ },
+ "fp.mergers_and_acquisitions.post-merger_integration.valuation_adjustment_after_integration.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_whl4nb3gneyp7mulofgvq",
+   "t1_w2biactigkxrsweyykewo",
+   "t1_4vgpl7yal3fvezr37cgoq"
+  ]
+ },
+ "fp.mergers_and_acquisitions.synergies_and_cost_savings.synergy_basic_cost_reduction.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_qnzjjrp4xbyj4tl7svowq",
+   "t1_67n4qcibndwervuznr5wy",
+   "t1_kaiax3sq4nxqqs6nqn24e"
+  ]
+ },
+ "fp.mergers_and_acquisitions.synergies_and_cost_savings.synergy_basic_fixed_savings.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_em6e6f2q2tvpu67r6xfru",
+   "t1_ssnidc6asgyszhpf5i35u",
+   "t1_w3r26zwbhqabuns3tiv4m"
+  ]
+ },
+ "fp.mergers_and_acquisitions.synergies_and_cost_savings.synergy_complex_after_tax.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_rzl7recaeld3ap5awdby4",
+   "t1_wtto3purt3hrbmqx3uttk",
+   "t1_2px7oyaw6pmygpz23og56"
+  ]
+ },
+ "fp.mergers_and_acquisitions.synergies_and_cost_savings.synergy_complex_multi_category.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_evptrn2j3zhbkokm76boo",
+   "t1_2r4buytjcqo7chvh5u3rs",
+   "t1_wjznijnuahokequgxgx76"
+  ]
+ },
+ "fp.mergers_and_acquisitions.synergies_and_cost_savings.synergy_complex_net_savings.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_uvloqs4vbu3v7midvsrcu",
+   "t1_hmbsqts52koaapw6utlpc",
+   "t1_h5dp3nkouebxsrw2bo5oa"
+  ]
+ },
+ "fp.mergers_and_acquisitions.valuation_methods.comp_ebitda_multiple_with_net_debt.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_wibzrcj2s7td6hkbv33bo",
+   "t1_ado5bytmvqfmtz3q5qp24",
+   "t1_qazhnybjjrvqbrr7mwmg4"
+  ]
+ },
+ "fp.mergers_and_acquisitions.valuation_methods.comparable_revenue_valuation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_3lzkravnysyqjcpcxq7sc",
+   "t1_fvree5juidqtgvipmxqkk",
+   "t1_dg6ba7ee6tfx3w3n3z67k"
+  ]
+ },
+ "fp.mergers_and_acquisitions.valuation_methods.dcf_3yr_gordon_to_equity.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_xpcitvmvcat3piqd75byw",
+   "t1_443arelwzdoevoqnevobw",
+   "t1_itbmm6evg4kqwgc4wtq3w"
+  ]
+ },
+ "fp.mergers_and_acquisitions.valuation_methods.dcf_three_year_terminal_to_equity.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_vdknm37nuc3o7jgyjp5la",
+   "t1_ofsuqr4bz3ikdwitcla7m",
+   "t1_cb5yg4cpgzjad3sfodtam"
+  ]
+ },
+ "fp.mergers_and_acquisitions.valuation_methods.ebitda_multiple_valuation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_wxba5kbkc64ap53f2i2dy",
+   "t1_vjdagijwqif65gxsz3yx4",
+   "t1_ahinpqjz5dwuwzlolalhm"
+  ]
+ },
+ "fp.personal_finance.budgeting.cost_reallocation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_lfxh32x6qkaexgapex4f6",
+   "t1_kfsqryv2av43dfzb2u3ek",
+   "t1_uzfntlfi4msspczjkedge"
+  ]
+ },
+ "fp.personal_finance.budgeting.cut_reforecast.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_swugoi4vcfrgdcd5g4xo2",
+   "t1_jzg2lczjlhaf5rneolklc",
+   "t1_bffwfusw7oljxuliqflea"
+  ]
+ },
+ "fp.personal_finance.budgeting.long_term_growth.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_bee6sjm5s25upekglaa6w",
+   "t1_lzlkhiaikpg62u7hpfaqm",
+   "t1_kq3pbf66q7f7epkwhhbn4"
+  ]
+ },
+ "fp.personal_finance.budgeting.project_adjustment.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_zjgxwyvyruxqpzpsgquac",
+   "t1_i4pnekgnbtxp3r6ykggga",
+   "t1_qqg63uetevynvnlm27kio"
+  ]
+ },
+ "fp.personal_finance.budgeting.simple_allocation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_47ifuwvy7dwo7hkcnmsa6",
+   "t1_655qeir6tb26wptm6rrh6",
+   "t1_vpwqhdfp5whoj53qyiuuo"
+  ]
+ },
+ "fp.personal_finance.loanrepay.early_payoff.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_j4ldcewfif6c5cy7kxluy",
+   "t1_clzcaqohwyol76nceykks",
+   "t1_paos67l5wp7pt75yup42w"
+  ]
+ },
+ "fp.personal_finance.loanrepay.extra_payment_total.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_fkle5vyxfdqhcua34mmqk",
+   "t1_3tastcxwwoambkvqz2huc",
+   "t1_x3rs73zw24q6lrwqsjtwu"
+  ]
+ },
+ "fp.personal_finance.loanrepay.monthly_installment.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_l6ueelw4kxvpuzhaypquy",
+   "t1_qmgmehjd3dnblm3vkkuzm",
+   "t1_kkomr7jvwwhrz6uqkr6c6"
+  ]
+ },
+ "fp.personal_finance.loanrepay.refinance_benefit.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_mh35sejyhyn6rl5wbgcpk",
+   "t1_fpdt3urj74ogjxror45og",
+   "t1_4t76btfvxjhhnjomtzplg"
+  ]
+ },
+ "fp.personal_finance.loanrepay.simple_repayment.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_rog4e64jlrz633uyc44wu",
+   "t1_prqpd37qb6jgo2amezjpc",
+   "t1_eu6hnfjoc7j4tkbfbez6g"
+  ]
+ },
+ "fp.personal_finance.personalinvest.compound_growth.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_jfauoxro4ozfwocb5cbz2",
+   "t1_4g6fmoal6gsx2ffbr3rc4",
+   "t1_ayb6mioqh6gjztk3axnuc"
+  ]
+ },
+ "fp.personal_finance.personalinvest.diversification_risk.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_hfjdnydre6ckpzw523sos",
+   "t1_ihbajbf6gbargpucsgksk",
+   "t1_xz6vfyrwsjtilprrbubii"
+  ]
+ },
+ "fp.personal_finance.personalinvest.portfolio_allocation.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_4jdui2w7ngmm4atmjwfaa",
+   "t1_b3rah5imajty57shzjdx2",
+   "t1_cfkkpp7r3obj3kvd4puy6"
+  ]
+ },
+ "fp.personal_finance.personalinvest.volatility_band.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_lrg6an2cczdsqe4zoluve",
+   "t1_mj5akm3vyo3eat5y5sv3m",
+   "t1_shwb422jrbqvhsndmzmks"
+  ]
+ },
+ "fp.personal_finance.personalinvest.withdrawal_balance.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_h4nltn6c5crfkpicj26zo",
+   "t1_6wjnsiv7xvux6efnux4x6",
+   "t1_yaqnp5pzbpikxmdanioiq"
+  ]
+ },
+ "fp.personal_finance.saveretire.additional_saving.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_nuvcuzulasafllpyq3z6i",
+   "t1_m7ozzmmdsybrrdcmmwraw",
+   "t1_okoj2ecvkkz6tfs253xvu"
+  ]
+ },
+ "fp.personal_finance.saveretire.early_retirement_bridge.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_tbvr2h3rg4flb4hhmw23c",
+   "t1_dl6fvoy6lp6bj7h3uqiz6",
+   "t1_djyipx2jual7eqf5r7gve"
+  ]
+ },
+ "fp.personal_finance.saveretire.inflation_adjustment.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_dbqmq6slfrh5k3rhn6tqa",
+   "t1_f4jciwfzkfjlgnbbvasde",
+   "t1_ixkynnmmlcn2tmzfqyuae"
+  ]
+ },
+ "fp.personal_finance.saveretire.one_period_growth.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_vfo2mji2tga365kbrjxdc",
+   "t1_vltiz7apblaetws5q2dxs",
+   "t1_5trn7ojozlvjwtmefry4y"
+  ]
+ },
+ "fp.personal_finance.saveretire.years_to_target.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_abi5wonslbqvty3o37524",
+   "t1_yvyteamxcrdushqs47v6w",
+   "t1_7ofkxe6qw5pghsd7oq25s"
+  ]
+ },
+ "fp.personal_finance.taxcalc.capital_gains.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ufd3hlbjjcnjwvgg45pla",
+   "t1_oxsbbpjr3vap6g6nv5brg",
+   "t1_3dahfuee3sflwbpchsrgi"
+  ]
+ },
+ "fp.personal_finance.taxcalc.flat_tax.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_fsz5fxhphgh3phewbpn4e",
+   "t1_juu7jaw45kbh5muy2qfqi",
+   "t1_bfgduwmuubxzq3ic6f5nk"
+  ]
+ },
+ "fp.personal_finance.taxcalc.foreign_tax_relief.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_5nn7wo6fpvro4rmjga3ug",
+   "t1_f2zmujneliymsuxaajnho",
+   "t1_q4j33dtkpmskzns47xx52"
+  ]
+ },
+ "fp.personal_finance.taxcalc.itemized_deduction.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_tdc5aavkignyv2faaikoq",
+   "t1_c6dlzf6eziviboqdhqdcm",
+   "t1_xhq2gkh7vzdtkntcknudc"
+  ]
+ },
+ "fp.personal_finance.taxcalc.standard_deduction.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_qwd3ls5wvtermphvrmgyi",
+   "t1_dp57hrgqqmaugpddinnye",
+   "t1_gj74hfwssvsfuofwbvywu"
+  ]
+ },
+ "fp.risk_management.regulatory_compliance.capital_requirement.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_kacbjmnc6ox5g7klhzkgw",
+   "t1_4a6mz2tieqh2voc7e3ve6",
+   "t1_oewsmrt74n7a4f2ugqbkm"
+  ]
+ },
+ "fp.risk_management.regulatory_compliance.capital_shortfall.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_n2zfmwh4lqohp4qvagao6",
+   "t1_ymwn6l5irpkueq4adud6s",
+   "t1_v6lzf5g2kertsdrpdmuhc"
+  ]
+ },
+ "fp.risk_management.regulatory_compliance.compliance_penalty.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_wowaf2yv3bm4ffcxmd2pe",
+   "t1_l2xx2mxhz4vj3axuv2s4m",
+   "t1_wescwdmaeobjesempwbzy"
+  ]
+ },
+ "fp.risk_management.regulatory_compliance.liquidity_gap.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_hisdttqfnzcbur36covvw",
+   "t1_nkyhnf4do52naesjtzdcq",
+   "t1_qnpmheg4fmvcwe2ak5ijm"
+  ]
+ },
+ "fp.risk_management.regulatory_compliance.multi_factor_regulatory_compliance.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ijzio6mrzecxetqzigzsm",
+   "t1_chkvta2qnbrobztk6n7mw",
+   "t1_mix4yb4qgc3zhy4brqdk4"
+  ]
+ },
+ "fp.risk_management.risk_appetite.capital_allocation_risk_appetite.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_bh2uo23yqmiry3qykepd6",
+   "t1_3zqjdt3vdtifozllly5aq",
+   "t1_xqehpil6mxvowdn2hzepy"
+  ]
+ },
+ "fp.risk_management.risk_appetite.multi_factor_risk_appetite_assessment.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_vaevfw6ktdlzfz753pgv4",
+   "t1_x62cxlz3jrobxymqsqwvs",
+   "t1_ywb4ylzqzj4lstv36gshg"
+  ]
+ },
+ "fp.risk_management.risk_appetite.risk_adjusted_return.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_uhtjios7d26ziz2i2xebg",
+   "t1_rkf4gdmjouyjyw3agluey",
+   "t1_pc7x4s7hjifjacx7uglwa"
+  ]
+ },
+ "fp.risk_management.risk_appetite.risk_exposure_limit.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_cth2d6uupzh2moyhnq7n4",
+   "t1_hkaywnj6ajwuid3lm5api",
+   "t1_getxx7jgf2ljlv3noz3fy"
+  ]
+ },
+ "fp.risk_management.risk_appetite.risk_threshold_measurement.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_dxpbt4nazmrr5spxi2vym",
+   "t1_fb3uep5jnupejwo7hd5qm",
+   "t1_oqxjwur5d22g7h34f4h6y"
+  ]
+ },
+ "fp.risk_management.risk_metrics.liquidity_risk.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_4g5lafz33b6bfgxoyf5ic",
+   "t1_frifyhgjwu5uqoyfjl3rw",
+   "t1_tmfzxhjgygsm55kwx44mw"
+  ]
+ },
+ "fp.risk_management.risk_metrics.multi_factor_portfolio.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_abg6jkbozymexdrf7ybqa",
+   "t1_ha4dup6h5mn3ecz322ulq",
+   "t1_2qolqitgaxljnzjaeew36"
+  ]
+ },
+ "fp.risk_management.risk_metrics.portfolio_var.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_23cbwbomfrrecyub3xfe4",
+   "t1_vtazmekkpuvm3chx6jgwg",
+   "t1_6rfqrqezeqsvatuspmg3e"
+  ]
+ },
+ "fp.risk_management.risk_metrics.stock_sensitivity.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_r34gtrjt5zrrbobsko3bg",
+   "t1_3wjjsmiefarogmcaydvrq",
+   "t1_hsjao2vgmo5kwfdkenxmu"
+  ]
+ },
+ "fp.risk_management.risk_metrics.volatility_sensitivity.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_77oud3utjwdiefnakt3oa",
+   "t1_5rbchysnjhwpvdhvias4u",
+   "t1_sk4akvq74dz5e35h55fyw"
+  ]
+ },
+ "fp.risk_management.scenario_planning.interest_rate_impact.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_mkycodi3kfpvpfpcv7p36",
+   "t1_37mdallyixnzdqhzyjwts",
+   "t1_mn54qg6qevg3trbs7yiwi"
+  ]
+ },
+ "fp.risk_management.scenario_planning.investment_scenario_planning.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_7wyucbvudz4xx43bubhjw",
+   "t1_l4aozr3vnovphwblt273c",
+   "t1_gejfdkyy2yycweostr3ga"
+  ]
+ },
+ "fp.risk_management.scenario_planning.market_downturn_revenue.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_tqel6632vez3z5vkwiqwk",
+   "t1_ksbgjwtkfsygcc5lixg5m",
+   "t1_g7dzl5nw3atbjumgpauna"
+  ]
+ },
+ "fp.risk_management.scenario_planning.operating_cost_increase.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_6ahwq6wbqspz7dbixgrv4",
+   "t1_4tpcs2goh7tz2yaxr5xzi",
+   "t1_zmax4cjslazol2bizsmx4"
+  ]
+ },
+ "fp.risk_management.scenario_planning.revenue_recovery_effect.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_3otfknhf37uadhaj77pyg",
+   "t1_q55hftflrb2a3l6qsx7ly",
+   "t1_kqt5kr34bbzehd2m2w3ye"
+  ]
+ },
+ "fp.risk_management.sensitivity_analysis.multi_asset_portfolio.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ung2vbxly7wpjhz3sk7bg",
+   "t1_gxpo3aywlawmyqjqvqni4",
+   "t1_lag6jwrj6d3zrgf5stzpq"
+  ]
+ },
+ "fp.risk_management.sensitivity_analysis.multi_factor_portfolio.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_75plrcixjcnlyqwlqyss6",
+   "t1_fj3p6ufux454yft673g6w",
+   "t1_uzcu7jipbu3xupk35j5fk"
+  ]
+ },
+ "fp.risk_management.sensitivity_analysis.portfolio_single_factor.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_agdjaa5vr7dgpgpcon4e4",
+   "t1_dim37kfvztnlme3bqubuo",
+   "t1_ceru5x5gzdbfsbkl4psk2"
+  ]
+ },
+ "fp.risk_management.sensitivity_analysis.stock_sensitivity.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_xmoc25vdqamq3zm3euszw",
+   "t1_ftzf6jlngtzq4fpj4ncgq",
+   "t1_vtnyny64x5ot42emukbfo"
+  ]
+ },
+ "fp.risk_management.sensitivity_analysis.volatility_sensitivity.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_oxcugembuqjnbpv6mm576",
+   "t1_wjhdkos6noqujlzwvpot4",
+   "t1_75i4ithfr6mdvclabg3ng"
+  ]
+ },
+ "fp.risk_management.stress_testing.multi_asset_portfolio.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ki7f5elh3geabd2ijsdxk",
+   "t1_j53drlr5tggp4aqbqe32a",
+   "t1_lwace7qxd3mwjl6qxtzdw"
+  ]
+ },
+ "fp.risk_management.stress_testing.multi_factor_portfolio.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_2sgj6n37hmshfhefc6q46",
+   "t1_5b3uhoeohvawhfg266aqk",
+   "t1_bseh2zwikxkgkh5oyv4y6"
+  ]
+ },
+ "fp.risk_management.stress_testing.portfolio_single_factor.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_dcskica7oah25rnbvc2go",
+   "t1_gletb7jh3pxdzq7veuzhu",
+   "t1_omvexo4mbzorcjgto4tgi"
+  ]
+ },
+ "fp.risk_management.stress_testing.sensitivity_of_stock.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_chs7dogug7x5hdjeoa7wi",
+   "t1_hw2foz4ptxdaxk2ewmc7m",
+   "t1_rfhmypfinddjdcl5apthk"
+  ]
+ },
+ "fp.risk_management.stress_testing.volatility_sensitivity.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_dhqz4ze4vldxthvrtst2s",
+   "t1_g64fyc7ezbtd6epo7jfv4",
+   "t1_2pbw5b6424jxwkqml6eck"
+  ]
+ },
+ "fp.risk_management.var.multi_asset.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_saj7lrouk7mbxq3qq6vmk",
+   "t1_im6x5jvpmshehw5lumaym",
+   "t1_rfeeqrvfkkdot3g62tpkq"
+  ]
+ },
+ "fp.risk_management.var.multi_factor.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_yeemkl4zqjkapfowinyum",
+   "t1_jqpwmeeqxgkicxpptls7y",
+   "t1_servqckq7rkkhpu2n44ae"
+  ]
+ },
+ "fp.risk_management.var.single_asset.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_yypnznxfpvccolpqadxza",
+   "t1_t4kmwyl26bffte4gq23ce",
+   "t1_zfazgv5lrncw5s4qakwtw"
+  ]
+ },
+ "fp.risk_management.var.stock_return.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_jt5ml3abb2ibk7i4jym3c",
+   "t1_gch3kvyr36ftzlqt6qlz6",
+   "t1_cpustgjyancwa72czkyya"
+  ]
+ },
+ "fp.risk_management.var.time_horizon.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_fky7yx37deje2cqgsa6v2",
+   "t1_rwnjqcclbhklj5alwfa74",
+   "t1_ytawjd2x4slirtfbuty2a"
+  ]
+ },
+ "fp.sustainable_finance.carbon_credits.comprehensive_strategy.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_4yaoptzi3spb47u2r6r6m",
+   "t1_lwk3q37ab7ymppr55edzs",
+   "t1_77c7g3txhgg5ze7s7oilk"
+  ]
+ },
+ "fp.sustainable_finance.carbon_credits.credit_purchase.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_k2xp6tufqetgcpi2or7zy",
+   "t1_sfrk3qlgl6gqgi6l4reyy",
+   "t1_e7wku2zgwc5y3l2a2lotg"
+  ]
+ },
+ "fp.sustainable_finance.carbon_credits.credit_rebate.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_cb65nrn5v3mc3low3hfrg",
+   "t1_ojwiremfn4o32tx44uzim",
+   "t1_rnjxlmx2nfm4dvz7rs63m"
+  ]
+ },
+ "fp.sustainable_finance.carbon_credits.multi_company_synergy.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_p7m7aeqapohy6p2e36njk",
+   "t1_44iotizxspu2uikq4tcns",
+   "t1_vrisqo4ksf3hosiyjvbp6"
+  ]
+ },
+ "fp.sustainable_finance.carbon_credits.offset_cost_savings.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_rf42hdbr63547hshzyaj2",
+   "t1_3fu7uhukbizp5ikrthx2c",
+   "t1_k4psdoujqg2hxv2lktenu"
+  ]
+ },
+ "fp.sustainable_finance.esg_investing.dual_savings.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_lwkg4lekhghrqnrvk4e7g",
+   "t1_xjomchcqziyt5rmamudeo",
+   "t1_j3bbrnmwbfjhfp4cia4gs"
+  ]
+ },
+ "fp.sustainable_finance.esg_investing.green_bond_yield.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_mxmt2lnrdf5b3e5fb4rbs",
+   "t1_clqsqtdtaaurj254gwddw",
+   "t1_3tkhxbku36fwwlq4o42xc"
+  ]
+ },
+ "fp.sustainable_finance.esg_investing.multi_factor_synergy.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_zeukhgsudczxd4fh4oafy",
+   "t1_xeobmmgremdqpp2fpxmtq",
+   "t1_kfdbwiud7hs36sloydyu6"
+  ]
+ },
+ "fp.sustainable_finance.esg_investing.project_roi.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_hv6gs2k4au3zgjcsrzd4s",
+   "t1_ket7a6k6ttx52kbxi52im",
+   "t1_4m2twwa7j6e3gymhzgmfo"
+  ]
+ },
+ "fp.sustainable_finance.esg_investing.simple_cost_savings.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_wq4uwvhfbcuctq5zoycew",
+   "t1_7atrgg6ibvyhrxabfzj5e",
+   "t1_3lj7utms2cxxvlkvjmj4u"
+  ]
+ },
+ "fp.sustainable_finance.green_bonds.compound_yield.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ebft4ziumtki5ba3rvf76",
+   "t1_e7gitmkisjz4epemnx5tg",
+   "t1_764k5lc52j2r43a5fjwte"
+  ]
+ },
+ "fp.sustainable_finance.green_bonds.comprehensive_analysis.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_d7gybrk36ivomoco5gjdm",
+   "t1_z2h4pxu6vtsutbd77ie5w",
+   "t1_s5d56zmt5ngr7xhu6w4ew"
+  ]
+ },
+ "fp.sustainable_finance.green_bonds.financing_cost_reduction.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_tob4ynr2hqlzn5xquvdlw",
+   "t1_5aotkcv54i5at4l4hn5fi",
+   "t1_zl2r54bog7yqk5t6sdl3w"
+  ]
+ },
+ "fp.sustainable_finance.green_bonds.synergy_benefit.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_kbzunrc6sun2x3g4dm32s",
+   "t1_23zeklp2b4jhks7xndrpq",
+   "t1_fdceafekxi7cakw3zfu4q"
+  ]
+ },
+ "fp.sustainable_finance.green_bonds.tax_incentive.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_vdko35pucceafhgr6whgg",
+   "t1_o2tb6illqelmfjdfgiz5w",
+   "t1_7hqh2ux7xc2ggo43llv2w"
+  ]
+ },
+ "fp.sustainable_finance.social_impact_investing.combined_cost_tax_savings.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_7okwf6ohsl6drut6xpzes",
+   "t1_ddgnvdpimlzpi43f2bqoa",
+   "t1_xghunwho5nv2l2z4tmwmk"
+  ]
+ },
+ "fp.sustainable_finance.social_impact_investing.energy_efficiency_savings.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_fgbfsnyx6nl74fleryf3m",
+   "t1_hjww27temhholyseeryk6",
+   "t1_oy2rtdztqdfcwl2zgaxqy"
+  ]
+ },
+ "fp.sustainable_finance.social_impact_investing.financing_cost_reduction.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_uepnbgh7ecabhdntdwzxo",
+   "t1_czyvjbsuufwwmvfikkvyu",
+   "t1_lbjsoyrmu5akcmjimd7dq"
+  ]
+ },
+ "fp.sustainable_finance.social_impact_investing.multiphase_investment.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_zfdrdfnakapy3v5coxbt4",
+   "t1_3au5427hgj6tefagomud2",
+   "t1_a2sfvlkn3gx7fj2qu36fe"
+  ]
+ },
+ "fp.sustainable_finance.social_impact_investing.supply_chain_integration.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_sqnbdb3z5p4jdt4gfp2zq",
+   "t1_t2pmabxfppjsoghddbxjc",
+   "t1_jq6urxlav5vcy2seuell6"
+  ]
+ },
+ "fp.sustainable_finance.sustainability_reporting.dual_operational_savings.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_7fkrl45d2fyb4urwy2gzc",
+   "t1_szuhcfssjo4fowqmijkus",
+   "t1_2dhirzkynqb6xalzauwvw"
+  ]
+ },
+ "fp.sustainable_finance.sustainability_reporting.energy_cost_savings.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_ieas5tyiduetwmy7iuxrw",
+   "t1_dibtbkoalc2btqqjjfc2g",
+   "t1_aplpa7l7ufcflueku2rfw"
+  ]
+ },
+ "fp.sustainable_finance.sustainability_reporting.supply_chain_savings.intermediate.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_hzu2rhpxibirwvce5mg4y",
+   "t1_d6oznv7f4c7o7gif3fz6i",
+   "t1_blvwge6ewilrjdoj2pfto"
+  ]
+ },
+ "fp.sustainable_finance.sustainability_reporting.sustainability_roi_analysis.advanced.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_dhxgu5ozwxlatt3aqc2kq",
+   "t1_5eqaofddozxrjwxarz722",
+   "t1_xoor5jutxfou3qj34lzv6"
+  ]
+ },
+ "fp.sustainable_finance.sustainability_reporting.waste_management_savings.basic.v1": {
+  "kind": "proxy",
+  "case_ids": [
+   "t1_yfkhyj4a5ajg7h5bysnnm",
+   "t1_hn4xfkocyddnyfw7v4hca",
+   "t1_j4r73mg2v3io6ntsvcgfa"
+  ]
+ },
+ "h001": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_22fssfijtudmqkacxy252",
+   "t1_bde7ujoeqgyzto3tyn7rc",
+   "t1_bobr6f7eip7vx7crcx3ls"
+  ]
+ },
+ "h002": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_23an3zdwszbc7fnpqojo4",
+   "t1_2qsrspxc5gnpiaedbnjv4",
+   "t1_ysvpffbkd43zl6d7rajke"
+  ]
+ },
+ "h003": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_2em4ib7qnlsffamiokpcg",
+   "t1_7wpajvpxryr6tqfsuntps",
+   "t1_ppcv5yxoogssakarsfhla"
+  ]
+ },
+ "h004": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_2fj6f2wc3dz67kstnl5ik",
+   "t1_hr3fsphtnhid3sprgpw56",
+   "t1_u5esjzrkjmpu3ykl4u6bo"
+  ]
+ },
+ "h005": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_2ggyp2vmmf5k3l5yzqdjk",
+   "t1_pnelawedzzyh33iyy5se4",
+   "t1_zccowwqsuall53qwhw75u"
+  ]
+ },
+ "h006": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_2h33ohc4sfqtc7tdl2iye",
+   "t1_4ghn56bewcwqy7dcm54fu",
+   "t1_avxk35ar6aizumyfmrin6"
+  ]
+ },
+ "h007": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_2m2e4aqw25hkyredlbyuo",
+   "t1_5hbrepcaq63b3yvhmfq5e",
+   "t1_flv2pprwrlewdxjahus2g"
+  ]
+ },
+ "h008": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_2p7jxf5ruvcfmxvjo37y2",
+   "t1_3p5qcmfqxj7f3vsufqniw",
+   "t1_xltqz2wvxvheo7gj5dz2w"
+  ]
+ },
+ "h009": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_2qo73ablqa6d5jdwyi3ps",
+   "t1_dnmxiqyxbzk6uvizsbcbm",
+   "t1_opm6lxzsbqdyqnthvsl5o"
+  ]
+ },
+ "h010": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_2ve7ogjulw6g3bxzwv4sm",
+   "t1_gqdpxfjf7pl7jdbhv7pnk",
+   "t1_wpg3n3qvyju3crtfc2qxu"
+  ]
+ },
+ "h011": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_2vhqeflyl6yukmhkk5wsa",
+   "t1_dtcq3nmm6o7sz5p3fnoa2",
+   "t1_gmpopcfaanawfvpna7sqq"
+  ]
+ },
+ "h012": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_2yjpyaop7ywpd2hybz3ac",
+   "t1_arwlvxiaptuvkyyq5fyci",
+   "t1_ya2hfdiqktoujqbuainkw"
+  ]
+ },
+ "h013": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_33hmke3t6w7fswxxdcyek",
+   "t1_75hv6n7kzofkadbxbphes",
+   "t1_plqmv4jswglfiibv3fybk"
+  ]
+ },
+ "h014": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_3aipvkpjzoryvi4jkvmq4",
+   "t1_hhzku6ff6f2v4f4gytdnc",
+   "t1_wwcsabvam2t4ck5uou6j6"
+  ]
+ },
+ "h015": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_3d5vawvis23xeixtwu3ay",
+   "t1_pveobdbkk5goavov5iyva",
+   "t1_rhbogqftjljga227dcaak"
+  ]
+ },
+ "h016": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_3hbs2b5a5uqocfkbrbvfi",
+   "t1_ao6bjeyu6s3wocnr4p3oy",
+   "t1_zq6wjgtn7abkacv4drcsc"
+  ]
+ },
+ "h017": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_3j42mq2dlsrml4dewkrwm",
+   "t1_7b55lrpmarmqvpw77av3a",
+   "t1_owtxhmx7vputhr4qkigj2"
+  ]
+ },
+ "h018": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_3oaa3gm4vh24rdqm55llu",
+   "t1_wj7gj3ukb4b27wknt64zs",
+   "t1_wxozu3vyetaizbyzlngdo"
+  ]
+ },
+ "h019": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_3ogroffcortpslex6ehjq",
+   "t1_rq4y6loazf54xhcfyao22",
+   "t1_snbjumosphy7ffiitku5q"
+  ]
+ },
+ "h020": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_3v2pzyuge2snqwyidwqxq",
+   "t1_6iaugpmsrstqp7ejornni",
+   "t1_m2qtxyjlxkikcs33lmvs4"
+  ]
+ },
+ "h021": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_46e6pywda3gjnr5nbn5g2",
+   "t1_bt3z23bnksghmg4rsxqpe",
+   "t1_rxjv3dlef7ceur3nke2ke"
+  ]
+ },
+ "h022": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_4gs7si7dgfcjdu4m7tsgg",
+   "t1_ce4sldb2yoyawhknpumbs",
+   "t1_v3dt5eqjmihjdymwt2tdy"
+  ]
+ },
+ "h023": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_4hsn7z73yc5ctgyqmom3y",
+   "t1_rfhtocnkbut7d3o7436uk",
+   "t1_vnqutjkfyjtl6c63dj2ck"
+  ]
+ },
+ "h024": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_4ngrvbqgai6vgveg3jfbo",
+   "t1_d6czs24fa4f3vy4kelp7w",
+   "t1_ofqwkb2frqtndhujw7n5a"
+  ]
+ },
+ "h025": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_56ahdr57pycvfu5calkiq",
+   "t1_buytxrpcghtkrmjd2hxzm",
+   "t1_gpdjkdxfumizi2x7uxtlq"
+  ]
+ },
+ "h026": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_5ar2imm42txclles7vppu",
+   "t1_qnzrvm3xwmzlrqnibdhbs",
+   "t1_ynvfdpblvyqohrnedxo2u"
+  ]
+ },
+ "h027": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_5ethmih55hphgzfgzws6m",
+   "t1_oizxsx7eimjbhkjxgwq6k",
+   "t1_zdaoz4ty34ikegwajhcxi"
+  ]
+ },
+ "h028": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_5gz4cw5yqfjohwbiwhl7y",
+   "t1_rjgt7k2crinvmnjczuzha",
+   "t1_yewhwuvgexiitl4ok2lbm"
+  ]
+ },
+ "h029": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_5inkyvtdkz3ubx6ffj3aq",
+   "t1_k64urpkqsueev4izay7ks",
+   "t1_yqji5tbfi2clmad4dx5vo"
+  ]
+ },
+ "h030": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_5khboidtf6s3eu4gfytfy",
+   "t1_ggujuf22xwhtkzrfmieck",
+   "t1_m2qye2lyxzvftxi7nrfda"
+  ]
+ },
+ "h031": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_5snfeqvks5hdtz2p4m5kk",
+   "t1_j4k4lmii22upus5uzmauq",
+   "t1_lpednxja6o52zdp65cq3u"
+  ]
+ },
+ "h032": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_66zm67vlsvs23i7lu6fqk",
+   "t1_ug7imupk6ln4z7c34l2fy",
+   "t1_xjblsdhgo47uqbchj2dbe"
+  ]
+ },
+ "h033": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_6e7zubf3rvoply63kq5lm",
+   "t1_jin6yi3ltp5slih3vfvh4",
+   "t1_urr3lfubvf4qdx4psfnhe"
+  ]
+ },
+ "h034": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_6ldyzkmouq5b7juyevswo",
+   "t1_gdphndrbun7v6qwxkix4w",
+   "t1_kwndgdl4thj4cxhl2arne"
+  ]
+ },
+ "h035": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_6n5geqegwcfszqbtafmae",
+   "t1_famny7xecrw6quhlrzcoo",
+   "t1_qtgycrlavrrcu7fd25eaq"
+  ]
+ },
+ "h036": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_6xsvdhdhnep3qko35gn2m",
+   "t1_eq5ao4kybfocggsgbohpa",
+   "t1_qb5s46adyq7inmvjiz6a6"
+  ]
+ },
+ "h037": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_74wyxngjbbz6623bxbozg",
+   "t1_hecax2jrazttjmg6esc34",
+   "t1_rjgiglpwirt6yfiq6z4ko"
+  ]
+ },
+ "h038": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_75srcm3y6cx5ceig6s2eg",
+   "t1_7ulzthlyfkwikpqiufqok",
+   "t1_n27c7u3degdl4zpw2jrwq"
+  ]
+ },
+ "h039": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_7haysv33dfi2i5ld6bqzi",
+   "t1_cff2rp3qh5yhfj5mgmt5w",
+   "t1_sleecy6wabuunvejabl3w"
+  ]
+ },
+ "h040": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_7nf3qyzrtz5lettqg5skk",
+   "t1_skxzjpfqrsw25tn463ti4",
+   "t1_vubrlykmrapylvetpspec"
+  ]
+ },
+ "h041": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_7o5ikpeffr6pfimpxlkv4",
+   "t1_acs3hnmtvr6fvgi4budtc",
+   "t1_lw7njmfuwivrrentlzlhc"
+  ]
+ },
+ "h042": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_7o7czxboabcsfhc26365k",
+   "t1_jdzpnjyimh7b2oz7dlw4w",
+   "t1_ntrvbnksncp7dpptmcxiy"
+  ]
+ },
+ "h043": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_7tpvozkbs6zsvafesrrzq",
+   "t1_gceqzlpeemm3pmq55enmk",
+   "t1_yrt5cns3pz3bnhuahzpx2"
+  ]
+ },
+ "h044": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_7ufeprkc6mxm54xvw44ui",
+   "t1_igmuoeiz6u22cyx4i3q7q",
+   "t1_xjropb5ujd2j4too74bjm"
+  ]
+ },
+ "h045": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_7uo4nhqq7vlux7mzfzqu6",
+   "t1_fli7ehul3z625onfoumu4",
+   "t1_heh55damadekon7hpr4ue"
+  ]
+ },
+ "h046": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_7x4olykyj3g5tfuthawro",
+   "t1_cyderntqcljwptiuovayg",
+   "t1_wynv3xgkgjv4i2sdztr2g"
+  ]
+ },
+ "h047": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_aainix2n2evcofson5cta",
+   "t1_kw5bnndzgl2xxsoxjznku",
+   "t1_wbmsfmdhbw3udothxv5x2"
+  ]
+ },
+ "h048": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_abnkb3gcv72hqhx7xlqlu",
+   "t1_ol54ju57chprgdce26skm",
+   "t1_r3zbejyqwf4t26h47utv4"
+  ]
+ },
+ "h049": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_ac4brczqkdjaa46lglt2o",
+   "t1_k3zhx7psoksfu3qixfbyu",
+   "t1_rttnucw5hjs3kzvsotbyc"
+  ]
+ },
+ "h050": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_aen3saojkqnpyzv3dhel2",
+   "t1_fghqqksft6iiky6cfbcsw",
+   "t1_xq77hrnbsiltgn3cwbewo"
+  ]
+ },
+ "h051": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_af5p47x3l33t7vuwjp6h2",
+   "t1_rfrb3wvbkigy47owegk4u",
+   "t1_wnbhyl7oy52rf26rap7jk"
+  ]
+ },
+ "h052": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_aggrp7dxfnskvykyayswu",
+   "t1_q2uhwmhxszp56ewoge5vg",
+   "t1_rojb2hot6albweuovbokm"
+  ]
+ },
+ "h053": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_ahx7ktv3dj5l2onw7wjiu",
+   "t1_lzpm5zmjo54pg4de6bv6e",
+   "t1_nlgpg45lhrmi7wh7ibyta"
+  ]
+ },
+ "h054": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_akidkrcaa54dknsgb73lg",
+   "t1_gtycyglcsssz4m3i2j2uk",
+   "t1_zteiudfirxim7qwtz2skw"
+  ]
+ },
+ "h055": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_arjzf6d5miq44ksrd4l7w",
+   "t1_iektljrmxrprfosqxsk4i",
+   "t1_p4lrtokaqd6npwr7zfdze"
+  ]
+ },
+ "h056": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_bhu7yx3cumxk5wd25lfuw",
+   "t1_xohneoz64hdsbn4ksemju",
+   "t1_z4b2fnsg3o4rqu6x4qacu"
+  ]
+ },
+ "h057": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_bjzxf7exy7eaorimjmqvg",
+   "t1_ernw3566d2enqwkwrvz72",
+   "t1_fuprg74f5iaispu7eqb2e"
+  ]
+ },
+ "h058": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_bm4nntrjwbeqtnpbi2rpa",
+   "t1_mllejjnvctl5gnna2sqmq",
+   "t1_nzk674kkjgypwoszgyscw"
+  ]
+ },
+ "h059": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_bu36eo6aulfyiad3ja5my",
+   "t1_fkdnq3mnfygaxbdi45vbw",
+   "t1_tb7e5dwqjsvdqbbihv52w"
+  ]
+ },
+ "h060": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_c4qbgdmqcjmiykzcjfuru",
+   "t1_itzuo3b6ykpkqyufyudou",
+   "t1_lakn3256kl3xw7t7gg6wa"
+  ]
+ },
+ "h061": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_c5r7tjb5se3khqyt25dcm",
+   "t1_cvspqy7wtcuhomuppgtgq",
+   "t1_oeyx3bevkl5fivhq75x66"
+  ]
+ },
+ "h062": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_c6ein6vre2sgsa3y4acaq",
+   "t1_ikzeoqfhhqvgl5eujv2om",
+   "t1_nevur2x5cialxazxg7oca"
+  ]
+ },
+ "h063": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_cf2dueekn2nx7g62b3icy",
+   "t1_k33o3mjzesadker2irhce",
+   "t1_tgdlvhig4l3vm4ci35v66"
+  ]
+ },
+ "h064": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_cqkmq7nmplxr4knxzazek",
+   "t1_crejypzcryj2swac5gyxi",
+   "t1_lnix4q2iiyujmv6gaa5va"
+  ]
+ },
+ "h065": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_cvnxibkdcuui4cjg2v5fq",
+   "t1_lsczsawkbydecnbmneapc",
+   "t1_tz6jdefg543vsykb4zq7y"
+  ]
+ },
+ "h066": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_cya24xq7gnooym5wkkyf4",
+   "t1_oy5q3u3e7ua4ovjbgr6wg",
+   "t1_vzhedisly4hqwrzmbo7uy"
+  ]
+ },
+ "h067": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_dadqaarahx7db2vebpfho",
+   "t1_h3roicj6atjcsflqswgjo",
+   "t1_p3p2cv7gw4fjitgezhwiy"
+  ]
+ },
+ "h068": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_dczk6cbnhn6beyy6gwxm2",
+   "t1_n5fb7nyrz6dww6prn5shq",
+   "t1_u3tyle4d2qdh6mdcitltm"
+  ]
+ },
+ "h069": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_dhh34rszsb27vxbzyu6kc",
+   "t1_gl3ko5vfgafn5z523c6jy",
+   "t1_k65bllmechikkm6fq4274"
+  ]
+ },
+ "h070": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_dk5e23w4nve2pwta3hw3e",
+   "t1_fopt4bcvocdntl3ovfosw",
+   "t1_ukdmu65qkkhyaema2bvta"
+  ]
+ },
+ "h071": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_dk6hegkpwtnglarkkikpi",
+   "t1_rcwon2mk5ggowsctzlozc",
+   "t1_xh2lwogys5ksbifxs2vua"
+  ]
+ },
+ "h072": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_dqvtyfgnyflw264e7xslg",
+   "t1_gwm53hazneme5ha5lociq",
+   "t1_urdsehbr5dw7fooeiib3y"
+  ]
+ },
+ "h073": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_dwhsglz6aqauusodbkgws",
+   "t1_ni5burwzpeyb5g3lwe5t2",
+   "t1_uv4ygmztsfgh5c3x7wl6y"
+  ]
+ },
+ "h074": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_dx7si6oqxcmmbo6nqx7dc",
+   "t1_xqepc35azhoszpv5vwpys",
+   "t1_yss4nwshjwn2lflgx3tb6"
+  ]
+ },
+ "h075": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_et73aawtztcesdhtigiay",
+   "t1_kkhmw36x6ggufarcpyzgq",
+   "t1_lbb7gfr5qxrt44mmf64j2"
+  ]
+ },
+ "h076": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_eylosu5lgs3qr3a2a2dhq",
+   "t1_k423m3u6wxzcqkkhrfpss",
+   "t1_nkxfgbkbbvxlrhmyg3av6"
+  ]
+ },
+ "h077": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_f24wco3ieosoqym5vcrno",
+   "t1_lsacml2kjliqejs5ozvpm",
+   "t1_olbofxcudneroeegktcoc"
+  ]
+ },
+ "h078": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_fhgbpk3jmxnyikyzrudyi",
+   "t1_qbzaofeo2zkaytlrywxg2",
+   "t1_ybzlhcrsqztnl36klrwra"
+  ]
+ },
+ "h079": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_ft5tce4c3tclzg47zzpv6",
+   "t1_i6ihctgkcoskhtlhirkti",
+   "t1_us7622nhj6e4draeebydo"
+  ]
+ },
+ "h080": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_g3jljwfqir2k5feplxzju",
+   "t1_k4tte7vctjxhbgkfva7yo",
+   "t1_vjh4mvv5qemgxa2tlgw22"
+  ]
+ },
+ "h081": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_gfrvwivku7mlkluld7iyw",
+   "t1_ttcc4efnten5tlt2oocc6",
+   "t1_xhxofiyqq2jsyzm6a6w5s"
+  ]
+ },
+ "h082": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_glgldujldvsvqitwk4fb2",
+   "t1_gyiamqexu7k3ervios6im",
+   "t1_wa3naofoqwb2gmwhkhm7c"
+  ]
+ },
+ "h083": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_gs4t3x3vvrgyhymyw3fpi",
+   "t1_iz2hmnd5gaiesrsnhdjme",
+   "t1_u23q7nmam4amlfdovwnm4"
+  ]
+ },
+ "h084": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_gtgj27alrhcz6iarikvke",
+   "t1_l6bhaj6za4rgajqjfuhjw",
+   "t1_z3hga63srh5uha6cxqbge"
+  ]
+ },
+ "h085": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_guaou65nfqomr3ao2tdrs",
+   "t1_ialx23cdhaqhdwz4fuwdm",
+   "t1_mvfjibji5taooxjqkbwmg"
+  ]
+ },
+ "h086": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_h3aqye4wusy6jo2k6kr2g",
+   "t1_ixnltg23hqgcnuryjxupg",
+   "t1_vpfcnjlnhffsh64vtkbcy"
+  ]
+ },
+ "h087": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_hdqx6ec7w2gubwh7hacbi",
+   "t1_iqfcvuweioe2urpc24y62",
+   "t1_mfup4g5a4fry4njvf7uia"
+  ]
+ },
+ "h088": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_hedysax42wzc5fi5uwa6a",
+   "t1_onvqeyfpqaoeu2if54dqq",
+   "t1_zdqeinqfgikk7rk3a6j7y"
+  ]
+ },
+ "h089": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_hp4acfazicznrqxlfpjrw",
+   "t1_lcn765omuuqmcxauskpds",
+   "t1_tloqbp2llv42zhc5ilurw"
+  ]
+ },
+ "h090": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_hv3zsk264dezrc4iw7mnm",
+   "t1_iiy2hxyxv2vva2vdciys2",
+   "t1_qqnkxyrxwuptj7rbdr7tc"
+  ]
+ },
+ "h091": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_hxzkgks2txqglsrwkp7xi",
+   "t1_jvmsxsdnr2igfxsg7bf2y",
+   "t1_yhqocplkauslffmytsrvi"
+  ]
+ },
+ "h092": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_ibmz3xu6h724upwo75cb2",
+   "t1_jlda7oqfrmfxcsrjjfuhk",
+   "t1_rkifn5njawtkyqs6ajy22"
+  ]
+ },
+ "h093": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_igezw3wt3tlmbayoq5woe",
+   "t1_q74f7jqoalqxrlz7wzbb6",
+   "t1_rbc44fg3fur4lst4uaupw"
+  ]
+ },
+ "h094": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_ikmtkr7sdwigzo2qfzcpc",
+   "t1_p4dr3jg6adb4idla7yvze",
+   "t1_pybryq2urxonrh2frwhe4"
+  ]
+ },
+ "h095": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_iqboasqtk52jf7gzaso4q",
+   "t1_my24ziaz4qemr4kld6x3e",
+   "t1_rrgldtd2bfr6tt3b2e24q"
+  ]
+ },
+ "h096": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_j2ddrvd2qd76py5yju5sw",
+   "t1_mdc5r44qyga7hggk5ndha",
+   "t1_wk2hhsv6q2etqv5q3xjo6"
+  ]
+ },
+ "h097": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_jk3wmmhk27ph7yh2jp6wi",
+   "t1_luajnrpwlqwelqi3lxlxg",
+   "t1_wx255ni6rohiwu6a2mtgk"
+  ]
+ },
+ "h098": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_jmsipwk3lxjvqtzcpvzug",
+   "t1_ummdavbozg6cehb6mctpq",
+   "t1_w6yhplemuikba7fbwnel2"
+  ]
+ },
+ "h099": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_jrgmsev3527o6gkqaapts",
+   "t1_snja7i72us4ld65yncxac",
+   "t1_whdzgr77ofifl2wc3v3cw"
+  ]
+ },
+ "h100": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_jvisa2wizuddo36tn3rdo",
+   "t1_kje65ivkhfub54byixdde",
+   "t1_zwicp47j2cuqqilj2yqqq"
+  ]
+ },
+ "h101": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_jvtxg33e2n5z7jma3b3sm",
+   "t1_sodiwdfc6a332dm5fssue",
+   "t1_ybpdvombp4upykgadkkvi"
+  ]
+ },
+ "h102": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_jxkp624azqvbohehkfgk6",
+   "t1_p76u4l57b2nol6ak6gsxq",
+   "t1_zscvapsnbbvl5mu63gogq"
+  ]
+ },
+ "h103": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_k3cewgreszf6ra37rd3oi",
+   "t1_ya5ba4dnpgprbvgm7t4gq",
+   "t1_yraujfphgffos3zejsv34"
+  ]
+ },
+ "h104": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_kc3s6lxn4k434fik6onds",
+   "t1_qcsvatiswawba2nduc24q",
+   "t1_z2vkgkmnqoa4cipxg73lk"
+  ]
+ },
+ "h105": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_kcgjueov4og5blnfkarfg",
+   "t1_uq56zvm7ntj2kypifsvyi",
+   "t1_zlvfkbgppg24poyapjryw"
+  ]
+ },
+ "h106": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_lc36bfzgblxjkn37gha2w",
+   "t1_ufltoy5ayhbkdvokmuiiq",
+   "t1_vfjnj3u7feff25sttn2ni"
+  ]
+ },
+ "h107": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_lkprbqhk355tyk3o3bxpw",
+   "t1_oi6nug72svt4dlesm3jag",
+   "t1_pruqrmzhhafidbr2dl2ic"
+  ]
+ },
+ "h108": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_lt5fwznd5q2dwyl4zxevu",
+   "t1_nd22sbezt73u4j7f5fuau",
+   "t1_yoac5mfif6tw53tlrvud4"
+  ]
+ },
+ "h109": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_mx6zg3snaxnasiorw35ak",
+   "t1_oq6xegc7xhtdrlmnykd4m",
+   "t1_qfds2w5qwh7mfi6wlzmmq"
+  ]
+ },
+ "h110": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_nhdbncyfblksz4yyi66qc",
+   "t1_o6tpwnedszjm5ejaf76zi",
+   "t1_ueh6p36kzslb7dompjtzy"
+  ]
+ },
+ "h111": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_onemvegwjjnpsnvpicspy",
+   "t1_uxirj5q7s72bulaevbcs4",
+   "t1_xn5e4k7kdnul65itqxeko"
+  ]
+ },
+ "h112": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_pudraokojtscy6karon6a",
+   "t1_vmz23x26gqlalctk4pkrk",
+   "t1_wq4xvllwhdvl3b2krttro"
+  ]
+ },
+ "h113": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_q6alh23gckpqofgosfd5u",
+   "t1_v3j5umojnvk4ywr5u65qc",
+   "t1_zfhjaoptujzckroje3qjc"
+  ]
+ },
+ "h114": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_r37hfzj4rzytmnqpgobn2",
+   "t1_vov6q64fcyomzokd5exkc",
+   "t1_y6ss5xnw5v675bwm4l542"
+  ]
+ },
+ "h115": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_t3zfwvrftsc4mop4iwnce",
+   "t1_ve5izofhyynrvswx4rufg",
+   "t1_wdi3woitp565ggnxhntig"
+  ]
+ },
+ "h116": {
+  "kind": "hidden",
+  "case_ids": [
+   "t1_tskz47b33fvyym6kvkels",
+   "t1_ws37mbousc5ufeikigmds",
+   "t1_zqfq4vevepewnpksqu2be"
+  ]
+ }
+}

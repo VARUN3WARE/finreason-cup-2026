@@ -1,0 +1,19 @@
+"""Multi-factor impact: impact_i = V*(wi/100)*(ci/100)*si, final = sum of impacts."""
+from fractions import Fraction
+
+from finreason.nums import grab
+
+TEMPLATE_ID = "fp.risk_management.risk_metrics.multi_factor_portfolio.advanced.v1"
+
+SLOTS = ["impact_one_trace", "impact_two_trace", "impact_three_trace"]
+
+
+def solve(text: str, q: dict) -> dict:
+    v = grab(r"\bV\s*=\s*{N}", text)
+    impacts = []
+    for i in (1, 2, 3):
+        w = grab(rf"\bw{i}\s*=\s*{{N}}", text)
+        c = grab(rf"\bc{i}\s*=\s*{{N}}", text)
+        s = grab(rf"\bs{i}\s*=\s*{{N}}", text)
+        impacts.append(v * (w / Fraction(100)) * (c / Fraction(100)) * s)
+    return {"final": sum(impacts, Fraction(0)), "slots": dict(zip(SLOTS, impacts))}

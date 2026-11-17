@@ -1,0 +1,159 @@
+{
+ "clusters": 116,
+ "questions": 348,
+ "synthesis_unanimous": 112,
+ "disputed": {
+  "h031": {
+   "groups": [
+    [
+     "lit",
+     "dom",
+     "hand"
+    ],
+    [
+     "skep"
+    ]
+   ],
+   "disagreeing_fields": 4
+  },
+  "h040": {
+   "groups": [
+    [
+     "lit",
+     "hand"
+    ],
+    [
+     "dom"
+    ],
+    [
+     "skep"
+    ]
+   ],
+   "disagreeing_fields": 4
+  },
+  "h058": {
+   "groups": [
+    [
+     "lit",
+     "dom"
+    ],
+    [
+     "skep",
+     "hand"
+    ]
+   ],
+   "disagreeing_fields": 1
+  },
+  "h091": {
+   "groups": [
+    [
+     "lit",
+     "hand"
+    ],
+    [
+     "dom",
+     "skep"
+    ]
+   ],
+   "disagreeing_fields": 3
+  }
+ },
+ "lens_field_agreement_with_final": {
+  "lit": {
+   "model": "Opus",
+   "agree": 804,
+   "total": 804,
+   "rate": 1.0
+  },
+  "dom": {
+   "model": "Sonnet",
+   "agree": 797,
+   "total": 804,
+   "rate": 0.9913
+  },
+  "skep": {
+   "model": "Fable",
+   "agree": 793,
+   "total": 804,
+   "rate": 0.9863
+  },
+  "hand": {
+   "model": "Opus",
+   "agree": 803,
+   "total": 804,
+   "rate": 0.9988
+  }
+ },
+ "cot_opus": {
+  "fields": 804,
+  "agree": 801,
+  "disagree": 3,
+  "clusters_with_disagreement": [
+   "h091"
+  ]
+ },
+ "cot_fable": {
+  "fields": 804,
+  "agree": 788,
+  "disagree": 16,
+  "clusters_with_disagreement": [
+   "h027",
+   "h031",
+   "h040",
+   "h091",
+   "h105"
+  ]
+ },
+ "decision_methods": {
+  "redteam_cleared": 110,
+  "challenge_rejected": 5,
+  "challenge_rejected_by_arbiter": 1
+ },
+ "final_variants": {
+  "lit": 112,
+  "adjA": 3,
+  "final": 1
+ },
+ "metamorphic_hidden": {
+  "trials": 3480,
+  "agree": 3365,
+  "disagree": 110,
+  "failed": 5,
+  "clusters_with_latent_disagreement": [
+   "h001",
+   "h031",
+   "h040",
+   "h058",
+   "h091",
+   "h098",
+   "h102",
+   "h115"
+  ]
+ },
+ "rounding_ties": {
+  "seen_labeled": {
+   "fields": 3091,
+   "ties": 117,
+   "float_fmt_wrong": 54,
+   "float_decimal_wrong": 5
+  },
+  "seen_lb": {
+   "fields": 562,
+   "ties": 12,
+   "float_fmt_wrong": 6,
+   "float_decimal_wrong": 0
+  },
+  "seen_test": {
+   "fields": 562,
+   "ties": 15,
+   "float_fmt_wrong": 11,
+   "float_decimal_wrong": 2
+  },
+  "hidden_test": {
+   "fields": 720,
+   "ties": 58,
+   "float_fmt_wrong": 22,
+   "float_decimal_wrong": 0
+  }
+ }
+}

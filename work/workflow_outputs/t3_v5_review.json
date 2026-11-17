@@ -1,0 +1,178 @@
+{
+  "summary": "Adversarial review of the Task 3 v5 solver (DQC_0126/0117 re-implementations, decision logic, parsing) before dev/test submission",
+  "agentCount": 3,
+  "logs": [],
+  "result": {
+    "reviews": [
+      {
+        "key": "xule",
+        "problems": [
+          {
+            "severity": "low",
+            "summary": "DEV3_000162, one of the 5 deliberate dev changes, depends on a strict reading of 9574's SubTotalExists gate. I couldn't confirm that reading from the XULE processor. Under the other reading (or with no gate), v5a's own 9574-before-10093 order gives back v3's answer.",
+            "evidence": "In DEV3_000162 (AccountsReceivableNoncurrentNonaccrual, 2025-12-31, statement-titled role PreneedActivities...Details, StatementBusinessSegmentsAxis) the target has no default fact. It has a single-dimension fact TotalSegmentMember=3,967,000 and two-dimension facts for TotalSegmentMember and CemeteryMember, but no single-dimension CemeteryMember fact. dqc0117.py requires every sub-member to have a single-dimension fact, so 9574 is blocked and 10093 fires: v5a outputs (3,967,000, 34,865,000). I tried two variants in a scratch copy: (a) drop the gate, (b) a lenient gate that passes when at least one sub-member has a single-dimension fact for the target. Each changes exactly one prediction across dev and test: DEV3_000162 becomes (0, 3,967,000) via 0117_9574, which is v3's answer. In the XULE source, the gate is all(set(for $SubMember ... exists([...]))) over aligned factsets. Whether a missing sub-member turns into a false value for the target's alignment depends on how the processor carries alignment through for-loops and aggregates (XuleProcessor evaluate_for and evaluate_aggregate_function). I read that code but could not settle it without running Arelle. Practice cases DEV_000149 and DEV_000153 have gold (2,800,000 / 0) and (500,000 / 0), which match an ungated 9574 message. That doesn't settle it, because their schema is truncated and the shipped role is not a statement role. DEV3_000163 and DEV3_000164 are also blocked by the strict gate, but the fallback gives the same answer as the lenient 9574, so only 162 changes.",
+            "fix": "Treat DEV3_000162 as unconfirmed rather than a sure gain. If v3 had it right, v5a loses it. If you can run Arelle with the XULE plugin on this filing (or a minimal one built the same way), check whether US.0117.9574 fires. Until then, keeping v3's (0, 3,967,000) is the safer bet: it follows from v5a's own precedence once the gate isn't applied.",
+            "affects_cases": [
+              "DEV3_000162"
+            ]
+          }
+        ],
+        "overall": "I found no confirmed divergence from the XULE source that changes a dev or test answer. My confidence is high for dqc0126.py and medium-high for dqc0117.py. The only open item is the SubTotalExists reading behind DEV3_000162, listed above.\n\nMethod: I ran the code, then ran edited copies in /tmp/claude-1000/rev126 and diffed predictions against v5a (pred_development_v5a.jsonl and pred_test_v5a.jsonl reproduce byte for byte). I also read the XULE processor source, which settled several points:\n\n1. **Square-bracket factsets** `[...]` are closed (XuleProcessor.py:2808): a fact is dropped if it carries any dimension the filter doesn't name. So:\n   - fs_decimals (`[nonils covered @concept in ...]`) counts only facts without dimensions, as dqc0126 does. Counting facts with dimensions would change fs_decimals in 6 cases (DEV3_000224, 225, 274; TEST3_000548, 550, 551), but that reading is wrong.\n   - In 10093, the member facts have exactly 2 dimensions. Including facts with more than 2 changes nothing anyway.\n   - The 9574 notes, parenthetical and ancestor checks use single-dimension facts. That matches the code.\n2. **Curly-brace factsets** `{...}` are open but not covered, so they still align on concept, period, unit and entity. That supports the code using only the target concept and period for the multi-dimension facts and 10093's second axis. Collecting them across all concepts changes no prediction.\n3. **Duplicate facts.** XULE's index drops a duplicate when the values match after rounding and keeps the one with more decimals. Applying that to fs_decimals, totals and children changes nothing: no total is affected, and wherever a child is affected the fact that wins has the same value or decimals equal to fs_decimals.\n4. **fs_decimals ties:** none in dev or test.\n5. **Tolerance formulas:**\n   - 0126 compares the total and the sum rounded to fs_decimals, with tolerance 10^-fs_decimals × (children found + 1). The sum is not a fact, so its decimals are none and fall back to the total's. Rounding is half-even.\n   - 0117 uses t = min(member decimals capped at 5, total decimals) with tolerance 2×10^-t, and INF is handled the same way.\n   \n   Both match the code.\n6. **DEV3_000542** (deliberate change): XULE aligns on unit, so dropping the child reported in Shares is correct.\n7. **Other gaps, with no effect on these inputs:**\n   - The cube exclusion by table name (ScheduleOfInvestmentsTable and the like) and roles with only notAll arcs: no 0126 role is affected.\n   - The LiabilitiesSubjectToCompromise skip: that concept doesn't appear in dev or test.\n   - The 606 bank exception in 9574: no target is affected.\n   - Multiple candidate second axes for 10093, targets in more than one unit, roles with several hypercubes, Schedule III/IV or odd-case \"- Statement -\" titles, precision attributes: none occur.\n   - Several 0126 roles firing with different results for one case: none.\n8. **Remaining risk.** The dataset's choice of which message to keep (0015 over 0117 over 0126, and 9574 over 10093) can't be checked against the XULE source. One other gap is still open: the code assumes the target period is the document period, because the instance documents ship no dei facts, so 0126's period filter can't be applied."
+      },
+      {
+        "key": "logic",
+        "problems": [
+          {
+            "severity": "low",
+            "summary": "TEST3_000167 still ends on the '0015_unlisted' fallback. That answer cannot come from DQC_0015, and the test rule counts suggest this case is really a DQC_0117 case.",
+            "evidence": "The target is us-gaap:NetIncomeLoss, which is not in ELEMENTS_0015 (in15=False). It is also absent from every official dqc_15_*_concepts.csv, so US.0015 can never flag it. Prediction: (-105,433,000, 105,433,000, '0015_unlisted'). v5 test mechanism counts are 0015=163, 0117=53, 0126=464. The dev receipts give a fixed mix of 162/54/464, and dev v5 counts match it exactly, so test is off by exactly this one case. No 0117 message can be rebuilt from the shipped data: only the cash-flow role was shipped, and the StatementClassOfStockAxis members (CommonStock -84,310,000 and SeriesB -21,123,000; SeriesA is nil) add up exactly to the total. v3 gives the same answer, so this is not a regression.",
+            "fix": "No principled fix is available from the shipped files. If you want to guess, the extracted value -105,433,000 is probably right under 0117 too, and only the calculated value is in doubt. Leave it as is unless you settle on a 0117 heuristic for a missing statement table.",
+            "affects_cases": [
+              "TEST3_000167"
+            ]
+          },
+          {
+            "severity": "low",
+            "summary": "Three of the seven intentional changes go through the new 0117 element-10093 path, which no gold-labelled case has ever exercised. DEV3_000162 also depends on the SubTotalExists gate blocking element 9574.",
+            "evidence": "No practice case resolves through 10093: the practice-set mechanism tally has no '0117_10093'. The changes that depend on it are DEV3_000162 (0, 3,967,000 -> 3,967,000, 34,865,000), DEV3_000215 (10,647,000, -3,882,000 -> 8,186,000, -133,000) and TEST3_000202 (66,241,000, 66,200,000 -> 66,200,000, 47,542,000). I checked each against DQC_0117.xule and functions.xule. 215: the only firing message is 10093, and 0126 is correctly skipped because the role is a statement cube (rule 118 handles tables). 202: 9574 does not fire, since rounding to decimals -5 makes 66,241,000 equal to 66,200,000, while 10093 does fire. 162: 9574 is blocked only because CemeteryMember has 2-dimension facts but no 1-dimension fact. With the gate disabled (my scratch variant NOGATE), 162 goes back exactly to v3's (0, 3,967,000). DEV3_000163/164 point the other way: they are answered by '0117_declared', which equals 9574 with the gate ignored. Their ClassA 1-dimension fact exists only in another period, so a gate that checks any period would make them proper 9574 cases and would still block 162. With that variant (ANYPER), 0 predictions change. All of this hangs together, but nothing in the gold confirms it.",
+            "fix": "No code change recommended. Treat these three predictions as the least certain of the v5 changes, and if a dev submission is available, read its per-DQC 0117 result as a test of the 10093 path.",
+            "affects_cases": [
+              "DEV3_000162",
+              "DEV3_000215",
+              "TEST3_000202"
+            ]
+          },
+          {
+            "severity": "low",
+            "summary": "Latent: with statement_only=False, the Disclosure cube being evaluated counts as its own 'notes' cube. Element 9574 then fires on that cube only when the largest member exceeds the total. As a result, the TEST3_000197/198 fallback answers depend on how the fallback chain happens to be ordered.",
+            "evidence": "In dqc0117.evaluate, notes_f/paren_f are built over all notes/parenthetical cubes, including `role` itself. In the shipped hidden-set files, the single shipped role is often a Disclosure, so notes_ok holds only if max(member) > total. Excluding the cube itself (variant SELFX) changes 0 predictions. Combining that with the gate change (SELFX+NOGATE) flips TEST3_000197 from (411,365,000, 106,754,000, '0117_declared') to (411,365,000, 503,893,000, '0117_unrestricted'), and 198 the same way. The new answer double-counts the duplicate SaleOfGoodsMember/SalesOfGoodsMember tags. Neither answer looks like a real statement-table message: the shipped members ServiceAndFee + ... + SaleOfGoods add up exactly to 411,365,000, which points to a 10093 message on the related-party 2-dimension facts instead. These cases did not change from v3 to v5.",
+            "fix": "No change needed for the current predictions. If the fallback is reworked, leave `role` itself out of the notes/paren checks when statement_only=False, and keep the unrestricted override from double-counting duplicate member tags.",
+            "affects_cases": [
+              "TEST3_000197",
+              "TEST3_000198"
+            ]
+          }
+        ],
+        "overall": "No material problem found in v5a's decide() or its fallbacks, and I found no regression against solve_v3_backup.py. Confidence that none of the 7 changes is a clear regression: medium-high.\n\nChecks:\n- Reran both versions on dev, test and practice. v5 output matches work/task3/pred_dev_v5a.jsonl and pred_test_v5a.jsonl numerically; only the raw_output label of DEV3_000163 differs. Exactly 5 dev cases and 2 test cases change, as intended.\n- Dev mechanism counts under v5 are 162 for 0015, 54 for 0117 and 464 for 0126. These equal the official per-rule counts in the v3 receipt. v3 had 465 cases on 0126 and one on 'fallback_negdim_excluded'.\n- Every 0126 prediction on dev and test now comes from the official-semantics dqc0126.fire; '0126_legacy' never fires.\n- Practice set: 187 correct with v5 vs 186 with v3. The gain is DEV_000182; there are no new misses.\n\nThe 7 changed cases, each checked against the official XULE:\n- DEV3_000542: right. The excluded addend (378,000) is in unit 'Shares', and XULE matches addends to the total's unit (USD). This probably fixes the single calculation error in v3's provisional 0126 score.\n- DEV3_000215 and TEST3_000202: right under the official rule (10093 fires, 9574 and 0126 do not).\n- DEV3_000198, DEV3_000214 and TEST3_000214: no statement table was shipped, so these use the unrestricted member sum. The v3 answers they replace (a negated excluded member, a disclosure-only partial sum, a plain negation) cannot be right for the inferred rules.\n- DEV3_000162: right if the subtotal gate works as the code assumes. See the second problem above.\n\nPrecedence:\n- 0015 before any-cube 0117 is backed by your own receipts. v2 to v3 gained +8 on 0015 from exactly 8 changes, including DEV3_000085/103/130/131/132/138 where v2 had chosen 0117, so all 8 v3 choices were right.\n- The 'netting' exclusion in the 0015 member exclusions is confirmed by DEV3_000066/067.\n- Statement 0117 and 0126 never both fire on dev or test.\n- The only test case where 0015 and 0126 both fire is TEST3_000128, which goes to 0015. That fits the test rule counts.\n\n0015 logic: the element list and exclusions match the official XULE constants. Against the per-year concept lists, the only mismatch is DEV3_000084, which is still predicted 0015. choose_0015 picks the same facts as v3 on every case. v4 changed 12 of those picks and lost 2, so the remaining 0015 errors are in which flagged fact gets picked, which shipped data cannot settle.\n\nI tried three variants of the 0117 semantics (no subtotal gate, a gate that checks any period, and leaving the evaluated cube out of the notes checks). Only the no-gate variant changes anything (DEV3_000162 reverts to v3's answer). The other two change nothing on their own, and leaving out the cube plus no gate changes only TEST3_000197/198.\n\nScratch scripts and outputs are in /tmp/claude-1000/rv/: cmp.py, score.py, insp.py, conf.py, and var/ for the variants."
+      },
+      {
+        "key": "parse",
+        "overall": "I'm confident (about 90%) that the parsing and numeric code in xbrl.py, rules.py and solve.py has no material bugs on the real data. I found nothing in this lens that changes or threatens any dev or test prediction. I did not edit anything under task3/ or work/; scratch work is under /tmp/claude-1000/rv/.\n\nWhat I checked:\n- **End-to-end runs:** all 680 dev, 680 test and 332 practice cases run without an exception. My rerun matches work/task3/pred_dev_v5a.jsonl and pred_test_v5a.jsonl exactly, string for string. Every extracted_value and calculated_value parses under the official normalize_number.\n- **Input data:** the dev/test inputs are very regular.\n  - No inline-XBRL sign or scale attributes, no CDATA, no unprefixed facts, and no prefixes on contexts or explicit members other than the default and xbrldi.\n  - Every date is YYYY-MM-DD, and every calculation weight is ±1, written as 1, 1.0 or 1.00000000000000.\n  - Every non-nil numeric raw value matches -?digits(.digits)?. The largest coefficient is 12 digits and the largest output is 14.\n  - The QName prefixes the code derives from linkbase hrefs always match the instance prefixes, and _loc_concept never differs from a plain prefix_local split.\n  - Every case has a non-nil target fact in the question period.\n- **Nil facts:** raw '' maps to None, so they are skipped everywhere, including the fs_decimals count in dqc0126.py.\n- **Formatting:** negative zero, -0.0, 0.000, 1E+3, 1e-7, (1,234) and trailing zeros all come out of fmt() and pretty() correctly and round-trip under the official normalizer.\n- **decimals=\"128\" (zero facts in 140 instances):** handled safely. xround works at prec 400, and dqc0117.py caps the rounding precision at 5.\n- **The v5a change in DEV3_000542:** it now sums only children in the total's unit, which drops a 378,000 'Shares'-unit child. That is a rule-semantics choice, not a parsing error.\n- **The 0126 tolerance:** taking the decimals from fs_decimals rather than the minimum addend decimals matters only for DEV3_000226/227/228. There the implemented rule fires and a minimum-decimals reading would not. Those cases are in the dataset, which supports the current reading.\n\nThe four items below are real defects but inert on this data. Fixing 1 and 2 would be cheap hardening; none of them justifies a resubmission.",
+        "problems": [
+          {
+            "severity": "low",
+            "summary": "The fact regex silently drops any fact whose concept local name ends in '.'",
+            "evidence": "In xbrl.py, FACT ends the local name with `\\b`, and the closing tag must match `</\\1:\\2>`. Minimal repro: facts('<abc:FooInc. contextRef=\"c1\" unitRef=\"usd\">5</abc:FooInc.>') returns []. Real case: TEST3_000543 loses two facts this way, cik0001740742:ChangeInNoncontrollingInterestUponIncreaseInOwnershipOfUnicornsInc. and ChangeInAdditionalPaidinCapitalUponIncreaseInOwnershipOfUnicornsInc. (period 2024, decimals 0). Neither is the target (NetCashProvidedByUsedInOperatingActivitiesContinuingOperations, 2025) or one of its calculation children, so the prediction ('-6,551,399' / '-15,966,743', 0126) is unchanged. This is the only dropped fact in dev and test.",
+            "fix": "Replace `\\b` with a lookahead such as `(?=[\\s/>])` after the local name in FACT.",
+            "affects_cases": [
+              "TEST3_000543 (2 facts dropped, prediction unaffected)"
+            ]
+          },
+          {
+            "severity": "low",
+            "summary": "A non-finite numeric token (NaN or Infinity) in a fact crashes the solver",
+            "evidence": "num('NaN') returns Decimal('NaN'), and the next comparison `v < 0` (in flagged_0015 and elsewhere) raises InvalidOperation. pretty('Infinity') raises OverflowError from int(). Repro: take DEV3_000000, set the target fact's raw to 'NaN', and decide(case) raises InvalidOperation. The current inputs contain no such tokens; every numeric raw matches -?\\d+(\\.\\d+)?.",
+            "fix": "In num(), return None when not v.is_finite().",
+            "affects_cases": [
+              "none in dev/test/practice (synthetic only)"
+            ]
+          },
+          {
+            "severity": "low",
+            "summary": "fmt() raises on integral values of 28 or more digits, and pretty() rounds non-integers to 28 significant digits",
+            "evidence": "Both run in the default Decimal context (prec 28). fmt(Decimal('1E+30')) and fmt(Decimal('123456789012345678901234567890')) raise InvalidOperation from quantize(Decimal(1)). pretty('0.1234567890123456789012345678901') returns '0.1234567890123456789012345679', which no longer equals the input under the official normalizer. The largest coefficient in any dev/test fact is 12 digits and the largest output is 14 digits, so nothing real is near the limit.",
+            "fix": "Wrap fmt and pretty in localcontext(prec=100), or format integers with int() instead of quantize.",
+            "affects_cases": [
+              "none in dev/test/practice (synthetic only)"
+            ]
+          },
+          {
+            "severity": "low",
+            "summary": "Every typedMember value collapses to '<typed>', so different typed-dimension contexts get identical dimension keys",
+            "evidence": "contexts() maps every typedMember to (axis, '<typed>'). In DEV3_000148 and DEV3_000152, the target InvestmentOwnedAtCost has three different values (33,224,000, 438,194,000 and 471,418,000) under the same key (('us-gaap:InvestmentIdentifierAxis','<typed>'),). The dedup in flagged_0015 and dqc0117.target_facts, which keys on dims, would merge equal-valued facts from different typed members. I saw no prediction change: none of the 9 typed-member cases has a flagged candidate or 0117 member on a typed axis, and in_cube rejects '<typed>' members.",
+            "fix": "Store the typed member's inner text, e.g. (axis, 'typed:' + value), so contexts stay distinct.",
+            "affects_cases": [
+              "DEV3_000148",
+              "DEV3_000152 (no prediction change)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Review"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "review:xule",
+      "phaseIndex": 1,
+      "phaseTitle": "Review",
+      "agentId": "a426cc8408781cab0",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791654129984,
+      "queuedAt": 1791654129969,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "I found no confirmed divergence from the XULE source that c…",
+      "promptPreview": "You review code for FinReason Cup 2026 Task 3 (XBRL audit verification; answer = {extracted_value, calculated_value}\nfor one flagged DQC rule: 0015 negative values, 0117 dimensional cross check, 0126 calculation check).\nCode: /home/varun/Desktop/someProj/FinReason Cup 2026/task3/ (xbrl.py parsing, rules.py helpers, dqc0126.py, dqc0117.py, solve.py decide(); the previous\nversion is task3/solve_v3_b…",
+      "promptFramed": true,
+      "lastProgressAt": 1791655440195,
+      "tokens": 234888,
+      "toolCalls": 104,
+      "durationMs": 1310209,
+      "resultPreview": "{\"problems\":[{\"severity\":\"low\",\"summary\":\"DEV3_000162, one of the 5 deliberate dev changes, depends on a strict reading of 9574's SubTotalExists gate. I couldn't confirm that reading from the XULE processor. Under the other reading (or with no gate), v5a's own 9574-before-10093 order gives back v3's answer.\",\"evidence\":\"In DEV3_000162 (AccountsReceivableNoncurrentNonaccrual, 2025-12-31, statement-…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "review:logic",
+      "phaseIndex": 1,
+      "phaseTitle": "Review",
+      "agentId": "a8eaa4ed4e210d186",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791654129985,
+      "queuedAt": 1791654129969,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "No material problem found in v5a's decide() or its fallback…",
+      "promptPreview": "You review code for FinReason Cup 2026 Task 3 (XBRL audit verification; answer = {extracted_value, calculated_value}\nfor one flagged DQC rule: 0015 negative values, 0117 dimensional cross check, 0126 calculation check).\nCode: /home/varun/Desktop/someProj/FinReason Cup 2026/task3/ (xbrl.py parsing, rules.py helpers, dqc0126.py, dqc0117.py, solve.py decide(); the previous\nversion is task3/solve_v3_b…",
+      "promptFramed": true,
+      "lastProgressAt": 1791654885293,
+      "tokens": 213196,
+      "toolCalls": 57,
+      "durationMs": 751998,
+      "resultPreview": "{\"problems\":[{\"severity\":\"low\",\"summary\":\"TEST3_000167 still ends on the '0015_unlisted' fallback. That answer cannot come from DQC_0015, and the test rule counts suggest this case is really a DQC_0117 case.\",\"evidence\":\"The target is us-gaap:NetIncomeLoss, which is not in ELEMENTS_0015 (in15=False). It is also absent from every official dqc_15_*_concepts.csv, so US.0015 can never flag it. Predict…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "review:parse",
+      "phaseIndex": 1,
+      "phaseTitle": "Review",
+      "agentId": "a5dc7fbd0526f8eeb",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791654129986,
+      "queuedAt": 1791654129969,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "I'm confident (about 90%) that the parsing and numeric code…",
+      "promptPreview": "You review code for FinReason Cup 2026 Task 3 (XBRL audit verification; answer = {extracted_value, calculated_value}\nfor one flagged DQC rule: 0015 negative values, 0117 dimensional cross check, 0126 calculation check).\nCode: /home/varun/Desktop/someProj/FinReason Cup 2026/task3/ (xbrl.py parsing, rules.py helpers, dqc0126.py, dqc0117.py, solve.py decide(); the previous\nversion is task3/solve_v3_b…",
+      "promptFramed": true,
+      "lastProgressAt": 1791654621703,
+      "tokens": 138090,
+      "toolCalls": 45,
+      "durationMs": 488406,
+      "resultPreview": "{\"overall\":\"I'm confident (about 90%) that the parsing and numeric code in xbrl.py, rules.py and solve.py has no material bugs on the real data. I found nothing in this lens that changes or threatens any dev or test prediction. I did not edit anything under task3/ or work/; scratch work is under /tmp/claude-1000/rv/.\\n\\nWhat I checked:\\n- **End-to-end runs:** all 680 dev, 680 test and 332 practice…"
+    }
+  ],
+  "totalTokens": 586174,
+  "totalToolCalls": 206
+}

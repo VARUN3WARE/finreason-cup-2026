@@ -1,0 +1,5306 @@
+{
+ "t1_22fssfijtudmqkacxy252": {
+  "case_id": "t1_22fssfijtudmqkacxy252",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "63.13"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_purchase_assets_checkpoint",
+    "value": "124.00"
+   }
+  ]
+ },
+ "t1_23an3zdwszbc7fnpqojo4": {
+  "case_id": "t1_23an3zdwszbc7fnpqojo4",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-3.19"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "moderate_weighted_loss_checkpoint",
+    "value": "78.4000"
+   },
+   {
+    "slot_id": "severe_weighted_loss_checkpoint",
+    "value": "157.6000"
+   }
+  ]
+ },
+ "t1_2em4ib7qnlsffamiokpcg": {
+  "case_id": "t1_2em4ib7qnlsffamiokpcg",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "74.69"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "segment_a_shared_cost_burden_ratio_checkpoint",
+    "value": "0.102956"
+   },
+   {
+    "slot_id": "segment_b_shared_cost_burden_ratio_checkpoint",
+    "value": "0.206122"
+   }
+  ]
+ },
+ "t1_2fj6f2wc3dz67kstnl5ik": {
+  "case_id": "t1_2fj6f2wc3dz67kstnl5ik",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "6.53"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "market_loss_checkpoint",
+    "value": "6.04"
+   }
+  ]
+ },
+ "t1_2ggyp2vmmf5k3l5yzqdjk": {
+  "case_id": "t1_2ggyp2vmmf5k3l5yzqdjk",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "28.75"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "planned_abatement_checkpoint",
+    "value": "101.5000"
+   }
+  ]
+ },
+ "t1_2h33ohc4sfqtc7tdl2iye": {
+  "case_id": "t1_2h33ohc4sfqtc7tdl2iye",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-209.18"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "exposed_value_checkpoint",
+    "value": "98.00"
+   }
+  ]
+ },
+ "t1_2m2e4aqw25hkyredlbyuo": {
+  "case_id": "t1_2m2e4aqw25hkyredlbyuo",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Bond B"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "a_outlay_checkpoint",
+    "value": "103.48"
+   },
+   {
+    "slot_id": "b_outlay_checkpoint",
+    "value": "112.86"
+   }
+  ]
+ },
+ "t1_2p7jxf5ruvcfmxvjo37y2": {
+  "case_id": "t1_2p7jxf5ruvcfmxvjo37y2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "41.07"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "implied_depreciation_checkpoint",
+    "value": "24.68"
+   }
+  ]
+ },
+ "t1_2qo73ablqa6d5jdwyi3ps": {
+  "case_id": "t1_2qo73ablqa6d5jdwyi3ps",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "101.11"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "network_b_after_ratio_fee_checkpoint",
+    "value": "91.80"
+   }
+  ]
+ },
+ "t1_2qsrspxc5gnpiaedbnjv4": {
+  "case_id": "t1_2qsrspxc5gnpiaedbnjv4",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-0.44"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "moderate_weighted_loss_checkpoint",
+    "value": "78.4000"
+   },
+   {
+    "slot_id": "severe_weighted_loss_checkpoint",
+    "value": "162.4000"
+   }
+  ]
+ },
+ "t1_2ve7ogjulw6g3bxzwv4sm": {
+  "case_id": "t1_2ve7ogjulw6g3bxzwv4sm",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "155.56"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "gross_requirement_checkpoint",
+    "value": "28.0000"
+   },
+   {
+    "slot_id": "frechet_lower_bound_checkpoint",
+    "value": "0.300000"
+   }
+  ]
+ },
+ "t1_2vhqeflyl6yukmhkk5wsa": {
+  "case_id": "t1_2vhqeflyl6yukmhkk5wsa",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "2.19"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "derivative_equivalent_checkpoint",
+    "value": "25.50"
+   }
+  ]
+ },
+ "t1_2yjpyaop7ywpd2hybz3ac": {
+  "case_id": "t1_2yjpyaop7ywpd2hybz3ac",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "151.50"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "single_threshold_retention_checkpoint",
+    "value": "0.750001"
+   }
+  ]
+ },
+ "t1_33hmke3t6w7fswxxdcyek": {
+  "case_id": "t1_33hmke3t6w7fswxxdcyek",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-17.71"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "period_1_equity_value_checkpoint",
+    "value": "0.250000"
+   },
+   {
+    "slot_id": "period_1_bond_value_checkpoint",
+    "value": "0.500000"
+   }
+  ]
+ },
+ "t1_3aipvkpjzoryvi4jkvmq4": {
+  "case_id": "t1_3aipvkpjzoryvi4jkvmq4",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "11.38"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "weighted_volatility_a_checkpoint",
+    "value": "0.075000"
+   },
+   {
+    "slot_id": "weighted_volatility_b_checkpoint",
+    "value": "0.140000"
+   }
+  ]
+ },
+ "t1_3d5vawvis23xeixtwu3ay": {
+  "case_id": "t1_3d5vawvis23xeixtwu3ay",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "51.69"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_stage_payout_factor_checkpoint",
+    "value": "0.800000"
+   }
+  ]
+ },
+ "t1_3hbs2b5a5uqocfkbrbvfi": {
+  "case_id": "t1_3hbs2b5a5uqocfkbrbvfi",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "35.69"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "first_phase_growth_checkpoint",
+    "value": "2.143589"
+   },
+   {
+    "slot_id": "smoothed_phase_growth_checkpoint",
+    "value": "4.299817"
+   }
+  ]
+ },
+ "t1_3j42mq2dlsrml4dewkrwm": {
+  "case_id": "t1_3j42mq2dlsrml4dewkrwm",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "capital_pass"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "joint_rate_checkpoint",
+    "value": "0.022500"
+   }
+  ]
+ },
+ "t1_3oaa3gm4vh24rdqm55llu": {
+  "case_id": "t1_3oaa3gm4vh24rdqm55llu",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "neither_option"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "a_one_stage_share_multiple_checkpoint",
+    "value": "1.234568"
+   }
+  ]
+ },
+ "t1_3ogroffcortpslex6ehjq": {
+  "case_id": "t1_3ogroffcortpslex6ehjq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-14.17"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "combined_capital_requirement_ratio_checkpoint",
+    "value": "0.100001"
+   }
+  ]
+ },
+ "t1_3p5qcmfqxj7f3vsufqniw": {
+  "case_id": "t1_3p5qcmfqxj7f3vsufqniw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "31.49"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "implied_depreciation_checkpoint",
+    "value": "32.19"
+   }
+  ]
+ },
+ "t1_3v2pzyuge2snqwyidwqxq": {
+  "case_id": "t1_3v2pzyuge2snqwyidwqxq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "41.19"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "penalty_cap_checkpoint",
+    "value": "179.96"
+   }
+  ]
+ },
+ "t1_46e6pywda3gjnr5nbn5g2": {
+  "case_id": "t1_46e6pywda3gjnr5nbn5g2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.7801"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "comparable_a_tax_adjusted_debt_checkpoint",
+    "value": "2052.0000"
+   },
+   {
+    "slot_id": "comparable_b_tax_adjusted_debt_checkpoint",
+    "value": "4750.4000"
+   }
+  ]
+ },
+ "t1_4ghn56bewcwqy7dcm54fu": {
+  "case_id": "t1_4ghn56bewcwqy7dcm54fu",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "2.03"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "exposed_value_checkpoint",
+    "value": "101.50"
+   }
+  ]
+ },
+ "t1_4gs7si7dgfcjdu4m7tsgg": {
+  "case_id": "t1_4gs7si7dgfcjdu4m7tsgg",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "29.49"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "upfront_stock_consideration_checkpoint",
+    "value": "4044.8000"
+   }
+  ]
+ },
+ "t1_4hsn7z73yc5ctgyqmom3y": {
+  "case_id": "t1_4hsn7z73yc5ctgyqmom3y",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "plan_a"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_stage_leverage_cap_checkpoint",
+    "value": "0.800001"
+   }
+  ]
+ },
+ "t1_4ngrvbqgai6vgveg3jfbo": {
+  "case_id": "t1_4ngrvbqgai6vgveg3jfbo",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "2.96"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "dilution_multiple_checkpoint",
+    "value": "1.234568"
+   }
+  ]
+ },
+ "t1_56ahdr57pycvfu5calkiq": {
+  "case_id": "t1_56ahdr57pycvfu5calkiq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "13932.82"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "normal_interim_present_value_checkpoint",
+    "value": "2091.39"
+   },
+   {
+    "slot_id": "stressed_interim_present_value_checkpoint",
+    "value": "1254.20"
+   }
+  ]
+ },
+ "t1_5ar2imm42txclles7vppu": {
+  "case_id": "t1_5ar2imm42txclles7vppu",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Neutral"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "tweet_retention_factor_checkpoint",
+    "value": "0.800001"
+   }
+  ]
+ },
+ "t1_5ethmih55hphgzfgzws6m": {
+  "case_id": "t1_5ethmih55hphgzfgzws6m",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "target_payout"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_period_growth_multiple_checkpoint",
+    "value": "1.234568"
+   }
+  ]
+ },
+ "t1_5gz4cw5yqfjohwbiwhl7y": {
+  "case_id": "t1_5gz4cw5yqfjohwbiwhl7y",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-1.06"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "deal_share_issuance_checkpoint",
+    "value": "0.195437"
+   },
+   {
+    "slot_id": "pretax_interest_checkpoint",
+    "value": "4.9500"
+   }
+  ]
+ },
+ "t1_5hbrepcaq63b3yvhmfq5e": {
+  "case_id": "t1_5hbrepcaq63b3yvhmfq5e",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Bond B"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "a_outlay_checkpoint",
+    "value": "106.00"
+   },
+   {
+    "slot_id": "b_outlay_checkpoint",
+    "value": "120.57"
+   }
+  ]
+ },
+ "t1_5inkyvtdkz3ubx6ffj3aq": {
+  "case_id": "t1_5inkyvtdkz3ubx6ffj3aq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "137.43"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "threshold_adjustment_factor_checkpoint",
+    "value": "1.307470"
+   }
+  ]
+ },
+ "t1_5khboidtf6s3eu4gfytfy": {
+  "case_id": "t1_5khboidtf6s3eu4gfytfy",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "63.62"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_credit_factor_checkpoint",
+    "value": "0.700001"
+   }
+  ]
+ },
+ "t1_5snfeqvks5hdtz2p4m5kk": {
+  "case_id": "t1_5snfeqvks5hdtz2p4m5kk",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "reduce_exposure"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "stressed_ratio_checkpoint",
+    "value": "0.250001"
+   }
+  ]
+ },
+ "t1_66zm67vlsvs23i7lu6fqk": {
+  "case_id": "t1_66zm67vlsvs23i7lu6fqk",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-0.80"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "market_premium_checkpoint",
+    "value": "0.100000"
+   }
+  ]
+ },
+ "t1_6e7zubf3rvoply63kq5lm": {
+  "case_id": "t1_6e7zubf3rvoply63kq5lm",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1101.78"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_stage_price_retention_checkpoint",
+    "value": "0.800000"
+   }
+  ]
+ },
+ "t1_6iaugpmsrstqp7ejornni": {
+  "case_id": "t1_6iaugpmsrstqp7ejornni",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "27.53"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "penalty_cap_checkpoint",
+    "value": "147.84"
+   }
+  ]
+ },
+ "t1_6ldyzkmouq5b7juyevswo": {
+  "case_id": "t1_6ldyzkmouq5b7juyevswo",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "5.20"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "charge_budget_checkpoint",
+    "value": "0.96"
+   }
+  ]
+ },
+ "t1_6n5geqegwcfszqbtafmae": {
+  "case_id": "t1_6n5geqegwcfszqbtafmae",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "102.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_shock_retention_checkpoint",
+    "value": "0.666667"
+   }
+  ]
+ },
+ "t1_6xsvdhdhnep3qko35gn2m": {
+  "case_id": "t1_6xsvdhdhnep3qko35gn2m",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "50.32"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "headline_savings_checkpoint",
+    "value": "101.0000"
+   },
+   {
+    "slot_id": "pairwise_overlap_checkpoint",
+    "value": "31.0000"
+   }
+  ]
+ },
+ "t1_74wyxngjbbz6623bxbozg": {
+  "case_id": "t1_74wyxngjbbz6623bxbozg",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "51.60"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "acquisition_outlay_checkpoint",
+    "value": "97.71"
+   }
+  ]
+ },
+ "t1_75hv6n7kzofkadbxbphes": {
+  "case_id": "t1_75hv6n7kzofkadbxbphes",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "5.36"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "period_1_equity_value_checkpoint",
+    "value": "0.250000"
+   },
+   {
+    "slot_id": "period_1_bond_value_checkpoint",
+    "value": "0.500000"
+   }
+  ]
+ },
+ "t1_75srcm3y6cx5ceig6s2eg": {
+  "case_id": "t1_75srcm3y6cx5ceig6s2eg",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-43847.76"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "immediate_tax_reduction_checkpoint",
+    "value": "1068.0000"
+   }
+  ]
+ },
+ "t1_7b55lrpmarmqvpw77av3a": {
+  "case_id": "t1_7b55lrpmarmqvpw77av3a",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "capital_fail"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "joint_rate_checkpoint",
+    "value": "0.010000"
+   }
+  ]
+ },
+ "t1_7haysv33dfi2i5ld6bqzi": {
+  "case_id": "t1_7haysv33dfi2i5ld6bqzi",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "84.71"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "debt_after_borrowing_checkpoint",
+    "value": "222.04"
+   }
+  ]
+ },
+ "t1_7nf3qyzrtz5lettqg5skk": {
+  "case_id": "t1_7nf3qyzrtz5lettqg5skk",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "362"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "ceiling_utilization_checkpoint",
+    "value": "0.654552"
+   }
+  ]
+ },
+ "t1_7o5ikpeffr6pfimpxlkv4": {
+  "case_id": "t1_7o5ikpeffr6pfimpxlkv4",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "74.16"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "first_payment_balance_checkpoint",
+    "value": "936.30"
+   }
+  ]
+ },
+ "t1_7o7czxboabcsfhc26365k": {
+  "case_id": "t1_7o7czxboabcsfhc26365k",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "6379.03"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "retry_success_fraction_checkpoint",
+    "value": "0.4550"
+   },
+   {
+    "slot_id": "backup_processing_fees_checkpoint",
+    "value": "434.93"
+   },
+   {
+    "slot_id": "terminal_failure_cost_checkpoint",
+    "value": "168.48"
+   }
+  ]
+ },
+ "t1_7tpvozkbs6zsvafesrrzq": {
+  "case_id": "t1_7tpvozkbs6zsvafesrrzq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "11.84"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "debt_to_equity_checkpoint",
+    "value": "1.358984"
+   }
+  ]
+ },
+ "t1_7ufeprkc6mxm54xvw44ui": {
+  "case_id": "t1_7ufeprkc6mxm54xvw44ui",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-76.61"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "early_cleanup_growth_factor_checkpoint",
+    "value": "1.948717"
+   },
+   {
+    "slot_id": "terminal_discount_factor_checkpoint",
+    "value": "0.232568"
+   }
+  ]
+ },
+ "t1_7ulzthlyfkwikpqiufqok": {
+  "case_id": "t1_7ulzthlyfkwikpqiufqok",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-43969.08"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "immediate_tax_reduction_checkpoint",
+    "value": "1077.3432"
+   }
+  ]
+ },
+ "t1_7uo4nhqq7vlux7mzfzqu6": {
+  "case_id": "t1_7uo4nhqq7vlux7mzfzqu6",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "program_a"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "program_a_net_cost_checkpoint",
+    "value": "53.96"
+   }
+  ]
+ },
+ "t1_7wpajvpxryr6tqfsuntps": {
+  "case_id": "t1_7wpajvpxryr6tqfsuntps",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "39.83"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "segment_a_shared_cost_burden_ratio_checkpoint",
+    "value": "0.100102"
+   },
+   {
+    "slot_id": "segment_b_shared_cost_burden_ratio_checkpoint",
+    "value": "0.199187"
+   }
+  ]
+ },
+ "t1_7x4olykyj3g5tfuthawro": {
+  "case_id": "t1_7x4olykyj3g5tfuthawro",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "19063.72"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "two_year_gross_capital_checkpoint",
+    "value": "87799.96"
+   }
+  ]
+ },
+ "t1_aainix2n2evcofson5cta": {
+  "case_id": "t1_aainix2n2evcofson5cta",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "23185.70"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "standard_taxable_checkpoint",
+    "value": "80679.00"
+   },
+   {
+    "slot_id": "itemized_taxable_checkpoint",
+    "value": "71130.00"
+   }
+  ]
+ },
+ "t1_abnkb3gcv72hqhx7xlqlu": {
+  "case_id": "t1_abnkb3gcv72hqhx7xlqlu",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "94.12"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_downturn_checkpoint",
+    "value": "102.00"
+   }
+  ]
+ },
+ "t1_ac4brczqkdjaa46lglt2o": {
+  "case_id": "t1_ac4brczqkdjaa46lglt2o",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "review_required"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "lower_stage_factor_checkpoint",
+    "value": "0.800000"
+   }
+  ]
+ },
+ "t1_acs3hnmtvr6fvgi4budtc": {
+  "case_id": "t1_acs3hnmtvr6fvgi4budtc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "187.27"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "first_payment_balance_checkpoint",
+    "value": "971.68"
+   }
+  ]
+ },
+ "t1_aen3saojkqnpyzv3dhel2": {
+  "case_id": "t1_aen3saojkqnpyzv3dhel2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-102.92"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "horizon_volume_checkpoint",
+    "value": "8208.0000"
+   },
+   {
+    "slot_id": "horizon_count_checkpoint",
+    "value": "96"
+   }
+  ]
+ },
+ "t1_af5p47x3l33t7vuwjp6h2": {
+  "case_id": "t1_af5p47x3l33t7vuwjp6h2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Call"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "call_payoff_checkpoint",
+    "value": "105.13"
+   },
+   {
+    "slot_id": "put_payoff_checkpoint",
+    "value": "78.00"
+   }
+  ]
+ },
+ "t1_aggrp7dxfnskvykyayswu": {
+  "case_id": "t1_aggrp7dxfnskvykyayswu",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "25.09"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "energy_savings_checkpoint",
+    "value": "97.42"
+   }
+  ]
+ },
+ "t1_ahx7ktv3dj5l2onw7wjiu": {
+  "case_id": "t1_ahx7ktv3dj5l2onw7wjiu",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "43.22"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "category_1_exposure_checkpoint",
+    "value": "2048.00"
+   },
+   {
+    "slot_id": "category_2_exposure_checkpoint",
+    "value": "5897.41"
+   }
+  ]
+ },
+ "t1_akidkrcaa54dknsgb73lg": {
+  "case_id": "t1_akidkrcaa54dknsgb73lg",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.10"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "low_state_retained_cash_checkpoint",
+    "value": "10.2000"
+   },
+   {
+    "slot_id": "incremental_retained_cash_checkpoint",
+    "value": "4.0800"
+   },
+   {
+    "slot_id": "incremental_repayment_checkpoint",
+    "value": "6.1200"
+   }
+  ]
+ },
+ "t1_ao6bjeyu6s3wocnr4p3oy": {
+  "case_id": "t1_ao6bjeyu6s3wocnr4p3oy",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "11790.65"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "first_phase_growth_checkpoint",
+    "value": "1.407100"
+   },
+   {
+    "slot_id": "smoothed_phase_growth_checkpoint",
+    "value": "8.172151"
+   }
+  ]
+ },
+ "t1_arjzf6d5miq44ksrd4l7w": {
+  "case_id": "t1_arjzf6d5miq44ksrd4l7w",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "budget_breach"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "convexity_ratio_checkpoint",
+    "value": "0.038938"
+   }
+  ]
+ },
+ "t1_arwlvxiaptuvkyyq5fyci": {
+  "case_id": "t1_arwlvxiaptuvkyyq5fyci",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "112.18"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "single_threshold_retention_checkpoint",
+    "value": "0.800000"
+   }
+  ]
+ },
+ "t1_avxk35ar6aizumyfmrin6": {
+  "case_id": "t1_avxk35ar6aizumyfmrin6",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "292.92"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "exposed_value_checkpoint",
+    "value": "101.56"
+   }
+  ]
+ },
+ "t1_bde7ujoeqgyzto3tyn7rc": {
+  "case_id": "t1_bde7ujoeqgyzto3tyn7rc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "15.14"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_purchase_assets_checkpoint",
+    "value": "120.32"
+   }
+  ]
+ },
+ "t1_bhu7yx3cumxk5wd25lfuw": {
+  "case_id": "t1_bhu7yx3cumxk5wd25lfuw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "5.95"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "joint_ratio_checkpoint",
+    "value": "0.000100"
+   }
+  ]
+ },
+ "t1_bjzxf7exy7eaorimjmqvg": {
+  "case_id": "t1_bjzxf7exy7eaorimjmqvg",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "100.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "discounted_unit_price_checkpoint",
+    "value": "97.6000"
+   }
+  ]
+ },
+ "t1_bm4nntrjwbeqtnpbi2rpa": {
+  "case_id": "t1_bm4nntrjwbeqtnpbi2rpa",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "primary_miss_checkpoint",
+    "value": "0.500000"
+   }
+  ]
+ },
+ "t1_bobr6f7eip7vx7crcx3ls": {
+  "case_id": "t1_bobr6f7eip7vx7crcx3ls",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "340.86"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_purchase_assets_checkpoint",
+    "value": "225.27"
+   }
+  ]
+ },
+ "t1_bt3z23bnksghmg4rsxqpe": {
+  "case_id": "t1_bt3z23bnksghmg4rsxqpe",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.9970"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "comparable_a_tax_adjusted_debt_checkpoint",
+    "value": "1970.4000"
+   },
+   {
+    "slot_id": "comparable_b_tax_adjusted_debt_checkpoint",
+    "value": "4904.0000"
+   }
+  ]
+ },
+ "t1_bu36eo6aulfyiad3ja5my": {
+  "case_id": "t1_bu36eo6aulfyiad3ja5my",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Routine monitoring"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "corridor_threshold_residual_factor_checkpoint",
+    "value": "0.812345"
+   }
+  ]
+ },
+ "t1_buytxrpcghtkrmjd2hxzm": {
+  "case_id": "t1_buytxrpcghtkrmjd2hxzm",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "6413.71"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "normal_interim_present_value_checkpoint",
+    "value": "1728.42"
+   },
+   {
+    "slot_id": "stressed_interim_present_value_checkpoint",
+    "value": "802.68"
+   }
+  ]
+ },
+ "t1_c4qbgdmqcjmiykzcjfuru": {
+  "case_id": "t1_c4qbgdmqcjmiykzcjfuru",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Suspend and refresh records"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "risk_migration_checkpoint",
+    "value": "7.00"
+   }
+  ]
+ },
+ "t1_c5r7tjb5se3khqyt25dcm": {
+  "case_id": "t1_c5r7tjb5se3khqyt25dcm",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "114.45"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "retention_ratio_checkpoint",
+    "value": "0.600001"
+   }
+  ]
+ },
+ "t1_c6ein6vre2sgsa3y4acaq": {
+  "case_id": "t1_c6ein6vre2sgsa3y4acaq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1.479221"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "gross_growth_checkpoint",
+    "value": "1.210615"
+   }
+  ]
+ },
+ "t1_ce4sldb2yoyawhknpumbs": {
+  "case_id": "t1_ce4sldb2yoyawhknpumbs",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "20.95"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "upfront_stock_consideration_checkpoint",
+    "value": "39.2000"
+   }
+  ]
+ },
+ "t1_cf2dueekn2nx7g62b3icy": {
+  "case_id": "t1_cf2dueekn2nx7g62b3icy",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "reduce_flexible_spending"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_cut_budget_checkpoint",
+    "value": "812.80"
+   },
+   {
+    "slot_id": "reducible_spending_checkpoint",
+    "value": "315.00"
+   }
+  ]
+ },
+ "t1_cff2rp3qh5yhfj5mgmt5w": {
+  "case_id": "t1_cff2rp3qh5yhfj5mgmt5w",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "91.02"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "debt_after_borrowing_checkpoint",
+    "value": "150.95"
+   }
+  ]
+ },
+ "t1_cqkmq7nmplxr4knxzazek": {
+  "case_id": "t1_cqkmq7nmplxr4knxzazek",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "no_feasible_structure"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "structure_a_annual_factor_checkpoint",
+    "value": "1.05000000"
+   }
+  ]
+ },
+ "t1_crejypzcryj2swac5gyxi": {
+  "case_id": "t1_crejypzcryj2swac5gyxi",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "no_feasible_structure"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "structure_a_annual_factor_checkpoint",
+    "value": "1.09840001"
+   }
+  ]
+ },
+ "t1_cvnxibkdcuui4cjg2v5fq": {
+  "case_id": "t1_cvnxibkdcuui4cjg2v5fq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.02"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "period_one_return_checkpoint",
+    "value": "0.346939"
+   }
+  ]
+ },
+ "t1_cvspqy7wtcuhomuppgtgq": {
+  "case_id": "t1_cvspqy7wtcuhomuppgtgq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "100.54"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "retention_ratio_checkpoint",
+    "value": "0.600000"
+   }
+  ]
+ },
+ "t1_cya24xq7gnooym5wkkyf4": {
+  "case_id": "t1_cya24xq7gnooym5wkkyf4",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "99.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "annual_net_benefit_checkpoint",
+    "value": "99.00"
+   }
+  ]
+ },
+ "t1_cyderntqcljwptiuovayg": {
+  "case_id": "t1_cyderntqcljwptiuovayg",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "30629.27"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "two_year_gross_capital_checkpoint",
+    "value": "112025.03"
+   }
+  ]
+ },
+ "t1_d6czs24fa4f3vy4kelp7w": {
+  "case_id": "t1_d6czs24fa4f3vy4kelp7w",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "4.47"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "dilution_multiple_checkpoint",
+    "value": "1.200000"
+   }
+  ]
+ },
+ "t1_dadqaarahx7db2vebpfho": {
+  "case_id": "t1_dadqaarahx7db2vebpfho",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "8.26"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "intrinsic_checkpoint",
+    "value": "81.92"
+   }
+  ]
+ },
+ "t1_dczk6cbnhn6beyy6gwxm2": {
+  "case_id": "t1_dczk6cbnhn6beyy6gwxm2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "119.93"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "pre_action_asset_base_checkpoint",
+    "value": "146.9100"
+   }
+  ]
+ },
+ "t1_dhh34rszsb27vxbzyu6kc": {
+  "case_id": "t1_dhh34rszsb27vxbzyu6kc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "earlier_date"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "earlier_growth_factor_checkpoint",
+    "value": "1.215509"
+   },
+   {
+    "slot_id": "later_growth_factor_checkpoint",
+    "value": "1.276285"
+   }
+  ]
+ },
+ "t1_dk5e23w4nve2pwta3hw3e": {
+  "case_id": "t1_dk5e23w4nve2pwta3hw3e",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "100.85"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "pre_rebate_checkpoint",
+    "value": "76.68"
+   }
+  ]
+ },
+ "t1_dk6hegkpwtnglarkkikpi": {
+  "case_id": "t1_dk6hegkpwtnglarkkikpi",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "2.56"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "market_ratio_checkpoint",
+    "value": "0.080000"
+   }
+  ]
+ },
+ "t1_dnmxiqyxbzk6uvizsbcbm": {
+  "case_id": "t1_dnmxiqyxbzk6uvizsbcbm",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "99.60"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "network_b_after_ratio_fee_checkpoint",
+    "value": "88.80"
+   }
+  ]
+ },
+ "t1_dqvtyfgnyflw264e7xslg": {
+  "case_id": "t1_dqvtyfgnyflw264e7xslg",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Scenario A"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "a_one_stage_retention_factor_checkpoint",
+    "value": "0.800001"
+   }
+  ]
+ },
+ "t1_dtcq3nmm6o7sz5p3fnoa2": {
+  "case_id": "t1_dtcq3nmm6o7sz5p3fnoa2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-1.70"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "derivative_equivalent_checkpoint",
+    "value": "19.52"
+   }
+  ]
+ },
+ "t1_dwhsglz6aqauusodbkgws": {
+  "case_id": "t1_dwhsglz6aqauusodbkgws",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "76.36"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "net_receipts_checkpoint",
+    "value": "100.45"
+   }
+  ]
+ },
+ "t1_dx7si6oqxcmmbo6nqx7dc": {
+  "case_id": "t1_dx7si6oqxcmmbo6nqx7dc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "90.43"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "green_maturity_factor_checkpoint",
+    "value": "1.27628156"
+   }
+  ]
+ },
+ "t1_eq5ao4kybfocggsgbohpa": {
+  "case_id": "t1_eq5ao4kybfocggsgbohpa",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "36.75"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "headline_savings_checkpoint",
+    "value": "101.0000"
+   },
+   {
+    "slot_id": "pairwise_overlap_checkpoint",
+    "value": "16.0000"
+   }
+  ]
+ },
+ "t1_ernw3566d2enqwkwrvz72": {
+  "case_id": "t1_ernw3566d2enqwkwrvz72",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "71.10"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "discounted_unit_price_checkpoint",
+    "value": "79.2000"
+   }
+  ]
+ },
+ "t1_et73aawtztcesdhtigiay": {
+  "case_id": "t1_et73aawtztcesdhtigiay",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1195.08"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "later_contribution_growth_checkpoint",
+    "value": "1.610510"
+   }
+  ]
+ },
+ "t1_eylosu5lgs3qr3a2a2dhq": {
+  "case_id": "t1_eylosu5lgs3qr3a2a2dhq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "8.41"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "combined_capital_requirement_ratio_checkpoint",
+    "value": "0.120000"
+   }
+  ]
+ },
+ "t1_f24wco3ieosoqym5vcrno": {
+  "case_id": "t1_f24wco3ieosoqym5vcrno",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "129.84"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "period_one_net_to_floor_ratio_checkpoint",
+    "value": "0.344243"
+   }
+  ]
+ },
+ "t1_famny7xecrw6quhlrzcoo": {
+  "case_id": "t1_famny7xecrw6quhlrzcoo",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "173.63"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_shock_retention_checkpoint",
+    "value": "0.750001"
+   }
+  ]
+ },
+ "t1_fghqqksft6iiky6cfbcsw": {
+  "case_id": "t1_fghqqksft6iiky6cfbcsw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "86.02"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "horizon_volume_checkpoint",
+    "value": "2424.0000"
+   },
+   {
+    "slot_id": "horizon_count_checkpoint",
+    "value": "45"
+   }
+  ]
+ },
+ "t1_fhgbpk3jmxnyikyzrudyi": {
+  "case_id": "t1_fhgbpk3jmxnyikyzrudyi",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "10.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "horizon_volatility_checkpoint",
+    "value": "0.300000"
+   }
+  ]
+ },
+ "t1_fkdnq3mnfygaxbdi45vbw": {
+  "case_id": "t1_fkdnq3mnfygaxbdi45vbw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Hold"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "corridor_threshold_residual_factor_checkpoint",
+    "value": "0.700001"
+   }
+  ]
+ },
+ "t1_fli7ehul3z625onfoumu4": {
+  "case_id": "t1_fli7ehul3z625onfoumu4",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "program_a"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "program_a_net_cost_checkpoint",
+    "value": "81.22"
+   }
+  ]
+ },
+ "t1_flv2pprwrlewdxjahus2g": {
+  "case_id": "t1_flv2pprwrlewdxjahus2g",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Neither"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "a_outlay_checkpoint",
+    "value": "102.00"
+   },
+   {
+    "slot_id": "b_outlay_checkpoint",
+    "value": "110.00"
+   }
+  ]
+ },
+ "t1_fopt4bcvocdntl3ovfosw": {
+  "case_id": "t1_fopt4bcvocdntl3ovfosw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "132.87"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "pre_rebate_checkpoint",
+    "value": "101.30"
+   }
+  ]
+ },
+ "t1_ft5tce4c3tclzg47zzpv6": {
+  "case_id": "t1_ft5tce4c3tclzg47zzpv6",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "16.84"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "net_debt_checkpoint",
+    "value": "20.0000"
+   }
+  ]
+ },
+ "t1_fuprg74f5iaispu7eqb2e": {
+  "case_id": "t1_fuprg74f5iaispu7eqb2e",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "201.97"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "discounted_unit_price_checkpoint",
+    "value": "78.3120"
+   }
+  ]
+ },
+ "t1_g3jljwfqir2k5feplxzju": {
+  "case_id": "t1_g3jljwfqir2k5feplxzju",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "54.85"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "procurement_marginal_after_it_checkpoint",
+    "value": "1857.0000"
+   }
+  ]
+ },
+ "t1_gceqzlpeemm3pmq55enmk": {
+  "case_id": "t1_gceqzlpeemm3pmq55enmk",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "10.91"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "debt_to_equity_checkpoint",
+    "value": "0.405941"
+   }
+  ]
+ },
+ "t1_gdphndrbun7v6qwxkix4w": {
+  "case_id": "t1_gdphndrbun7v6qwxkix4w",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1.03"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "charge_budget_checkpoint",
+    "value": "0.00"
+   }
+  ]
+ },
+ "t1_gfrvwivku7mlkluld7iyw": {
+  "case_id": "t1_gfrvwivku7mlkluld7iyw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "63.60"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "strategy_a_weighted_upside_checkpoint",
+    "value": "10697.44"
+   },
+   {
+    "slot_id": "strategy_b_downturn_checkpoint",
+    "value": "8228.80"
+   }
+  ]
+ },
+ "t1_ggujuf22xwhtkzrfmieck": {
+  "case_id": "t1_ggujuf22xwhtkzrfmieck",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "52.98"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_credit_factor_checkpoint",
+    "value": "0.812345"
+   }
+  ]
+ },
+ "t1_gl3ko5vfgafn5z523c6jy": {
+  "case_id": "t1_gl3ko5vfgafn5z523c6jy",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "neither_date"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "earlier_growth_factor_checkpoint",
+    "value": "1.003004"
+   },
+   {
+    "slot_id": "later_growth_factor_checkpoint",
+    "value": "1.000500"
+   }
+  ]
+ },
+ "t1_glgldujldvsvqitwk4fb2": {
+  "case_id": "t1_glgldujldvsvqitwk4fb2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "credits_only"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "variable_abatement_total_checkpoint",
+    "value": "867.54"
+   }
+  ]
+ },
+ "t1_gmpopcfaanawfvpna7sqq": {
+  "case_id": "t1_gmpopcfaanawfvpna7sqq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "2.28"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "derivative_equivalent_checkpoint",
+    "value": "29.60"
+   }
+  ]
+ },
+ "t1_gpdjkdxfumizi2x7uxtlq": {
+  "case_id": "t1_gpdjkdxfumizi2x7uxtlq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "25298.44"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "normal_interim_present_value_checkpoint",
+    "value": "1592.84"
+   },
+   {
+    "slot_id": "stressed_interim_present_value_checkpoint",
+    "value": "650.96"
+   }
+  ]
+ },
+ "t1_gqdpxfjf7pl7jdbhv7pnk": {
+  "case_id": "t1_gqdpxfjf7pl7jdbhv7pnk",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "109.09"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "gross_requirement_checkpoint",
+    "value": "25.0000"
+   },
+   {
+    "slot_id": "frechet_lower_bound_checkpoint",
+    "value": "0.300000"
+   }
+  ]
+ },
+ "t1_gs4t3x3vvrgyhymyw3fpi": {
+  "case_id": "t1_gs4t3x3vvrgyhymyw3fpi",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Current sale"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "current_gain_checkpoint",
+    "value": "1648.00"
+   },
+   {
+    "slot_id": "base_gain_checkpoint",
+    "value": "2699.29"
+   },
+   {
+    "slot_id": "downside_gain_checkpoint",
+    "value": "1980.00"
+   }
+  ]
+ },
+ "t1_gtgj27alrhcz6iarikvke": {
+  "case_id": "t1_gtgj27alrhcz6iarikvke",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "2.4734"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "tranche_a_interest_checkpoint",
+    "value": "2967.3000"
+   },
+   {
+    "slot_id": "tranche_b_interest_checkpoint",
+    "value": "4601.7000"
+   }
+  ]
+ },
+ "t1_gtycyglcsssz4m3i2j2uk": {
+  "case_id": "t1_gtycyglcsssz4m3i2j2uk",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.60"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "low_state_retained_cash_checkpoint",
+    "value": "8.8200"
+   },
+   {
+    "slot_id": "incremental_retained_cash_checkpoint",
+    "value": "4.9000"
+   },
+   {
+    "slot_id": "incremental_repayment_checkpoint",
+    "value": "9.1000"
+   }
+  ]
+ },
+ "t1_guaou65nfqomr3ao2tdrs": {
+  "case_id": "t1_guaou65nfqomr3ao2tdrs",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "24.68"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "current_first_payment_balance_checkpoint",
+    "value": "943.65"
+   },
+   {
+    "slot_id": "refinance_first_payment_balance_checkpoint",
+    "value": "932.02"
+   }
+  ]
+ },
+ "t1_gwm53hazneme5ha5lociq": {
+  "case_id": "t1_gwm53hazneme5ha5lociq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Neither scenario"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "a_one_stage_retention_factor_checkpoint",
+    "value": "0.720000"
+   }
+  ]
+ },
+ "t1_gyiamqexu7k3ervios6im": {
+  "case_id": "t1_gyiamqexu7k3ervios6im",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "abate_then_buy"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "variable_abatement_total_checkpoint",
+    "value": "968.34"
+   }
+  ]
+ },
+ "t1_h3aqye4wusy6jo2k6kr2g": {
+  "case_id": "t1_h3aqye4wusy6jo2k6kr2g",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "wait"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_downturn_checkpoint",
+    "value": "99.00"
+   }
+  ]
+ },
+ "t1_h3roicj6atjcsflqswgjo": {
+  "case_id": "t1_h3roicj6atjcsflqswgjo",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "66.80"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "intrinsic_checkpoint",
+    "value": "102.50"
+   }
+  ]
+ },
+ "t1_hdqx6ec7w2gubwh7hacbi": {
+  "case_id": "t1_hdqx6ec7w2gubwh7hacbi",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "13.44"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "expected_cost_benefit_checkpoint",
+    "value": "5.6000"
+   },
+   {
+    "slot_id": "expected_revenue_benefit_checkpoint",
+    "value": "11.4000"
+   }
+  ]
+ },
+ "t1_hecax2jrazttjmg6esc34": {
+  "case_id": "t1_hecax2jrazttjmg6esc34",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "28.90"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "acquisition_outlay_checkpoint",
+    "value": "78.00"
+   }
+  ]
+ },
+ "t1_hedysax42wzc5fi5uwa6a": {
+  "case_id": "t1_hedysax42wzc5fi5uwa6a",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1328.92"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "variable_fee_checkpoint",
+    "value": "61.48"
+   },
+   {
+    "slot_id": "fixed_fee_checkpoint",
+    "value": "58.60"
+   },
+   {
+    "slot_id": "chargeback_loss_checkpoint",
+    "value": "49.00"
+   }
+  ]
+ },
+ "t1_heh55damadekon7hpr4ue": {
+  "case_id": "t1_heh55damadekon7hpr4ue",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "no_feasible_program"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "program_a_net_cost_checkpoint",
+    "value": "222.00"
+   }
+  ]
+ },
+ "t1_hhzku6ff6f2v4f4gytdnc": {
+  "case_id": "t1_hhzku6ff6f2v4f4gytdnc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "5.62"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "weighted_volatility_a_checkpoint",
+    "value": "0.090000"
+   },
+   {
+    "slot_id": "weighted_volatility_b_checkpoint",
+    "value": "0.110000"
+   }
+  ]
+ },
+ "t1_hp4acfazicznrqxlfpjrw": {
+  "case_id": "t1_hp4acfazicznrqxlfpjrw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "4.35"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "combined_risk_checkpoint",
+    "value": "11.60"
+   }
+  ]
+ },
+ "t1_hr3fsphtnhid3sprgpw56": {
+  "case_id": "t1_hr3fsphtnhid3sprgpw56",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "market_loss_checkpoint",
+    "value": "0.99"
+   }
+  ]
+ },
+ "t1_hv3zsk264dezrc4iw7mnm": {
+  "case_id": "t1_hv3zsk264dezrc4iw7mnm",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Package A"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_stage_leverage_cap_checkpoint",
+    "value": "0.800001"
+   }
+  ]
+ },
+ "t1_hxzkgks2txqglsrwkp7xi": {
+  "case_id": "t1_hxzkgks2txqglsrwkp7xi",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Tax exposure loss is larger"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "attrition_case_ebitda_checkpoint",
+    "value": "102.0000"
+   },
+   {
+    "slot_id": "uninsured_tax_exposure_checkpoint",
+    "value": "79.2000"
+   }
+  ]
+ },
+ "t1_i6ihctgkcoskhtlhirkti": {
+  "case_id": "t1_i6ihctgkcoskhtlhirkti",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "29.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "net_debt_checkpoint",
+    "value": "-20.0000"
+   }
+  ]
+ },
+ "t1_ialx23cdhaqhdwz4fuwdm": {
+  "case_id": "t1_ialx23cdhaqhdwz4fuwdm",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-1.16"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "current_first_payment_balance_checkpoint",
+    "value": "965.25"
+   },
+   {
+    "slot_id": "refinance_first_payment_balance_checkpoint",
+    "value": "965.59"
+   }
+  ]
+ },
+ "t1_ibmz3xu6h724upwo75cb2": {
+  "case_id": "t1_ibmz3xu6h724upwo75cb2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "22.05"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "noncash_charges_checkpoint",
+    "value": "112.60"
+   },
+   {
+    "slot_id": "working_capital_cash_uses_checkpoint",
+    "value": "70.13"
+   },
+   {
+    "slot_id": "direct_cash_uses_checkpoint",
+    "value": "95.82"
+   }
+  ]
+ },
+ "t1_iektljrmxrprfosqxsk4i": {
+  "case_id": "t1_iektljrmxrprfosqxsk4i",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "within_budget"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "convexity_ratio_checkpoint",
+    "value": "0.005000"
+   }
+  ]
+ },
+ "t1_igezw3wt3tlmbayoq5woe": {
+  "case_id": "t1_igezw3wt3tlmbayoq5woe",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.357037"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "news_score_checkpoint",
+    "value": "0.584074"
+   }
+  ]
+ },
+ "t1_igmuoeiz6u22cyx4i3q7q": {
+  "case_id": "t1_igmuoeiz6u22cyx4i3q7q",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-635.22"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "early_cleanup_growth_factor_checkpoint",
+    "value": "2.143589"
+   },
+   {
+    "slot_id": "terminal_discount_factor_checkpoint",
+    "value": "0.232568"
+   }
+  ]
+ },
+ "t1_iiy2hxyxv2vva2vdciys2": {
+  "case_id": "t1_iiy2hxyxv2vva2vdciys2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Neither package"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_stage_leverage_cap_checkpoint",
+    "value": "0.700000"
+   }
+  ]
+ },
+ "t1_ikmtkr7sdwigzo2qfzcpc": {
+  "case_id": "t1_ikmtkr7sdwigzo2qfzcpc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "14.62"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "year_two_present_value_checkpoint",
+    "value": "203.3058"
+   }
+  ]
+ },
+ "t1_ikzeoqfhhqvgl5eujv2om": {
+  "case_id": "t1_ikzeoqfhhqvgl5eujv2om",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1.757521"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "gross_growth_checkpoint",
+    "value": "1.500000"
+   }
+  ]
+ },
+ "t1_iqboasqtk52jf7gzaso4q": {
+  "case_id": "t1_iqboasqtk52jf7gzaso4q",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-2.67"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "cash_flow_after_working_capital_checkpoint",
+    "value": "41.4000"
+   }
+  ]
+ },
+ "t1_iqfcvuweioe2urpc24y62": {
+  "case_id": "t1_iqfcvuweioe2urpc24y62",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "39.99"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "expected_cost_benefit_checkpoint",
+    "value": "5926.0000"
+   },
+   {
+    "slot_id": "expected_revenue_benefit_checkpoint",
+    "value": "5903.2000"
+   }
+  ]
+ },
+ "t1_itzuo3b6ykpkqyufyudou": {
+  "case_id": "t1_itzuo3b6ykpkqyufyudou",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Routine monitoring"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "risk_migration_checkpoint",
+    "value": "-2.81"
+   }
+  ]
+ },
+ "t1_ixnltg23hqgcnuryjxupg": {
+  "case_id": "t1_ixnltg23hqgcnuryjxupg",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "defensive"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_downturn_checkpoint",
+    "value": "102.00"
+   }
+  ]
+ },
+ "t1_iz2hmnd5gaiesrsnhdjme": {
+  "case_id": "t1_iz2hmnd5gaiesrsnhdjme",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Hold then sell"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "current_gain_checkpoint",
+    "value": "1174.69"
+   },
+   {
+    "slot_id": "base_gain_checkpoint",
+    "value": "3708.00"
+   },
+   {
+    "slot_id": "downside_gain_checkpoint",
+    "value": "2278.00"
+   }
+  ]
+ },
+ "t1_j2ddrvd2qd76py5yju5sw": {
+  "case_id": "t1_j2ddrvd2qd76py5yju5sw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "263.80"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "buffered_target_checkpoint",
+    "value": "122.40"
+   }
+  ]
+ },
+ "t1_j4k4lmii22upus5uzmauq": {
+  "case_id": "t1_j4k4lmii22upus5uzmauq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "within_appetite"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "stressed_ratio_checkpoint",
+    "value": "0.250000"
+   }
+  ]
+ },
+ "t1_jdzpnjyimh7b2oz7dlw4w": {
+  "case_id": "t1_jdzpnjyimh7b2oz7dlw4w",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "3982.63"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "retry_success_fraction_checkpoint",
+    "value": "0.1950"
+   },
+   {
+    "slot_id": "backup_processing_fees_checkpoint",
+    "value": "320.41"
+   },
+   {
+    "slot_id": "terminal_failure_cost_checkpoint",
+    "value": "401.31"
+   }
+  ]
+ },
+ "t1_jin6yi3ltp5slih3vfvh4": {
+  "case_id": "t1_jin6yi3ltp5slih3vfvh4",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1669.45"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_stage_price_retention_checkpoint",
+    "value": "0.700000"
+   }
+  ]
+ },
+ "t1_jk3wmmhk27ph7yh2jp6wi": {
+  "case_id": "t1_jk3wmmhk27ph7yh2jp6wi",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "capital_priority"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "capital_coverage_checkpoint",
+    "value": "0.801980"
+   }
+  ]
+ },
+ "t1_jlda7oqfrmfxcsrjjfuhk": {
+  "case_id": "t1_jlda7oqfrmfxcsrjjfuhk",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "19.15"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "noncash_charges_checkpoint",
+    "value": "99.26"
+   },
+   {
+    "slot_id": "working_capital_cash_uses_checkpoint",
+    "value": "49.54"
+   },
+   {
+    "slot_id": "direct_cash_uses_checkpoint",
+    "value": "80.27"
+   }
+  ]
+ },
+ "t1_jmsipwk3lxjvqtzcpvzug": {
+  "case_id": "t1_jmsipwk3lxjvqtzcpvzug",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "25.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "loss_budget_checkpoint",
+    "value": "1516.00"
+   }
+  ]
+ },
+ "t1_jrgmsev3527o6gkqaapts": {
+  "case_id": "t1_jrgmsev3527o6gkqaapts",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "198.54"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "rebound_ratio_checkpoint",
+    "value": "0.097981"
+   }
+  ]
+ },
+ "t1_jvisa2wizuddo36tn3rdo": {
+  "case_id": "t1_jvisa2wizuddo36tn3rdo",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "7.71"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "weighted_contribution_checkpoint",
+    "value": "149.2500"
+   }
+  ]
+ },
+ "t1_jvmsxsdnr2igfxsg7bf2y": {
+  "case_id": "t1_jvmsxsdnr2igfxsg7bf2y",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Customer attrition loss is larger"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "attrition_case_ebitda_checkpoint",
+    "value": "102.0000"
+   },
+   {
+    "slot_id": "uninsured_tax_exposure_checkpoint",
+    "value": "203.0000"
+   }
+  ]
+ },
+ "t1_jvtxg33e2n5z7jma3b3sm": {
+  "case_id": "t1_jvtxg33e2n5z7jma3b3sm",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Plan A"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "plan_a_residual_factor_checkpoint",
+    "value": "0.600000"
+   }
+  ]
+ },
+ "t1_jxkp624azqvbohehkfgk6": {
+  "case_id": "t1_jxkp624azqvbohehkfgk6",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "337.58"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "existing_reward_checkpoint",
+    "value": "69.2960"
+   }
+  ]
+ },
+ "t1_k33o3mjzesadker2irhce": {
+  "case_id": "t1_k33o3mjzesadker2irhce",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "no_feasible_response"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_cut_budget_checkpoint",
+    "value": "1027.31"
+   },
+   {
+    "slot_id": "reducible_spending_checkpoint",
+    "value": "118.00"
+   }
+  ]
+ },
+ "t1_k3cewgreszf6ra37rd3oi": {
+  "case_id": "t1_k3cewgreszf6ra37rd3oi",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Enhanced review"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "spike_threshold_residual_factor_checkpoint",
+    "value": "0.770000"
+   }
+  ]
+ },
+ "t1_k3zhx7psoksfu3qixfbyu": {
+  "case_id": "t1_k3zhx7psoksfu3qixfbyu",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "assured"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "lower_stage_factor_checkpoint",
+    "value": "0.900001"
+   }
+  ]
+ },
+ "t1_k423m3u6wxzcqkkhrfpss": {
+  "case_id": "t1_k423m3u6wxzcqkkhrfpss",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "6.15"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "combined_capital_requirement_ratio_checkpoint",
+    "value": "0.135792"
+   }
+  ]
+ },
+ "t1_k4tte7vctjxhbgkfva7yo": {
+  "case_id": "t1_k4tte7vctjxhbgkfva7yo",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "62.35"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "procurement_marginal_after_it_checkpoint",
+    "value": "40.0000"
+   }
+  ]
+ },
+ "t1_k64urpkqsueev4izay7ks": {
+  "case_id": "t1_k64urpkqsueev4izay7ks",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-54.09"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "threshold_adjustment_factor_checkpoint",
+    "value": "1.125000"
+   }
+  ]
+ },
+ "t1_k65bllmechikkm6fq4274": {
+  "case_id": "t1_k65bllmechikkm6fq4274",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "earlier_date"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "earlier_growth_factor_checkpoint",
+    "value": "1.082432"
+   },
+   {
+    "slot_id": "later_growth_factor_checkpoint",
+    "value": "1.171659"
+   }
+  ]
+ },
+ "t1_kc3s6lxn4k434fik6onds": {
+  "case_id": "t1_kc3s6lxn4k434fik6onds",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Scenario A"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_stage_debt_ratio_cap_checkpoint",
+    "value": "0.800000"
+   }
+  ]
+ },
+ "t1_kcgjueov4og5blnfkarfg": {
+  "case_id": "t1_kcgjueov4og5blnfkarfg",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "18.24"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "monitoring_surplus_value_checkpoint",
+    "value": "9.90"
+   }
+  ]
+ },
+ "t1_kje65ivkhfub54byixdde": {
+  "case_id": "t1_kje65ivkhfub54byixdde",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "9.81"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "weighted_contribution_checkpoint",
+    "value": "147.5000"
+   }
+  ]
+ },
+ "t1_kkhmw36x6ggufarcpyzgq": {
+  "case_id": "t1_kkhmw36x6ggufarcpyzgq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-589.04"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "later_contribution_growth_checkpoint",
+    "value": "2.660020"
+   }
+  ]
+ },
+ "t1_kw5bnndzgl2xxsoxjznku": {
+  "case_id": "t1_kw5bnndzgl2xxsoxjznku",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "19532.41"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "standard_taxable_checkpoint",
+    "value": "92391.00"
+   },
+   {
+    "slot_id": "itemized_taxable_checkpoint",
+    "value": "82160.00"
+   }
+  ]
+ },
+ "t1_kwndgdl4thj4cxhl2arne": {
+  "case_id": "t1_kwndgdl4thj4cxhl2arne",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "11.50"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "charge_budget_checkpoint",
+    "value": "3.00"
+   }
+  ]
+ },
+ "t1_l6bhaj6za4rgajqjfuhjw": {
+  "case_id": "t1_l6bhaj6za4rgajqjfuhjw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1.9790"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "tranche_a_interest_checkpoint",
+    "value": "3907.6000"
+   },
+   {
+    "slot_id": "tranche_b_interest_checkpoint",
+    "value": "6085.8000"
+   }
+  ]
+ },
+ "t1_lakn3256kl3xw7t7gg6wa": {
+  "case_id": "t1_lakn3256kl3xw7t7gg6wa",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Enhanced review"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "risk_migration_checkpoint",
+    "value": "3.85"
+   }
+  ]
+ },
+ "t1_lbb7gfr5qxrt44mmf64j2": {
+  "case_id": "t1_lbb7gfr5qxrt44mmf64j2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-207.95"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "later_contribution_growth_checkpoint",
+    "value": "4.299817"
+   }
+  ]
+ },
+ "t1_lc36bfzgblxjkn37gha2w": {
+  "case_id": "t1_lc36bfzgblxjkn37gha2w",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-0.20"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "combined_sales_effect_checkpoint",
+    "value": "1.200000"
+   },
+   {
+    "slot_id": "shared_second_period_asset_base_checkpoint",
+    "value": "135929.0000"
+   }
+  ]
+ },
+ "t1_lcn765omuuqmcxauskpds": {
+  "case_id": "t1_lcn765omuuqmcxauskpds",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "6.37"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "combined_risk_checkpoint",
+    "value": "10.84"
+   }
+  ]
+ },
+ "t1_lkprbqhk355tyk3o3bxpw": {
+  "case_id": "t1_lkprbqhk355tyk3o3bxpw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "No trade"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "a_gross_multiplier_checkpoint",
+    "value": "0.40000000"
+   },
+   {
+    "slot_id": "b_gross_multiplier_checkpoint",
+    "value": "0.80624000"
+   }
+  ]
+ },
+ "t1_lnix4q2iiyujmv6gaa5va": {
+  "case_id": "t1_lnix4q2iiyujmv6gaa5va",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "structure_b"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "structure_a_annual_factor_checkpoint",
+    "value": "1.04914500"
+   }
+  ]
+ },
+ "t1_lpednxja6o52zdp65cq3u": {
+  "case_id": "t1_lpednxja6o52zdp65cq3u",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "liquidity_block"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "stressed_ratio_checkpoint",
+    "value": "0.333333"
+   }
+  ]
+ },
+ "t1_lsacml2kjliqejs5ozvpm": {
+  "case_id": "t1_lsacml2kjliqejs5ozvpm",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "262.12"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "period_one_net_to_floor_ratio_checkpoint",
+    "value": "0.247063"
+   }
+  ]
+ },
+ "t1_lsczsawkbydecnbmneapc": {
+  "case_id": "t1_lsczsawkbydecnbmneapc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-0.24"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "period_one_return_checkpoint",
+    "value": "0.247525"
+   }
+  ]
+ },
+ "t1_lt5fwznd5q2dwyl4zxevu": {
+  "case_id": "t1_lt5fwznd5q2dwyl4zxevu",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1654.96"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "committed_tax_budget_share_checkpoint",
+    "value": "0.197596"
+   }
+  ]
+ },
+ "t1_luajnrpwlqwelqi3lxlxg": {
+  "case_id": "t1_luajnrpwlqwelqi3lxlxg",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "full_remediation"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "capital_coverage_checkpoint",
+    "value": "1.016201"
+   }
+  ]
+ },
+ "t1_lw7njmfuwivrrentlzlhc": {
+  "case_id": "t1_lw7njmfuwivrrentlzlhc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "113.48"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "first_payment_balance_checkpoint",
+    "value": "1101.08"
+   }
+  ]
+ },
+ "t1_lzpm5zmjo54pg4de6bv6e": {
+  "case_id": "t1_lzpm5zmjo54pg4de6bv6e",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "38.07"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "category_1_exposure_checkpoint",
+    "value": "98.50"
+   },
+   {
+    "slot_id": "category_2_exposure_checkpoint",
+    "value": "58.00"
+   }
+  ]
+ },
+ "t1_m2qtxyjlxkikcs33lmvs4": {
+  "case_id": "t1_m2qtxyjlxkikcs33lmvs4",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "66.32"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "penalty_cap_checkpoint",
+    "value": "103.06"
+   }
+  ]
+ },
+ "t1_m2qye2lyxzvftxi7nrfda": {
+  "case_id": "t1_m2qye2lyxzvftxi7nrfda",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "29.72"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_credit_factor_checkpoint",
+    "value": "0.730000"
+   }
+  ]
+ },
+ "t1_mdc5r44qyga7hggk5ndha": {
+  "case_id": "t1_mdc5r44qyga7hggk5ndha",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "129.40"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "buffered_target_checkpoint",
+    "value": "116.45"
+   }
+  ]
+ },
+ "t1_mfup4g5a4fry4njvf7uia": {
+  "case_id": "t1_mfup4g5a4fry4njvf7uia",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "21.09"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "expected_cost_benefit_checkpoint",
+    "value": "10.4265"
+   },
+   {
+    "slot_id": "expected_revenue_benefit_checkpoint",
+    "value": "5.6000"
+   }
+  ]
+ },
+ "t1_mllejjnvctl5gnna2sqmq": {
+  "case_id": "t1_mllejjnvctl5gnna2sqmq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "primary_miss_checkpoint",
+    "value": "0.400000"
+   }
+  ]
+ },
+ "t1_mvfjibji5taooxjqkbwmg": {
+  "case_id": "t1_mvfjibji5taooxjqkbwmg",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "2.14"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "current_first_payment_balance_checkpoint",
+    "value": "980.93"
+   },
+   {
+    "slot_id": "refinance_first_payment_balance_checkpoint",
+    "value": "980.42"
+   }
+  ]
+ },
+ "t1_mx6zg3snaxnasiorw35ak": {
+  "case_id": "t1_mx6zg3snaxnasiorw35ak",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "85.22"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "liability_relief_weight_checkpoint",
+    "value": "0.750000"
+   }
+  ]
+ },
+ "t1_my24ziaz4qemr4kld6x3e": {
+  "case_id": "t1_my24ziaz4qemr4kld6x3e",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "5.45"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "cash_flow_after_working_capital_checkpoint",
+    "value": "32.7225"
+   }
+  ]
+ },
+ "t1_n27c7u3degdl4zpw2jrwq": {
+  "case_id": "t1_n27c7u3degdl4zpw2jrwq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-41398.72"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "immediate_tax_reduction_checkpoint",
+    "value": "1122.5000"
+   }
+  ]
+ },
+ "t1_n5fb7nyrz6dww6prn5shq": {
+  "case_id": "t1_n5fb7nyrz6dww6prn5shq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "50.26"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "pre_action_asset_base_checkpoint",
+    "value": "197.0000"
+   }
+  ]
+ },
+ "t1_nd22sbezt73u4j7f5fuau": {
+  "case_id": "t1_nd22sbezt73u4j7f5fuau",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "104366.67"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "committed_tax_budget_share_checkpoint",
+    "value": "0.238385"
+   }
+  ]
+ },
+ "t1_nevur2x5cialxazxg7oca": {
+  "case_id": "t1_nevur2x5cialxazxg7oca",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1.631358"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "gross_growth_checkpoint",
+    "value": "1.200000"
+   }
+  ]
+ },
+ "t1_nhdbncyfblksz4yyi66qc": {
+  "case_id": "t1_nhdbncyfblksz4yyi66qc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "program_a"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "program_a_failure_probability_checkpoint",
+    "value": "0.600000"
+   }
+  ]
+ },
+ "t1_ni5burwzpeyb5g3lwe5t2": {
+  "case_id": "t1_ni5burwzpeyb5g3lwe5t2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "54.49"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "net_receipts_checkpoint",
+    "value": "87.73"
+   }
+  ]
+ },
+ "t1_nkxfgbkbbvxlrhmyg3av6": {
+  "case_id": "t1_nkxfgbkbbvxlrhmyg3av6",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-8.42"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "combined_capital_requirement_ratio_checkpoint",
+    "value": "0.123457"
+   }
+  ]
+ },
+ "t1_nlgpg45lhrmi7wh7ibyta": {
+  "case_id": "t1_nlgpg45lhrmi7wh7ibyta",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "66.28"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "category_1_exposure_checkpoint",
+    "value": "10.50"
+   },
+   {
+    "slot_id": "category_2_exposure_checkpoint",
+    "value": "9.50"
+   }
+  ]
+ },
+ "t1_ntrvbnksncp7dpptmcxiy": {
+  "case_id": "t1_ntrvbnksncp7dpptmcxiy",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "6055.46"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "retry_success_fraction_checkpoint",
+    "value": "0.1050"
+   },
+   {
+    "slot_id": "backup_processing_fees_checkpoint",
+    "value": "240.47"
+   },
+   {
+    "slot_id": "terminal_failure_cost_checkpoint",
+    "value": "169.79"
+   }
+  ]
+ },
+ "t1_nzk674kkjgypwoszgyscw": {
+  "case_id": "t1_nzk674kkjgypwoszgyscw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "primary_miss_checkpoint",
+    "value": "0.333333"
+   }
+  ]
+ },
+ "t1_o6tpwnedszjm5ejaf76zi": {
+  "case_id": "t1_o6tpwnedszjm5ejaf76zi",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "no_feasible_program"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "program_a_failure_probability_checkpoint",
+    "value": "0.400000"
+   }
+  ]
+ },
+ "t1_oeyx3bevkl5fivhq75x66": {
+  "case_id": "t1_oeyx3bevkl5fivhq75x66",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "119.76"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "retention_ratio_checkpoint",
+    "value": "0.750000"
+   }
+  ]
+ },
+ "t1_ofqwkb2frqtndhujw7n5a": {
+  "case_id": "t1_ofqwkb2frqtndhujw7n5a",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1.53"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "dilution_multiple_checkpoint",
+    "value": "1.314159"
+   }
+  ]
+ },
+ "t1_oi6nug72svt4dlesm3jag": {
+  "case_id": "t1_oi6nug72svt4dlesm3jag",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Route A"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "a_gross_multiplier_checkpoint",
+    "value": "5.83920002"
+   },
+   {
+    "slot_id": "b_gross_multiplier_checkpoint",
+    "value": "0.80000000"
+   }
+  ]
+ },
+ "t1_oizxsx7eimjbhkjxgwq6k": {
+  "case_id": "t1_oizxsx7eimjbhkjxgwq6k",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "target_payout"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_period_growth_multiple_checkpoint",
+    "value": "1.160000"
+   }
+  ]
+ },
+ "t1_ol54ju57chprgdce26skm": {
+  "case_id": "t1_ol54ju57chprgdce26skm",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.94"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_downturn_checkpoint",
+    "value": "102.05"
+   }
+  ]
+ },
+ "t1_olbofxcudneroeegktcoc": {
+  "case_id": "t1_olbofxcudneroeegktcoc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "59.04"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "period_one_net_to_floor_ratio_checkpoint",
+    "value": "0.391514"
+   }
+  ]
+ },
+ "t1_onemvegwjjnpsnvpicspy": {
+  "case_id": "t1_onemvegwjjnpsnvpicspy",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "70.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "revenue_value_checkpoint",
+    "value": "177.00"
+   },
+   {
+    "slot_id": "ebitda_value_checkpoint",
+    "value": "81.00"
+   }
+  ]
+ },
+ "t1_onvqeyfpqaoeu2if54dqq": {
+  "case_id": "t1_onvqeyfpqaoeu2if54dqq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1781.96"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "variable_fee_checkpoint",
+    "value": "81.24"
+   },
+   {
+    "slot_id": "fixed_fee_checkpoint",
+    "value": "98.00"
+   },
+   {
+    "slot_id": "chargeback_loss_checkpoint",
+    "value": "40.80"
+   }
+  ]
+ },
+ "t1_opm6lxzsbqdyqnthvsl5o": {
+  "case_id": "t1_opm6lxzsbqdyqnthvsl5o",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "122.26"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "network_b_after_ratio_fee_checkpoint",
+    "value": "131.31"
+   }
+  ]
+ },
+ "t1_oq6xegc7xhtdrlmnykd4m": {
+  "case_id": "t1_oq6xegc7xhtdrlmnykd4m",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "137.46"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "liability_relief_weight_checkpoint",
+    "value": "0.421644"
+   }
+  ]
+ },
+ "t1_owtxhmx7vputhr4qkigj2": {
+  "case_id": "t1_owtxhmx7vputhr4qkigj2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "capital_fail"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "joint_rate_checkpoint",
+    "value": "0.090358"
+   }
+  ]
+ },
+ "t1_oy5q3u3e7ua4ovjbgr6wg": {
+  "case_id": "t1_oy5q3u3e7ua4ovjbgr6wg",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "61.91"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "annual_net_benefit_checkpoint",
+    "value": "103.19"
+   }
+  ]
+ },
+ "t1_p3p2cv7gw4fjitgezhwiy": {
+  "case_id": "t1_p3p2cv7gw4fjitgezhwiy",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "7.13"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "intrinsic_checkpoint",
+    "value": "29.69"
+   }
+  ]
+ },
+ "t1_p4dr3jg6adb4idla7yvze": {
+  "case_id": "t1_p4dr3jg6adb4idla7yvze",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "22.31"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "year_two_present_value_checkpoint",
+    "value": "101.6529"
+   }
+  ]
+ },
+ "t1_p4lrtokaqd6npwr7zfdze": {
+  "case_id": "t1_p4lrtokaqd6npwr7zfdze",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "budget_breach"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "convexity_ratio_checkpoint",
+    "value": "0.020000"
+   }
+  ]
+ },
+ "t1_p76u4l57b2nol6ak6gsxq": {
+  "case_id": "t1_p76u4l57b2nol6ak6gsxq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "103.47"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "existing_reward_checkpoint",
+    "value": "102.6164"
+   }
+  ]
+ },
+ "t1_plqmv4jswglfiibv3fybk": {
+  "case_id": "t1_plqmv4jswglfiibv3fybk",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-17.86"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "period_1_equity_value_checkpoint",
+    "value": "1.000000"
+   },
+   {
+    "slot_id": "period_1_bond_value_checkpoint",
+    "value": "0.500000"
+   }
+  ]
+ },
+ "t1_pnelawedzzyh33iyy5se4": {
+  "case_id": "t1_pnelawedzzyh33iyy5se4",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "30.12"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "planned_abatement_checkpoint",
+    "value": "101.5801"
+   }
+  ]
+ },
+ "t1_ppcv5yxoogssakarsfhla": {
+  "case_id": "t1_ppcv5yxoogssakarsfhla",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "50.15"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "segment_a_shared_cost_burden_ratio_checkpoint",
+    "value": "0.099899"
+   },
+   {
+    "slot_id": "segment_b_shared_cost_burden_ratio_checkpoint",
+    "value": "0.200811"
+   }
+  ]
+ },
+ "t1_pruqrmzhhafidbr2dl2ic": {
+  "case_id": "t1_pruqrmzhhafidbr2dl2ic",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Route B"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "a_gross_multiplier_checkpoint",
+    "value": "1.32873000"
+   },
+   {
+    "slot_id": "b_gross_multiplier_checkpoint",
+    "value": "2.46480001"
+   }
+  ]
+ },
+ "t1_pudraokojtscy6karon6a": {
+  "case_id": "t1_pudraokojtscy6karon6a",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "176.76"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "covered_loss_ratio_checkpoint",
+    "value": "0.120000"
+   }
+  ]
+ },
+ "t1_pveobdbkk5goavov5iyva": {
+  "case_id": "t1_pveobdbkk5goavov5iyva",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "55.16"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_stage_payout_factor_checkpoint",
+    "value": "0.765433"
+   }
+  ]
+ },
+ "t1_pybryq2urxonrh2frwhe4": {
+  "case_id": "t1_pybryq2urxonrh2frwhe4",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "16.89"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "year_two_present_value_checkpoint",
+    "value": "99.1736"
+   }
+  ]
+ },
+ "t1_q2uhwmhxszp56ewoge5vg": {
+  "case_id": "t1_q2uhwmhxszp56ewoge5vg",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "40.27"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "energy_savings_checkpoint",
+    "value": "77.86"
+   }
+  ]
+ },
+ "t1_q6alh23gckpqofgosfd5u": {
+  "case_id": "t1_q6alh23gckpqofgosfd5u",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "3.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "portfolio_sigma_checkpoint",
+    "value": "0.00506499"
+   }
+  ]
+ },
+ "t1_q74f7jqoalqxrlz7wzbb6": {
+  "case_id": "t1_q74f7jqoalqxrlz7wzbb6",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.668135"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "news_score_checkpoint",
+    "value": "3.464394"
+   }
+  ]
+ },
+ "t1_qb5s46adyq7inmvjiz6a6": {
+  "case_id": "t1_qb5s46adyq7inmvjiz6a6",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "30.10"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "headline_savings_checkpoint",
+    "value": "101.0000"
+   },
+   {
+    "slot_id": "pairwise_overlap_checkpoint",
+    "value": "16.0000"
+   }
+  ]
+ },
+ "t1_qbzaofeo2zkaytlrywxg2": {
+  "case_id": "t1_qbzaofeo2zkaytlrywxg2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "2.50"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "horizon_volatility_checkpoint",
+    "value": "0.066667"
+   }
+  ]
+ },
+ "t1_qcsvatiswawba2nduc24q": {
+  "case_id": "t1_qcsvatiswawba2nduc24q",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Scenario B"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_stage_debt_ratio_cap_checkpoint",
+    "value": "0.812345"
+   }
+  ]
+ },
+ "t1_qfds2w5qwh7mfi6wlzmmq": {
+  "case_id": "t1_qfds2w5qwh7mfi6wlzmmq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "51.25"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "liability_relief_weight_checkpoint",
+    "value": "0.500000"
+   }
+  ]
+ },
+ "t1_qnzrvm3xwmzlrqnibdhbs": {
+  "case_id": "t1_qnzrvm3xwmzlrqnibdhbs",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Bullish"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "tweet_retention_factor_checkpoint",
+    "value": "0.800000"
+   }
+  ]
+ },
+ "t1_qqnkxyrxwuptj7rbdr7tc": {
+  "case_id": "t1_qqnkxyrxwuptj7rbdr7tc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Package B"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_stage_leverage_cap_checkpoint",
+    "value": "0.789123"
+   }
+  ]
+ },
+ "t1_qtgycrlavrrcu7fd25eaq": {
+  "case_id": "t1_qtgycrlavrrcu7fd25eaq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "155.82"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_shock_retention_checkpoint",
+    "value": "0.800000"
+   }
+  ]
+ },
+ "t1_r37hfzj4rzytmnqpgobn2": {
+  "case_id": "t1_r37hfzj4rzytmnqpgobn2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "753.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "cash_needs_checkpoint",
+    "value": "602.40"
+   }
+  ]
+ },
+ "t1_r3zbejyqwf4t26h47utv4": {
+  "case_id": "t1_r3zbejyqwf4t26h47utv4",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1.68"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_downturn_checkpoint",
+    "value": "99.00"
+   }
+  ]
+ },
+ "t1_rbc44fg3fur4lst4uaupw": {
+  "case_id": "t1_rbc44fg3fur4lst4uaupw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.595739"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "news_score_checkpoint",
+    "value": "11.920195"
+   }
+  ]
+ },
+ "t1_rcwon2mk5ggowsctzlozc": {
+  "case_id": "t1_rcwon2mk5ggowsctzlozc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "80.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "market_ratio_checkpoint",
+    "value": "0.012500"
+   }
+  ]
+ },
+ "t1_rfhtocnkbut7d3o7436uk": {
+  "case_id": "t1_rfhtocnkbut7d3o7436uk",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "neither_plan"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_stage_leverage_cap_checkpoint",
+    "value": "0.700000"
+   }
+  ]
+ },
+ "t1_rfrb3wvbkigy47owegk4u": {
+  "case_id": "t1_rfrb3wvbkigy47owegk4u",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Put"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "call_payoff_checkpoint",
+    "value": "78.00"
+   },
+   {
+    "slot_id": "put_payoff_checkpoint",
+    "value": "98.83"
+   }
+  ]
+ },
+ "t1_rhbogqftjljga227dcaak": {
+  "case_id": "t1_rhbogqftjljga227dcaak",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "58.88"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_stage_payout_factor_checkpoint",
+    "value": "0.812346"
+   }
+  ]
+ },
+ "t1_rjgiglpwirt6yfiq6z4ko": {
+  "case_id": "t1_rjgiglpwirt6yfiq6z4ko",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "83.80"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "acquisition_outlay_checkpoint",
+    "value": "102.00"
+   }
+  ]
+ },
+ "t1_rjgt7k2crinvmnjczuzha": {
+  "case_id": "t1_rjgt7k2crinvmnjczuzha",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-0.68"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "deal_share_issuance_checkpoint",
+    "value": "0.199803"
+   },
+   {
+    "slot_id": "pretax_interest_checkpoint",
+    "value": "5.0500"
+   }
+  ]
+ },
+ "t1_rkifn5njawtkyqs6ajy22": {
+  "case_id": "t1_rkifn5njawtkyqs6ajy22",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "23.62"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "noncash_charges_checkpoint",
+    "value": "100.35"
+   },
+   {
+    "slot_id": "working_capital_cash_uses_checkpoint",
+    "value": "59.88"
+   },
+   {
+    "slot_id": "direct_cash_uses_checkpoint",
+    "value": "88.82"
+   }
+  ]
+ },
+ "t1_rojb2hot6albweuovbokm": {
+  "case_id": "t1_rojb2hot6albweuovbokm",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "19.31"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "energy_savings_checkpoint",
+    "value": "102.60"
+   }
+  ]
+ },
+ "t1_rq4y6loazf54xhcfyao22": {
+  "case_id": "t1_rq4y6loazf54xhcfyao22",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.96"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "combined_capital_requirement_ratio_checkpoint",
+    "value": "0.150000"
+   }
+  ]
+ },
+ "t1_rrgldtd2bfr6tt3b2e24q": {
+  "case_id": "t1_rrgldtd2bfr6tt3b2e24q",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-4.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "cash_flow_after_working_capital_checkpoint",
+    "value": "36.0000"
+   }
+  ]
+ },
+ "t1_rttnucw5hjs3kzvsotbyc": {
+  "case_id": "t1_rttnucw5hjs3kzvsotbyc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "review_required"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "lower_stage_factor_checkpoint",
+    "value": "0.850000"
+   }
+  ]
+ },
+ "t1_rxjv3dlef7ceur3nke2ke": {
+  "case_id": "t1_rxjv3dlef7ceur3nke2ke",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1.2817"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "comparable_a_tax_adjusted_debt_checkpoint",
+    "value": "1955.2000"
+   },
+   {
+    "slot_id": "comparable_b_tax_adjusted_debt_checkpoint",
+    "value": "4746.4000"
+   }
+  ]
+ },
+ "t1_skxzjpfqrsw25tn463ti4": {
+  "case_id": "t1_skxzjpfqrsw25tn463ti4",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1536"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "ceiling_utilization_checkpoint",
+    "value": "0.376117"
+   }
+  ]
+ },
+ "t1_sleecy6wabuunvejabl3w": {
+  "case_id": "t1_sleecy6wabuunvejabl3w",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "76.53"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "debt_after_borrowing_checkpoint",
+    "value": "152.00"
+   }
+  ]
+ },
+ "t1_snbjumosphy7ffiitku5q": {
+  "case_id": "t1_snbjumosphy7ffiitku5q",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1.35"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "combined_capital_requirement_ratio_checkpoint",
+    "value": "0.132468"
+   }
+  ]
+ },
+ "t1_snja7i72us4ld65yncxac": {
+  "case_id": "t1_snja7i72us4ld65yncxac",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "158.88"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "rebound_ratio_checkpoint",
+    "value": "0.266667"
+   }
+  ]
+ },
+ "t1_sodiwdfc6a332dm5fssue": {
+  "case_id": "t1_sodiwdfc6a332dm5fssue",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Neither plan"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "plan_a_residual_factor_checkpoint",
+    "value": "0.700001"
+   }
+  ]
+ },
+ "t1_t3zfwvrftsc4mop4iwnce": {
+  "case_id": "t1_t3zfwvrftsc4mop4iwnce",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "14.28"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "net_sale_proceeds_after_cost_checkpoint",
+    "value": "615.5000"
+   }
+  ]
+ },
+ "t1_tb7e5dwqjsvdqbbihv52w": {
+  "case_id": "t1_tb7e5dwqjsvdqbbihv52w",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Investigate"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "corridor_threshold_residual_factor_checkpoint",
+    "value": "0.750000"
+   }
+  ]
+ },
+ "t1_tgdlvhig4l3vm4ci35v66": {
+  "case_id": "t1_tgdlvhig4l3vm4ci35v66",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "use_external_funding"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_cut_budget_checkpoint",
+    "value": "926.25"
+   },
+   {
+    "slot_id": "reducible_spending_checkpoint",
+    "value": "36.00"
+   }
+  ]
+ },
+ "t1_tloqbp2llv42zhc5ilurw": {
+  "case_id": "t1_tloqbp2llv42zhc5ilurw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.87"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "combined_risk_checkpoint",
+    "value": "9.87"
+   }
+  ]
+ },
+ "t1_tskz47b33fvyym6kvkels": {
+  "case_id": "t1_tskz47b33fvyym6kvkels",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "493.35"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "target_margin_ratio_checkpoint",
+    "value": "0.246025"
+   }
+  ]
+ },
+ "t1_ttcc4efnten5tlt2oocc6": {
+  "case_id": "t1_ttcc4efnten5tlt2oocc6",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "26.84"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "strategy_a_weighted_upside_checkpoint",
+    "value": "9977.58"
+   },
+   {
+    "slot_id": "strategy_b_downturn_checkpoint",
+    "value": "9238.50"
+   }
+  ]
+ },
+ "t1_tz6jdefg543vsykb4zq7y": {
+  "case_id": "t1_tz6jdefg543vsykb4zq7y",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-0.18"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "period_one_return_checkpoint",
+    "value": "0.193878"
+   }
+  ]
+ },
+ "t1_u23q7nmam4amlfdovwnm4": {
+  "case_id": "t1_u23q7nmam4amlfdovwnm4",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Neither"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "current_gain_checkpoint",
+    "value": "1425.08"
+   },
+   {
+    "slot_id": "base_gain_checkpoint",
+    "value": "2166.41"
+   },
+   {
+    "slot_id": "downside_gain_checkpoint",
+    "value": "933.17"
+   }
+  ]
+ },
+ "t1_u3tyle4d2qdh6mdcitltm": {
+  "case_id": "t1_u3tyle4d2qdh6mdcitltm",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "97.56"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "pre_action_asset_base_checkpoint",
+    "value": "200.0000"
+   }
+  ]
+ },
+ "t1_u5esjzrkjmpu3ykl4u6bo": {
+  "case_id": "t1_u5esjzrkjmpu3ykl4u6bo",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "8.83"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "market_loss_checkpoint",
+    "value": "7.84"
+   }
+  ]
+ },
+ "t1_ueh6p36kzslb7dompjtzy": {
+  "case_id": "t1_ueh6p36kzslb7dompjtzy",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "program_b"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "program_a_failure_probability_checkpoint",
+    "value": "0.500001"
+   }
+  ]
+ },
+ "t1_ufltoy5ayhbkdvokmuiiq": {
+  "case_id": "t1_ufltoy5ayhbkdvokmuiiq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-8.01"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "combined_sales_effect_checkpoint",
+    "value": "1.200000"
+   },
+   {
+    "slot_id": "shared_second_period_asset_base_checkpoint",
+    "value": "122.0000"
+   }
+  ]
+ },
+ "t1_ug7imupk6ln4z7c34l2fy": {
+  "case_id": "t1_ug7imupk6ln4z7c34l2fy",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "2.10"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "market_premium_checkpoint",
+    "value": "0.105000"
+   }
+  ]
+ },
+ "t1_ukdmu65qkkhyaema2bvta": {
+  "case_id": "t1_ukdmu65qkkhyaema2bvta",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "116.06"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "pre_rebate_checkpoint",
+    "value": "79.73"
+   }
+  ]
+ },
+ "t1_ummdavbozg6cehb6mctpq": {
+  "case_id": "t1_ummdavbozg6cehb6mctpq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "30.46"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "loss_budget_checkpoint",
+    "value": "6221.00"
+   }
+  ]
+ },
+ "t1_uq56zvm7ntj2kypifsvyi": {
+  "case_id": "t1_uq56zvm7ntj2kypifsvyi",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "14.25"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "monitoring_surplus_value_checkpoint",
+    "value": "9.71"
+   }
+  ]
+ },
+ "t1_urdsehbr5dw7fooeiib3y": {
+  "case_id": "t1_urdsehbr5dw7fooeiib3y",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Scenario A"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "a_one_stage_retention_factor_checkpoint",
+    "value": "0.789123"
+   }
+  ]
+ },
+ "t1_urr3lfubvf4qdx4psfnhe": {
+  "case_id": "t1_urr3lfubvf4qdx4psfnhe",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1401.81"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_stage_price_retention_checkpoint",
+    "value": "0.750001"
+   }
+  ]
+ },
+ "t1_us7622nhj6e4draeebydo": {
+  "case_id": "t1_us7622nhj6e4draeebydo",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "18.29"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "net_debt_checkpoint",
+    "value": "0.0000"
+   }
+  ]
+ },
+ "t1_uv4ygmztsfgh5c3x7wl6y": {
+  "case_id": "t1_uv4ygmztsfgh5c3x7wl6y",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "21.94"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "net_receipts_checkpoint",
+    "value": "86.82"
+   }
+  ]
+ },
+ "t1_uxirj5q7s72bulaevbcs4": {
+  "case_id": "t1_uxirj5q7s72bulaevbcs4",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "42.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "revenue_value_checkpoint",
+    "value": "49.00"
+   },
+   {
+    "slot_id": "ebitda_value_checkpoint",
+    "value": "126.00"
+   }
+  ]
+ },
+ "t1_v3dt5eqjmihjdymwt2tdy": {
+  "case_id": "t1_v3dt5eqjmihjdymwt2tdy",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "17.74"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "upfront_stock_consideration_checkpoint",
+    "value": "29.4000"
+   }
+  ]
+ },
+ "t1_v3j5umojnvk4ywr5u65qc": {
+  "case_id": "t1_v3j5umojnvk4ywr5u65qc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "81.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "portfolio_sigma_checkpoint",
+    "value": "0.40000000"
+   }
+  ]
+ },
+ "t1_ve5izofhyynrvswx4rufg": {
+  "case_id": "t1_ve5izofhyynrvswx4rufg",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "9.71"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "net_sale_proceeds_after_cost_checkpoint",
+    "value": "542.9600"
+   }
+  ]
+ },
+ "t1_vfjnj3u7feff25sttn2ni": {
+  "case_id": "t1_vfjnj3u7feff25sttn2ni",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-0.49"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "combined_sales_effect_checkpoint",
+    "value": "1.200000"
+   },
+   {
+    "slot_id": "shared_second_period_asset_base_checkpoint",
+    "value": "122.0000"
+   }
+  ]
+ },
+ "t1_vjh4mvv5qemgxa2tlgw22": {
+  "case_id": "t1_vjh4mvv5qemgxa2tlgw22",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "39.66"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "procurement_marginal_after_it_checkpoint",
+    "value": "23.0000"
+   }
+  ]
+ },
+ "t1_vmz23x26gqlalctk4pkrk": {
+  "case_id": "t1_vmz23x26gqlalctk4pkrk",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "224.02"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "covered_loss_ratio_checkpoint",
+    "value": "0.100001"
+   }
+  ]
+ },
+ "t1_vnqutjkfyjtl6c63dj2ck": {
+  "case_id": "t1_vnqutjkfyjtl6c63dj2ck",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "plan_b"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_stage_leverage_cap_checkpoint",
+    "value": "0.900000"
+   }
+  ]
+ },
+ "t1_vov6q64fcyomzokd5exkc": {
+  "case_id": "t1_vov6q64fcyomzokd5exkc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "754.60"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "cash_needs_checkpoint",
+    "value": "603.68"
+   }
+  ]
+ },
+ "t1_vpfcnjlnhffsh64vtkbcy": {
+  "case_id": "t1_vpfcnjlnhffsh64vtkbcy",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "wait"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "post_downturn_checkpoint",
+    "value": "99.13"
+   }
+  ]
+ },
+ "t1_vubrlykmrapylvetpspec": {
+  "case_id": "t1_vubrlykmrapylvetpspec",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-411"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "ceiling_utilization_checkpoint",
+    "value": "1.800441"
+   }
+  ]
+ },
+ "t1_vzhedisly4hqwrzmbo7uy": {
+  "case_id": "t1_vzhedisly4hqwrzmbo7uy",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "34.14"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "annual_net_benefit_checkpoint",
+    "value": "102.43"
+   }
+  ]
+ },
+ "t1_w6yhplemuikba7fbwnel2": {
+  "case_id": "t1_w6yhplemuikba7fbwnel2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "30.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "loss_budget_checkpoint",
+    "value": "1381.00"
+   }
+  ]
+ },
+ "t1_wa3naofoqwb2gmwhkhm7c": {
+  "case_id": "t1_wa3naofoqwb2gmwhkhm7c",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "no_feasible_strategy"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "variable_abatement_total_checkpoint",
+    "value": "0.00"
+   }
+  ]
+ },
+ "t1_wbmsfmdhbw3udothxv5x2": {
+  "case_id": "t1_wbmsfmdhbw3udothxv5x2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "12539.20"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "standard_taxable_checkpoint",
+    "value": "67756.00"
+   },
+   {
+    "slot_id": "itemized_taxable_checkpoint",
+    "value": "72889.00"
+   }
+  ]
+ },
+ "t1_wdi3woitp565ggnxhntig": {
+  "case_id": "t1_wdi3woitp565ggnxhntig",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "15.01"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "net_sale_proceeds_after_cost_checkpoint",
+    "value": "687.7500"
+   }
+  ]
+ },
+ "t1_whdzgr77ofifl2wc3v3cw": {
+  "case_id": "t1_whdzgr77ofifl2wc3v3cw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "137.39"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "rebound_ratio_checkpoint",
+    "value": "0.100000"
+   }
+  ]
+ },
+ "t1_wj7gj3ukb4b27wknt64zs": {
+  "case_id": "t1_wj7gj3ukb4b27wknt64zs",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "option_a"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "a_one_stage_share_multiple_checkpoint",
+    "value": "1.314159"
+   }
+  ]
+ },
+ "t1_wk2hhsv6q2etqv5q3xjo6": {
+  "case_id": "t1_wk2hhsv6q2etqv5q3xjo6",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "5.62"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "buffered_target_checkpoint",
+    "value": "2.40"
+   }
+  ]
+ },
+ "t1_wnbhyl7oy52rf26rap7jk": {
+  "case_id": "t1_wnbhyl7oy52rf26rap7jk",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Neither"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "call_payoff_checkpoint",
+    "value": "68.60"
+   },
+   {
+    "slot_id": "put_payoff_checkpoint",
+    "value": "58.92"
+   }
+  ]
+ },
+ "t1_wpg3n3qvyju3crtfc2qxu": {
+  "case_id": "t1_wpg3n3qvyju3crtfc2qxu",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "27.86"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "gross_requirement_checkpoint",
+    "value": "32.3553"
+   },
+   {
+    "slot_id": "frechet_lower_bound_checkpoint",
+    "value": "0.300000"
+   }
+  ]
+ },
+ "t1_wq4xvllwhdvl3b2krttro": {
+  "case_id": "t1_wq4xvllwhdvl3b2krttro",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "154.46"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "covered_loss_ratio_checkpoint",
+    "value": "0.285714"
+   }
+  ]
+ },
+ "t1_ws37mbousc5ufeikigmds": {
+  "case_id": "t1_ws37mbousc5ufeikigmds",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "313.82"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "target_margin_ratio_checkpoint",
+    "value": "0.341636"
+   }
+  ]
+ },
+ "t1_wwcsabvam2t4ck5uou6j6": {
+  "case_id": "t1_wwcsabvam2t4ck5uou6j6",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "3.54"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "weighted_volatility_a_checkpoint",
+    "value": "0.080000"
+   },
+   {
+    "slot_id": "weighted_volatility_b_checkpoint",
+    "value": "0.090000"
+   }
+  ]
+ },
+ "t1_wx255ni6rohiwu6a2mtgk": {
+  "case_id": "t1_wx255ni6rohiwu6a2mtgk",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "no_feasible_plan"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "capital_coverage_checkpoint",
+    "value": "0.826531"
+   }
+  ]
+ },
+ "t1_wxozu3vyetaizbyzlngdo": {
+  "case_id": "t1_wxozu3vyetaizbyzlngdo",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "neither_option"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "a_one_stage_share_multiple_checkpoint",
+    "value": "1.700000"
+   }
+  ]
+ },
+ "t1_wynv3xgkgjv4i2sdztr2g": {
+  "case_id": "t1_wynv3xgkgjv4i2sdztr2g",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "17805.31"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "two_year_gross_capital_checkpoint",
+    "value": "96283.04"
+   }
+  ]
+ },
+ "t1_xh2lwogys5ksbifxs2vua": {
+  "case_id": "t1_xh2lwogys5ksbifxs2vua",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "13.45"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "market_ratio_checkpoint",
+    "value": "0.048740"
+   }
+  ]
+ },
+ "t1_xhxofiyqq2jsyzm6a6w5s": {
+  "case_id": "t1_xhxofiyqq2jsyzm6a6w5s",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "21.67"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "strategy_a_weighted_upside_checkpoint",
+    "value": "4113.99"
+   },
+   {
+    "slot_id": "strategy_b_downturn_checkpoint",
+    "value": "8634.30"
+   }
+  ]
+ },
+ "t1_xjblsdhgo47uqbchj2dbe": {
+  "case_id": "t1_xjblsdhgo47uqbchj2dbe",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "-1.50"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "market_premium_checkpoint",
+    "value": "0.060000"
+   }
+  ]
+ },
+ "t1_xjropb5ujd2j4too74bjm": {
+  "case_id": "t1_xjropb5ujd2j4too74bjm",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "80.45"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "early_cleanup_growth_factor_checkpoint",
+    "value": "2.143589"
+   },
+   {
+    "slot_id": "terminal_discount_factor_checkpoint",
+    "value": "0.134588"
+   }
+  ]
+ },
+ "t1_xltqz2wvxvheo7gj5dz2w": {
+  "case_id": "t1_xltqz2wvxvheo7gj5dz2w",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "19.14"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "implied_depreciation_checkpoint",
+    "value": "42.30"
+   }
+  ]
+ },
+ "t1_xn5e4k7kdnul65itqxeko": {
+  "case_id": "t1_xn5e4k7kdnul65itqxeko",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "105.87"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "revenue_value_checkpoint",
+    "value": "147.00"
+   },
+   {
+    "slot_id": "ebitda_value_checkpoint",
+    "value": "110.00"
+   }
+  ]
+ },
+ "t1_xohneoz64hdsbn4ksemju": {
+  "case_id": "t1_xohneoz64hdsbn4ksemju",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "17.62"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "joint_ratio_checkpoint",
+    "value": "0.008000"
+   }
+  ]
+ },
+ "t1_xq77hrnbsiltgn3cwbewo": {
+  "case_id": "t1_xq77hrnbsiltgn3cwbewo",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "164.70"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "horizon_volume_checkpoint",
+    "value": "11670.0000"
+   },
+   {
+    "slot_id": "horizon_count_checkpoint",
+    "value": "110"
+   }
+  ]
+ },
+ "t1_xqepc35azhoszpv5vwpys": {
+  "case_id": "t1_xqepc35azhoszpv5vwpys",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "239.56"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "green_maturity_factor_checkpoint",
+    "value": "1.09368527"
+   }
+  ]
+ },
+ "t1_y6ss5xnw5v675bwm4l542": {
+  "case_id": "t1_y6ss5xnw5v675bwm4l542",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1064.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "cash_needs_checkpoint",
+    "value": "798.00"
+   }
+  ]
+ },
+ "t1_ya2hfdiqktoujqbuainkw": {
+  "case_id": "t1_ya2hfdiqktoujqbuainkw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "104.00"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "single_threshold_retention_checkpoint",
+    "value": "0.700000"
+   }
+  ]
+ },
+ "t1_ya5ba4dnpgprbvgm7t4gq": {
+  "case_id": "t1_ya5ba4dnpgprbvgm7t4gq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Standard review"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "spike_threshold_residual_factor_checkpoint",
+    "value": "0.812345"
+   }
+  ]
+ },
+ "t1_ybpdvombp4upykgadkkvi": {
+  "case_id": "t1_ybpdvombp4upykgadkkvi",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Plan A"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "plan_a_residual_factor_checkpoint",
+    "value": "0.612345"
+   }
+  ]
+ },
+ "t1_ybzlhcrsqztnl36klrwra": {
+  "case_id": "t1_ybzlhcrsqztnl36klrwra",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "2.72"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "horizon_volatility_checkpoint",
+    "value": "0.150000"
+   }
+  ]
+ },
+ "t1_yewhwuvgexiitl4ok2lbm": {
+  "case_id": "t1_yewhwuvgexiitl4ok2lbm",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.26"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "deal_share_issuance_checkpoint",
+    "value": "0.197183"
+   },
+   {
+    "slot_id": "pretax_interest_checkpoint",
+    "value": "4.9000"
+   }
+  ]
+ },
+ "t1_yhqocplkauslffmytsrvi": {
+  "case_id": "t1_yhqocplkauslffmytsrvi",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Customer attrition loss is larger"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "attrition_case_ebitda_checkpoint",
+    "value": "102.0000"
+   },
+   {
+    "slot_id": "uninsured_tax_exposure_checkpoint",
+    "value": "241.5000"
+   }
+  ]
+ },
+ "t1_ynvfdpblvyqohrnedxo2u": {
+  "case_id": "t1_ynvfdpblvyqohrnedxo2u",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Bearish"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "tweet_retention_factor_checkpoint",
+    "value": "0.750000"
+   }
+  ]
+ },
+ "t1_yoac5mfif6tw53tlrvud4": {
+  "case_id": "t1_yoac5mfif6tw53tlrvud4",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "49505.13"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "committed_tax_budget_share_checkpoint",
+    "value": "0.200404"
+   }
+  ]
+ },
+ "t1_yqji5tbfi2clmad4dx5vo": {
+  "case_id": "t1_yqji5tbfi2clmad4dx5vo",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "331.88"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "threshold_adjustment_factor_checkpoint",
+    "value": "1.296191"
+   }
+  ]
+ },
+ "t1_yraujfphgffos3zejsv34": {
+  "case_id": "t1_yraujfphgffos3zejsv34",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Enhanced review"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "spike_threshold_residual_factor_checkpoint",
+    "value": "0.800001"
+   }
+  ]
+ },
+ "t1_yrt5cns3pz3bnhuahzpx2": {
+  "case_id": "t1_yrt5cns3pz3bnhuahzpx2",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "8.31"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "debt_to_equity_checkpoint",
+    "value": "0.396960"
+   }
+  ]
+ },
+ "t1_yss4nwshjwn2lflgx3tb6": {
+  "case_id": "t1_yss4nwshjwn2lflgx3tb6",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "79.03"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "green_maturity_factor_checkpoint",
+    "value": "1.27628156"
+   }
+  ]
+ },
+ "t1_ysvpffbkd43zl6d7rajke": {
+  "case_id": "t1_ysvpffbkd43zl6d7rajke",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.10"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "moderate_weighted_loss_checkpoint",
+    "value": "80.4000"
+   },
+   {
+    "slot_id": "severe_weighted_loss_checkpoint",
+    "value": "157.6000"
+   }
+  ]
+ },
+ "t1_z2vkgkmnqoa4cipxg73lk": {
+  "case_id": "t1_z2vkgkmnqoa4cipxg73lk",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "Neither scenario"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_stage_debt_ratio_cap_checkpoint",
+    "value": "0.800001"
+   }
+  ]
+ },
+ "t1_z3hga63srh5uha6cxqbge": {
+  "case_id": "t1_z3hga63srh5uha6cxqbge",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1.5196"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "tranche_a_interest_checkpoint",
+    "value": "2038.6000"
+   },
+   {
+    "slot_id": "tranche_b_interest_checkpoint",
+    "value": "3062.1000"
+   }
+  ]
+ },
+ "t1_z4b2fnsg3o4rqu6x4qacu": {
+  "case_id": "t1_z4b2fnsg3o4rqu6x4qacu",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "5.25"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "joint_ratio_checkpoint",
+    "value": "0.002000"
+   }
+  ]
+ },
+ "t1_zccowwqsuall53qwhw75u": {
+  "case_id": "t1_zccowwqsuall53qwhw75u",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "28.96"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "planned_abatement_checkpoint",
+    "value": "119.2000"
+   }
+  ]
+ },
+ "t1_zdaoz4ty34ikegwajhcxi": {
+  "case_id": "t1_zdaoz4ty34ikegwajhcxi",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "no_feasible_policy"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "one_period_growth_multiple_checkpoint",
+    "value": "1.175432"
+   }
+  ]
+ },
+ "t1_zdqeinqfgikk7rk3a6j7y": {
+  "case_id": "t1_zdqeinqfgikk7rk3a6j7y",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "1870.50"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "variable_fee_checkpoint",
+    "value": "77.07"
+   },
+   {
+    "slot_id": "fixed_fee_checkpoint",
+    "value": "71.68"
+   },
+   {
+    "slot_id": "chargeback_loss_checkpoint",
+    "value": "87.75"
+   }
+  ]
+ },
+ "t1_zfhjaoptujzckroje3qjc": {
+  "case_id": "t1_zfhjaoptujzckroje3qjc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "6.88"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "portfolio_sigma_checkpoint",
+    "value": "0.02000000"
+   }
+  ]
+ },
+ "t1_zlvfkbgppg24poyapjryw": {
+  "case_id": "t1_zlvfkbgppg24poyapjryw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "12.45"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "monitoring_surplus_value_checkpoint",
+    "value": "19.14"
+   }
+  ]
+ },
+ "t1_zq6wjgtn7abkacv4drcsc": {
+  "case_id": "t1_zq6wjgtn7abkacv4drcsc",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "38.30"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "first_phase_growth_checkpoint",
+    "value": "2.357948"
+   },
+   {
+    "slot_id": "smoothed_phase_growth_checkpoint",
+    "value": "5.159780"
+   }
+  ]
+ },
+ "t1_zqfq4vevepewnpksqu2be": {
+  "case_id": "t1_zqfq4vevepewnpksqu2be",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "21.27"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "target_margin_ratio_checkpoint",
+    "value": "0.360000"
+   }
+  ]
+ },
+ "t1_zscvapsnbbvl5mu63gogq": {
+  "case_id": "t1_zscvapsnbbvl5mu63gogq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "194.86"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "existing_reward_checkpoint",
+    "value": "81.0689"
+   }
+  ]
+ },
+ "t1_zteiudfirxim7qwtz2skw": {
+  "case_id": "t1_zteiudfirxim7qwtz2skw",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "0.26"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "low_state_retained_cash_checkpoint",
+    "value": "10.2000"
+   },
+   {
+    "slot_id": "incremental_retained_cash_checkpoint",
+    "value": "4.0800"
+   },
+   {
+    "slot_id": "incremental_repayment_checkpoint",
+    "value": "6.1200"
+   }
+  ]
+ },
+ "t1_zwicp47j2cuqqilj2yqqq": {
+  "case_id": "t1_zwicp47j2cuqqilj2yqqq",
+  "dataset_version": "task1-v4",
+  "final_answer": {
+   "value": "13.34"
+  },
+  "schema_version": "finreason.task1.prediction/1.0.0",
+  "steps": [
+   {
+    "slot_id": "weighted_contribution_checkpoint",
+    "value": "61.7500"
+   }
+  ]
+ }
+}

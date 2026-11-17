@@ -1,0 +1,14 @@
+# Official participant toolkit is a separate git clone:
+#   git clone https://github.com/The-FinAI/IEEE-bigdata-cup toolkit
+toolkit/
+__pycache__/
+*.pyc
+# Temporary copy made for the portal upload (identical to work/pred_lb.zip)
+work/submission.zip
+# Task 3 local environment and large downloaded inputs
+.venv/
+work/task3/development_inputs.jsonl
+work/task3/test_inputs.jsonl
+work/task3/finmr_snapshot/
+work/task3/.cache/
+work/task3/predictions.jsonl

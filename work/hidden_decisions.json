@@ -1,0 +1,582 @@
+{
+ "h001": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h002": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h003": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h004": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h005": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h006": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h007": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h008": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h009": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h010": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h011": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h012": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h013": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h014": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h015": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h016": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h017": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h018": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h019": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h020": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h021": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h022": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h023": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h024": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h025": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h026": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h027": {
+  "method": "challenge_rejected",
+  "source": "06_review_flagged_4.json",
+  "variant": "lit"
+ },
+ "h028": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h029": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h030": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h031": {
+  "method": "challenge_rejected",
+  "source": "06_review_flagged_4.json",
+  "variant": "adjA"
+ },
+ "h032": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h033": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h034": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h035": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h036": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h037": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch1.json",
+  "variant": "lit"
+ },
+ "h038": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h039": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h040": {
+  "method": "jury_majority_checkpoint_5of6",
+  "source": "09_jury_decisions.json",
+  "variant": "jury2"
+ },
+ "h041": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h042": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h043": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h044": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h045": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h046": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h047": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h048": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h049": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h050": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h051": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h052": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h053": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h054": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h055": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h056": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h057": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h058": {
+  "method": "challenge_rejected",
+  "source": "06_review_flagged_4.json",
+  "variant": "adjA"
+ },
+ "h059": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h060": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h061": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h062": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h063": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h064": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h065": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h066": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h067": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h068": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h069": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h070": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h071": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h072": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h073": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h074": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h075": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h076": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h077": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h078": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h079": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h080": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h081": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h082": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h083": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h084": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h085": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h086": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h087": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h088": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h089": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch2.json",
+  "variant": "lit"
+ },
+ "h090": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch3.json",
+  "variant": "lit"
+ },
+ "h091": {
+  "method": "jury_unanimous_checkpoint_6of6",
+  "source": "09_jury_decisions.json",
+  "variant": "jury1"
+ },
+ "h092": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch3.json",
+  "variant": "lit"
+ },
+ "h093": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch3.json",
+  "variant": "lit"
+ },
+ "h094": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch3.json",
+  "variant": "lit"
+ },
+ "h095": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch3.json",
+  "variant": "lit"
+ },
+ "h096": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch3.json",
+  "variant": "lit"
+ },
+ "h097": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch3.json",
+  "variant": "lit"
+ },
+ "h098": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch3.json",
+  "variant": "lit"
+ },
+ "h099": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch3.json",
+  "variant": "lit"
+ },
+ "h100": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch3.json",
+  "variant": "lit"
+ },
+ "h101": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ },
+ "h102": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ },
+ "h103": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ },
+ "h104": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ },
+ "h105": {
+  "method": "challenge_rejected",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ },
+ "h106": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ },
+ "h107": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ },
+ "h108": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ },
+ "h109": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ },
+ "h110": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ },
+ "h111": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ },
+ "h112": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ },
+ "h113": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ },
+ "h114": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ },
+ "h115": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ },
+ "h116": {
+  "method": "redteam_cleared",
+  "source": "06_redteam_batch4_final16.json",
+  "variant": "lit"
+ }
+}

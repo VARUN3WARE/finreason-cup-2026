@@ -1,0 +1,7252 @@
+{
+ "fp.accounting_and_financial_reporting.balance_sheets.balance_sheet_equation.basic.v1": {
+  "dev": [
+   "t1_l466ev24yflvyljrf4n6s"
+  ],
+  "lb": [
+   "t1_j7ckkqezpk6gg6lqdfgnk",
+   "t1_hog6hw4nbjddugh26z6x6"
+  ],
+  "test": [
+   "t1_jhe74x6yrefojfqderetc",
+   "t1_xsf7kgpst3ybflcs5uijk"
+  ],
+  "train": [
+   "t1_wk4knxrliop226x5xjyzg",
+   "t1_y4gmzpf45dt4rcsifphqc",
+   "t1_krd5gxe6c3xs5c72c6fvg",
+   "t1_xxna72t6fcc22bb4j2rdg",
+   "t1_q5q63icjjwjvnrlskoggg",
+   "t1_ojowgivwi3binrqf3ficq",
+   "t1_dmluy3slyx3l7ksguh662",
+   "t1_yoxsxqknfbld2jgyha2g4",
+   "t1_yvxi7cokfl6tzd6tnmbfw",
+   "t1_jadtum3ukapligvendzxm"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.balance_sheets.business_combination.advanced.v1": {
+  "dev": [
+   "t1_k57lusvtjul4zvjzavqkq"
+  ],
+  "lb": [
+   "t1_5gdet4sctvr3gkeu7dapm",
+   "t1_r7wgriylwfgenq62bds6k"
+  ],
+  "test": [
+   "t1_5aiuhmoef3ytzztbsmd2m",
+   "t1_qdtgwndipzk7b4ph7ntho"
+  ],
+  "train": [
+   "t1_npysusa6bgpz35dpker4o",
+   "t1_za2o3vra27sft3stmciqq",
+   "t1_fob6s67jr6vpjanglrvpw",
+   "t1_aexcxfyp3scufrq2nqcn4",
+   "t1_4pi46war7jctr6i3icxri",
+   "t1_vavi7nl27nwjxcwuxk7hw",
+   "t1_mxtixdnuiewqvs2whznak",
+   "t1_2s64q6bxcg6csusmhcv56",
+   "t1_cd3xssh5hnm4ibhsom6g6",
+   "t1_54kgl5yklsnyalfpqi4hi"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.balance_sheets.cash_accounts_payable.basic.v1": {
+  "dev": [
+   "t1_l6uisxsd3phstwayvlpk6"
+  ],
+  "lb": [
+   "t1_zwzhyyykd4ydh3vr3a2x2",
+   "t1_cj25g2e63qtk57lzbb7r6"
+  ],
+  "test": [
+   "t1_myihtr4xfommqvuscs4u6",
+   "t1_t4tuldk2agwfimvw3o5nw"
+  ],
+  "train": [
+   "t1_2kc6j3bvjr27zrljxutvo",
+   "t1_ouejatdlxnflcbooadkjo",
+   "t1_4sqvedjgzz7dmpkd53sdg",
+   "t1_u2ackcshwnowtf7fifbm6",
+   "t1_pa7m2z3iau24eu56hqniw",
+   "t1_zordgks3rwk67gi5umzfk",
+   "t1_zsddhn44uyrbb44v4tulm",
+   "t1_32troj65fhe57yq6d3s5u",
+   "t1_w4ym24og2h34kcqjbruc2",
+   "t1_f43h2l6zh3a4w3bcghk5o"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.balance_sheets.current_ratio_with_adjustment.intermediate.v1": {
+  "dev": [
+   "t1_dn6jqxuofdgjbht24scvs"
+  ],
+  "lb": [
+   "t1_xui2l77wa3hjuzxudqb5i",
+   "t1_54pz362rk3ugyfiwxbzm2"
+  ],
+  "test": [
+   "t1_hfmiwc6q5l5h6fahchvgy",
+   "t1_ickeayv4rj4c4pawlbzu4"
+  ],
+  "train": [
+   "t1_jsoxpdf7qvbrxijpyt7rk",
+   "t1_ltflm7ttrujnatma3uxk6",
+   "t1_tumibe5gkchfd7bqavdb2",
+   "t1_kozcvu5a66dtfrjrfwpxk",
+   "t1_srrmzcdn2mkomtymo3tki",
+   "t1_uedggveyvbh2qe4svtqhm",
+   "t1_3vi24iwj7bx7rgpfzcfog",
+   "t1_wepv7b6kx5i4twazfz6ac",
+   "t1_5ofmnbthahemfn45mmz7w",
+   "t1_qd2zecxk2lltboadpqm2u"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.balance_sheets.inventory_turnover_days.intermediate.v1": {
+  "dev": [
+   "t1_zh2luhmqm7fvogaroda3e"
+  ],
+  "lb": [
+   "t1_bz2zjzxychlfajp3vubws",
+   "t1_vir7oqhx4yzjbicudimg2"
+  ],
+  "test": [
+   "t1_6tjpcc6mknvt6rjfyhweq",
+   "t1_kvv7fhuggylozwooqkhye"
+  ],
+  "train": [
+   "t1_o2gbrlleviz2cdg2my44q",
+   "t1_kqkd2bs5hrk6eu5iftlcm",
+   "t1_azqu6wnv33bqzdkakyxm4",
+   "t1_aru5jwgfj6ypb4x65m4eq",
+   "t1_z6wpfiqasogv7i33mihhm",
+   "t1_2stv2bnc3knyge5qrqvkk",
+   "t1_a54yclsdtqf373qiagsbg",
+   "t1_aga4ymwxmmgsgnkcycywi",
+   "t1_b3afmwfyxclqbyiq63hv6",
+   "t1_6hq7gmhzq2uksxjacrcbm"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.cash_flow_statements.acquisition_cash_flow_impact.advanced.v1": {
+  "dev": [
+   "t1_modr7rtbn45fewongy5hc"
+  ],
+  "lb": [
+   "t1_4llgxeihbftahd4kz54is",
+   "t1_6ia3vmaywewcl3gw3z2ly"
+  ],
+  "test": [
+   "t1_cpjzdw43bbiinxc5xevls",
+   "t1_zbhuej22o2sarfzxwnus4"
+  ],
+  "train": [
+   "t1_qeeq6smkika4w4p73kpoy",
+   "t1_fi73cqqncihjytnruf5fc",
+   "t1_y5bcyvdynj6irfaasxyxo",
+   "t1_ulnq3da6ttuisfrlbs7va",
+   "t1_e6xzd6g65iemv6bgsh3f6",
+   "t1_heyeurjlnaevrt5xx6j4g",
+   "t1_265ezsc2pixbm4r5pbqik",
+   "t1_apvbip4qlqanluebsdcru",
+   "t1_qmrfltmwylcpbmogekq2y",
+   "t1_ti5jehpkqxzl7naghn24k"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.cash_flow_statements.closing_cash_balance.basic.v1": {
+  "dev": [
+   "t1_efnxlmtamei3y2qzg4mik"
+  ],
+  "lb": [
+   "t1_tj3v32ajvkpsnxxvp7e4o",
+   "t1_sa6teeyfulkdoqlqd26yo"
+  ],
+  "test": [
+   "t1_dvb3sxk3ju32zmkgdv3fg",
+   "t1_ldlujhvuffbc2mn5oowuc"
+  ],
+  "train": [
+   "t1_wfa4fxzksuiuyo2tklphs",
+   "t1_vlsgmnimgicf5wtwx6htw",
+   "t1_yynmdms7l5idwjgriz3ww",
+   "t1_imgkwamutxxksnxnh3ce4",
+   "t1_qbgcrg6ywwfoj4ae2gebg",
+   "t1_4gbt7qyv3drtwb3squptc",
+   "t1_uuaiifvpq37ydn4gz77yy",
+   "t1_sizpcciprifmbccarld7a",
+   "t1_do677cggiiv5emcbw4564",
+   "t1_my3rti5h6rvw6xw4copkc"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.cash_flow_statements.financing_activities.intermediate.v1": {
+  "dev": [
+   "t1_24ucgzebigdbidbqilwk2"
+  ],
+  "lb": [
+   "t1_r6jyozacomlwtrcqp3bme",
+   "t1_g2satnmkhn7veg2r2ue5k"
+  ],
+  "test": [
+   "t1_5goloo2dekqw2jx4jfpo6",
+   "t1_s3fvajqs27ijmvvihjrim"
+  ],
+  "train": [
+   "t1_vcubp3qqchfgvwvbnx2ei",
+   "t1_um7i72zfgxkd6jk4bnwh2",
+   "t1_zwt4v5jqth6w3i67yzfc2",
+   "t1_oyfscdaxnzalexjxdi7e2",
+   "t1_7v4fbk6pe3qczcohv6zai",
+   "t1_hysb3qcghjg5tzpnfmaxw",
+   "t1_elopp7bu4npf6e42hm2g6",
+   "t1_n4bjsh3o3puka7of5evtq",
+   "t1_tpc6s7soi5ubmlbjklzzc",
+   "t1_vp32ug5f4po3soy5dcrgi"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.cash_flow_statements.indirect_cash_flow_operations.intermediate.v1": {
+  "dev": [
+   "t1_5ebp5xkxsh2q2mzobgzda"
+  ],
+  "lb": [
+   "t1_i5ecpw3zr2pl7d5gz63jw",
+   "t1_6bqon563rvuoxskpfc4ew"
+  ],
+  "test": [
+   "t1_upjzk34nv6hffs46bqr5a",
+   "t1_zun3wpnuu66mn7kfbblb4"
+  ],
+  "train": [
+   "t1_u6nq3i4mixqqkjlggsyso",
+   "t1_ylc2jo4zdzm4jqbnzw4j4",
+   "t1_bxzom7pmzddummu6efkxg",
+   "t1_v3v35rkclkkga5lqp3vpy",
+   "t1_3mkzqh556njssl7e4qzuq",
+   "t1_2rqxeno5e67y5osnmz4yu",
+   "t1_t3ek6pqe5kanelyu2kwq2",
+   "t1_wkyclm7s7pncid35jg4qy",
+   "t1_f5s7f42ldu2y77kikests",
+   "t1_r2zr6mi7n7rtswvonset4"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.cash_flow_statements.tax_cash_outflow.basic.v1": {
+  "dev": [
+   "t1_nzxvz6dubg26rwzxlfz5w"
+  ],
+  "lb": [
+   "t1_7rusubvd2d2cr7orh6aw4",
+   "t1_gseauhxazob3ui24xnjuc"
+  ],
+  "test": [
+   "t1_r62j7tbgxblhyy7oxbbm6",
+   "t1_rbtphprcatfwvorrd6j2y"
+  ],
+  "train": [
+   "t1_3a5xa5os4ewfoibw4ligy",
+   "t1_np4oxws7yyn47g63fjgds",
+   "t1_y7izyvlztkep3rmhbpfue",
+   "t1_sqiavtir2jhtryhbysado",
+   "t1_e7su33owd4objn6rb7cvi",
+   "t1_n2yoezfdp33fwnetnrchu",
+   "t1_hjv3lgll4jbncmtucyuda",
+   "t1_ckd3rlz7und3dhvcwu7ei",
+   "t1_fnaxrbrb4kuvtc2damh2u",
+   "t1_j24fg3uklheddkcqfjlm6"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.depreciation_and_amortization.asset_impairment_reversal.advanced.v1": {
+  "dev": [
+   "t1_noj5shttqhx7uqtvrcppq"
+  ],
+  "lb": [
+   "t1_ftqdvsvbakvu5nxsztcha",
+   "t1_fcxkk5vrpf4rrhzzqdqcu"
+  ],
+  "test": [
+   "t1_46peav33fytjrfxo3ty7s",
+   "t1_z66fesh7j2jf7g5lzues6"
+  ],
+  "train": [
+   "t1_uj4outmj4n62rgyfxweys",
+   "t1_g4xcrdbgj66rzqvnuocho",
+   "t1_tdgsrwjwfbxe76l3z4oxc",
+   "t1_vrbyuvo2tfedgsjsb7rvk",
+   "t1_rsooljiy4jkvd4im272wu",
+   "t1_i2e6ifpf3endblkulxdfs",
+   "t1_bwkat37umiisehifd3mgc",
+   "t1_uhuk3w7q5tgjsr7tl7bhw",
+   "t1_swz7lrgagnb7admy3ohag",
+   "t1_s4bzm6w257u4jdp3ilf6k"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.depreciation_and_amortization.impairment_with_value_in_use.intermediate.v1": {
+  "dev": [
+   "t1_btupvfy23s4dss7zeftzw"
+  ],
+  "lb": [
+   "t1_mmgjn5wvigty2gtoudpqg",
+   "t1_iwrklyxyiyaifqcvl3pdk"
+  ],
+  "test": [
+   "t1_tonh6mybuha4if43onmxk",
+   "t1_yzlzwwlz2gc7ctp7vgde6"
+  ],
+  "train": [
+   "t1_g3tn3pox4gidhpqfazrks",
+   "t1_g73oaowkr4dlq3oilunnw",
+   "t1_2b4zp6durw45x6xmmoqfu",
+   "t1_54f3dyne5omuja7e7vbki",
+   "t1_tuummzmzoor442yrjpon2",
+   "t1_qbz6qvvfaae7xkivmiwlo",
+   "t1_ydorsscfbttfj3tpmlis4",
+   "t1_2r2denjn6zou34cpdaaaw",
+   "t1_uik6evxwi3s2ixaxgu7f2",
+   "t1_qumn4ooebxvwfydd5cqio"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.depreciation_and_amortization.partial_year_disposal.intermediate.v1": {
+  "dev": [
+   "t1_vi63koi2zltheno3wxohm"
+  ],
+  "lb": [
+   "t1_ktgjp5n662piixikv6xra",
+   "t1_ememsxa7nlcupulnomw2u"
+  ],
+  "test": [
+   "t1_ejcqy7ahappnjpas4dpyu",
+   "t1_inzaqjlt67ssren3eikhw"
+  ],
+  "train": [
+   "t1_abwanh5kjrp2vyexwqzjo",
+   "t1_zf7lkbp2qd27o2kydfgwi",
+   "t1_2qf43il75277mqw4erhhw",
+   "t1_rc73bqqgdf5dw2k3crkhs",
+   "t1_gmigoqxjxukovlr3r36fq",
+   "t1_dpirye3rkuifcrus45mr2",
+   "t1_fr2bzn6lpdaih3b6vvbos",
+   "t1_5b3ti42645d6mbmpbb5eo",
+   "t1_am7nhauebaf7yi6ny62kc",
+   "t1_mix3fradghafzuxkkmde6"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.depreciation_and_amortization.straight_line_depreciation.basic.v1": {
+  "dev": [
+   "t1_2tnievrdwdiccuqiszgfs"
+  ],
+  "lb": [
+   "t1_g4epqf3hrjlxt4vo4f5c4",
+   "t1_xar4cbcqfs3dobyntxggy"
+  ],
+  "test": [
+   "t1_dy2g4ofovgnxcaenwqoto",
+   "t1_rpfe6f7lavo2wnwox2geq"
+  ],
+  "train": [
+   "t1_eqt5h6s7pqh42q32umo3o",
+   "t1_dkz6x2g54y3goxw2ewdpc",
+   "t1_b7a2dm5wxjdclzclam4e2",
+   "t1_nypfgkosctn6wfzz6pmcq",
+   "t1_dcomtm37qiaxnxqzedyqs",
+   "t1_zevglh4pif7l7tpyqk65i",
+   "t1_g64uidkcl2yi4o4lp32lg",
+   "t1_d2hwtvq64pvd5unlbsnci",
+   "t1_jvixpbyflkqlwbdtwy646",
+   "t1_bzg4reuxrjtzoiq4vd26o"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.depreciation_and_amortization.sum_of_years_digits.basic.v1": {
+  "dev": [
+   "t1_3s4cu4m74qubftb55ckgk"
+  ],
+  "lb": [
+   "t1_kjdgj3hkk7wmmhozxhemy",
+   "t1_ztpgoyfjx2ocmw52yafio"
+  ],
+  "test": [
+   "t1_7dcs7dptivss57h27pki4",
+   "t1_xwmgu7u7btk57kzd2nq2u"
+  ],
+  "train": [
+   "t1_bdb3gzdo6q2lymqttase2",
+   "t1_64vwnq56qqql7x6bxtwcs",
+   "t1_h3thdpwhxlebr7rf4y2ru",
+   "t1_4hyzvgmqg5aj3xj6t56oo",
+   "t1_2wlc74gsl6njyxmepajis",
+   "t1_krb7dbktr7vdlspahbmfk",
+   "t1_vwbl2xeuan2h5rlbneffc",
+   "t1_l73tc72jrrjmp3hx72p7k",
+   "t1_5sxzfhc3wy2ylawgchos6",
+   "t1_gz47o37mim4cskgn5i3k6"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.income_statements.depreciation_ddb.intermediate.v1": {
+  "dev": [
+   "t1_ndp2mexuo5fs47f6latja"
+  ],
+  "lb": [
+   "t1_fzmjatfeonozj4sthm3qg",
+   "t1_knew3ms2qjzyyr2zkmxrq"
+  ],
+  "test": [
+   "t1_qew226fsz5hxaeadjhfc4",
+   "t1_reh5ktvawuoyja5hh4g3u"
+  ],
+  "train": [
+   "t1_t3r3qa3zposb3u6jxis7q",
+   "t1_stgfxia5nlzulamfmfgcu",
+   "t1_5cclkxiovzevhertm4cig",
+   "t1_ltpj4rkwzfglpxmtaeo22",
+   "t1_xlt6uma4i7usykqrqmjby",
+   "t1_lklwqwn7ra26p75ssrhd6",
+   "t1_sx7ai3avkzyegya6sphqc",
+   "t1_phm6yc64qtid3mrpgmgbq",
+   "t1_4a7bg6nzkh6degmb7ycv4",
+   "t1_ox6piw7jj3h5n6cshglui"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.income_statements.dta_warranty_expense.advanced.v1": {
+  "dev": [
+   "t1_gucyz2ii64si74drjvt7m"
+  ],
+  "lb": [
+   "t1_6jxa5syjyvkt2a5u3lb7k",
+   "t1_h6kuh7lwp3yo6ft2vdcka"
+  ],
+  "test": [
+   "t1_hwiab5yufxtitjhl2ydqs",
+   "t1_w6nkyul76oqzmhgpnrada"
+  ],
+  "train": [
+   "t1_i5r4vt6wmt5e2z2h5cxgm",
+   "t1_wcv5eeu3ljioqe4ewegzc",
+   "t1_7vsue6rnndv45d2byyiqg",
+   "t1_57cpfjav6fbzq3ui7ox2a",
+   "t1_q3ruqdkoenl5ct5ojlosg",
+   "t1_3nyfsri3kppeknhff5bss",
+   "t1_tkfp7rcywd7gevyusdasi",
+   "t1_gbm65w75fzv6f3xgwzfrq",
+   "t1_h4rsynz7nr6gol6znk5o2",
+   "t1_hjlqnldpp2666xn6uknmc"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.income_statements.inventory_turnover.intermediate.v1": {
+  "dev": [
+   "t1_xs3u2t5kbbyt3qfelu53g"
+  ],
+  "lb": [
+   "t1_3vld447jjna3wivhiugs6",
+   "t1_utpugdy7mgg2kuyqxtb5s"
+  ],
+  "test": [
+   "t1_3ulia7vzc7cxtutspgy3a",
+   "t1_wo3va25r5vnzcfchhd24q"
+  ],
+  "train": [
+   "t1_k7bsqw6tai7ytptomp6qu",
+   "t1_2qaxt3np3ewlczfxkp4sw",
+   "t1_pdh2kbet4xlbcs3qw6l7i",
+   "t1_mctryfjh6pf3nqvrvboby",
+   "t1_66xcl3eut6b5g6aggir2c",
+   "t1_tt7cpvcpvgboar3pexzzc",
+   "t1_i462q7wwtss3ugxlygy5o",
+   "t1_nwab5s3wy2vljo4acz7vg",
+   "t1_oyhtw4cikuzksawrfoaoc",
+   "t1_bcpyr74c6ftyxbcdyiwtq"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.income_statements.operating_expenses_effect.basic.v1": {
+  "dev": [
+   "t1_66fd3jfijzcewegww4avm"
+  ],
+  "lb": [
+   "t1_anpifhscybhw2auvj2eme",
+   "t1_xyx3sng2vrflskj6vu6eq"
+  ],
+  "test": [
+   "t1_h76axjwq23vo36ziazqrq",
+   "t1_t4h4x4joeg6lwyrr4ebv6"
+  ],
+  "train": [
+   "t1_zclt6iduhk63qle7mpvgg",
+   "t1_ttdi5epclil3ybri3dq6e",
+   "t1_wdyja5vuknsyjsyigdmcq",
+   "t1_turydvyzx2hqzbvgswha4",
+   "t1_7fqzdto4v6inwycvrlanc",
+   "t1_fwnubbwrsqmumdudy7geu",
+   "t1_yjzasgt5qiuxwzmg45c6c",
+   "t1_tiew2prfrk7gn3imrtj6y",
+   "t1_twzamwbjff55v4gexa5n4",
+   "t1_vey6iypdbsua3kw6blpv2"
+  ]
+ },
+ "fp.accounting_and_financial_reporting.income_statements.revenue_vs_cogs.basic.v1": {
+  "dev": [
+   "t1_zir4ew36bdqtkyibogg6u"
+  ],
+  "lb": [
+   "t1_tujtspog63clu57hvb2ee",
+   "t1_qn6t3dnzhkeuvq2eb7dug"
+  ],
+  "test": [
+   "t1_3ll27iytpji7jv7b6ozcu",
+   "t1_a4pe4s73in4t74ddjvxmg"
+  ],
+  "train": [
+   "t1_m34ttwnn2sz4rryqm7poo",
+   "t1_hybed2hforzmltvb7a5z6",
+   "t1_mxcozlvdozmg2avikkq2u",
+   "t1_otst7b77pmzxpm6nwdpr2",
+   "t1_asr7x4v735dealn2d5tma",
+   "t1_nvgi6nye5brqasatv3hgq",
+   "t1_jgmhxi6hm3z5rnxu3b4f2",
+   "t1_jcc5delbruv5abkk6tr6w",
+   "t1_2wywbtqw5j6a3pcsraexe",
+   "t1_swj4tuy6zrlaiqhu26rra"
+  ]
+ },
+ "fp.corporate_finance.capital_structure.debt_to_equity_after_asset_sale.intermediate.v1": {
+  "dev": [
+   "t1_elg5pwb6hzx7u6bm44vb6"
+  ],
+  "lb": [
+   "t1_npc4hqmqxt6nodlivqi3o",
+   "t1_j3prjm4f5pvnk52jnuook"
+  ],
+  "test": [
+   "t1_oclc5s6g3u6w552mzxeqe",
+   "t1_svrvd5s2blweffeyuhzn2"
+  ],
+  "train": [
+   "t1_b3fincn3b6yxm7nwxy7yq",
+   "t1_rx725inksrcc2wt5srbcq",
+   "t1_6bvenbpvci2ucugmjuh2w",
+   "t1_n3sf4hogud4xd5vafkgec",
+   "t1_rklur752ft7tn4g45c4bw",
+   "t1_zejrziuqegahcagwcxauc",
+   "t1_w7s3rqygz2rpuah3hxsju",
+   "t1_n3uavp5o6q6l2ploskmqe",
+   "t1_myiyf4vb3d6z5ki7xobxq",
+   "t1_5msrqlfnza6adkjbh363w"
+  ]
+ },
+ "fp.corporate_finance.capital_structure.debt_to_equity_after_buyback.basic.v1": {
+  "dev": [
+   "t1_ojxzdaugizovyzexr2yes"
+  ],
+  "lb": [
+   "t1_r33lajiaia5ffsda6un3e",
+   "t1_7naxav6msrmehv4o26j6u"
+  ],
+  "test": [
+   "t1_mjjj6cccvygrbvyoq6ry6",
+   "t1_zxl2wwa62dhcrultrfgiu"
+  ],
+  "train": [
+   "t1_nempcs7zg7pozloh2nnyw",
+   "t1_eo3gomfbclq6arzos7z26",
+   "t1_z6smg5dwaazxdvlx6tcaa",
+   "t1_uehhv2nvj4dgvjcs2reoo",
+   "t1_qeskp7pfwnngwui7oanwm",
+   "t1_wblnkb7pi256j5owcskbe",
+   "t1_hxuk3m4bon6ffgm43nxak",
+   "t1_q75zfagfbo5zc3x7iqps4",
+   "t1_tzp6d7maqtajprjrcmanq",
+   "t1_oaihan7mscxtvhjlm4osg"
+  ]
+ },
+ "fp.corporate_finance.capital_structure.debt_to_equity_aggregate_debt.basic.v1": {
+  "dev": [
+   "t1_76kdshikskh372hxhdii2"
+  ],
+  "lb": [
+   "t1_gal2d2hlzwum6eeyhqqlm",
+   "t1_ds6ualf6dvmgzuq2cmfz6"
+  ],
+  "test": [
+   "t1_huibsvzjxts6id2rkgvji",
+   "t1_krxzlbf7jxlgkoyektsii"
+  ],
+  "train": [
+   "t1_7ibjfvcwsubfi3u6473eg",
+   "t1_2nqdtwlafe4pqzp6k4mw4",
+   "t1_c2siesauxeq2o4bosusyk",
+   "t1_krmqpujbpjm4nhi2caeyc",
+   "t1_7lmaoq2ybnpzmrnhwzvpm",
+   "t1_wo77mtyunleawtyg5b4dq",
+   "t1_5oexhcu4dz57j4kta5vlm",
+   "t1_jlifb42kyhkhouths6zi6",
+   "t1_4ajjawdexj2kumn4suqfk",
+   "t1_bkofcdellvts4lcuue6ac"
+  ]
+ },
+ "fp.corporate_finance.capital_structure.debt_to_equity_bond_and_buyback.intermediate.v1": {
+  "dev": [
+   "t1_gqdtxy4p6wnofzvuxnhwy"
+  ],
+  "lb": [
+   "t1_4oakhegsmrk5zhhuixmiw",
+   "t1_cj6rymkpvw5vuuo7advqy"
+  ],
+  "test": [
+   "t1_c63duycjxc2ieg4bgp2a4",
+   "t1_cb3iuj6ywp5kf47in456e"
+  ],
+  "train": [
+   "t1_76ouyavkp2fggmispiipy",
+   "t1_dip5mxjlcarzuqpp6qr6e",
+   "t1_37kvo27e3xqxukromo4pe",
+   "t1_mwxyezjgoebxjvqox4unu",
+   "t1_tfuaqijhwgsy44bdfdxg4",
+   "t1_6wighmsxy2h73ks7whrtu",
+   "t1_o3ljg2phx2r2jbwebqolk",
+   "t1_t4nw5733x3kdbni5o7ibi",
+   "t1_hgnq4bkmpwazljh2owrea",
+   "t1_llsfd7a4wbuw3boathfpm"
+  ]
+ },
+ "fp.corporate_finance.capital_structure.debt_to_equity_bond_repay_buyback.advanced.v1": {
+  "dev": [
+   "t1_uyidnoy3sfi32h6o6h2go"
+  ],
+  "lb": [
+   "t1_oxlvcodjtvmvmfyv5afpk",
+   "t1_4zd3ewbt6sigkj57wztmg"
+  ],
+  "test": [
+   "t1_5jcuxfcpogentqgfwhid4",
+   "t1_lrwnshbgc6pfjhykmwdiw"
+  ],
+  "train": [
+   "t1_na726s4aqxgthey2f5ukc",
+   "t1_omv3k6bbz4lssnvplt4iq",
+   "t1_6vqbjar4qld2ehbh5qwdo",
+   "t1_pqn3d4vavbsxf2hyhpolo",
+   "t1_oylriwl4e5lorh2cbehqk",
+   "t1_7katobv6yingpwszb7zg2",
+   "t1_mdcnr7atcrqvlm3gxnq5k",
+   "t1_4ahbrej55gmtuxo2laxby",
+   "t1_omops2i6fibw44a6iflfm",
+   "t1_pvjkgo46eo2cwpyndp26q"
+  ]
+ },
+ "fp.corporate_finance.div_policies.dividend_lintner_smoothing.intermediate.v1": {
+  "dev": [
+   "t1_iemdmuicznl4oua6zmygo"
+  ],
+  "lb": [
+   "t1_lwdr5eds2wnasb2bnveji",
+   "t1_6nopjufsi4gidcojgu3uw"
+  ],
+  "test": [
+   "t1_fim67tslvliojacwolxvq",
+   "t1_p766b3gz6qs5dslh4p272"
+  ],
+  "train": [
+   "t1_7apmzafdx7ean3lhsen4g",
+   "t1_3iytcmmo6run2cnh7s4kk",
+   "t1_qqpve2bifafoqe4sdvdbc",
+   "t1_yurdm5tr2bdijfbemwhna",
+   "t1_jey5uignt427na6i4b5lg",
+   "t1_z3vbitkrl4d2ak6glvaji",
+   "t1_ek32wyo6q3jas3wijmoko",
+   "t1_airwbwum6t5si4qk6wa3c",
+   "t1_fhi6ukxgmn535et7ri7ac",
+   "t1_q6ydomehaidfokmbyjdns"
+  ]
+ },
+ "fp.corporate_finance.div_policies.dividend_lintner_three_year_avg.advanced.v1": {
+  "dev": [
+   "t1_ak3ob3k7wib6v7vxgpqrm"
+  ],
+  "lb": [
+   "t1_x5daqddcjyol3sluzocfe",
+   "t1_oql5x3e53hqresgnxan24"
+  ],
+  "test": [
+   "t1_2zhcolkw5bqayxcceb5d6",
+   "t1_3osuxo3ob5zn3cfojpk7w"
+  ],
+  "train": [
+   "t1_fhyf4x7jpmg6ew3uzn3h4",
+   "t1_37exz2u2xlklqd5mxko7g",
+   "t1_yj2y65m4wehemxl333d2s",
+   "t1_6comduty5tdkz4xcwl33q",
+   "t1_2ghjwhizxta65yt4qbn32",
+   "t1_3mcrkc256az5kr4bbo5ny",
+   "t1_efc7qlxx257o2grue64ig",
+   "t1_dsshtftjb7qrz7gijb2ey",
+   "t1_c5nc5oc2p4mtedj6plu4s",
+   "t1_6g6qpvleq4wo3xdj5b7us"
+  ]
+ },
+ "fp.corporate_finance.div_policies.dividend_stable_growth_policy.basic.v1": {
+  "dev": [
+   "t1_xiscs46qq33f7pa3eccuu"
+  ],
+  "lb": [
+   "t1_zaejb34y4hlvoeh2j42xc",
+   "t1_4hiznhoddhhuz5lmnyut2"
+  ],
+  "test": [
+   "t1_5uypb2s6dq4j73mvfzfnu",
+   "t1_xxuuazejfyao7kh6awkyq"
+  ],
+  "train": [
+   "t1_tjgb33b6oj7xkulvhn2sq",
+   "t1_fyehkbdj7ym7t7a2rymwi",
+   "t1_tujf3tzbjvmcl37gpbrcu",
+   "t1_xpvkkm4i4b4bl7d2d5xbw",
+   "t1_prn6w3dhs7skgfcc5cxoq",
+   "t1_s6qilfebyh6ia6se26tio",
+   "t1_fofeqtfodhie7tirepors",
+   "t1_tmyplpatmzo27r2sriw36",
+   "t1_jlk5yyg6o7aaetubtmvrg",
+   "t1_472olvsolnn3jg63nmshw"
+  ]
+ },
+ "fp.corporate_finance.div_policies.dividend_stock_plus_growth.intermediate.v1": {
+  "dev": [
+   "t1_gvvtolu2al7ourhu6efwc"
+  ],
+  "lb": [
+   "t1_yn6ovipndpwq2435bnuys",
+   "t1_4qlb647z765x4bmegyc2o"
+  ],
+  "test": [
+   "t1_drh726tq3by4edomehwam",
+   "t1_ohdc4n4fzaarj5gk3eo7y"
+  ],
+  "train": [
+   "t1_qrkaise3625ntj6673pek",
+   "t1_q2737a37lwrxr2ydbd4ae",
+   "t1_7iapyj7wgtcorypftbuhm",
+   "t1_pzqnm4rmrm46qljlrip4a",
+   "t1_omk3kjgg2vu5usukx7ero",
+   "t1_qheavght7fct5oq6hxvq4",
+   "t1_j4q2cmg2ml4rv7v6d7iwa",
+   "t1_mpgmrpopaeiftau24fbiw",
+   "t1_gvouhu5pwjph4xxbt5ijo",
+   "t1_jr5t5zuoh76vdivorw5iu"
+  ]
+ },
+ "fp.corporate_finance.div_policies.dividend_target_payout_policy.basic.v1": {
+  "dev": [
+   "t1_ze2uw6qowxitmnhqoltaq"
+  ],
+  "lb": [
+   "t1_of2pvlnfcxqcqmnpqrgli",
+   "t1_4fjix6zjdj3esghdfcswg"
+  ],
+  "test": [
+   "t1_wqmxa2g6sea6irvljuueq",
+   "t1_x5vhuivjwn576752pvxog"
+  ],
+  "train": [
+   "t1_3cor2shmbie5ak4akfew6",
+   "t1_a264yelcrxoebqr7o2iqi",
+   "t1_ksgekizk4uv7hxzoglmae",
+   "t1_5pper3s2ximifndbvuvpi",
+   "t1_43aqvhgxihxbncxynu7u6",
+   "t1_ho2xnohkq7lr674scrjke",
+   "t1_yf2spqa52xh3dbmo7dyyi",
+   "t1_zk5kbvyvboytenyrx3jj6",
+   "t1_34s72ghs3nlro2tobcabw",
+   "t1_qg4gy5r3u6l4acg7yrw7w"
+  ]
+ },
+ "fp.corporate_finance.eps.eps_pref_div_split_weighted.advanced.v1": {
+  "dev": [
+   "t1_3cc44nee5z26v6qoswp5k"
+  ],
+  "lb": [
+   "t1_wkief4r7rroiqt77ws252",
+   "t1_lnj7viiagvzgmmg6nu5bw"
+  ],
+  "test": [
+   "t1_czi6jwk6oirhiudjckceu",
+   "t1_yuxlogh3jfr54p7nujp3s"
+  ],
+  "train": [
+   "t1_5fw5f2eerwu5r33iife7g",
+   "t1_xaf2p4dwwjltjsqxvaapo",
+   "t1_vevggackva45pmrsd676g",
+   "t1_mwjwlziwyblfjnayjljde",
+   "t1_3i44ny2itavqoaeegssk6",
+   "t1_6jksxz3e6rnnj2xjjvfws",
+   "t1_udxmjgbl6acevs3fp5qvy",
+   "t1_iwlulwovpxeooevi23ahg",
+   "t1_mkjxo23dr3az3j2knn6gi",
+   "t1_ogf7jcae5zprzalooxeqq"
+  ]
+ },
+ "fp.corporate_finance.eps.eps_pref_div_weighted.intermediate.v1": {
+  "dev": [
+   "t1_ajqg5g5agilwiynvgmi44"
+  ],
+  "lb": [
+   "t1_sfnkxclp7722bnrn6snqq",
+   "t1_wmovy6d5ej6okmiei5r6a"
+  ],
+  "test": [
+   "t1_lnq4y57q7zwsolpwu6fke",
+   "t1_zjhhr6dmrpnvvj6t3pbpc"
+  ],
+  "train": [
+   "t1_tvk37ee3tmo2vz6kogmd6",
+   "t1_hpjjd3amd3qrnnmrt6l5w",
+   "t1_gv7tvynlknkdrjgleqxzs",
+   "t1_6bpl4fgd442zf5fqlckhq",
+   "t1_asb72ad72pt5lew5sxzyw",
+   "t1_xqq6s2mdgnqdmb3dspd2u",
+   "t1_kembu75h6ucyd4b5a4g62",
+   "t1_7b5bz7dfbsaqj2e2nxzfa",
+   "t1_4v34syxfpd2ipvsbw53ew",
+   "t1_4ay2pfwk43qdv3v2r7q7u"
+  ]
+ },
+ "fp.corporate_finance.eps.eps_quarterly_pref_buyback.intermediate.v1": {
+  "dev": [
+   "t1_3pzlpzdvqawijwstx7daa"
+  ],
+  "lb": [
+   "t1_jhdmjpjtfr623fursdzdi",
+   "t1_gaghrxs3iuashjib7d2hy"
+  ],
+  "test": [
+   "t1_n2iwfvxhhxdxlr3nusn6q",
+   "t1_sa54n7mfkcbflsmp64nuq"
+  ],
+  "train": [
+   "t1_kwgbqgauswofqqs4tf6h6",
+   "t1_zcj7afn2hjq7iaupgyk7s",
+   "t1_uhclqkzuy7f3npmof27ho",
+   "t1_jriipjo5vjmjcov5y2ugy",
+   "t1_feux4pzt2phlxdm4ti6aa",
+   "t1_shwualtw2wnploovxelkm",
+   "t1_luermyn22ng5izv2zi2o6",
+   "t1_ilza6jkdp2uzcslo4ze3u",
+   "t1_53tqjaerrjb5irpx274vm",
+   "t1_bksomm7fxgj6wr7mnkj5a"
+  ]
+ },
+ "fp.corporate_finance.eps.eps_quarterly_pref_div.basic.v1": {
+  "dev": [
+   "t1_l7bvhflewtkggo5idpyjs"
+  ],
+  "lb": [
+   "t1_65jhohylyvc2lj7os3zvy",
+   "t1_dxn23lnzizv6kiu7uki5w"
+  ],
+  "test": [
+   "t1_bsht7t25elrr6xatpysra",
+   "t1_wteevaz234l5q66r4rfj4"
+  ],
+  "train": [
+   "t1_tittna4v2r6326vuqvssq",
+   "t1_aythccrgewieyw3qtreye",
+   "t1_rjv7uklkjmtzyw6xhfsi2",
+   "t1_r2tbxxzmhihwm5dayypcc",
+   "t1_snigeusu27cu5dsrka4uc",
+   "t1_dga2vdjifmbb2ilvfat2u",
+   "t1_ov55nhmy27lxbvnybwlbg",
+   "t1_aglq3eqlzly5ujr5pmhb4",
+   "t1_rmgz5jyntfhj2mc72z4vo",
+   "t1_imh5hpfiibbeg43bqb5rw"
+  ]
+ },
+ "fp.corporate_finance.eps.eps_weighted_average.basic.v1": {
+  "dev": [
+   "t1_erxl3zox4tkxriukbpqca"
+  ],
+  "lb": [
+   "t1_qwqgrl74ks7ex3xne5iuu",
+   "t1_7gdyxphzew6swg4xkw2v4"
+  ],
+  "test": [
+   "t1_kn7fd3lvr7evzbxbg6roo",
+   "t1_tmhl2iy2eeluwpjxugq3q"
+  ],
+  "train": [
+   "t1_i7uoazm4zpdrnj2vqcz5e",
+   "t1_64ay2f6pm4p2ynbpa4fgk",
+   "t1_tfy2czmc4guoonvjvgi2i",
+   "t1_if3sgedn5tk6th6cindou",
+   "t1_wukwhszw45mwh3armoiqg",
+   "t1_epzwc26uihg3xvyu2fguw",
+   "t1_7w4o4pdnj535k7gkzlzlm",
+   "t1_ftfsnx2qdtdqbgbcohiz2",
+   "t1_2qrae2avbsqd2zfvwcf52",
+   "t1_2qi4gnkzonb5cvy5nn4i4"
+  ]
+ },
+ "fp.corporate_finance.wacc.capm_wacc.basic.v1": {
+  "dev": [
+   "t1_dcniz7gyr5gqaouem6qaw"
+  ],
+  "lb": [
+   "t1_4ukkby4bbf5llymo2hu6s",
+   "t1_3o5uklubb6ewh6dokvcbk"
+  ],
+  "test": [
+   "t1_s7avk4faqax2qnlkm5nx6",
+   "t1_yk6i3fbbwilgqxfamrvfe"
+  ],
+  "train": [
+   "t1_qhftubdsn34jywfauau44",
+   "t1_q4ohdioyxfo7g25bxn5oi",
+   "t1_msalwedqssh4z5ad4zydi",
+   "t1_amehs7sv2sgxlegs72wga",
+   "t1_puhzi7os4rmu54e4rcehq",
+   "t1_6dvbtbv3lgebjnhifvyqy",
+   "t1_qdd6x7zdhoztkbd4tbyg6",
+   "t1_lsqxv4sta2dvvigxf27wu",
+   "t1_fduggj6n7bufcmiyazbco",
+   "t1_qle4jes7bw4w6cwyq3ca6"
+  ]
+ },
+ "fp.corporate_finance.wacc.inflation_adjusted_capm_wacc.advanced.v1": {
+  "dev": [
+   "t1_jxvqgd57v37oxuzj2usng"
+  ],
+  "lb": [
+   "t1_iwdx3sjeywhrwo5nqroem",
+   "t1_2tfuh2x4a4gpzphebhgs6"
+  ],
+  "test": [
+   "t1_lto2yi2h3u3m4z2gswms4",
+   "t1_nneuwqxhwzg5eyspxylf2"
+  ],
+  "train": [
+   "t1_zhmdrfcnscldoo552ihrs",
+   "t1_m5pdszsh4cs2k345u3bmm",
+   "t1_7khbcy5icgmbb65aso2g4",
+   "t1_2fbp75dn74mfcuy5jbd2q",
+   "t1_4bowncqgytlhgsyxdeyog",
+   "t1_qy4lirokl7tw543dzjzsw",
+   "t1_hpxi6iwqy5jnb6csa67uo",
+   "t1_2twhybqt7kwexfzm737fq",
+   "t1_vack5f5woighmmttvsx6i",
+   "t1_qkppa3lx2vowckdojdcqu"
+  ]
+ },
+ "fp.corporate_finance.wacc.preferred_capm_wacc.intermediate.v1": {
+  "dev": [
+   "t1_ayuzckngnmj7ym6rjzbiu"
+  ],
+  "lb": [
+   "t1_kx5gymz5j63mwjwj2jhqk",
+   "t1_te3rrstkcbtms6ymkozdo"
+  ],
+  "test": [
+   "t1_hdzj5vsof3l6jxcqemtz6",
+   "t1_kgrsqwzko2wxm75aq7zay"
+  ],
+  "train": [
+   "t1_ffzv74nymwb3uw76txvju",
+   "t1_hncvktuzxebnsfxuwmnls",
+   "t1_ao37yjtgxohjrxvlf535m",
+   "t1_5zrfpm7o6ojtwdi555b3m",
+   "t1_idckny2wqiom7drc2z6gk",
+   "t1_fph2jgyc5snawaaz3wib2",
+   "t1_oueolvui3ouy7ksudm3eu",
+   "t1_rfukvgkomzbvgcx232mom",
+   "t1_yoerwgaa6ydyj2nztm6bq",
+   "t1_xaczk6nkbrhzktxrnc3aq"
+  ]
+ },
+ "fp.corporate_finance.wacc.standard_wacc.basic.v1": {
+  "dev": [
+   "t1_vjbrtr64yjgepocao2gdg"
+  ],
+  "lb": [
+   "t1_dunpyux3tjzzecs2zb3kw",
+   "t1_vgvp7waoovwxquvyzi3yk"
+  ],
+  "test": [
+   "t1_gzyn7onkc7nb74suwzxdk",
+   "t1_lc5ov6fbqdjajc4kzosr2"
+  ],
+  "train": [
+   "t1_lj276mot3njdkc7ld72dg",
+   "t1_ztqzkencwzuet7hirkhsi",
+   "t1_6wpp47myxxckeg2giwjji",
+   "t1_p4ecbrrfbfyy53ojm3pr4",
+   "t1_vymlyaqwkz76qjz4b26us",
+   "t1_2y7yypfssk5dfu6p6x372",
+   "t1_qui7th66n6dxdb7ezhoig",
+   "t1_dhuxecywjww5vnuauyflg",
+   "t1_xqu24btslf7rd2xzz6xem",
+   "t1_b7yz5lr675b5wpxcvugm6"
+  ]
+ },
+ "fp.corporate_finance.wacc.weighted_debt_wacc.intermediate.v1": {
+  "dev": [
+   "t1_5islvopzq6gbhtwbijkt4"
+  ],
+  "lb": [
+   "t1_ab2ppukr3mttmoamnugt6",
+   "t1_jiibtmrv3e4mkmecazeco"
+  ],
+  "test": [
+   "t1_hykav5otao55ciarxli5g",
+   "t1_lptn7cq2wvkk22nlvwbpe"
+  ],
+  "train": [
+   "t1_6d53pd7u7il6tb454k7io",
+   "t1_k6wygmkxahqdikcivcdl2",
+   "t1_m36dw4fdlmtrlwl5qe3fm",
+   "t1_x2utfkuur7yhlnh5arnp6",
+   "t1_a3ms3wo2ywfqmbxuba4my",
+   "t1_s6ustwjouqbwfqvuzjrsy",
+   "t1_6vrajv5ws23xh2fcbjjno",
+   "t1_vtrfqy52sodnhyvw6ovcy",
+   "t1_a2juvwmynjxfsf4elxz5s",
+   "t1_35zgpg2cu5g4ii4umpre2"
+  ]
+ },
+ "fp.crypto_finance.defi.liquidity_pool_reward.intermediate.v1": {
+  "dev": [
+   "t1_3dj2lpqswpduz67aye6kq"
+  ],
+  "lb": [
+   "t1_phw7lldnnytmbcx4hvmdq",
+   "t1_m6rvbfl5rlz7lug3o5y2m"
+  ],
+  "test": [
+   "t1_altmwpbg6lhpbq6me47d6",
+   "t1_lqnaa7ofbadwbkqo6xrz2"
+  ],
+  "train": [
+   "t1_5fqyv3cmfwje565oztsbg",
+   "t1_kbd4lkhdn4obvmliht5l6",
+   "t1_ikbulkb72is2epwpjhzbw",
+   "t1_gdzhpv5fuppp537nbwyvq",
+   "t1_nmln5sr2brvc3rehfry62",
+   "t1_sogwkspr3ieh6phjocnzq",
+   "t1_kvsjxyn72z4ddidwsd6le",
+   "t1_a5zg3zxeqns7qhezyc7w6",
+   "t1_2rfmw2div3iyvkkzckz7m",
+   "t1_4lwsdglsz3p2mz4xtwrm2"
+  ]
+ },
+ "fp.crypto_finance.defi.multi_factor_portfolio.advanced.v1": {
+  "dev": [
+   "t1_u3uxije3awwy7e6ggx66i"
+  ],
+  "lb": [
+   "t1_4lev4ludlcusgi3eantqw",
+   "t1_2w42njljs5vudvitm6ohc"
+  ],
+  "test": [
+   "t1_bdw7i7djdeg44icvpic2s",
+   "t1_muqhwzmnnpv3hkeiumo4g"
+  ],
+  "train": [
+   "t1_npf7fzccbgi5um5x3gvck",
+   "t1_cjn5fwyulxykpunrol7go",
+   "t1_s4evuquu5q65f7xsmgmva",
+   "t1_wgglv5n22s465wtgcmg3s",
+   "t1_gq3sgkizmovn64o6tckze",
+   "t1_ls6p36v5ajzeauxxtypuw",
+   "t1_43fwqylmpiibertb7o4lm",
+   "t1_gmujbafbsegxxik7gqnle",
+   "t1_kjhbwwtav2pmm4a6uyuha",
+   "t1_xd42upo3rqchn3rnr6d4c"
+  ]
+ },
+ "fp.crypto_finance.defi.staking_return.basic.v1": {
+  "dev": [
+   "t1_fx6szyt6vpoc3ptcn2abu"
+  ],
+  "lb": [
+   "t1_6uqtas6ehzga6l2vargt6",
+   "t1_rjx4z3uehvkgymznakzoe"
+  ],
+  "test": [
+   "t1_lzadi3yx7gn4qrrmfsvm2",
+   "t1_prlqzbnthncqjpx7kpf4m"
+  ],
+  "train": [
+   "t1_uudbpbdceeiq5nzdtw5cq",
+   "t1_j7b3cncgq6dgqq2v72ktq",
+   "t1_i67n3jcnsnztxmybrh54a",
+   "t1_ztrsdulitcygxzufmiioi",
+   "t1_voxerxx4bcgliz65v7wso",
+   "t1_44nyyvjqt5lpbx73hrsve",
+   "t1_uyeqmgtsit6hxmvxr4lre",
+   "t1_vuuxhoen5nnhvzgvrxffc",
+   "t1_y6u22b2zqrlbms6kb2ojm",
+   "t1_qwd5fiya6l6owomsth57o"
+  ]
+ },
+ "fp.crypto_finance.defi.swap_fee.basic.v1": {
+  "dev": [
+   "t1_cjtky332y4xrdwywcl2ey"
+  ],
+  "lb": [
+   "t1_mgfzdfbeztogqa7pnwrb2",
+   "t1_65hsroi372lsduweiysfg"
+  ],
+  "test": [
+   "t1_g5zr3w4n3ttzb7el32z2c",
+   "t1_qopyo2wusrwm2djywmqic"
+  ],
+  "train": [
+   "t1_xpxeo2k4mckzpy6a6c4qw",
+   "t1_2lg2laxju5ha6keclhfsw",
+   "t1_hbmwzplvhzpuno4jh356w",
+   "t1_ym67k246rrs5f2soxak46",
+   "t1_4bpauzgcpabnrs26szfku",
+   "t1_y5nyx2mhy6ewun2asjstq",
+   "t1_62ofpxvtyzg6bbn7vtsyq",
+   "t1_zfwn3ddvlcodd7rphkli6",
+   "t1_57lzdrajymoasqjhf45ee",
+   "t1_kwowe5dlt7miajlwxf3qy"
+  ]
+ },
+ "fp.crypto_finance.defi.yield_farming_roi.intermediate.v1": {
+  "dev": [
+   "t1_6ekzr2m3xjxikrfv757cu"
+  ],
+  "lb": [
+   "t1_itqy5kq4u6ehae7xv5m7y",
+   "t1_m62rhz5kw6zblxqtnwzu2"
+  ],
+  "test": [
+   "t1_liaqrna4lwuz77sjeb3hm",
+   "t1_u3afur57zrqql4ps2uwlm"
+  ],
+  "train": [
+   "t1_bs7eq62qjs4dql7g4dz4g",
+   "t1_lhhy4npdrpkmctdlqks3c",
+   "t1_o4jycbk7prxnuc7jnvpoi",
+   "t1_jcq7pa45mfguo5hyybm7y",
+   "t1_ovgnzhz5adbdjjon4zen6",
+   "t1_cb2rdc6mgmn7mfy3saz2a",
+   "t1_57unydcioqxondc3anv4y",
+   "t1_hpl6mgce5cjuwgpxvrq5m",
+   "t1_kltpmfnieoaecgo2b4vgs",
+   "t1_qiqauqctxcb3smqufah62"
+  ]
+ },
+ "fp.crypto_finance.global_events_impact.crypto_price_drop.basic.v1": {
+  "dev": [
+   "t1_xx464vdm7ufdktwercsbu"
+  ],
+  "lb": [
+   "t1_b4vbggvyh2b7tvpp5sriu",
+   "t1_3khvxfyogv2ozrfakf3l4"
+  ],
+  "test": [
+   "t1_n34tktxojhrx76lyrf7uo",
+   "t1_yttllnvbtclv4rfkkkoe2"
+  ],
+  "train": [
+   "t1_2slu4izzpoblxdlrlbsno",
+   "t1_2oqqznhfux67cekqlu4qe",
+   "t1_gnpewj2hxacjps6i4zi44",
+   "t1_j4wfazxd4wjscsaqh6vtc",
+   "t1_uiw2kt3lph7h5erg6ib4k",
+   "t1_qoxg2hmjficqcaabbwlao",
+   "t1_bnxr5x3obdhnwywmhsndu",
+   "t1_gdlabp5pkvhtm5azhdygq",
+   "t1_bvguj72y2jmf7zxh537ic",
+   "t1_mya5sxuzs243mgckzmtks"
+  ]
+ },
+ "fp.crypto_finance.global_events_impact.crypto_volume_increase.basic.v1": {
+  "dev": [
+   "t1_yymeqfqcsopaslpqgachs"
+  ],
+  "lb": [
+   "t1_ohw7ivktskuotohlxjtsi",
+   "t1_hdlurhuzun57bxhng4jno"
+  ],
+  "test": [
+   "t1_dn5zrkshdeaheu4wxrx4g",
+   "t1_wsipqp24lwdverho7xduy"
+  ],
+  "train": [
+   "t1_5yzzke7tndhsqtnr7gawc",
+   "t1_gwyvdtlk2zockqkc5cumc",
+   "t1_tj7vp6mwh3kdfpsco4kik",
+   "t1_ffedo7f5vkadjvi5dzp26",
+   "t1_4nioy27mpg6hyh2jo7zeo",
+   "t1_unovk7s5sag2i5rgroegc",
+   "t1_zebdkcdccs6sx3nhfcjm2",
+   "t1_gzvz7xk6un4uogxmkcuhk",
+   "t1_mje6xtvxmvfb3dslrqei4",
+   "t1_mytidnzufnndj4bfeu5cu"
+  ]
+ },
+ "fp.crypto_finance.global_events_impact.global_macro_strategy.advanced.v1": {
+  "dev": [
+   "t1_tlmeinop6xzkxudsenor6"
+  ],
+  "lb": [
+   "t1_nqunxph3de7fsvqzetdbs",
+   "t1_rdcg3iyuwvc7lj5t4x2c6"
+  ],
+  "test": [
+   "t1_rqcn3xgf54u3ofsiwdgxy",
+   "t1_z5mmfvxacghysilqyqiwk"
+  ],
+  "train": [
+   "t1_7kyrowxb6i2tcejd64i4e",
+   "t1_mmaboq26gzgmwpkdrdyro",
+   "t1_53behjnloz6xsq37mzsmo",
+   "t1_mjbjtjzmgfgrbingweilq",
+   "t1_xpw6jj4vlq4k2dqyy4tsg",
+   "t1_jpk3fmy33txozr7yw2c54",
+   "t1_atqnww6fob76pydzlvixk",
+   "t1_m6wefcua6pcpbzema6bs4",
+   "t1_zs6nsson7pmakfdivaj4m",
+   "t1_u64sgdqn3rhj5dn2b4kgm"
+  ]
+ },
+ "fp.crypto_finance.global_events_impact.market_sentiment_shift.intermediate.v1": {
+  "dev": [
+   "t1_4hxphnnhrly2j5jwy5ceu"
+  ],
+  "lb": [
+   "t1_o3bcljpl224xe3mjm6irc",
+   "t1_eaicjn6ylq76elxe3iju2"
+  ],
+  "test": [
+   "t1_72pvxbwnrbkxlejt6wzes",
+   "t1_h2kmodk3l64komazldxma"
+  ],
+  "train": [
+   "t1_3mmw3l3rnakbj7py555gk",
+   "t1_zip45dtf3b6jbfirh5mz2",
+   "t1_a66xf3hxo72tgxhd256h4",
+   "t1_dy2n2n4lm6azacjlxwoya",
+   "t1_yujfz6xlxluv646e2kfg4",
+   "t1_mpxxqohvuspi5wcwh2m5w",
+   "t1_7pbhznritgdqsnyyzmcli",
+   "t1_mk3xyqvnh4ueyojjjcy2s",
+   "t1_3rdmwgphknvkox43aavzg",
+   "t1_3x6hyxqzdhxej3vpnwmb2"
+  ]
+ },
+ "fp.crypto_finance.global_events_impact.regulatory_event.intermediate.v1": {
+  "dev": [
+   "t1_w4vxx4y7d3zqgit3foq66"
+  ],
+  "lb": [
+   "t1_vkxd4753ebdwxryh4a47c",
+   "t1_zoki3w4nihycykgsd74y6"
+  ],
+  "test": [
+   "t1_26t5bg2ictyetevpeb3uy",
+   "t1_ehirfoh7veczjpxvqq4ik"
+  ],
+  "train": [
+   "t1_55qjbb7fxsgmbwtqgm3za",
+   "t1_kebhtgpvz35xkfbqlh7ea",
+   "t1_ygm2ltf2sbcaozktgh65q",
+   "t1_mo2su47zpc6h7hxjilev4",
+   "t1_o77keoibo3rnvgf4th6du",
+   "t1_jnpilesu2bzskrsvcjnei",
+   "t1_32brp6rkjrorr3g3wynfo",
+   "t1_iufyilfnjprpvpo23evja",
+   "t1_ovvgqqvucquprc36zyj3k",
+   "t1_qlwzonzbjfw353y7dxbcg"
+  ]
+ },
+ "fp.crypto_finance.regulations.compliance_fee_adjustment.basic.v1": {
+  "dev": [
+   "t1_kj4vx5tgibslcumrmktr2"
+  ],
+  "lb": [
+   "t1_3mbahsqgnjuj6nskldwgi",
+   "t1_qoe7t6y7wk44vicabirzy"
+  ],
+  "test": [
+   "t1_7h3txz3noz7d3y6tfmjlw",
+   "t1_kd4d4eustbq3qatlqpxek"
+  ],
+  "train": [
+   "t1_vlqsv6x7jnyh5d6krhali",
+   "t1_jsc3h3f2l36oor4yjaskm",
+   "t1_qncrmndexbktxuelisd2e",
+   "t1_lkegaebfo5blwmwq6smt6",
+   "t1_g2kbtafdpwkhovj3rjjau",
+   "t1_ha6txxkofuchgrsovao2w",
+   "t1_n6qt3jqle7ghrs3dff6so",
+   "t1_qgpioboffvh2vsevcuq5m",
+   "t1_ls35exe4pnqlnah3kabgs",
+   "t1_sdtn3qbbz75jlq57rlxti"
+  ]
+ },
+ "fp.crypto_finance.regulations.crypto_tax_penalty.basic.v1": {
+  "dev": [
+   "t1_uogcb5ju3v3gqbndzw6pe"
+  ],
+  "lb": [
+   "t1_3cwwe4hk6minatk6cmvga",
+   "t1_tufbb3jnjxmr3rsnb4e4u"
+  ],
+  "test": [
+   "t1_7fy7pib4x7rryeepxxh5k",
+   "t1_mkcha7oobybk5gvcnt5hi"
+  ],
+  "train": [
+   "t1_orlcdcdivssq6ohg7hlvi",
+   "t1_oiob5nkeuklqgujzezjok",
+   "t1_ugshgpbkiibsktgoopvlu",
+   "t1_zd4k4ldrawf64wbom2r7o",
+   "t1_gavws5zwqvifgbxtjzcj4",
+   "t1_aqr53crw77f2a2dpeltu6",
+   "t1_wg57n5rh7zbreq6xt7cvo",
+   "t1_4gs6o3uumz2zdw3wraibk",
+   "t1_7ufei2emip5w7z2sh3ey6",
+   "t1_yesfe5bennzial5ozm7js"
+  ]
+ },
+ "fp.crypto_finance.regulations.multi_factor_regulatory_risk.advanced.v1": {
+  "dev": [
+   "t1_wx2lazeofo5klxeqanxt2"
+  ],
+  "lb": [
+   "t1_fim5kmyi3ws6g5jn7dpmg",
+   "t1_ihisi64tzeke2u5mqzyc2"
+  ],
+  "test": [
+   "t1_bi5uwpwl5f57yfuvjohss",
+   "t1_vj4zh6f533unpf4tha74e"
+  ],
+  "train": [
+   "t1_h5dyetw4gmszojqdnsbim",
+   "t1_jt2bxh3b2us4e2nl5cl4g",
+   "t1_oy7imrnnxadak65ku6sh6",
+   "t1_uxc6gwdbsaeg4wfatuyoa",
+   "t1_cjccju3qlqbie47oapv5u",
+   "t1_pusp3mrdoy32xzyeqn6dw",
+   "t1_byrbhxrk4ytgiopq4kjrc",
+   "t1_5gytmonmewrjx6g7yxe6i",
+   "t1_hg5thgqjxacd3iiraaac2",
+   "t1_6ipm3ep2x7yjgdsh5u4m4"
+  ]
+ },
+ "fp.crypto_finance.regulations.regulatory_impact.intermediate.v1": {
+  "dev": [
+   "t1_slrqeuajbkb5pzrhare4y"
+  ],
+  "lb": [
+   "t1_zn4nff7bdx6hajjhs3ncy",
+   "t1_ddbqha76jetrbbkfej2mi"
+  ],
+  "test": [
+   "t1_2leaqgz4hwj2bl6tm77bk",
+   "t1_spaqgvnhbrk6ltfltijyu"
+  ],
+  "train": [
+   "t1_7cfheyxzvlrnxmjzgitj6",
+   "t1_3qvsu7xmbug7kgsahdito",
+   "t1_us5a4ym5ksgnvvqfush2k",
+   "t1_hgjdz4s5nhtymj2kodwuu",
+   "t1_5l4iqeali3ts5yjjirlby",
+   "t1_4dd7iqa2jtkssfxjkdfiq",
+   "t1_gtxgijcb4x7v2y33nw6ou",
+   "t1_5p5l5djzsrdcuzpupqfoo",
+   "t1_qqmhar6hf76wov35l762o",
+   "t1_3dq4f2ckfm4wb2soqiu3m"
+  ]
+ },
+ "fp.crypto_finance.regulations.trade_cost_adjustment.intermediate.v1": {
+  "dev": [
+   "t1_6ygo4pgtres4fmthemrae"
+  ],
+  "lb": [
+   "t1_gjnaswy4ddau7avq5uipq",
+   "t1_2lzwsbcevczlbydyk37hc"
+  ],
+  "test": [
+   "t1_44vxruy5wpoirjhupitpg",
+   "t1_ksx5cymcopfcti5u4rhpy"
+  ],
+  "train": [
+   "t1_awaeibfvmqv62tso5vp2u",
+   "t1_hwpucifse4wrgbjocor42",
+   "t1_7h34vpspm6qvnh662tz66",
+   "t1_kws6zwd635bu55hzu2zzm",
+   "t1_36efwizoaujqo6ictpwko",
+   "t1_2ggokbkg25uypvx6yy7nc",
+   "t1_23pvalcxsuzhvsakjqbia",
+   "t1_nncfovcppkt4oqsra4g7g",
+   "t1_crf2yxywrzfnszctul6fs",
+   "t1_wfhkv7wjvkcfyek46tasc"
+  ]
+ },
+ "fp.crypto_finance.sentiments.multi_factor_sentiment.advanced.v1": {
+  "dev": [
+   "t1_3lfdybnxujuexngflu3ie"
+  ],
+  "lb": [
+   "t1_ah6iqekomkrvvd5maq4qg",
+   "t1_dqfyp3bibb5xttictti7k"
+  ],
+  "test": [
+   "t1_diozovdeqzwjgprwi25ee",
+   "t1_pupydghxchwurp2r6kiu2"
+  ],
+  "train": [
+   "t1_xhecf6hh3dxixogpzzxtw",
+   "t1_xtdctyu4ovipurghunv5k",
+   "t1_tfhyow4st253jrkwcb4nc",
+   "t1_yzth3ucqftfcp5gkfuj2y",
+   "t1_td7vctbm2muvq2kgpyo5e",
+   "t1_wgibywpnhqxk5ajwph3tq",
+   "t1_uykfvewok4odq7qeoels6",
+   "t1_ruoqi26svi5c3ajqdub34",
+   "t1_smtakjdkg7ukqf4mxz3ro",
+   "t1_gsxrktrjd24y4pcawrldo"
+  ]
+ },
+ "fp.crypto_finance.sentiments.news_impact.intermediate.v1": {
+  "dev": [
+   "t1_kfxzdvv55iuzrwdb2rcvo"
+  ],
+  "lb": [
+   "t1_c5rvitqrmawacs4v6xoii",
+   "t1_qhzg3y6syb6m6pvw5khue"
+  ],
+  "test": [
+   "t1_eq3bt6fofkakbnoffwiqc",
+   "t1_u4xga2jxr6jn34arozuie"
+  ],
+  "train": [
+   "t1_pwxtyewtj3rvlvocn7kq6",
+   "t1_wdofyee5h3b4gpwpfesba",
+   "t1_vyv26xhffr6nnjgtvqsl6",
+   "t1_giwtyb7ih4tuv5n52wy4u",
+   "t1_4yr3xpom2qf6n7digrn52",
+   "t1_lkdoybywnddmnk4mvvjos",
+   "t1_ljdcu36uyuq6aie7twn7s",
+   "t1_5nr7kwevaujmk353xwuew",
+   "t1_rfgmdf7mmr4gnegn5mcqu",
+   "t1_fefjizgeac3reco7fyk36"
+  ]
+ },
+ "fp.crypto_finance.sentiments.price_sentiment.basic.v1": {
+  "dev": [
+   "t1_fpora6c25lyumxxm4bwru"
+  ],
+  "lb": [
+   "t1_anvgy7sk2ublu23jigcpe",
+   "t1_3ytkr3cszia4vrwsimhak"
+  ],
+  "test": [
+   "t1_atz3ywsimwhdg7swsn4lq",
+   "t1_phcbosmxkvefzq7wmdlde"
+  ],
+  "train": [
+   "t1_fl4qbfcmddbbqzuhzywae",
+   "t1_u6wzez7n42rk2k75rpl5k",
+   "t1_4aivdjxp6u4sme7hmtz6w",
+   "t1_63m722jjzptjofasxo7hc",
+   "t1_carvyonthhloywqc326am",
+   "t1_3ssssxf3ozslaqmmrlklm",
+   "t1_xhdwb5fodk7buwov7xa5g",
+   "t1_qi2jt7qp4pqfnzi77egfq",
+   "t1_ap74hbvpi6x3cedny7iuc",
+   "t1_qqrxipdx3rtkx4nvfazda"
+  ]
+ },
+ "fp.crypto_finance.sentiments.tweet_influence.intermediate.v1": {
+  "dev": [
+   "t1_nyybis5zki5yy7m6sixe6"
+  ],
+  "lb": [
+   "t1_4ppk4rtijaiykbu5vy66q",
+   "t1_75qx4672vb3utz474tbxa"
+  ],
+  "test": [
+   "t1_2upnvr4xji4mahyhpilnq",
+   "t1_doecyw6n26opkosblbjom"
+  ],
+  "train": [
+   "t1_fsq4nc34fvsklqlthj76m",
+   "t1_w2l3rwv7ywffx2inz4acc",
+   "t1_d5whwlu222cdjovq2bmdk",
+   "t1_5j3x5i6nqbvlfscaarmwk",
+   "t1_6tr6ywrk6tm5emglwld7w",
+   "t1_mrfjy2fargh7j7m7qppz2",
+   "t1_bkae62tzxsjfd77jbx7e2",
+   "t1_wqlpvktgqlcniujbgbmus",
+   "t1_jemqug3dwh4k24fyw66zi",
+   "t1_semk6lhsiryd7vcvgzw5a"
+  ]
+ },
+ "fp.crypto_finance.sentiments.volume_sentiment.basic.v1": {
+  "dev": [
+   "t1_y24neddqxjgmcmydghc42"
+  ],
+  "lb": [
+   "t1_fjlb7yyye37tca47rcq2g",
+   "t1_xm42nkdctkkfumoq2iodk"
+  ],
+  "test": [
+   "t1_sia6kb22l4lykdjxq3t2s",
+   "t1_ykx6jdbfyoo7xztnwfmqe"
+  ],
+  "train": [
+   "t1_cbbli3g4ljzn25zvkeqeu",
+   "t1_7c4rbd7ealggpaliwxohe",
+   "t1_xslehyjpdcm6pkwmj4f4c",
+   "t1_ft24mjtokckt5vbvvehfe",
+   "t1_iqfqk2qiixnypklbnykg6",
+   "t1_nrmgtcxyyo6ffph76xlye",
+   "t1_vtfsl5z5oqt6na5etma7s",
+   "t1_dpsptlbqbqvmzsmtd37lm",
+   "t1_ggjigzpw6bx53lwft2hak",
+   "t1_c5g4mp54vqvi3tsg4gxf4"
+  ]
+ },
+ "fp.crypto_finance.tokenomics.emission_schedule_impact.intermediate.v1": {
+  "dev": [
+   "t1_elcbrauvr4tab45ghqpsq"
+  ],
+  "lb": [
+   "t1_jlajw5gkjbfowjxn2xtdy",
+   "t1_urrdippl6c7sxxaebj6re"
+  ],
+  "test": [
+   "t1_d4bl3fsgqkmffspfoib3q",
+   "t1_etahvaenzsrhw6v23ezfa"
+  ],
+  "train": [
+   "t1_bjx27yih6cjceocktmns2",
+   "t1_ijldhdel7fi3567kjmbsc",
+   "t1_nctcod2q6ktnwyg4ppkmq",
+   "t1_wsbeqwljciwcta23npn6u",
+   "t1_5k4rjptsco5szpri3hhuk",
+   "t1_6746tv55dsgyk2hfhasue",
+   "t1_542uhas3au3ur5h64nre6",
+   "t1_whdcapm4pbn7wupzhhcsm",
+   "t1_65ti3j3ateghmc2psodz4",
+   "t1_ucudhnphogathocpx7eju"
+  ]
+ },
+ "fp.crypto_finance.tokenomics.market_cap_calculation.basic.v1": {
+  "dev": [
+   "t1_pqovsxt3shwpavo6egqqu"
+  ],
+  "lb": [
+   "t1_swh3hvwpzdhzlvispxp6c",
+   "t1_2izc2qjhlposnxgdtonng"
+  ],
+  "test": [
+   "t1_7dujfdsj6epw6u2e5urmw",
+   "t1_blenfkjxlds57umbwqdri"
+  ],
+  "train": [
+   "t1_it3fjazvw6irjjo6dvtfi",
+   "t1_43nfeodqyebeumwtx2lw4",
+   "t1_5ekyuu4ddbg3kod7zjepm",
+   "t1_eksfrihbk3kh3tdfukqd4",
+   "t1_vvhezp3wrktntitukks7e",
+   "t1_hegfut74w5x6zsld3dasa",
+   "t1_ndbm45rkgqn27ihrclddw",
+   "t1_rrss2fm6azcamnhskw7vk",
+   "t1_l6gveqalykdluhl6ssfyc",
+   "t1_pl4tr4nrq5nyvltxlcu54"
+  ]
+ },
+ "fp.crypto_finance.tokenomics.multi_factor_tokenomics.advanced.v1": {
+  "dev": [
+   "t1_teko2xfnudak63sbmluhg"
+  ],
+  "lb": [
+   "t1_zkydz65repfuf75fekcay",
+   "t1_yoq2xciuyr7edfh6hv76s"
+  ],
+  "test": [
+   "t1_sitqhalr3c7optsmlfkiy",
+   "t1_ydvgf3nm6zrtig24uen7k"
+  ],
+  "train": [
+   "t1_jgvaf2uh7jbp2il2eoqli",
+   "t1_2kptadkjgnutag4usqili",
+   "t1_4hh7ci3erlaj5meae34oo",
+   "t1_ke4zw2s74yx6r23szzqxa",
+   "t1_wtvm74jixz34otrk4z7ue",
+   "t1_gxkdlck3okl6guq6uz5la",
+   "t1_ee3mleqpll5roh3keljcm",
+   "t1_bp67rjmk4tlpvntf35fiy",
+   "t1_capqwhqwiysaca23xdkfs",
+   "t1_43tgdro5bse6w2o2l4jh6"
+  ]
+ },
+ "fp.crypto_finance.tokenomics.staking_reward_effect.intermediate.v1": {
+  "dev": [
+   "t1_xh2srcwg3htsooxf2bk4o"
+  ],
+  "lb": [
+   "t1_apmfaxyj7xwpusspo7chs",
+   "t1_vzim6g4xqf5vty7jrfv64"
+  ],
+  "test": [
+   "t1_d45kuvx5jshsfgctumrec",
+   "t1_hagzqvfubyml6vcdouo2m"
+  ],
+  "train": [
+   "t1_s2tnh3qzmzotvcy6h65j6",
+   "t1_jjlq6e4irkgmu74ujwlco",
+   "t1_cadl23t46z4tmw3h2zy4i",
+   "t1_ldpaouchgmp4ek4pvis76",
+   "t1_fgbewuu47yygb3uwkj24g",
+   "t1_zu74qwr2a666vk656iu7u",
+   "t1_yq7iltubxc3wgg3izizjm",
+   "t1_2hrvcmmhku2i77do5lwyu",
+   "t1_gbw4docm4gvffzmyiojsq",
+   "t1_afaylwd7djtaobbzio33i"
+  ]
+ },
+ "fp.crypto_finance.tokenomics.token_price_calculation.basic.v1": {
+  "dev": [
+   "t1_e4u57mkxeqfvw3m3q5kik"
+  ],
+  "lb": [
+   "t1_4ajf3vcbgwf3h2dlewlwi",
+   "t1_ldadskgqnxiitocad7qxs"
+  ],
+  "test": [
+   "t1_2vwiwjratjovydv7aji2a",
+   "t1_apozht27hj6x5ywxr2tu6"
+  ],
+  "train": [
+   "t1_43skmpfeopmfpboh5wnok",
+   "t1_smzdffe4octu6hddoscba",
+   "t1_ygowsmyyaxthrsryzerei",
+   "t1_dh343n2cqjm7cjpiydw5i",
+   "t1_3s5c52l2k3snxnq6tba3k",
+   "t1_2mpflvmm4dyua2oqjutck",
+   "t1_5fyy2uifwo3nu4bmgchme",
+   "t1_qn32lqi2x4ld4houtvlz4",
+   "t1_zsrd7suqy4rmr6f657ot6",
+   "t1_enflgc7rpxkp4qugrbooc"
+  ]
+ },
+ "fp.crypto_finance.transaction_analysis.bulk_transaction_fees.intermediate.v1": {
+  "dev": [
+   "t1_eladzdzmf4sfuodc7muzo"
+  ],
+  "lb": [
+   "t1_4nrzfozhgmqbz46rzlmsg",
+   "t1_6ta5fexfqp5huie4y6hby"
+  ],
+  "test": [
+   "t1_5xrx7qn2jxzoqzqvjqk3w",
+   "t1_g6edq5hi3nkscv3pyqh2w"
+  ],
+  "train": [
+   "t1_yb67ygtjhxzv5cjoezjek",
+   "t1_rhnuqqbd2vpchjygapp7g",
+   "t1_ydbbpdsyp6wlo35b72ura",
+   "t1_se33odxkc75ns5myoqhgi",
+   "t1_gebcue7jx2sn6if2h5csg",
+   "t1_7ngmf2jsigpbxftkz5l4o",
+   "t1_uq76rsgz4p3wyh73ohbje",
+   "t1_qlrcihy5birrfzzx3s3ii",
+   "t1_ztm4fdd3dmfipxdiciof4",
+   "t1_dtottiz2zodmdsnkg32ba"
+  ]
+ },
+ "fp.crypto_finance.transaction_analysis.cross_chain_transfer.intermediate.v1": {
+  "dev": [
+   "t1_ihnjhgueg72hxejfhbzrg"
+  ],
+  "lb": [
+   "t1_qeyudkg5wwwe2o2epsxci",
+   "t1_77ddiots66alomwctdpm4"
+  ],
+  "test": [
+   "t1_m242nydcz54vx3neu7d5o",
+   "t1_ptx4rxydrmmuio32tnck6"
+  ],
+  "train": [
+   "t1_s64dzzo4a6oa74myt22hs",
+   "t1_3ot64j2aavgsuxwkcbf52",
+   "t1_6f4etukdn3nf7nuqhp642",
+   "t1_j3ur2pk7f23zpezlpiunu",
+   "t1_gmm43nj47lnyj4am33k5a",
+   "t1_bmu3c27klfvzbkcavmpqy",
+   "t1_3xwcrb2dkfa6p343jm7z2",
+   "t1_34xvdnkmetr54eh63z6nc",
+   "t1_5agvidi3f7qn4p2aeonmw",
+   "t1_tni7ntet2lu74y6xsxto6"
+  ]
+ },
+ "fp.crypto_finance.transaction_analysis.fixed_fee_transaction.basic.v1": {
+  "dev": [
+   "t1_d2xxr72myqcooo4z4svuk"
+  ],
+  "lb": [
+   "t1_bgpwknjr7kbbvyqyjvv3a",
+   "t1_lyv6yf36mvxmyt4xuhgbg"
+  ],
+  "test": [
+   "t1_fvvmjbomcexy5lpcvdxwq",
+   "t1_ulgbc253mzw5j6hygsp3o"
+  ],
+  "train": [
+   "t1_xhueqcq7x6pvzlvg35pa4",
+   "t1_pdrrirywegwpyvgiqmsky",
+   "t1_2qinssxy4bf35usdprb5q",
+   "t1_7cjl6zol33jf3ytiuwrao",
+   "t1_tibfyvijrwnecmhlmg6yw",
+   "t1_iikk73ja6e2mypflp43de",
+   "t1_3fxchzihmild7gnewistq",
+   "t1_unlwm4dummhalxriv675o",
+   "t1_zi4boau4kf5fzmp4bicnk",
+   "t1_kcbxijv2cwmbbnoopxjwq"
+  ]
+ },
+ "fp.crypto_finance.transaction_analysis.multi_factor_transaction.advanced.v1": {
+  "dev": [
+   "t1_rjcqhs5qxlqciprwnbcgs"
+  ],
+  "lb": [
+   "t1_en2twfbxtix5fypu4ghs6",
+   "t1_xv4qh4bb7oybziv5qyjkg"
+  ],
+  "test": [
+   "t1_g4shyb5o3mvdefh7gaxsw",
+   "t1_mao4yxoysp7gaslh73z36"
+  ],
+  "train": [
+   "t1_fh5xcbhsrsp4idb4flhv2",
+   "t1_vn2wxlwqesmkbezbdjkom",
+   "t1_a7uwgb5fago32np5disay",
+   "t1_gsgmt5cw7lcuv6koh24ze",
+   "t1_hx75gl6mogrbld2n7moyo",
+   "t1_y5wpobmpvkgi35ryyjbca",
+   "t1_4tsbozafnlbrvo2267ciw",
+   "t1_f44ys3tzdklbyn255xuio",
+   "t1_jn6og7nx7wp7cevp6pyoc",
+   "t1_iopsqbbbdsjsywofg3ldo"
+  ]
+ },
+ "fp.crypto_finance.transaction_analysis.transaction_fee_calculation.basic.v1": {
+  "dev": [
+   "t1_cbl7vjaggqjclolitnwgk"
+  ],
+  "lb": [
+   "t1_u4ro4ujdqv3yttpucl4mc",
+   "t1_6yxnptsyke57po4xk55ta"
+  ],
+  "test": [
+   "t1_dfra3l3ozxyel5ykabkys",
+   "t1_qtnzmss42meglz3kz6qla"
+  ],
+  "train": [
+   "t1_jn6iwhj4d763lletadvkm",
+   "t1_bubqulx5gqaql5bplc5s6",
+   "t1_sy47met4rzi56eb4frtei",
+   "t1_ozeuzdihtdgq7ihdokmek",
+   "t1_uja7yfa5xg3utydtdeumy",
+   "t1_odjb6riyax5dvepqfyg7a",
+   "t1_pygy4p3twbavqlq6lkrrm",
+   "t1_y76ibflgoptk5rxcxjx3q",
+   "t1_krmwk3bggz4qfskqn2ik4",
+   "t1_evb6vflezwye2lrwhgqrs"
+  ]
+ },
+ "fp.crypto_finance.whale_detection.cross_exchange_impact.advanced.v1": {
+  "dev": [
+   "t1_bcegk37jcdgugykoszmss"
+  ],
+  "lb": [
+   "t1_bbzzrqyvr5w2bgygz4ddy",
+   "t1_4vvkxkvqe6o7q267jshc6"
+  ],
+  "test": [
+   "t1_bgltsevqmhv3xlt62jb7c",
+   "t1_sxob4n7ccznlsqnkgymde"
+  ],
+  "train": [
+   "t1_7fjpiw5w4im5wrpbfekau",
+   "t1_bdntfc7hcro3rmbwfzzi2",
+   "t1_fjn2g6mwut2vgbdl4vmhq",
+   "t1_ixcvjfr2dgmrf3lj3c3hk",
+   "t1_aoltowh2n5qiwzfwhgssw",
+   "t1_tt76lme52xhjtiffjhvss",
+   "t1_hgkopmdxivssycmrvulzo",
+   "t1_7irioi6gttn2vw2njww42",
+   "t1_ashozvnoq6quecuqrlo5i",
+   "t1_zorcjzl4hpblc2uaerux4"
+  ]
+ },
+ "fp.crypto_finance.whale_detection.large_transfer_detection.basic.v1": {
+  "dev": [
+   "t1_ta3piho4uknetugn3x6ta"
+  ],
+  "lb": [
+   "t1_mw5w4ejumtxkoynq4n2r4",
+   "t1_ngmvb3pbiedjbfw2veo3g"
+  ],
+  "test": [
+   "t1_lsqvam6dzv4km3glxrk4g",
+   "t1_oalaerd27yopwy7jfgfec"
+  ],
+  "train": [
+   "t1_av2n4ty4caa3fpyznc75m",
+   "t1_2u5cektxp4ln3bwu7nzmw",
+   "t1_rv5mq4z4hq4kflib26oho",
+   "t1_ubeqo3pn3ubyuyzasphu2",
+   "t1_djax6g45l7xhmhvcwtj7c",
+   "t1_g3wagdif7buz5qyv3ncdq",
+   "t1_mdszs2bner5476r777fqg",
+   "t1_ztv4zquvl4mo7awdkrd5g",
+   "t1_l5yxd4cb446nc2nrj2iew",
+   "t1_iup54osyq4bsjacepi7xm"
+  ]
+ },
+ "fp.crypto_finance.whale_detection.multiple_transaction_analysis.intermediate.v1": {
+  "dev": [
+   "t1_afy3bn5fnuh6qtggrfop2"
+  ],
+  "lb": [
+   "t1_ikslinxuc5a5c72oo3vpk",
+   "t1_57qltxdg4t35aeiuq4nk4"
+  ],
+  "test": [
+   "t1_ad7qu47uodtqdivomxcvq",
+   "t1_szup7qxxgl4pgslh4k4jg"
+  ],
+  "train": [
+   "t1_4d3bfqx3hobbrmo5n5scu",
+   "t1_3unx53potw5gwia7pjmho",
+   "t1_v7ko7a4pvs5pigoqmvm7m",
+   "t1_pd5w6ft57g7e5taenxwt6",
+   "t1_d3mrdrga4dailxzor4p4i",
+   "t1_lhtrgciiwtlfsgg35sgd2",
+   "t1_jlgovao7wn4ozquhnd7yk",
+   "t1_hwpg55i7gcpq5f7xximwg",
+   "t1_voe4pgrew7rnd3iclxyfe",
+   "t1_oqdgy42baiojnpnauxqqs"
+  ]
+ },
+ "fp.crypto_finance.whale_detection.threshold_adjustment_detection.intermediate.v1": {
+  "dev": [
+   "t1_2uyrv5xpwqx6mi6r6zq3q"
+  ],
+  "lb": [
+   "t1_p5azwxmjdsgp4ku2iytdu",
+   "t1_flhya4ywkv756vmps35oq"
+  ],
+  "test": [
+   "t1_j3lx66k3hvxg6mwqjszj6",
+   "t1_rv2hjako2wp7k4hx564ly"
+  ],
+  "train": [
+   "t1_reacp5m7sudzulbmipruw",
+   "t1_ndq3yzp5hh22fhrcqqid4",
+   "t1_4lsxglw7do5tuuintieeo",
+   "t1_4xyqaonxothb5vojcw2du",
+   "t1_yro46v4mv4d6zralaq6sc",
+   "t1_fp3j7ojwbrwqocrrwwzze",
+   "t1_frk5chrvgwzynhzegwiuo",
+   "t1_jlkkogrwozu54owfpj23w",
+   "t1_o7z5zwfypmxclq7abktoe",
+   "t1_ds7gmij3gagdwc2zyrnt2"
+  ]
+ },
+ "fp.crypto_finance.whale_detection.wallet_activity_detection.basic.v1": {
+  "dev": [
+   "t1_7qoijq7ao3xobpgerkdvm"
+  ],
+  "lb": [
+   "t1_bl4uqzzmr64rnd2dk25by",
+   "t1_74n6we4f3fxyrgczskmyo"
+  ],
+  "test": [
+   "t1_ndigf6oht2mbf6mm7ywpw",
+   "t1_wprfipowbfuwsshtcnfao"
+  ],
+  "train": [
+   "t1_oj4r7hcu5dmbfvy2n6zoa",
+   "t1_jiaxnx2sketqtyepjl5x6",
+   "t1_dqybrvha47i33brmclmj2",
+   "t1_5frb4aghvqxbfcuohryoi",
+   "t1_2pddeje4iagpthcqgq5w6",
+   "t1_mt52tmj7hbikupwifydoq",
+   "t1_4f7ja6fk46z5rbyrxdy22",
+   "t1_yb6a3ntvoq3nxkxwb7g6g",
+   "t1_r67w6khg63cwwtt4pdjbm",
+   "t1_iwayq5uc7gljl6tshai52"
+  ]
+ },
+ "fp.finance_regulation.aml.beneficial_ownership.intermediate.v1": {
+  "dev": [
+   "t1_n6wkqdpqufkqhyqxeuaw2"
+  ],
+  "lb": [
+   "t1_vbdwtchdjvrtljagl6keg",
+   "t1_gewretihhjttrc5eh7msq"
+  ],
+  "test": [
+   "t1_el7krotqtkotz5fho5fxw",
+   "t1_pdfoh7wtapidhhw7nhvzg"
+  ],
+  "train": [
+   "t1_md73momb5yq5sdlxnu3d2",
+   "t1_d3cy3qnrujcrmrfq2a4tk",
+   "t1_bwjhsvfcjmiqvrmmoq7sy",
+   "t1_vv7inozejuduxqwuelcrg",
+   "t1_v52n7yn7v2ndhmkvra3ra",
+   "t1_tpqw6nexpv6wxkq3jwoni",
+   "t1_gvtonuojxbx5gewmme5us",
+   "t1_4ngjmy2bylelrirdl7xto",
+   "t1_sgcq36tnhd5pwshzvuhoc",
+   "t1_3riiyuywm3blq4jz77bvg"
+  ]
+ },
+ "fp.finance_regulation.aml.multi_entity_ownership.intermediate.v1": {
+  "dev": [
+   "t1_fzyu4767esbumes2txxfo"
+  ],
+  "lb": [
+   "t1_g4bmnmxpqyfdirx6op5am",
+   "t1_qyju6t6slypb27uuytu3y"
+  ],
+  "test": [
+   "t1_3cie6bivfsoureoxzs7qy",
+   "t1_f3vxoyetaajxamov6ncc4"
+  ],
+  "train": [
+   "t1_2rdtvk77ktqksh3jyn7qo",
+   "t1_i3guk7uerjmlgj52imsqw",
+   "t1_ebrt6uddnhs7fuiuz2u5e",
+   "t1_kgqc5o6rul6dyvyyvbyeo",
+   "t1_fmrwzuiiwzxcrt5uoworu",
+   "t1_wvfmjstukwgsrfq6fspjy",
+   "t1_kz3jglvh272jvedvrzodu",
+   "t1_sz45izofpravinob7eq5o",
+   "t1_tvf3ck5txbzem23nultpm",
+   "t1_mggidxd5rbgxp64vvxats"
+  ]
+ },
+ "fp.finance_regulation.aml.sar_decision.advanced.v1": {
+  "dev": [
+   "t1_t6oxdw6slqkspkyvlkrcy"
+  ],
+  "lb": [
+   "t1_xk6irvtanbs6uexr44cx6",
+   "t1_s47ral2e5pe2tlypz5bts"
+  ],
+  "test": [
+   "t1_ckyfpwxzblqeqwxpp7vqo",
+   "t1_zq55zmn6xb626wu4j7yha"
+  ],
+  "train": [
+   "t1_v563deqsaul6gqe55g4j6",
+   "t1_lfy2uapc5m2u6tul2yzwk",
+   "t1_7bfdusintuenuibzagpqe",
+   "t1_cslkt365wtuynt4dfsnwm",
+   "t1_limwvwtln2qhhtff6e7m6",
+   "t1_gl4yqwxgha5lmptq7otfw",
+   "t1_scmig5fghcn5j4cymdtju",
+   "t1_pfyekmb4izotx6i2shhny",
+   "t1_7c7xcn3lmahmtxwbrotte",
+   "t1_rll7tliawltrypmwief7q"
+  ]
+ },
+ "fp.finance_regulation.aml.structuring_detection.basic.v1": {
+  "dev": [
+   "t1_kmv6slmyjrwsuhoeky3nk"
+  ],
+  "lb": [
+   "t1_ttyek26onvhrkuhcq5fry",
+   "t1_wlshxi7e4ql7afeuhjsmy"
+  ],
+  "test": [
+   "t1_3qefblepnni2frng7u2po",
+   "t1_ctxezu2fuxbhlx5kmveic"
+  ],
+  "train": [
+   "t1_w5leibycj7yj3yijlgbi4",
+   "t1_2utaxmv3hjo73azinmqdu",
+   "t1_kj4np2mbsfzos4jmtj5b6",
+   "t1_u5krzw6oulozyiwnqey6q",
+   "t1_rfoa545ny6feluqikgpl4",
+   "t1_x52qmickah7mzv2jgwx2s",
+   "t1_yixlzirueun4mvauycjgm",
+   "t1_fgpbjshsjgbi2p6xsuroi",
+   "t1_wiefnq5tnb6zfe32wnbgy",
+   "t1_eq2s2satf4iptuxx56lr6"
+  ]
+ },
+ "fp.finance_regulation.aml.threshold_violation.basic.v1": {
+  "dev": [
+   "t1_nfcxu3hyknnsrumz5ecky"
+  ],
+  "lb": [
+   "t1_pk2pzeoa3v4u5xg7evrj4",
+   "t1_goxmikotwey2xywnjgdpi"
+  ],
+  "test": [
+   "t1_naan5b7gfhsfx6uy43ewm",
+   "t1_p36x3j6ufekechwsk2jqu"
+  ],
+  "train": [
+   "t1_yrmef6kyl2fndvy7szam6",
+   "t1_yqny5eh5wcfv7zift32dq",
+   "t1_wofhytdq377srbebcpkyk",
+   "t1_wjqvyvfdxnohbecx7td2i",
+   "t1_d4do2anklk527pjvmy6ge",
+   "t1_gse4y6hvtap7kst67ewv2",
+   "t1_gcfgvaloqieax63u5xllk",
+   "t1_awjclwv3gz2uyhuf2etvc",
+   "t1_btz45uene4tbxm6kpvdxe",
+   "t1_mis45dmfmtn6oh3kbwlgm"
+  ]
+ },
+ "fp.finance_regulation.basel.capital_buffer.intermediate.v1": {
+  "dev": [
+   "t1_srlhyy7un5fceimlrce44"
+  ],
+  "lb": [
+   "t1_kiqfd4dvqe3rfejasofpu",
+   "t1_77xcr2njczqrdloaqujea"
+  ],
+  "test": [
+   "t1_icvxxs36qyaik72aebvn2",
+   "t1_kprpk5lf5h4hscbjhoqei"
+  ],
+  "train": [
+   "t1_ffb3ls65xhswr4f646tii",
+   "t1_xrsgayfovgimq4xue7hqw",
+   "t1_6zmthvvjpazmcgkin4rj6",
+   "t1_utnvlrtfwm6dkr65ytmbc",
+   "t1_iqiu2l4w7eccizhy6wxgu",
+   "t1_mfcz5a5sfdrfcv2wb3ylm",
+   "t1_pnjpvqdxpwuurbkcuc7ee",
+   "t1_nbmmji7uk3ikw725tfqp6",
+   "t1_m2n5xeeeavcb5egpbce4a",
+   "t1_l3n466cu52g3xopsar3dy"
+  ]
+ },
+ "fp.finance_regulation.basel.leverage_ratio.basic.v1": {
+  "dev": [
+   "t1_kwdy4zatgmax6jmbjva4k"
+  ],
+  "lb": [
+   "t1_zdvkkfpyktgfxq5ztujvs",
+   "t1_2wb3xscgr6x7zq7ipcufa"
+  ],
+  "test": [
+   "t1_bk4gpkd4ignjafyvfinzk",
+   "t1_uh34dzshlouos6uzh7fys"
+  ],
+  "train": [
+   "t1_lnniamlnfq6tr2hu64w5a",
+   "t1_enkyzquex2qnynyleu6dc",
+   "t1_jgn4bdw7gx7kys45ajayq",
+   "t1_yzoqg3asonnkdskibhqsm",
+   "t1_carbhmlfsbfyvdm4mtxm4",
+   "t1_i3thvlitewzk43je3zkqw",
+   "t1_etf2ok7jd26tomig43ojk",
+   "t1_2iwljfwxszeui4zvbihyi",
+   "t1_zrisqq5pbdunzer7rywou",
+   "t1_gakjgedroczqioprom436"
+  ]
+ },
+ "fp.finance_regulation.basel.multi_requirement.advanced.v1": {
+  "dev": [
+   "t1_ou2v4a62bc7vo64ujpfu6"
+  ],
+  "lb": [
+   "t1_l2ajky2t4dhfqgx4lgy5u",
+   "t1_dns7g2dhe25p64wu5yxcs"
+  ],
+  "test": [
+   "t1_gihfi6hiuee7b7aauxnuc",
+   "t1_rzup6jd4lerurthup7bhs"
+  ],
+  "train": [
+   "t1_fz3ykt2lhicbrphkp5jho",
+   "t1_dhwlahhxl24rqoggrkzve",
+   "t1_uszcrhstb2fzaao2xfxxq",
+   "t1_cretnl24mtcljhtl7fyr6",
+   "t1_ubc7kuz2ncoztzmoz6psc",
+   "t1_cogiw6235hmgrw2jxuvvw",
+   "t1_p5weszwzd45peg63kbmsm",
+   "t1_bzuxoyienljxtvojvnvq2",
+   "t1_ji445imz7aqws2agw45tk",
+   "t1_qtjrflredek4mk3gwcyb4"
+  ]
+ },
+ "fp.finance_regulation.basel.rwa_increase.intermediate.v1": {
+  "dev": [
+   "t1_rkfgpqxmmejubsexjgjau"
+  ],
+  "lb": [
+   "t1_prnya2s2srdu7plpmkqjw",
+   "t1_3eczzj6jmxemso2mvealy"
+  ],
+  "test": [
+   "t1_3wcxma6c2wtzwuevjhb6y",
+   "t1_5foq5v6pb3ldslw5lhhoy"
+  ],
+  "train": [
+   "t1_nngal7teumj3s2cqast5e",
+   "t1_iaboqhwmnn6lkwiiahmac",
+   "t1_flynixxem4exbu3rjof26",
+   "t1_pmnjnkdsptszrqucibziy",
+   "t1_66pt2jf573tkv32vdoziw",
+   "t1_tj3y55azeyrgd63xdgs26",
+   "t1_ljx3dhx7qmbw7ufhhu75u",
+   "t1_jmljqrbqr47ukk55h6bcs",
+   "t1_tzq3kvmd6ttxwptpvhaee",
+   "t1_a4ebovnqdpps7zst4tb4y"
+  ]
+ },
+ "fp.finance_regulation.basel.tier1_composition.basic.v1": {
+  "dev": [
+   "t1_tkovuy76gy3zt4zn3omz4"
+  ],
+  "lb": [
+   "t1_ez7q2e3zlcib3udmwxl6q",
+   "t1_5jporrot4ul3576kl7lli"
+  ],
+  "test": [
+   "t1_fhdcukqydz3gxjtn2uoba",
+   "t1_hzztcoreno4g6ao5beno2"
+  ],
+  "train": [
+   "t1_ikjnsdrctpma4y2awwnmg",
+   "t1_wiusn3hxpxb7wlft77yki",
+   "t1_glv6zl73kzdl6ruekn4l4",
+   "t1_vicb4sxhre6gysz72rrj4",
+   "t1_mzusrrqovn2d5t3rynlgy",
+   "t1_237n6qpnolxdybgr2bk32",
+   "t1_h6kfjp2gyiikkw3xotzkw",
+   "t1_zp3bncnmxhu6f7pnqk3bs",
+   "t1_4wy7saeydgdexyivjnkbu",
+   "t1_nxmyjrf6azwblpo5dmkho"
+  ]
+ },
+ "fp.finance_regulation.compliance.composite_risk.advanced.v1": {
+  "dev": [
+   "t1_4gzl6iacca5zavozgys4s"
+  ],
+  "lb": [
+   "t1_mg46a3ernxols7nf7n2lc",
+   "t1_5mcxftkv2zs7gnzb7exn6"
+  ],
+  "test": [
+   "t1_4465ttxjninf2sadhh4zm",
+   "t1_urmjqybosob7dspwtszek"
+  ],
+  "train": [
+   "t1_oigt7z4g6vvlwpww3qnno",
+   "t1_e7npfgibdposlumhmllxq",
+   "t1_o73e24m2id7gpet26ihzq",
+   "t1_bsdew2tthww2nlirtusfs",
+   "t1_3axgioezp2hxafxtx5dng",
+   "t1_cyinhm4eiku6p2ovnzom4",
+   "t1_xe6xlve2fv3qzzcop2c4s",
+   "t1_wtwftzqf2ewymyc45ovqm",
+   "t1_mn2qxs2wbdsam27lnbswu",
+   "t1_3vfkwa2bh2shi3jnbxv26"
+  ]
+ },
+ "fp.finance_regulation.compliance.delayed_fine.intermediate.v1": {
+  "dev": [
+   "t1_wphghpobntm4sj7h47u4e"
+  ],
+  "lb": [
+   "t1_3rqeir5mbbktwkwktzzqi",
+   "t1_tly5knqzfuovqog5e25fy"
+  ],
+  "test": [
+   "t1_4flwvumalwgtfj7jjrd64",
+   "t1_mm2yb6atk6r7wmalqwpdi"
+  ],
+  "train": [
+   "t1_mnsepzj36ks6c44kuydeq",
+   "t1_2kd33vgsfgx2hal6rkjlg",
+   "t1_dgnzbeuxhfphhvsw6ks56",
+   "t1_rr6o2xp6ken4ozjdxwdmg",
+   "t1_mhpbflm6serbbcgfk3hxs",
+   "t1_yhvagsdbtvz3uqs2oft2c",
+   "t1_cbgbhfj7koahnjv7r4mzg",
+   "t1_rdfuibx6jxhyn2ssgzo7q",
+   "t1_rll7oql3rq2wy5vuktwzi",
+   "t1_6z4ikgxai4ef3s7756yai"
+  ]
+ },
+ "fp.finance_regulation.compliance.fine_calculation.basic.v1": {
+  "dev": [
+   "t1_qatnsu5gvv5jw7tbdtfbo"
+  ],
+  "lb": [
+   "t1_lwrkxoblia5mi5sxmqnhe",
+   "t1_un3mppp3g7vcplims4xfs"
+  ],
+  "test": [
+   "t1_52vx4nazffqwq7gii7j7m",
+   "t1_geegl3mqafnwwmawsrr7m"
+  ],
+  "train": [
+   "t1_yter36xtp4xumlc7bretq",
+   "t1_42hoydarsdwlwouxdpubk",
+   "t1_hidgtsxn4l4v4i6pwl7na",
+   "t1_imy4pnsstipadldi4zlkk",
+   "t1_yzeap25e7m7ek2wkmffaa",
+   "t1_emzdnlbxg7bjkq33qepik",
+   "t1_vl5ragzw7yehedimpfyti",
+   "t1_imf36hh5g7qzkpns6dqbc",
+   "t1_lviwsdjt7zga44dnrsg2s",
+   "t1_e7p5zysnugb5kzkncqq3g"
+  ]
+ },
+ "fp.finance_regulation.compliance.regional_weighted_score.intermediate.v1": {
+  "dev": [
+   "t1_7wi3lji2x4euv5pitlg4w"
+  ],
+  "lb": [
+   "t1_bwl2plwzjgft6md2nl3dm",
+   "t1_ybkq4nwae6lcnw3lh7rdi"
+  ],
+  "test": [
+   "t1_a7l4w4akr6dlauizu5rh4",
+   "t1_h6fmafczayylwtkdyswyu"
+  ],
+  "train": [
+   "t1_lsenmtfpwkk4lcwgira5k",
+   "t1_27cwnuvrnd3kjns7zqqn6",
+   "t1_734pyhm7dyqofy7t7zjpg",
+   "t1_a3huepi6owozo3tc2bn6o",
+   "t1_wfxkksgdn75zuczp6lhug",
+   "t1_m4psv3x5f57jv7n2o6jto",
+   "t1_4mzfpldkh6xxrfeefjiqo",
+   "t1_wc4nmz5egmce2qmjvxa4m",
+   "t1_zbg2bxzapx5fwmeaym3z4",
+   "t1_moqpcjzk4olzwdpmdagdg"
+  ]
+ },
+ "fp.finance_regulation.compliance.risk_score.basic.v1": {
+  "dev": [
+   "t1_sw7qfkayklnjf2ovnoste"
+  ],
+  "lb": [
+   "t1_zwnyxj4lwe4hponucgga2",
+   "t1_4whwkll2ojpw7rpyywi4i"
+  ],
+  "test": [
+   "t1_d3cnvp4re2sdoqcssqrfg",
+   "t1_odfwqp5kw4cykx3go3q3i"
+  ],
+  "train": [
+   "t1_dya4rpizbncqe3xoqkoyo",
+   "t1_ku3jyhnxglmls3mbc3b2e",
+   "t1_ycabmyn4m4wrbfndr4rpk",
+   "t1_iwaw2432vrip7zhnxnfkg",
+   "t1_wadjcwptc4skjtx74hjao",
+   "t1_lxcnge5tapmh7gblvkspm",
+   "t1_te3exzaw2bhp5cczba65i",
+   "t1_sl2dne4jwtphsddfyl6oe",
+   "t1_d3wxjnaphd2vtiid3wa44",
+   "t1_rui4t4j7fssuvlks3t6xc"
+  ]
+ },
+ "fp.finance_regulation.kyc.country_sector_risk.intermediate.v1": {
+  "dev": [
+   "t1_pkcl5so46bvb2sw4f6uh6"
+  ],
+  "lb": [
+   "t1_2jj6loixjcflkotumrs5m",
+   "t1_xstler6w2qyb6md3fovqu"
+  ],
+  "test": [
+   "t1_6ftuvwj467vca4ztinluq",
+   "t1_poo7ugqlupi4a676twoqs"
+  ],
+  "train": [
+   "t1_ulsqjjxuoop5h2egntfds",
+   "t1_zi76365w674kltlue2lf4",
+   "t1_xgv7cmqyrzojesj7xoo4e",
+   "t1_wuust4znv73a6fl5rkgme",
+   "t1_3nsnthc7tlisaza5hht3y",
+   "t1_5qfcg74ypioishcd4n6ow",
+   "t1_fuie654g7rnupxsugxby4",
+   "t1_bm7upl7pbdgu2zjyyhovk",
+   "t1_bugrzqxgvk4fijhm5tiau",
+   "t1_x756z7hfwrl7t6eldmu26"
+  ]
+ },
+ "fp.finance_regulation.kyc.customer_risk_rating.advanced.v1": {
+  "dev": [
+   "t1_r52s36beothqdqfw4cc2m"
+  ],
+  "lb": [
+   "t1_eha6wyu2gjmdj5tevc5cu",
+   "t1_yf5iy5b4dwl3cknqm663y"
+  ],
+  "test": [
+   "t1_6aio2g4f3l7bl6rzgqrtq",
+   "t1_leckyrn6atcin6xk4wies"
+  ],
+  "train": [
+   "t1_r5nu5hgcmdbwqu53c7f4e",
+   "t1_ktjpq3gjzbknstvgio36g",
+   "t1_mxadozwd6yzifhqn5xc6o",
+   "t1_qtv5gtym4iop6dgiv43d2",
+   "t1_msfkod2fu45dak5ujpqlq",
+   "t1_nps23lw4giu2rhzb4qede",
+   "t1_fhaocojt3veucgshmafbs",
+   "t1_cubwwwtcwxdbng7l7n6f6",
+   "t1_7sooxhpcg2d2mnfqhqyfw",
+   "t1_oqerdkzb7xdwuokz624pg"
+  ]
+ },
+ "fp.finance_regulation.kyc.customer_type.basic.v1": {
+  "dev": [
+   "t1_yqcxyrtbghgtlvkvapo62"
+  ],
+  "lb": [
+   "t1_iqpfkk4kn25drtxnb65ma",
+   "t1_yyjqqydyusrdlnqf36e4o"
+  ],
+  "test": [
+   "t1_6yt7v3kuo3yearizekcos",
+   "t1_jn5hbnybozwj4vt2spqwc"
+  ],
+  "train": [
+   "t1_5koxf6e2cgwh3wgm3wl7c",
+   "t1_6hsaoymv5oir25ulltiiy",
+   "t1_52zuxonijvsim2rtjhn3q",
+   "t1_j5u33yz5uoz5mvmgobeli",
+   "t1_tpapslyz7jk4djsdmjhxw",
+   "t1_k77fhpar4iwewxd4ciiny",
+   "t1_ccxglpqcadgnwwr46ceew",
+   "t1_m465uqpcqu7jcv4cwx2la",
+   "t1_oso6rgalbvitcmlrxm374",
+   "t1_uid74lzo3iv6ayr5vdmce"
+  ]
+ },
+ "fp.finance_regulation.kyc.document_validity.basic.v1": {
+  "dev": [
+   "t1_p33hgguhkaqcab4u7ecy6"
+  ],
+  "lb": [
+   "t1_vleqrwzkv6lyg35uvvsmm",
+   "t1_3g7zyksezehfupc2b2kw2"
+  ],
+  "test": [
+   "t1_t5f4hrrsw5dj7ft2hutmy",
+   "t1_zvjakgp5nzsbilfzm3etc"
+  ],
+  "train": [
+   "t1_xstgisfeg6tvowu6vkqj6",
+   "t1_utmo5c5cbelapd4e4u2ny",
+   "t1_ghf4corxriccrzxna3alw",
+   "t1_taak6s546mvcgbjgtnwlc",
+   "t1_rv4exbgxpzef3rcy6cggi",
+   "t1_lobwqlx25kvdg5uzdlvqw",
+   "t1_itsnslm3rwm43oc3tdxck",
+   "t1_hnf2gcp3zc2fnxu4k54eo",
+   "t1_n7sknf5s36dfn25pu7wpg",
+   "t1_kg4yt36wj7jjdcax6k74s"
+  ]
+ },
+ "fp.finance_regulation.kyc.source_of_funds.intermediate.v1": {
+  "dev": [
+   "t1_4z6zqzokwtm25t6t6ma6m"
+  ],
+  "lb": [
+   "t1_j25avpy4es26msaecb332",
+   "t1_norkpxe44ilixjc6u5zem"
+  ],
+  "test": [
+   "t1_dkozpdhdtn6g5gzdmxvy4",
+   "t1_liodshjebymwg2t2pcyis"
+  ],
+  "train": [
+   "t1_eyhxbvsk66l42zk7ivsp4",
+   "t1_clbdkh7h2xfnuewihqiva",
+   "t1_dkv3deqln4bm2dvv3b2oe",
+   "t1_wbkfcgde3uovy2aky6tz4",
+   "t1_afjsxmxkhuvrkhfy35cvm",
+   "t1_frhystrbutkzcfuaqj6oe",
+   "t1_fcxii4fenwnv62weibmxu",
+   "t1_cdyrvb6n7xar2jnow6nl2",
+   "t1_xnpnbgqbbchlmhcc7squq",
+   "t1_scremqgxbzhaikqsebc5s"
+  ]
+ },
+ "fp.finance_regulation.security.disclosure_threshold.basic.v1": {
+  "dev": [
+   "t1_ry4h264nzankl45lrarx2"
+  ],
+  "lb": [
+   "t1_7kfrzo7g577saq6fov3km",
+   "t1_vcbw4u6vtm3cy6ls2gqgm"
+  ],
+  "test": [
+   "t1_ctlwrzeozfnpm3gri2ak4",
+   "t1_l6bjefmchedrtmsnlvzvk"
+  ],
+  "train": [
+   "t1_zjnk4lwnnuwtxqr6ojegy",
+   "t1_su2sbdtwpchkx7km7h5k6",
+   "t1_hf67w6huhqot3nmdwp6l4",
+   "t1_2nwgegipydikum5awz6ky",
+   "t1_7uqc4247qkx3r6swzncqw",
+   "t1_hms5dfnuugsynj56kozze",
+   "t1_ezc2gast6w6gs5vsvnvb2",
+   "t1_fvi4hozdxktdvirljj7vq",
+   "t1_bhryqhcbajy47kkjh5hq4",
+   "t1_2zcxtaz4vdpye6brb7mhk"
+  ]
+ },
+ "fp.finance_regulation.security.merger_timing.advanced.v1": {
+  "dev": [
+   "t1_5hyghc5eynll6jicst3mo"
+  ],
+  "lb": [
+   "t1_krsh7k6x3j3y5djwgvsp4",
+   "t1_egltl6fiv6kt2extbycsq"
+  ],
+  "test": [
+   "t1_dv3vs773udlhrozy5fovw",
+   "t1_lku7hwsrpohwvwcm5hehg"
+  ],
+  "train": [
+   "t1_r3mfjicaheooavj4lpjli",
+   "t1_mv3ttfasxt7xkujurx3n2",
+   "t1_evaev4qvh4zr4w5wz54e4",
+   "t1_ukjtdn2manhks3mam6h74",
+   "t1_6nauitdffi4s6b2atwh5e",
+   "t1_llgd2xhn3msl6e5lm5fjg",
+   "t1_i5n73odc4fefpiovir7x4",
+   "t1_jmgdcztcz6konnlsds5lu",
+   "t1_d5dzkstr7oj6lplobnsiw",
+   "t1_glrc4yoxrbozf56gepdrc"
+  ]
+ },
+ "fp.finance_regulation.security.multiple_reporting_thresholds.intermediate.v1": {
+  "dev": [
+   "t1_7zoso3wwhpu5yqleqszn2"
+  ],
+  "lb": [
+   "t1_2txttt5oomoxcjlspjhk6",
+   "t1_x4ymoynlowmo64d3z6zoe"
+  ],
+  "test": [
+   "t1_6egs2theiojjx76j34vz2",
+   "t1_y3xla342kzzlskoymptqg"
+  ],
+  "train": [
+   "t1_zlejinwrx2f2jqpp2rxsk",
+   "t1_hynh6bg2ygls2pc2dajxq",
+   "t1_5fntjomjoijyzclqxh2bw",
+   "t1_kx6erqruurskjiepsyenu",
+   "t1_hpywn7oilllsxi4ksgmk4",
+   "t1_yemy6rwr547nru23s23sw",
+   "t1_qdkpr5oe7vvids63qhpne",
+   "t1_7mmrhzgqz4sdwae7q4kiq",
+   "t1_ikebfmy7s5f72qj52cxai",
+   "t1_4zgo7dcbf6cj2xjjx7emw"
+  ]
+ },
+ "fp.finance_regulation.security.offer_investment_limit.intermediate.v1": {
+  "dev": [
+   "t1_ml42i7q5uuhjejr4moaik"
+  ],
+  "lb": [
+   "t1_2h6arivsdo3aiwr7muqna",
+   "t1_trjkh54bz2zsl37cxic6c"
+  ],
+  "test": [
+   "t1_ekfgt2stc4bnxwoulhdxi",
+   "t1_lwc4doear3bns5ay5iowg"
+  ],
+  "train": [
+   "t1_5pctzxc7nxovr5usrqtse",
+   "t1_t26w3waj5lxmydug6z6ko",
+   "t1_ksjmcpfyyax7ku4ki7ees",
+   "t1_jswjeeecj2u4cr5kxmgge",
+   "t1_n7p4ytfxhwibxbg2dryew",
+   "t1_mauzoyzterltpm7kq6k4o",
+   "t1_km6u3hdp6lr52pp42xkyo",
+   "t1_ugsx26nag553pmchhexsa",
+   "t1_pl2clp366kin65rf3sh6g",
+   "t1_4yo7ldfeedy5gq5osjbre"
+  ]
+ },
+ "fp.finance_regulation.security.trading_gain.basic.v1": {
+  "dev": [
+   "t1_kmxakvotskvbccjqixtq6"
+  ],
+  "lb": [
+   "t1_ppqj2o3wvxr2yhclwqd5o",
+   "t1_6azfsvlr6d5sgo2hunasg"
+  ],
+  "test": [
+   "t1_eqzoiv73e5xrz62m7ikho",
+   "t1_rmoj33alzoqn4lovw2p5m"
+  ],
+  "train": [
+   "t1_f5okxrmroq7bzexolk3te",
+   "t1_fub54ff6tjdptfcn3uhzs",
+   "t1_gah5ptvqgmk7q3xat3xqc",
+   "t1_kqioni7m244wqewll3q5y",
+   "t1_2jiayca6mhhl2v3zo5lvi",
+   "t1_kh4atwuatz4uh7i5v62q4",
+   "t1_ckkr6sz3kpj5lewc5wiua",
+   "t1_kc2darw45uwcfmsrxr4ym",
+   "t1_gyl63ekwsffmgjaw5puka",
+   "t1_kckbjsit75pu2dh2r65se"
+  ]
+ },
+ "fp.financial_markets.bond_pricing.dirty_price_with_simple_accrual.advanced.v1": {
+  "dev": [
+   "t1_awr4dnrlt5ywgdhvomd7q"
+  ],
+  "lb": [
+   "t1_kftpsyvzddepjeuxi2jmw",
+   "t1_xjltnhp6vbpeyelz5zidk"
+  ],
+  "test": [
+   "t1_5j7jwwhfqzxlqlz6yycw6",
+   "t1_afg57vz3y3cgugi6umbmo"
+  ],
+  "train": [
+   "t1_j4eruswbbjbrrw3lahco6",
+   "t1_asjesbhqobl3lezt46frc",
+   "t1_a4dqa4smbo5jbqkx5aufu",
+   "t1_doxqsgalb2o7f25qlocr2",
+   "t1_meigvpaiiky6lfy7rgzmu",
+   "t1_lf7fdgrddiamd2veru662",
+   "t1_nldf65z2hzutkarkg6uim",
+   "t1_thzec6boys5bqtiufbfty",
+   "t1_gnoov2fd5siesptcjcqj6",
+   "t1_l5d5nkcpau4qpmzr4av2i"
+  ]
+ },
+ "fp.financial_markets.bond_pricing.one_year_coupon_bond_price.basic.v1": {
+  "dev": [
+   "t1_kfmhyy2u3netyunkgu24w"
+  ],
+  "lb": [
+   "t1_rq53rag42j25xycnawo4i",
+   "t1_tztbxzeijlht3g3adz7wi"
+  ],
+  "test": [
+   "t1_gmyhnjtlrdcrgawtytmti",
+   "t1_nezgrxnoo2o5hj5rcpu2w"
+  ],
+  "train": [
+   "t1_ckxi4y2wdlgumajfylrvo",
+   "t1_3d5yjgke5efgzkadxwyoo",
+   "t1_zyhcxjw5tepvow6u3zpzi",
+   "t1_jl3y7uttamqjavszp2nj4",
+   "t1_5djrrxku36lacbkyu6ltq",
+   "t1_ptn3lg7v4c5bgdgmts47k",
+   "t1_fmcmfxhfmzm6tcsvwq44k",
+   "t1_hxzzrdrpdhb4jj4jo4mvg",
+   "t1_4zvv5ezvhpvhzsockvbzg",
+   "t1_77mvqqrfn47htdm2vihoy"
+  ]
+ },
+ "fp.financial_markets.bond_pricing.three_year_coupon_bond_price.intermediate.v1": {
+  "dev": [
+   "t1_gjlqwj736a4k5ldzhwz5w"
+  ],
+  "lb": [
+   "t1_nog76dnm5gdejssesotkm",
+   "t1_asioj2jpssrd2x57sysmq"
+  ],
+  "test": [
+   "t1_dkocmtsebpgtytz4vrprg",
+   "t1_sunnsnluw5qcghyd2nr3i"
+  ],
+  "train": [
+   "t1_y6njirpk7p3ox4s6xnpu2",
+   "t1_f6i5efugbwr24i74tqtec",
+   "t1_cjjza5texkjsbnpxylpxa",
+   "t1_kynxioymagfyxx6e52bzu",
+   "t1_p7pyr7h7q32jmvdxpfwfo",
+   "t1_a5g2lcev45jwaiyxb2o2m",
+   "t1_ekdt23itwubtsa2yyeppm",
+   "t1_tqb2kz6kr2lxl6tgln4cw",
+   "t1_hatwvl2jc6klrcomi2thi",
+   "t1_7uhgcc2xwewkpu2srhgja"
+  ]
+ },
+ "fp.financial_markets.bond_pricing.two_year_par_bond_ytm.intermediate.v1": {
+  "dev": [
+   "t1_7knymdh2cjntiad7jfgxq"
+  ],
+  "lb": [
+   "t1_nur2us2yrgbouya7bi73i",
+   "t1_4fphj2ttydccvle5rhloq"
+  ],
+  "test": [
+   "t1_atlgmiumeokbes2f2zr7a",
+   "t1_rgj7w6ogxokpsxsc4oosq"
+  ],
+  "train": [
+   "t1_kfqnoj5avsh7tkw27xxgk",
+   "t1_tpqkiwtpni2r6pwkyf7fu",
+   "t1_z25tnle67uq3ktdulcori",
+   "t1_x3q3h7josftj25chhfuoo",
+   "t1_uvkbh6sq4xtlsakopiyrs",
+   "t1_sep3mvssl3fijwk3t2vgm",
+   "t1_cwrieuuooxxqdggt3sje4",
+   "t1_hel7trcssfzk4ippfb3b2",
+   "t1_hgpdl7lezp3fuib4gwi7c",
+   "t1_ehjritoiqzsyzizi3jk34"
+  ]
+ },
+ "fp.financial_markets.bond_pricing.zero_coupon_bond_price.basic.v1": {
+  "dev": [
+   "t1_nhx7qohfyjwzjrgqxnpuq"
+  ],
+  "lb": [
+   "t1_ybyrxhpqoqhbbe7ok3iqq",
+   "t1_4hflphbqrhsp5t45a54qk"
+  ],
+  "test": [
+   "t1_4hpvjwpu4hunabj7skrog",
+   "t1_ka7uvqcc2n4k3nms6i35s"
+  ],
+  "train": [
+   "t1_zvwbprrg25f44jvnrs3pm",
+   "t1_mcj4qvweo5d4kivzz6q2c",
+   "t1_6lops47m3bieqjj5js5ti",
+   "t1_xdivcodojfu36meqzavj6",
+   "t1_sojtqdvyji4vx3mbc6z5k",
+   "t1_2a6r54q4o54cs3jaj7euq",
+   "t1_bxqngpa4brkqms27f4vwq",
+   "t1_ijqsxsr5p3zckywfqo3h6",
+   "t1_q7raqgzutuspiiduswkni",
+   "t1_hmcdolknthi2pq5j56png"
+  ]
+ },
+ "fp.financial_markets.forex_trading.eur_to_gbp_cross_conversion.intermediate.v1": {
+  "dev": [
+   "t1_vsly5xdmsyppeetnvqayy"
+  ],
+  "lb": [
+   "t1_4vjfvaba6bvmeepx2lxhw",
+   "t1_mx3amlajlhsrjye3hds4u"
+  ],
+  "test": [
+   "t1_ks6uycfn4fjhj6v5p5dbo",
+   "t1_p5g53reu5gu5gootjbbyy"
+  ],
+  "train": [
+   "t1_7jiavalbfhmraobjg7ee2",
+   "t1_hpct2ofgvcqmpqfs3e6mm",
+   "t1_2fugp7uhmx27tip7ui6xy",
+   "t1_uqaiqyxybmiqvmjcg3dpe",
+   "t1_irxspj5u6y276kntizphi",
+   "t1_6aloks2qzfejxv5mw7mgy",
+   "t1_v2tby6niy55n7it3zzefi",
+   "t1_bujb7upbntbgobfhk2sbo",
+   "t1_2e255d3im3wicsboe4gwi",
+   "t1_trrukyqnoyksli57fqn6s"
+  ]
+ },
+ "fp.financial_markets.forex_trading.foreign_to_usd_conversion.basic.v1": {
+  "dev": [
+   "t1_d3hcgxg2wmb2kjg6qyffi"
+  ],
+  "lb": [
+   "t1_l4rajelilqcwe7cgle77o",
+   "t1_urpb2fsnavjt4puyhmt5k"
+  ],
+  "test": [
+   "t1_buxe3tfyd74tlzhmtkuji",
+   "t1_byo77xlluvcvk5pwkp7x4"
+  ],
+  "train": [
+   "t1_wg6dp3557y2pz7y2y6pbs",
+   "t1_hyb7b6bilijelabrhbczo",
+   "t1_l4oo4fpdm5e7yxvu5l6wq",
+   "t1_im3p5be5e6ldpofxjuiyi",
+   "t1_uhzqv3mga6wlwscxib5e4",
+   "t1_fxs7v2mbbiwqlu3hh3lho",
+   "t1_fwdxrcmjamqpklscm33t6",
+   "t1_cjlc55gsilaoqpi2dlqbo",
+   "t1_ioapyv55nzp7cwgudlgde",
+   "t1_em2br5uyqs4mpwmxjhwjm"
+  ]
+ },
+ "fp.financial_markets.forex_trading.long_position_profit_loss.intermediate.v1": {
+  "dev": [
+   "t1_2komnyrfhywv4rrm5z3hu"
+  ],
+  "lb": [
+   "t1_5icsz6qvjafxylkohpzvo",
+   "t1_a3o2kmtfbup6e5efybl5i"
+  ],
+  "test": [
+   "t1_7kmtogvjm23kjqmjnql6q",
+   "t1_bjtxptob5edrlhyz2qatk"
+  ],
+  "train": [
+   "t1_lutonkdwvtvp73dn3lqwg",
+   "t1_t4voldbdj73egcfq5rwey",
+   "t1_ajnogqacn3u4quf6mj6rg",
+   "t1_celir6nzvgymdh4vllyau",
+   "t1_fdmsuthff7omwowxdhza2",
+   "t1_kj3gkktoqszixutt6l2to",
+   "t1_llpgtkpum7x6eya3ofllq",
+   "t1_g3wdpl7ymoxgd232had62",
+   "t1_wvcrdeqzbrag544azm4sy",
+   "t1_buct7xgdrrxccvpzycgwu"
+  ]
+ },
+ "fp.financial_markets.forex_trading.triangular_arbitrage_profit.advanced.v1": {
+  "dev": [
+   "t1_yjkvik55dmqph3267w7ig"
+  ],
+  "lb": [
+   "t1_7rrjglsgvd4qieeaiqo4i",
+   "t1_76mio55hs42rtt3vgarm4"
+  ],
+  "test": [
+   "t1_2scdbu32pivaonfyxdsrs",
+   "t1_3f4muujb675fozpjbyxsk"
+  ],
+  "train": [
+   "t1_ubyuegu5fkyw4y64aquwq",
+   "t1_adcx2uut4eypc6dsfaotk",
+   "t1_ch6t4zco75ezico2dvffk",
+   "t1_zl4h7smpq4iyhnklduqgk",
+   "t1_qmj4dwdc5n5pgb5jrmvbe",
+   "t1_jeywrjtqtsupjm3qfj2hw",
+   "t1_svemsmtq4xgnubarqfweu",
+   "t1_i4aimdgid57esa3hjuukk",
+   "t1_x237txupgmm2fitflu7ks",
+   "t1_v2o6pmyvqnsw3lkuxvrds"
+  ]
+ },
+ "fp.financial_markets.forex_trading.usd_quote_pip_value.basic.v1": {
+  "dev": [
+   "t1_7rejak2qso5hp7trn6f4k"
+  ],
+  "lb": [
+   "t1_gbrox7xejzdy7iozg3ukc",
+   "t1_tfsr76zycqlfdaj6b7qfg"
+  ],
+  "test": [
+   "t1_jxhsaml25ej6xmdvg2xvi",
+   "t1_xac4jih6nibqlymrtkcrq"
+  ],
+  "train": [
+   "t1_yil5ix5iwkahq5blev2ms",
+   "t1_qpdodrnjss2amc5xfxpz6",
+   "t1_j4jflbmosme2wa4wzjhww",
+   "t1_nlomsbjnvsquntmzzxpsc",
+   "t1_c6sk5zm6hpb5q2snlam7c",
+   "t1_cjqjb3dt3vhhqjn436jne",
+   "t1_i5a7xalkqplpfdvetinvy",
+   "t1_t2wbiginpzauz7ch47ece",
+   "t1_u6hnvyca5k7tgevmtmvmo",
+   "t1_5e6to5k7u6vr2hrwrwtka"
+  ]
+ },
+ "fp.financial_markets.option_pricing.call_intrinsic_value.basic.v1": {
+  "dev": [
+   "t1_l2kfyzm5tdm5mqfxsgmry"
+  ],
+  "lb": [
+   "t1_wmdrkcdnavqpknwihsrpu",
+   "t1_4thhc75xbjzzmn3gfgady"
+  ],
+  "test": [
+   "t1_ky5c4u5n3hymcve6y2tsy",
+   "t1_m2kd52mli3g2n53dfs2mw"
+  ],
+  "train": [
+   "t1_nfmtb62u5sgbguihfzyac",
+   "t1_flbdiq7fk2pyr5wjpwclk",
+   "t1_mfvsd26ta2e7z5quynl72",
+   "t1_gemhwy4i25zvrhk6764dc",
+   "t1_mrryu4etisvjualqvp7ge",
+   "t1_mfbp3ajtgajmok64kmq26",
+   "t1_jcfrcw7we2jn5ydri62je",
+   "t1_pdrzpu2gepgxs2dqt6n6y",
+   "t1_tdg6fjtkzaago5pzs6sly",
+   "t1_ra7inxgbnjezxzb4bx6kg"
+  ]
+ },
+ "fp.financial_markets.option_pricing.factorized_call_value.advanced.v1": {
+  "dev": [
+   "t1_jr2zpophyvox4lttrgamo"
+  ],
+  "lb": [
+   "t1_dlwspz45veaae557c74eo",
+   "t1_27xm5ipqzhkmpz6fvihvs"
+  ],
+  "test": [
+   "t1_52aswebzub2wtu626r75y",
+   "t1_ab7fmauc6zgyn3il3ozyu"
+  ],
+  "train": [
+   "t1_lgv5dmtxgimba6maan65o",
+   "t1_azbufhxqbj7qaiqvezbo6",
+   "t1_hfg6rx3xfgf2ewaw2bayq",
+   "t1_4p7xdgijzlg56npkbxnvk",
+   "t1_mdcrlfdn7gfxzl5zs2yoc",
+   "t1_hgp5mya267jeanq6qztx2",
+   "t1_pnftlnyq543ii4gidncv2",
+   "t1_s5um236xpddurhnmsfusa",
+   "t1_vct5bctx7d6hpiviy4p5k",
+   "t1_aqgeochjl2aklyo3bumvq"
+  ]
+ },
+ "fp.financial_markets.option_pricing.long_call_roi.intermediate.v1": {
+  "dev": [
+   "t1_jrxknsok6raltcfzjveue"
+  ],
+  "lb": [
+   "t1_twbgdnevj6uuxkue42g5a",
+   "t1_mji56gqymyqulmwpu6ybm"
+  ],
+  "test": [
+   "t1_ix6gbnbemndtxalcecdd4",
+   "t1_nizg3b3npil6htmtahlh4"
+  ],
+  "train": [
+   "t1_swjtl4f4uavp6nioiftcs",
+   "t1_3wi5tqqhi7em7snpe72h2",
+   "t1_iypytcs3zyur6nj6glcny",
+   "t1_p7w4yblpppiihrjalp5v4",
+   "t1_72dhub6qq5jrec2go53qe",
+   "t1_dzyohbhuxfun5cp2mbak6",
+   "t1_dwrqy6xvobahpfpqwozzy",
+   "t1_lkfhvvx2ogenebvbuwcxm",
+   "t1_a3an5ycjjvjirdw3nxtfc",
+   "t1_gl362hnsmkzdjl7bjcoay"
+  ]
+ },
+ "fp.financial_markets.option_pricing.one_period_binomial_call.intermediate.v1": {
+  "dev": [
+   "t1_bmlkhlpzhct4ywtjr3b4w"
+  ],
+  "lb": [
+   "t1_m6kfjjj4boctcqcwyspkw",
+   "t1_u2hpvfjxgqkpzt3tpyokm"
+  ],
+  "test": [
+   "t1_4ijneg7itxhinzjep7fdy",
+   "t1_aymj2fkddiwbldjflomga"
+  ],
+  "train": [
+   "t1_wb6ng53ctivbcfa3o3l66",
+   "t1_b5k7mlkhibdunob6g7szi",
+   "t1_5qh3gpwhvsye636yxwc3e",
+   "t1_cegtapqi2z6443yuf7tgs",
+   "t1_xc2jgaauidopfcqxt6p34",
+   "t1_2odi6cho7nmyx3x5msu3q",
+   "t1_xaxdokaccmvgtrzew5axw",
+   "t1_usywkz74cz6v2tygcqjpk",
+   "t1_kdvgjl4aqwu5henfh3nws",
+   "t1_sbeypjnpnaylzeojysaky"
+  ]
+ },
+ "fp.financial_markets.option_pricing.put_intrinsic_value.basic.v1": {
+  "dev": [
+   "t1_qw5n7sssrin3ahxnfty7q"
+  ],
+  "lb": [
+   "t1_smlnvyiv263eopvllzadg",
+   "t1_mek76wiaff4ngfxrot4tq"
+  ],
+  "test": [
+   "t1_iocelo43rc67brkzzzmy6",
+   "t1_kmflwxu6x26qtlnjbuyjy"
+  ],
+  "train": [
+   "t1_ur7qjmtbbjaeslx2vkgng",
+   "t1_d54la5fphcjgdtqzit4pm",
+   "t1_q7w4pu3tqjalhjkoc7ais",
+   "t1_3dt6q7qtc6fbmbamzwdis",
+   "t1_5zqaovo3y2ydtft4zqgo2",
+   "t1_fij6x6kh4ha6ljwvymzao",
+   "t1_uconryzz2wdfqyoo5j2gi",
+   "t1_56jwre6eulbfrkw2t6s5k",
+   "t1_gxptdcy2knfbadtxq7aps",
+   "t1_htqxlumc5nn63jhvsd3j6"
+  ]
+ },
+ "fp.financial_markets.stock_market_analysis.dividend_yield.basic.v1": {
+  "dev": [
+   "t1_pmvieqhhiemu2jozndlwc"
+  ],
+  "lb": [
+   "t1_lcrzx2a3qyma2nnqnxs2o",
+   "t1_vj2x7zm43wynbifo34nj2"
+  ],
+  "test": [
+   "t1_hgp4fnpxzwot2yvpztrus",
+   "t1_z5rl6heua5heinwlkiru2"
+  ],
+  "train": [
+   "t1_sggcsforosps6blmayr34",
+   "t1_moknapyjqfudealu2oc6w",
+   "t1_ftqv4jlov7rbckkev6t6c",
+   "t1_le4tbsr4gzh6puhxe4mg6",
+   "t1_wpxzx4ghuzace6n6zd6bq",
+   "t1_pchrjdkv3pd5nd6ten5he",
+   "t1_exs7s6w7jc5pnw7ijwpri",
+   "t1_ujqoxvm7cri6rtbdbtddi",
+   "t1_nack3a5wgcpz2vgt5ecr6",
+   "t1_3zgr2xjzdwbc5mha5rzxk"
+  ]
+ },
+ "fp.financial_markets.stock_market_analysis.share_price_from_pe.intermediate.v1": {
+  "dev": [
+   "t1_w3qwkdibliynykl5gxcxq"
+  ],
+  "lb": [
+   "t1_mbkupjgqdaeq6trq2tmnm",
+   "t1_hkevq6i5hxxooyeds226y"
+  ],
+  "test": [
+   "t1_gwxksxfdtumh2opoffdvq",
+   "t1_hftmtfxymthedd32635sq"
+  ],
+  "train": [
+   "t1_lx26alwpwvfini4hfm3qu",
+   "t1_uf5xklyrpchcetexlo4ka",
+   "t1_s53cq6s6cwklzwavqkh2s",
+   "t1_kgrkbxhqbweperr5llw34",
+   "t1_esug3jcf33ryb3jssmajo",
+   "t1_t3rpcqbfmxbpfjjk46tmk",
+   "t1_io6qwyjz25fq3xtkn7zwc",
+   "t1_o4i2n5iqlh2taawof6nxk",
+   "t1_mhcpkudbmievl65yk6l3u",
+   "t1_g3k2jbbtrhei4aaxp2wxy"
+  ]
+ },
+ "fp.financial_markets.stock_market_analysis.simple_capital_gain.basic.v1": {
+  "dev": [
+   "t1_g66lvopw4x2hnaookxvz6"
+  ],
+  "lb": [
+   "t1_24sh567zidjfqwshy3kua",
+   "t1_togr2ahyhpo7vqkftcm42"
+  ],
+  "test": [
+   "t1_7lxe5abtfnuw6pa7l4rx2",
+   "t1_j4bjsk2wzysiqb44mn4qw"
+  ],
+  "train": [
+   "t1_7v6p4zbbpqq6vdkds3xro",
+   "t1_6hmusf63pvxzduu6zwcn4",
+   "t1_4r3itdbriuksf254ylqzw",
+   "t1_q4hmz2i7l6fbmmcb35qvu",
+   "t1_pcicn7qnnwibjff2hy4tu",
+   "t1_qq42mr76ko7lkfbdzkb26",
+   "t1_57jm7rhekcpqlf2br7pac",
+   "t1_g4o2njrry2ubywukjm3fa",
+   "t1_vxltnvabrtrbzvqnxwdom",
+   "t1_lk5uxcjq4z37l6btf5clo"
+  ]
+ },
+ "fp.financial_markets.stock_market_analysis.stock_total_dollar_return.intermediate.v1": {
+  "dev": [
+   "t1_kdb6yy7bl2ulev4pixlwe"
+  ],
+  "lb": [
+   "t1_fh2qhwpgrlajrg6rfi6ty",
+   "t1_blpkqjbu5kcehnuhesuzw"
+  ],
+  "test": [
+   "t1_ft25gkueveql73pv4iiu6",
+   "t1_ybub3gx3jqllq2cubkkee"
+  ],
+  "train": [
+   "t1_kamo2uqjpnsuyphhavfxw",
+   "t1_gpv6f3l5osyrmpto4tvmu",
+   "t1_5c26sru642bmhgilhobfg",
+   "t1_ktip2jrwuwasg2lemfp2c",
+   "t1_tek6diinecepsgbutgttu",
+   "t1_b5tt7yf5jzngmofco7kwm",
+   "t1_byqjznzwbfxcasen4zlg2",
+   "t1_u3sdwwk5dyhwuferlpslk",
+   "t1_ya644ylytxxsh5bbkwz7e",
+   "t1_jfbmhshjeylby2jwebmek"
+  ]
+ },
+ "fp.financial_markets.stock_market_analysis.two_lot_sale_net_profit.advanced.v1": {
+  "dev": [
+   "t1_kndzndagav5y2vvvojjee"
+  ],
+  "lb": [
+   "t1_p45kw5ypvxoo5byhtcr6i",
+   "t1_ao6f75by6xcvfqsijzjbu"
+  ],
+  "test": [
+   "t1_7ndoun3a5wfklxp2aovsi",
+   "t1_tcak4qwx33e7b7nxkg7ja"
+  ],
+  "train": [
+   "t1_3ngglfxj2cn7fnoh2cck6",
+   "t1_6mijsgwuofv3ptfgd2ric",
+   "t1_rohlecnbvml3xyzqzuhrg",
+   "t1_tbawkjlf5k6krnrhfl7be",
+   "t1_fkyderg6bzupnqymau4di",
+   "t1_wvueu7khzkp26w3whaxfc",
+   "t1_hj77mzmdy2dsb2ct5utc6",
+   "t1_zqk3xjfxhiggi2eyvqkc6",
+   "t1_uwdrj36q6yvplvn7ejlga",
+   "t1_bpu4jrn3u4mwgl4rcrtnq"
+  ]
+ },
+ "fp.financial_ratios.effratio.asset_turnover_average_assets.intermediate.v1": {
+  "dev": [
+   "t1_szgko675wtxnvxzbqgfj4"
+  ],
+  "lb": [
+   "t1_u3jetbkg2rmiqxxxtazym",
+   "t1_q6u3k2be3moxjzyn6c5jw"
+  ],
+  "test": [
+   "t1_rflnay3x6yttet3io3kyo",
+   "t1_yozbu6yg5bcx75ypvicig"
+  ],
+  "train": [
+   "t1_cfezmz6iugqr7wdm5444w",
+   "t1_4qw3csn2c4mgqv2ceoics",
+   "t1_sbr2fpdzfgc3q2gsg6752",
+   "t1_7e2uooa2qdpvxie52o532",
+   "t1_s5bqpaxawj4dcgk6vyspw",
+   "t1_leevyqlqyzsz4sbb6aeyk",
+   "t1_z2u4l26suhsoztz3hnfvw",
+   "t1_kfbokle4zej5qpmog4gc6",
+   "t1_nhytnuswhdfx3cchiepj6",
+   "t1_kpm7anlqgb6dei4lbxjc6"
+  ]
+ },
+ "fp.financial_ratios.effratio.asset_turnover_compare_periods.basic.v1": {
+  "dev": [
+   "t1_5cwwqlg23obgz4ov4yw3e"
+  ],
+  "lb": [
+   "t1_xni2tiualuxe7dkbaiklu",
+   "t1_jvug7ceabcem2pykhi57g"
+  ],
+  "test": [
+   "t1_7it3csvavmud2kybm7zxe",
+   "t1_fvp2pi5qagja3crev75lq"
+  ],
+  "train": [
+   "t1_cqredeolscijuhh3mqrmc",
+   "t1_b4nd3clfv7jbxuwp34zgi",
+   "t1_ptwbs5zcajpeg2yqeyoju",
+   "t1_6gydbecjjg5nl4z2heuc4",
+   "t1_bqh3ygetnwbfujgkqw5pq",
+   "t1_t5b7umbiup6luivtrqmu4",
+   "t1_smhez5sto3spfgdvulgew",
+   "t1_rdmizuss7qn5t3jblq2e2",
+   "t1_klguq43nmdoa6jqg2tate",
+   "t1_xprvbkfb7v7b6vqigakr2"
+  ]
+ },
+ "fp.financial_ratios.effratio.asset_turnover_simple.basic.v1": {
+  "dev": [
+   "t1_iys46fvp7o2coup4fleve"
+  ],
+  "lb": [
+   "t1_6wvzelr25jt6uq7qgi3jy",
+   "t1_5qwor6wqvvvu45a5ox6io"
+  ],
+  "test": [
+   "t1_ejhxbfqsbsrnuosoj5lr4",
+   "t1_pzwr6x3kr6coodfszal6m"
+  ],
+  "train": [
+   "t1_vnma4d35m6x42fl635dvi",
+   "t1_i54p7g4a4b67zlm6xso4y",
+   "t1_o5wpl33oxluerjyvlywmw",
+   "t1_s4fos5xislzrxpqxslrei",
+   "t1_rdxjzeu3uk5ieufp65ifw",
+   "t1_hnbsonwfey3c2qcfoytik",
+   "t1_362pu5ykxtr4ojygv3la2",
+   "t1_qpk7fawbg5jididkns2zk",
+   "t1_s4oz2g45wjmbuodnr7il2",
+   "t1_fluybxr3ncxt44qejgvng"
+  ]
+ },
+ "fp.financial_ratios.effratio.asset_turnover_with_depreciation.intermediate.v1": {
+  "dev": [
+   "t1_ndipjgxpr2cddxyzw73j4"
+  ],
+  "lb": [
+   "t1_l23nzlxmslblehsnhlro4",
+   "t1_gbzwcvjrrtp5yuysogzly"
+  ],
+  "test": [
+   "t1_7qdc2rnvwmvolquleqqs4",
+   "t1_y5rnt67haksnhrcfvnche"
+  ],
+  "train": [
+   "t1_3ebxzdfe5jjihcqkgqst2",
+   "t1_f36tc63elz2l46eiigns4",
+   "t1_kzfxnwia6qj3wn7mdvqpc",
+   "t1_sfohtv6iwfrnuj2bbacp2",
+   "t1_vbpqd7ygdcrwstadazu4g",
+   "t1_jq2ass2cack2fchdywwmk",
+   "t1_5t2nkjgwjjhecu62xtbts",
+   "t1_wxk7wg3qplaqwl7ti77gw",
+   "t1_sgr2vc7x6p54wqatjnpqo",
+   "t1_owjnwgetpk3n3b72qyebc"
+  ]
+ },
+ "fp.financial_ratios.effratio.investment_vs_sales_push.advanced.v1": {
+  "dev": [
+   "t1_evslruvlh6g7byjpj5tnc"
+  ],
+  "lb": [
+   "t1_lrwrwfozupq3yfs4ewbps",
+   "t1_guqkld4fwg23mxgqpas2k"
+  ],
+  "test": [
+   "t1_bazaaihfjvw7e6a7chcfg",
+   "t1_fsq32hodxvd6vehdz5e7c"
+  ],
+  "train": [
+   "t1_quowa6higuvo72sf3g3ie",
+   "t1_x6ykvwheilpdooo3xqkkw",
+   "t1_k4f6g5gqbgqsocobyltgi",
+   "t1_pyxj7rtoenmsznehfbpga",
+   "t1_kubwwepzdya4rgkglx6is",
+   "t1_yi726k5pbcjlmwjxj6udw",
+   "t1_pw4yfjvzegecmnwyj2yeq",
+   "t1_523krc3kkn2mkytx2gr7s",
+   "t1_met2qhhc5zht2rjhiklp2",
+   "t1_2g7baxfes4vuownuzntoe"
+  ]
+ },
+ "fp.financial_ratios.levratio.capital_injection.intermediate.v1": {
+  "dev": [
+   "t1_j4raou6pcmkkulu6hdfig"
+  ],
+  "lb": [
+   "t1_psniveukn7lnyf4nxclui",
+   "t1_rppgsbvjihrrmhndoe4zm"
+  ],
+  "test": [
+   "t1_j3uapbtxhvrr5ggktoe4q",
+   "t1_o2dupfwaamgnjcdqczqpa"
+  ],
+  "train": [
+   "t1_qu2k6vko5mnpfjlvuaziq",
+   "t1_3l3lzso3n4c26w6letugo",
+   "t1_7uvmw5zsttrbwkjbazj2y",
+   "t1_u4dggwpmla4rn475ujlea",
+   "t1_mrpgi36fldi26aofadodi",
+   "t1_h4mkv5xjwnmo3guujcyq6",
+   "t1_vgbf7ntc7wfihnh7anihe",
+   "t1_qubj3eezz7owfxnxrfacs",
+   "t1_665lfpmud7l2lxabyj2m2",
+   "t1_w3at6d3fo52tg5dmdp7dq"
+  ]
+ },
+ "fp.financial_ratios.levratio.convertible_debt.basic.v1": {
+  "dev": [
+   "t1_yjppicvklmaqzsqpstbk4"
+  ],
+  "lb": [
+   "t1_rk5rfdf2wbvsqir6cqenw",
+   "t1_g6hjsewzt2ckgydr7y272"
+  ],
+  "test": [
+   "t1_4njn7yvihkcnadofalwym",
+   "t1_rnfe3eoy6gvifjd53r3la"
+  ],
+  "train": [
+   "t1_3art5vtrt4gtagxoyjyvg",
+   "t1_de2x4edpbxex2yxahqlha",
+   "t1_xcy7qwbn4kqigtet6vs6m",
+   "t1_eg5o54ad5w7zsrdwntazu",
+   "t1_ff6a576dyfpdzkh2xk7h4",
+   "t1_tdo7zblwfbpwgzyhyb7fu",
+   "t1_clphej63urpfpifnuqrqk",
+   "t1_bhd3ukqbx2m2q57txaxww",
+   "t1_rwasxmtqeaocewvmx3qpc",
+   "t1_inkxrx67tvc5cyewdth3w"
+  ]
+ },
+ "fp.financial_ratios.levratio.debt_repayment_and_borrowing.intermediate.v1": {
+  "dev": [
+   "t1_py22mvfjvxmjb5gwfn562"
+  ],
+  "lb": [
+   "t1_e647f6kdwix3zmh5rhz6c",
+   "t1_4f2qvngeh54zaxmp54qke"
+  ],
+  "test": [
+   "t1_ip7eswpfwgov7nidk755y",
+   "t1_qvwwjzy4mw74sr3nyvtxc"
+  ],
+  "train": [
+   "t1_pjthb5wosqdv22sjrldte",
+   "t1_o2rowpplnzzyog4szedcq",
+   "t1_yqa2qtkfomhssvabdoz7c",
+   "t1_fmjqqzzm7zdkvlg73ip6w",
+   "t1_7bldcxi37amvgiszg52y4",
+   "t1_qjtj7mfiqfapl3hb3eqoe",
+   "t1_2epydwirmneybsqna2h52",
+   "t1_ttcopucyoafs2udlo4mq4",
+   "t1_wjyqvdcdhmfrnxg5b53m4",
+   "t1_7cbjicrzqftitlil7ex7c"
+  ]
+ },
+ "fp.financial_ratios.levratio.debt_to_equity_simple.basic.v1": {
+  "dev": [
+   "t1_pvq4ffdeo7wz6f4d2ssxs"
+  ],
+  "lb": [
+   "t1_m5i354y7kdnibiljuitno",
+   "t1_el7bg3drql7d4l5aojnsk"
+  ],
+  "test": [
+   "t1_fuh7hn4532oerwz74phpg",
+   "t1_gslshskkcqbejas72hs7w"
+  ],
+  "train": [
+   "t1_nn3okt3pnl3267niiqqsc",
+   "t1_hppjtkk76m277i74qi65e",
+   "t1_lfz22gsc3wawg2blcvmlu",
+   "t1_ai55frxuv5p55atls2dzc",
+   "t1_bovkh3q47ywkcvtaj5ora",
+   "t1_7adhau5xufvmiqhrkif5a",
+   "t1_5s4scxiif643d6qvdggbs",
+   "t1_kesxy4fwix2xt3qryqazc",
+   "t1_s6vrpdaovfo2dy5j7drww",
+   "t1_dk43br2k56us2sm4sysmy"
+  ]
+ },
+ "fp.financial_ratios.levratio.debt_vs_equity_scenarios.advanced.v1": {
+  "dev": [
+   "t1_hunhgnr6votaehxqtmq7w"
+  ],
+  "lb": [
+   "t1_gqgxp55ebyukzevujghh2",
+   "t1_sjjrhc4v2pjqovh3qiv4o"
+  ],
+  "test": [
+   "t1_crxsalaxio7ivl3b64kda",
+   "t1_pgszwhxplvspj7sfti6f6"
+  ],
+  "train": [
+   "t1_sn2jxyxs37ipujmvc57is",
+   "t1_zmexuhym2fcn6rhne3446",
+   "t1_5vyprhidvykf5e6ovt7eq",
+   "t1_3tageewdpygwlg3gjijew",
+   "t1_y4d2d24mf7hnxa6anbwb6",
+   "t1_brexe63ovwvl4puw42bf4",
+   "t1_h4bat4fsmvx5i6ziz2xc6",
+   "t1_43gkti6ocrp6wkdj7nwlu",
+   "t1_lajvwhcmtzuohfck6numc",
+   "t1_mcm6hi7exaxiy5vcnutfa"
+  ]
+ },
+ "fp.financial_ratios.liqratio.both_ratios.intermediate.v1": {
+  "dev": [
+   "t1_ahabyxztyebjmgpjg76qk"
+  ],
+  "lb": [
+   "t1_qdxpnaf6gi7qqhrhccox4",
+   "t1_supc4qvkfhce2yneofof2"
+  ],
+  "test": [
+   "t1_h3kjqfj7ytbrhhbbfmkee",
+   "t1_psnanivncyvze46lrwx6w"
+  ],
+  "train": [
+   "t1_2x2q44nae6sqvrzecq3hs",
+   "t1_dn6tlertcqfzxzdv6crw2",
+   "t1_jljkm5bm5u5iyb2cbzdzc",
+   "t1_7pezpheci5czhxnduvqvs",
+   "t1_xqlijezz7ziilzrtrnnfc",
+   "t1_tm7cv57rdw3eruv636y6w",
+   "t1_q6sh3ybjkjcixvtgbnfnw",
+   "t1_ssrfhedxrvrj4enrkykie",
+   "t1_hzcxfcjwtlk6mcopdtjx2",
+   "t1_gvlusd7hwktm5d6ik66ly"
+  ]
+ },
+ "fp.financial_ratios.liqratio.current_ratio_simple.basic.v1": {
+  "dev": [
+   "t1_yhgk3jwfqar6ezalx3hku"
+  ],
+  "lb": [
+   "t1_s2lx5voofsqnbdcdraqvi",
+   "t1_ntxnx37skizysoct2v4vo"
+  ],
+  "test": [
+   "t1_c2zfdf76pd7m6dfzmc4fy",
+   "t1_qqzciewnzrgot2wqgkyv6"
+  ],
+  "train": [
+   "t1_scwoolmnlsoqkhjlt5qlk",
+   "t1_nfxkzzh2lmefkqtcut7sw",
+   "t1_2a7hz2awfp5ahwjwyndxc",
+   "t1_kd3z6hqs2mnd2xikwvzds",
+   "t1_gkaq2bapifoaeey4j5zde",
+   "t1_szz7azewuyewin4ndiz32",
+   "t1_slbztd3amiexnu6c6jwzi",
+   "t1_qhotvncnzyeg7y57h7wu6",
+   "t1_wagjiejfq7cmusq5bfngc",
+   "t1_55m6dcilpd36eljc3crnq"
+  ]
+ },
+ "fp.financial_ratios.liqratio.liquidity_minimum_quick_ratio.advanced.v1": {
+  "dev": [
+   "t1_wd7f6wjiovj72kp2zsnrs"
+  ],
+  "lb": [
+   "t1_vw6keojpaf43b2s2z7gai",
+   "t1_d3s2kg37qsdmnqvudgjeo"
+  ],
+  "test": [
+   "t1_3brl3tsbqrf7r66c6l4x6",
+   "t1_u3pmcvngyrxsx4hd6rkko"
+  ],
+  "train": [
+   "t1_7zlkid7dbvtrtizcchm6m",
+   "t1_rb353jcqct7l2bosqjwds",
+   "t1_t5kyoynyscrk4mwdqthcu",
+   "t1_aifidxlxw33pkvtrbjb3o",
+   "t1_a77dx65qmfwf32n4hbc2w",
+   "t1_vrlpx3y2o4uaicugoy3x4",
+   "t1_z7hkpvjdmlf3v2qup6amo",
+   "t1_deaec76uffboedgip4aio",
+   "t1_vpyjodbwxswxdvf4fud4k",
+   "t1_x3zpiou6g63slmjdbtlze"
+  ]
+ },
+ "fp.financial_ratios.liqratio.quick_ratio_simple.basic.v1": {
+  "dev": [
+   "t1_cu3f7wou5q34knb3mwak6"
+  ],
+  "lb": [
+   "t1_474o3nrsd7ldw6g7ghhpq",
+   "t1_7hm7ofhntybcd6i4oq7du"
+  ],
+  "test": [
+   "t1_2vvpkoxrgchyfk4q2z44e",
+   "t1_paaixqnu4axpkjyccfjoq"
+  ],
+  "train": [
+   "t1_xsmkszvy4l5334fg4n4rm",
+   "t1_ffybdqtjyyns3rf6prsms",
+   "t1_wicveub4jo64b6nauhnjo",
+   "t1_mbsfpxu736ye5xivhv7gy",
+   "t1_rbpecgqp54r5rsizf5rkm",
+   "t1_osuu6bqxvtl5rbqrrkeyc",
+   "t1_23kzezhjrpszvbpkwjyne",
+   "t1_mhu3wek3kme2alr4inajc",
+   "t1_3ofaoreniadmqc66g43wc",
+   "t1_hagvruffgqho6phyvdxzs"
+  ]
+ },
+ "fp.financial_ratios.liqratio.quick_ratio_target.intermediate.v1": {
+  "dev": [
+   "t1_y64esefrqgyf74bbbomxe"
+  ],
+  "lb": [
+   "t1_v5wbsiq2mlosmuyfrg43c",
+   "t1_glxvynenqn63fi5dwpfpy"
+  ],
+  "test": [
+   "t1_3aovewuqmiemnkatskyt2",
+   "t1_6fcjnbzucknd2kc2wxq5e"
+  ],
+  "train": [
+   "t1_sds6t6irmfxxmfwfku24i",
+   "t1_k7psedrchjws6ruu67jx4",
+   "t1_f3ucyw6rpqdbwwtpd7vtk",
+   "t1_a2b6tnrqtnyk3n52j3ud4",
+   "t1_l4m7fqyw35tyohmgqdtja",
+   "t1_nc5y52r3plz2xks7csmge",
+   "t1_v2dxp5fik2j5jajap2bpa",
+   "t1_dssc5jrljy5qts7gqib4o",
+   "t1_ki7weblrk54pfyawxeow6",
+   "t1_mgihegxi5cwre24x6u6z4"
+  ]
+ },
+ "fp.financial_ratios.profitratio.dual_margin_gap.intermediate.v1": {
+  "dev": [
+   "t1_f5ef6k3pcvg3l6xs5bvna"
+  ],
+  "lb": [
+   "t1_nfbfpdb75sfo4vvmf2la2",
+   "t1_gw3g7jqjdkg5zhvhhqbaa"
+  ],
+  "test": [
+   "t1_pnkaleskrbjytm4gozczm",
+   "t1_vk2qrfphhvwmisfnlkxw2"
+  ],
+  "train": [
+   "t1_navrghir6seq47nousaq2",
+   "t1_hdy2xf5abtwdzpjc5afeq",
+   "t1_yodhxykt7mkbihxt4y2qq",
+   "t1_guq4p6dw6makz6w2773i6",
+   "t1_hvo2qpo5zcm7plwtm75bo",
+   "t1_wbem3ei3iuffpq54hsdjy",
+   "t1_arorvyy42uxon6xftarw4",
+   "t1_ohwmf5b5ylf4pourrbmns",
+   "t1_ivxsgpijjycepoesehubk",
+   "t1_os5ty4ydfxnurxmb77tx4"
+  ]
+ },
+ "fp.financial_ratios.profitratio.gross_profit_margin.basic.v1": {
+  "dev": [
+   "t1_ekyi7ef2qt3b4xflaztre"
+  ],
+  "lb": [
+   "t1_2qoj24ouvgo5cvnpmazhg",
+   "t1_6me5m72niqmtvmbyojzmg"
+  ],
+  "test": [
+   "t1_3kdhhquz34gcrxkdmd22k",
+   "t1_ziyjknhklwkul2noo6ju6"
+  ],
+  "train": [
+   "t1_a6dvtu5h5flkhejho6trc",
+   "t1_fyyopkbtfm5b76wpzmhfm",
+   "t1_l647g6lwohbfjfj2qn7vo",
+   "t1_5tpuqlinsjjuelmfs6ym6",
+   "t1_d3tpif2kyg6j4o62awhxg",
+   "t1_noflgtc33uqnunbiwyj7s",
+   "t1_m3qd3tnjltse2flzosfig",
+   "t1_bqacons4jkzn3azlvn6qk",
+   "t1_mhpidbtmyritbdib222dy",
+   "t1_q2myqr23za7klgpwzdfji"
+  ]
+ },
+ "fp.financial_ratios.profitratio.net_profit_margin.basic.v1": {
+  "dev": [
+   "t1_lte3bjiaa4ugb5aq5mfl4"
+  ],
+  "lb": [
+   "t1_oexioa6xiwvddptgtyyti",
+   "t1_zsd3dyvhbn3s42r3qmu66"
+  ],
+  "test": [
+   "t1_55b54w7diktzql4wym3ka",
+   "t1_fb34hxte5cbrvsmxu5yio"
+  ],
+  "train": [
+   "t1_5ovhyycsu4lln6hygpeoc",
+   "t1_jopntsccjckg7vlna7w4w",
+   "t1_w5vqddypn72fibyut43da",
+   "t1_rjqldobur4obyiwbucs7s",
+   "t1_pu4gv47f3x2xjleb4vvx2",
+   "t1_pw4mpktpuyykwzauasgjy",
+   "t1_i4wvnothogpiod7utawii",
+   "t1_7gfg2kj5whl6w4qs4zxrc",
+   "t1_xsrmbeq33xhfozmtjstvi",
+   "t1_6h3rwco5pd5lllgf5geok"
+  ]
+ },
+ "fp.financial_ratios.profitratio.operating_margin.intermediate.v1": {
+  "dev": [
+   "t1_oo7oycdugvgpnfg3s2xay"
+  ],
+  "lb": [
+   "t1_4jbartzyh75vi3jhugz2w",
+   "t1_3zdwjqnhh4z5tm2z5i4us"
+  ],
+  "test": [
+   "t1_n4r4zqdl2hpctoaysglvs",
+   "t1_stqxfaeekynqs5hbj7z6i"
+  ],
+  "train": [
+   "t1_qlwjxxcdr3dq2qjvtcgzq",
+   "t1_xtkffizilqhkwelfq2ymw",
+   "t1_sflh64ubj7thttgp6agsq",
+   "t1_skbnhj655lng4mz2hzu54",
+   "t1_k23r2ho5ts75bem47c2vc",
+   "t1_qt3jgq5mtxxmkkw2lwvz2",
+   "t1_3nq3jxko5sqcshxf7c5lq",
+   "t1_3zxsoyx3ojomlsr62hxjs",
+   "t1_gjgjoxjnnjexwrdhtocfc",
+   "t1_rj2d3ayz4kpy5vdwpgvcc"
+  ]
+ },
+ "fp.financial_ratios.profitratio.target_net_margin.advanced.v1": {
+  "dev": [
+   "t1_t3re2o7beqojjvasmic6u"
+  ],
+  "lb": [
+   "t1_vmyyutqtdfsf4wq3sscn6",
+   "t1_7jvnkrvr6cy6ttl3thybm"
+  ],
+  "test": [
+   "t1_l3cycfsy4565nn7rj62rs",
+   "t1_qf4tgxw7b6bnom5mkmqhe"
+  ],
+  "train": [
+   "t1_wpmhszy6v4wqokqvx4iga",
+   "t1_yoevv7kiq2jqabxvpci2c",
+   "t1_2wx4et6zoupmbhmf2j562",
+   "t1_sua7gtk3qkossrterjzoi",
+   "t1_mnhp6luqkuyxq66hitdeo",
+   "t1_wgfynxpdmluwpbrqdhwvy",
+   "t1_2gjjs4r4dhsu6ovoxeuxc",
+   "t1_nnpdphe5jslbui547icau",
+   "t1_vnoc4rlrof2fta7lezkua",
+   "t1_7tfnwoulfnaujaoreyltm"
+  ]
+ },
+ "fp.fintech.digital_banking.extra_payment_payoff.advanced.v1": {
+  "dev": [
+   "t1_h6g7ojbvfyepmzjjbgna2"
+  ],
+  "lb": [
+   "t1_wlbzu7eg6armvfnucwx3c",
+   "t1_37swbpcobikwbeky2e326"
+  ],
+  "test": [
+   "t1_wq4nveeutwnsiij7khgzw",
+   "t1_yb6gxlzwxm6e4sdhcjxz6"
+  ],
+  "train": [
+   "t1_6hzl6ldmtw7lbxdeboal6",
+   "t1_6ibzjefhkkpfnlm4xovbk",
+   "t1_2dtihikadsiv4e4oxpj6w",
+   "t1_2ihityv2ofi6nwarpkxeu",
+   "t1_jenngz2qhpk4v3neim54q",
+   "t1_rsc6kgyagr4qc7qpcmheo",
+   "t1_cb5waz64av27wneqi566m",
+   "t1_u3r5yq2gtnypc6vfrfwdc",
+   "t1_i5wox4nyuvzgvuiplairw",
+   "t1_45fn36qkj2ijabt3rxtjs"
+  ]
+ },
+ "fp.fintech.digital_banking.highest_spend_amount.intermediate.v1": {
+  "dev": [
+   "t1_tfgpanbop3ku6g32t3ujq"
+  ],
+  "lb": [
+   "t1_k7cnl27onx5lcbgjpr6jy",
+   "t1_2pg4sicyzasogs46p6vmg"
+  ],
+  "test": [
+   "t1_4w33iewrulorca7o5atk2",
+   "t1_qrw2vodetnk4hb3vct2xw"
+  ],
+  "train": [
+   "t1_y5nzjbt7ymoakmj3ketgs",
+   "t1_iejpa4dw3qx6myauea2we",
+   "t1_sawqcc5twoknhbab4rjnm",
+   "t1_hc2jirpzemtfvxeyqmacw",
+   "t1_bxxuk3yoangvuvquz6gey",
+   "t1_rqhb4nbngrtisenwi3neq",
+   "t1_xwolqinecucgahjrfmiim",
+   "t1_mpxazy5u7qlv3draggdj2",
+   "t1_3lcqyjnerk5ztl3gm5d6k",
+   "t1_dngl473w6k4pod7qe3fbe"
+  ]
+ },
+ "fp.fintech.digital_banking.monthly_deposit_future_value.intermediate.v1": {
+  "dev": [
+   "t1_fdj6bsk2kclxixfs2ihzs"
+  ],
+  "lb": [
+   "t1_bhpkqexd6veiuh4gbe6oq",
+   "t1_ekbsx3yb7hukoxiajy4mg"
+  ],
+  "test": [
+   "t1_bmrs3we4rymmgs72rlf3w",
+   "t1_wuhyp7miae2hfe42hpysg"
+  ],
+  "train": [
+   "t1_2sixxhdmh5jpmb7sgfbke",
+   "t1_uzm5kmbpwatp4scrp6mtm",
+   "t1_rd6uw6fwxcwlxqtqisage",
+   "t1_6odelyuq34hafkxgywft6",
+   "t1_hi3myhqbr6uj5tujdlguu",
+   "t1_huiv25y7nzzolyugk6dyw",
+   "t1_n6qespfn2k7kqx7nixrwe",
+   "t1_xdb3sryw5k3pdnpro3kis",
+   "t1_nzu3wf5mxu4yqxmafh4mi",
+   "t1_2kuffyfetychpkouomuyu"
+  ]
+ },
+ "fp.fintech.digital_banking.simple_interest_balance.basic.v1": {
+  "dev": [
+   "t1_jz7pts764kdxdv7idof4m"
+  ],
+  "lb": [
+   "t1_wruu5gmmwsloirz6rnoyo",
+   "t1_43ztqjfme6gz6qx5ptays"
+  ],
+  "test": [
+   "t1_iv2lwarbq5m6y7c3dqsbm",
+   "t1_uiwtzsirf4uuoamfl3fec"
+  ],
+  "train": [
+   "t1_s6yzi3um2umx7nli4b6pi",
+   "t1_uzstu4ywtl622fg5gdslc",
+   "t1_x3ii3somw5nts24urtmg4",
+   "t1_xco6aat3ij5i2vv2eotqa",
+   "t1_7x4hx6kfsf5adsi5wullo",
+   "t1_y3svwyhf4p7ml5bnbegze",
+   "t1_xdqmvtyo5hhk5b3jk2i4c",
+   "t1_aup4gawub4qkgoihixot4",
+   "t1_25qlbz2sd7mo245qw5xsw",
+   "t1_rawq43ffxmmrowqyvnba6"
+  ]
+ },
+ "fp.fintech.digital_banking.transfer_total_deduction.basic.v1": {
+  "dev": [
+   "t1_34bhzhdfarslrwa3mpyky"
+  ],
+  "lb": [
+   "t1_zh4kvwmzsirs5dqich2dc",
+   "t1_kgbdvqrssnbnn53yojtso"
+  ],
+  "test": [
+   "t1_dlmc3vzqyuit7gseodxxm",
+   "t1_r7jtnjlwpsxhac3k3cnje"
+  ],
+  "train": [
+   "t1_2xdu73vxhkoyv6jcbo4mg",
+   "t1_bg3nkokjmstvhal3sbuik",
+   "t1_b54qubggybc5y3zz65vqi",
+   "t1_d6immcjewffz2smp3xzik",
+   "t1_s3jtmhhjknibbpruontbe",
+   "t1_xgygg23nqg4w2eh34gea6",
+   "t1_l4ei354xcnii6kccm4yfi",
+   "t1_nqndp273g4b76zbow2ntq",
+   "t1_7d3aqao2z2eifsijhjucu",
+   "t1_h2zbvl5mz27pbqhviv25q"
+  ]
+ },
+ "fp.fintech.payment_technologies.batch_effective_fee.intermediate.v1": {
+  "dev": [
+   "t1_xnaqwsb6h4mfk3ciebfra"
+  ],
+  "lb": [
+   "t1_cldok5zlmlmgadi3ovqzi",
+   "t1_egr43uhnoimu45pjyc6ri"
+  ],
+  "test": [
+   "t1_fufo6qvgwzkam4v7fcjr4",
+   "t1_vdqrhunqatsvplgouikko"
+  ],
+  "train": [
+   "t1_zavodhaymn6zpvjzoak3k",
+   "t1_7uudynghye4hmiumjl6mc",
+   "t1_pobypvjjxq42oov3j7iam",
+   "t1_vaohydii6uiyh2lxo5gdc",
+   "t1_qhm6v3imbzf7ys6zxuicy",
+   "t1_nkkabwjr76tgj7fkhgo4g",
+   "t1_cgnjordxqbymfmpwf5l7a",
+   "t1_shy5holzlosonjhfusfji",
+   "t1_yrdxea25xrlnb55jzjaxy",
+   "t1_gsvekuhdtalejnojdz7q6"
+  ]
+ },
+ "fp.fintech.payment_technologies.bnpl_installment.basic.v1": {
+  "dev": [
+   "t1_hu5x6hqhs4nshl67s2uzk"
+  ],
+  "lb": [
+   "t1_vg27sk6zmej7petcb4xne",
+   "t1_aqrq73jebn3fgc5mzxs5e"
+  ],
+  "test": [
+   "t1_geg674mn7vypqsc44d5fm",
+   "t1_zf4wzbujidnn67soe3jrw"
+  ],
+  "train": [
+   "t1_q3f7p7m7rhocfvwcgxx4s",
+   "t1_wgnqptoubfs7ua7y5khma",
+   "t1_vc4zkvtyms7mwf3hr7fb6",
+   "t1_h3i3ttbfwslqifl4rna6q",
+   "t1_u4rrg6tlqrdgchyxsmsvi",
+   "t1_udwikqcldc6ff4z7c7u26",
+   "t1_xizypbyfd7ckm6qpkmwim",
+   "t1_4skejpgitwai7lqw4v4fc",
+   "t1_ipf6z5tamsdwnwq254a44",
+   "t1_5ktmb5logzs3ysuodmeks"
+  ]
+ },
+ "fp.fintech.payment_technologies.card_processing_net.basic.v1": {
+  "dev": [
+   "t1_z34bpbfqstixhxhb7baiu"
+  ],
+  "lb": [
+   "t1_dk35eq73rw5kv6wb2hqwa",
+   "t1_onjjng5r25yxrirawqyia"
+  ],
+  "test": [
+   "t1_dp4uywtp2nsrpukvuelji",
+   "t1_m2kg67flms5gf5rexukq6"
+  ],
+  "train": [
+   "t1_pcyeuwt4chism4ctskhys",
+   "t1_qsjda6oixbat4qyi5d7fw",
+   "t1_r7xhc4qerzlnzx5nzncpm",
+   "t1_maflea7vzirorq7maeeoq",
+   "t1_2wn3plrc3aa7ryhtn5kni",
+   "t1_6xpeug5feme3wa6s63spw",
+   "t1_dazmz5hwx25s46cfkq43c",
+   "t1_f2yktdgwzvzlermwro67e",
+   "t1_esrpkrylfvovx4kiblrxk",
+   "t1_arba6dkc3julmzt2brtgg"
+  ]
+ },
+ "fp.fintech.payment_technologies.cross_border_net.intermediate.v1": {
+  "dev": [
+   "t1_bsnxgnstulsape3ezmbbu"
+  ],
+  "lb": [
+   "t1_ohxkvtwz2uzcdfmffi4dy",
+   "t1_pbn7ibkj3fbbykb5s4b2i"
+  ],
+  "test": [
+   "t1_4q2m435erka2qb2ngb4zc",
+   "t1_lxjuu64bf6yciq7zfxt2u"
+  ],
+  "train": [
+   "t1_5ih2623nqzq7zspqouw2q",
+   "t1_xfbcygusncrdspewnjjjk",
+   "t1_i2zkswahp7nzfxikuq7eg",
+   "t1_z6qmkek6bw7yqz72nhfni",
+   "t1_klv7m4w6no76pv75xncpi",
+   "t1_p2c4qhxiikzb6k67qyyx4",
+   "t1_qmwlm3ktsyd75npop4tsm",
+   "t1_7w4ftovet26k6a27dhhtm",
+   "t1_avfl7c6nbhiz4lr6qo35i",
+   "t1_6fpg4idcfffgzapoyua5a"
+  ]
+ },
+ "fp.fintech.payment_technologies.effective_monthly_fee.advanced.v1": {
+  "dev": [
+   "t1_46jlgzh64w2lfnuxgod3w"
+  ],
+  "lb": [
+   "t1_vy3pvqr72x4gqd3a6bsy2",
+   "t1_p7zl6kkkjebv3xdd5zix4"
+  ],
+  "test": [
+   "t1_knhxbclcy2q62gkapssw2",
+   "t1_w33r3qcbj5gabhm7vevqy"
+  ],
+  "train": [
+   "t1_e3zq6y552nbe4ak62brni",
+   "t1_lthr4zai66xwn5u53p7yc",
+   "t1_srdrvcg2ktkkvcbyzn6l6",
+   "t1_da734pzg7e4vvzpfq2thk",
+   "t1_bmgrdz3rdbnsznsdfp2xs",
+   "t1_ujb6krvwukbspmpglqeea",
+   "t1_j35fandxwlaajwvhpml42",
+   "t1_pyn3yyyjijhni5rllhgt4",
+   "t1_uumrbacgc5x5oijji3x6m",
+   "t1_qre4xeohzb3uprabo3uqy"
+  ]
+ },
+ "fp.fintech.robo_advisors.equity_rebalance_trade.intermediate.v1": {
+  "dev": [
+   "t1_klydpvgxp3y7bhsj6tcze"
+  ],
+  "lb": [
+   "t1_7ywrrvjlnql7nhyzhl3vc",
+   "t1_cbsgu5dwlhdq6nprjc532"
+  ],
+  "test": [
+   "t1_7mg54aahruw2swxflc4n6",
+   "t1_qtczhqbqy5dk6h7wg2jia"
+  ],
+  "train": [
+   "t1_tbmzz7vtxrwy5c4vops2s",
+   "t1_l435i5bepdh4uak653wea",
+   "t1_epxxnedgcwwcl7dqhvdic",
+   "t1_bcjvi4waeaaeqf3mn7sym",
+   "t1_yvhaejwjaqqyirn4exsji",
+   "t1_dcmm2djameezlgeshovyk",
+   "t1_w6uwucp3rlhbv2s74ooqk",
+   "t1_cis65pmgepzhioe4nbkfo",
+   "t1_7orxwhuwganpa2rehmh6m",
+   "t1_x6ixzhcccclflm7kqorwk"
+  ]
+ },
+ "fp.fintech.robo_advisors.monthly_contribution_projection.intermediate.v1": {
+  "dev": [
+   "t1_vnmgaz26rv77z6tqvu4ec"
+  ],
+  "lb": [
+   "t1_o5ow6elootxhbnmy2hymq",
+   "t1_povf7363bofh432ntqy36"
+  ],
+  "test": [
+   "t1_eammy2anktgcomltjau2g",
+   "t1_gojhyezca2dizrkqmrbtq"
+  ],
+  "train": [
+   "t1_jusjdjjzlsawapggad3mc",
+   "t1_oaccpxwpixxj65d2ygp4s",
+   "t1_cfi5marhwwiymmkma7mem",
+   "t1_2injkf3tte25pzkk2gww4",
+   "t1_uimxpkmaf62kabgekafec",
+   "t1_7oiwvfrmh7dqyhq3r4x2o",
+   "t1_v2obxlzyfbmgq3leox43e",
+   "t1_3pkciqqu2fyzb2klr4a7i",
+   "t1_222o626fc3zojo73vjq56",
+   "t1_v27cedvxmei7ys57czr6c"
+  ]
+ },
+ "fp.fintech.robo_advisors.net_portfolio_after_fee.basic.v1": {
+  "dev": [
+   "t1_goguum6dxtr5iyssxal2i"
+  ],
+  "lb": [
+   "t1_chh4tgx32ixhm5eimsez6",
+   "t1_oxrvg4lf3ndah2cly64ku"
+  ],
+  "test": [
+   "t1_os6xqxffeadyzt2gsgztg",
+   "t1_rwshhlxkiu35yutiagxvs"
+  ],
+  "train": [
+   "t1_sbvta7tjaikzoj7l7d65k",
+   "t1_g7xmfhcafmlbt2uebc5fy",
+   "t1_2ejiibbxizvd5jh6zufcm",
+   "t1_emoaidanyqziempxyfvpa",
+   "t1_p4xmdz5yp6s7oeen2j2oi",
+   "t1_5j7q3zs7qmtby3ahptkre",
+   "t1_pdqth64yj6mgf5hcaiuwy",
+   "t1_a3pdaaksp7mdwd7t2rje2",
+   "t1_rdglka5jx6xa7ihbvtf2o",
+   "t1_4sntco7aqkljxgfndgpdo"
+  ]
+ },
+ "fp.fintech.robo_advisors.one_year_after_fee.basic.v1": {
+  "dev": [
+   "t1_kuvdbz5dbxai3brnmbxp4"
+  ],
+  "lb": [
+   "t1_u3ybpbtpx3ivgmkb633go",
+   "t1_4376qu6urswuduej2n7bg"
+  ],
+  "test": [
+   "t1_6muryz23naqxgvyn3trec",
+   "t1_tmftb2xdqgxt3pqfi4yn4"
+  ],
+  "train": [
+   "t1_hbbgwsxlpguost4hj2ulw",
+   "t1_j5xomxkjcwsr7rukufdh6",
+   "t1_mzvms5xqqd3vq232tvyww",
+   "t1_vtnzkx5waytrv2vp6gtiw",
+   "t1_lmvvd275ubnyhpus35rpw",
+   "t1_lvsscvr2k4ca2rtyl6hpc",
+   "t1_ms5hjwabzdymwggdfjpvc",
+   "t1_6rf43dekpmfticryprsua",
+   "t1_2te5zjoqxmdvzvhhm3soc",
+   "t1_36acwv6wmve5bfiaez3hi"
+  ]
+ },
+ "fp.fintech.robo_advisors.tax_loss_savings.advanced.v1": {
+  "dev": [
+   "t1_scs7q4eohmjezjivk7qta"
+  ],
+  "lb": [
+   "t1_vemitw2uehk5zobhda35w",
+   "t1_eccjmjub2ue66g6r2blko"
+  ],
+  "test": [
+   "t1_7fawa5p7z7jghc5a34uqe",
+   "t1_a6iv6m6floldmcpbicjzm"
+  ],
+  "train": [
+   "t1_qnysaw5xm4ao5a4xwygw4",
+   "t1_2cf5rn22rcdcaxogj6dj4",
+   "t1_sbvgk2ilhffapdshd5y6a",
+   "t1_mye733j5w2ak3kq373m7u",
+   "t1_srukelfumg2hqadlhc2hu",
+   "t1_makncolsiznrsiqquuqju",
+   "t1_utnup2jrgbzssry4gcogg",
+   "t1_abtzxwuwhhwewt6dwlr3g",
+   "t1_medkfh7hdbyvaurfxhfye",
+   "t1_d2vf24n66el4f6ixunjn4"
+  ]
+ },
+ "fp.investment_analysis.ci.interest_from_known_total.intermediate.v1": {
+  "dev": [
+   "t1_t75h6upp73ixgifhjjo5y"
+  ],
+  "lb": [
+   "t1_vda2f7sn6mmwkvfohy67c",
+   "t1_mwy6quq5h7foms2culyp2"
+  ],
+  "test": [
+   "t1_mndv45qmrgi26tnu4eepg",
+   "t1_qhl5x4q6xbp4rjd7qh67o"
+  ],
+  "train": [
+   "t1_7njdvnankkrp5amzdikaq",
+   "t1_f2lheggpykeirevhfczrc",
+   "t1_ov6vsz6mnmsl7mkbafqai",
+   "t1_k752u42ydnioryf2xewwe",
+   "t1_bxnrqnv566dvhkler6xv4",
+   "t1_yq2zipkmyjhxjnswm5z46",
+   "t1_coev42cc2m5einmt5okie",
+   "t1_y3ozda5t4kj7dmv5jdana",
+   "t1_shbb6uuqhjdfbwgejzis6",
+   "t1_czing44fnn5w4aogastd4"
+  ]
+ },
+ "fp.investment_analysis.ci.midterm_deposit_compound_interest.advanced.v1": {
+  "dev": [
+   "t1_zhapr37wuhqi3a3x7d5c2"
+  ],
+  "lb": [
+   "t1_yi5ob2jwxcf3edejx23i6",
+   "t1_icegp7i7b73ozxsw3ibd4"
+  ],
+  "test": [
+   "t1_dqseivoi43bzxty7jzjsa",
+   "t1_shl7mmkzhxagnb2pgme2m"
+  ],
+  "train": [
+   "t1_i5bx5c42fqdgh4ya2h6x6",
+   "t1_dmeu2lu7wc2bhbynt3olq",
+   "t1_6yexxgm45r3cyivr54plc",
+   "t1_j2k4o3lvrzwikedkobpzw",
+   "t1_magx2ia6c5yafo25v5miy",
+   "t1_q3kbxbjf5qgrhkbwbtib2",
+   "t1_ufvsew2bue6g337xjkaem",
+   "t1_i233vjwivemamcbu4yyui",
+   "t1_ujprxcrmcecarwcmweswm",
+   "t1_ngysazicii3tayhpcpb7c"
+  ]
+ },
+ "fp.investment_analysis.ci.quarterly_compound_interest.basic.v1": {
+  "dev": [
+   "t1_j5sorgko6yuwjahrzhkrg"
+  ],
+  "lb": [
+   "t1_hulep223jympeaujqsnia",
+   "t1_krshvrs2bvgyzrvm6ezb4"
+  ],
+  "test": [
+   "t1_eqzhsopsa44qvuw7vulvi",
+   "t1_hro22eapyltoyolx3rp74"
+  ],
+  "train": [
+   "t1_lvful4ql3cvm2rw32acpk",
+   "t1_2ireyanmerkitsenssqw6",
+   "t1_gcedugja3l6rlmb4u4uum",
+   "t1_rrsczjqci4byplfxt2uqi",
+   "t1_yu6ptpv24hcsgqt5dkczs",
+   "t1_kxjmgpssc3wzn67u2s23q",
+   "t1_j6zpawx2l7wkfiwzdbnao",
+   "t1_ncpilp5jvmhmvfyyqrzaq",
+   "t1_3mbe6z7y3qflfhso7rthm",
+   "t1_56sjr5zf6rjhlcfwyzpv6"
+  ]
+ },
+ "fp.investment_analysis.ci.simple_annual_compound_interest.basic.v1": {
+  "dev": [
+   "t1_rixhhp2wrz2hrifw2jpjc"
+  ],
+  "lb": [
+   "t1_czf6fpujyfvglwohb4plo",
+   "t1_wadt5vb4oxl2a5uy6vwxa"
+  ],
+  "test": [
+   "t1_ghrwisrlyxbstfvvckwg2",
+   "t1_sgpfpswyguf67ocvapxyw"
+  ],
+  "train": [
+   "t1_i5f4hdzzbgnkogt5kevgc",
+   "t1_h7dc2hapdadkc3iee2a6s",
+   "t1_3sfvme2fjwfwymm2txt24",
+   "t1_imjknoptksm3cpo7v43re",
+   "t1_7ta6hizpumjq4vhs5qxse",
+   "t1_msr7f62zgtvjalnxvltwo",
+   "t1_r6brevxq2ucmdmrmatcuy",
+   "t1_jlx3s74mu6vllhpo3sh4o",
+   "t1_64a76gyq62cun6ilnkk4c",
+   "t1_ofvpal3kokjurobwwww6c"
+  ]
+ },
+ "fp.investment_analysis.ci.two_phase_semiannual_interest.intermediate.v1": {
+  "dev": [
+   "t1_srxcnblox5zl2a2uk64oo"
+  ],
+  "lb": [
+   "t1_y2ik42a2icn7xgtg2scfs",
+   "t1_ggcnfi2xclxhfm7zimbwi"
+  ],
+  "test": [
+   "t1_ga6btnarnsfzp5wa7zmp6",
+   "t1_umwragkbdj4z6mwbwdajg"
+  ],
+  "train": [
+   "t1_yf2l3y47xcetjrkjw7ois",
+   "t1_j63rigudzw76kbevbmwps",
+   "t1_wd64xwsq6cpcbki2qikqa",
+   "t1_padmetwohlfdwvb6who74",
+   "t1_ndlfwvwlhmktly65fvxwm",
+   "t1_bbhredlzcid2r3a3mhvru",
+   "t1_kl7wmk2srk6zxc4nwrs6k",
+   "t1_izvwydpxd4fgbkwdwjhia",
+   "t1_6otcxg6c334uims6sph6c",
+   "t1_7yuf6kjguzweqpmovg77q"
+  ]
+ },
+ "fp.investment_analysis.irr.after_tax_net_sale_cost.intermediate.v1": {
+  "dev": [
+   "t1_kvrn3syb3qnamhumiyya4"
+  ],
+  "lb": [
+   "t1_fzehdedovrkjcc4qa27r4",
+   "t1_vnibpfmx54umq7q5lixom"
+  ],
+  "test": [
+   "t1_tsid2ihn2skjuh2ihari6",
+   "t1_u7ime762lc2ncs2lti3ti"
+  ],
+  "train": [
+   "t1_vbndr6yggajlepkmuyevg",
+   "t1_vsotqixwzmr24oq77p6py",
+   "t1_buafuyadq545moxwfdpkc",
+   "t1_nunp6jgwk7p7t6gag5rx4",
+   "t1_u4wm74fns4wgpqk5n6dgi",
+   "t1_4ijtgeuzuzyjyif7jk25k",
+   "t1_o7j5d2oze4jw6xytxmm3i",
+   "t1_r6ancxh3jeaihjpmoxmgi",
+   "t1_la2khlrlt6uy7dzqvqvee",
+   "t1_jc77txqahkdbifbg7pjaw"
+  ]
+ },
+ "fp.investment_analysis.irr.after_tax_sale.basic.v1": {
+  "dev": [
+   "t1_2o27jkbcxmbqjlmq52n26"
+  ],
+  "lb": [
+   "t1_krdc4wlnjpfhiayinvjsq",
+   "t1_idssx4qcyne674qznfyss"
+  ],
+  "test": [
+   "t1_f4qv4gngwk5job63kt3eg",
+   "t1_ttzc57cyinzt475quig2i"
+  ],
+  "train": [
+   "t1_ukvoc35efovs5k75sfzwq",
+   "t1_ollt2zuhjz5qk2wbinp4u",
+   "t1_54ad7lc2uawbfe57mtjfo",
+   "t1_73oajh5dmvhv5znut5whm",
+   "t1_x57lbuvd4pu4zcv2km7va",
+   "t1_bbkupswhwdilwuxjqdpd6",
+   "t1_zhotpd5ywoqy46vjgmycq",
+   "t1_fq6flqpkne263jkb35ej2",
+   "t1_kajfbks7lif5vo5o7uwhq",
+   "t1_v3g6wpsflm2aebudqjctk"
+  ]
+ },
+ "fp.investment_analysis.irr.bond_coupon_reinvestment.intermediate.v1": {
+  "dev": [
+   "t1_zvggfocjr4tojn7zzc6iq"
+  ],
+  "lb": [
+   "t1_j4rfbqg3gs46nqxw3nhcw",
+   "t1_pffdk2isrb2vgq2vh4qka"
+  ],
+  "test": [
+   "t1_l374b7xozypdpoaxwskuw",
+   "t1_wbwemr632mftalp6k3mea"
+  ],
+  "train": [
+   "t1_ob7bp6pp465lyagplnvmy",
+   "t1_wqrrvn7hktmbpcwzgn7u6",
+   "t1_mgssaqgivgrqhq7levrfc",
+   "t1_7dkf46ec4oxupv6chqcis",
+   "t1_uebxv52gnjufmc3qjscng",
+   "t1_lwar7mjx4nlum7c6r6lau",
+   "t1_f2mjkcfxmfbfedyjezqom",
+   "t1_4d5gk53f7ye4yqabbgaec",
+   "t1_amlawjnejtmtpdwcda2oo",
+   "t1_4irwdkf47zf56itb3kzp2"
+  ]
+ },
+ "fp.investment_analysis.irr.net_sale_proceeds.basic.v1": {
+  "dev": [
+   "t1_sxgkwgxjx3ega4qcnml7k"
+  ],
+  "lb": [
+   "t1_ajidshc3gtmbr5uv4ze7s",
+   "t1_o7b6aqctq53kgqbrfk7mm"
+  ],
+  "test": [
+   "t1_k2svtkmnydhmrcce42lbw",
+   "t1_pof5walsp5h5skhmoglpm"
+  ],
+  "train": [
+   "t1_cp4kjlyeukdypqhbb7x2m",
+   "t1_rwa3du5rq3q2mvgzdyrh4",
+   "t1_ejpqwafc5buzxt5f4razy",
+   "t1_pa5pmaiorgbgfwloseukq",
+   "t1_s3gbxgx3s7pnf7b4lg2qo",
+   "t1_3arcldxlf33tgkkrrmh7e",
+   "t1_xrjqmoj2pzjhr2rh5qvtk",
+   "t1_btthxd3wsm5ha4lkfhn44",
+   "t1_25g4rs3dfynfba22ofptk",
+   "t1_otailzj7tplgkzj2l3aum"
+  ]
+ },
+ "fp.investment_analysis.irr.six_month_after_tax_net_sale.advanced.v1": {
+  "dev": [
+   "t1_6b2ezbfl7titad2jfd6ak"
+  ],
+  "lb": [
+   "t1_fvyrttnkm4enzfjvf3pug",
+   "t1_26py2te4f43ig6zy3qrsw"
+  ],
+  "test": [
+   "t1_jgdqgpojbfgovt33arcu6",
+   "t1_pikxw2nakar4dffuhsq2q"
+  ],
+  "train": [
+   "t1_kjgpfee5uvtz2hoc7oe4s",
+   "t1_yupr6gpglxbep5ot754jw",
+   "t1_nprh4hl3vndfba34h4nlm",
+   "t1_ypeacj33ktbmfvlfeacpm",
+   "t1_msvni6an4eok5mzckpeie",
+   "t1_g6zanlsnmgr4mwnlohmbc",
+   "t1_jhgzhifp5kuce6qeccn5s",
+   "t1_7ye6yyj3n4roanv74z6py",
+   "t1_gwaujgi557yfqosm24r5g",
+   "t1_4z37jaeh6yhwldpg44sq6"
+  ]
+ },
+ "fp.investment_analysis.npv.four_year_annuity_salvage_npv.intermediate.v1": {
+  "dev": [
+   "t1_nr5k5psz754jhlwsq4vvo"
+  ],
+  "lb": [
+   "t1_2radkaiwtkx7khwuvy56q",
+   "t1_i7qbsubm4ecbmpaonjuim"
+  ],
+  "test": [
+   "t1_rf2v3lulrg5pplys6iqx2",
+   "t1_yeqox26j3jqa35xyty6gg"
+  ],
+  "train": [
+   "t1_2rneiwpm5h5vshrtfhdza",
+   "t1_36v5yj63j2y3s2wfxnegs",
+   "t1_gd6nar3kefefmdf7wlrs2",
+   "t1_wkky3usekalv7wc6opn76",
+   "t1_yikbm5sje566dsubzxoei",
+   "t1_ezoac4pvavtnpr7537d32",
+   "t1_4v5orpkktm3apif4mfvym",
+   "t1_e2ut3qdwbgxcqcdtykuj4",
+   "t1_x7bt53r635e4ptxsm2u6q",
+   "t1_d46h3ed64psodt2wz2bbe"
+  ]
+ },
+ "fp.investment_analysis.npv.four_year_cleanup_npv.advanced.v1": {
+  "dev": [
+   "t1_zaczlwxlnn4rh6zzk7dk2"
+  ],
+  "lb": [
+   "t1_jk3wwfqq7i4baagoqeo4e",
+   "t1_iedyqljugq4i4laqahzwc"
+  ],
+  "test": [
+   "t1_seeehgykadelu7yfmstlg",
+   "t1_zws2qzu6x4s2arykyyejg"
+  ],
+  "train": [
+   "t1_g4fp3ugtmzsf2ap4booom",
+   "t1_irfw64qnfpdioau26h77w",
+   "t1_7mp56l4hta6x7rgwvlmxq",
+   "t1_ikj75eerozuduxpz4yhpm",
+   "t1_2kxs67eutuqtmlxlxsqhg",
+   "t1_v34b2v2bn7ezu53kwetmk",
+   "t1_iy5baywq5hp7r7knu32nq",
+   "t1_74atjj62fkl4hedjcoxia",
+   "t1_tdm33hu7fzi45zylcwqoy",
+   "t1_nfe7pzzeqdeeqobsfhfso"
+  ]
+ },
+ "fp.investment_analysis.npv.single_year_npv.basic.v1": {
+  "dev": [
+   "t1_psfm4z7vfoghzrzit2xyu"
+  ],
+  "lb": [
+   "t1_ztxznmufb2jnhdnignn4w",
+   "t1_2jjx2lqsenwwxma6a2fvq"
+  ],
+  "test": [
+   "t1_tsvnnyf46fqsgojl2enxq",
+   "t1_ztob3qiqhxwni5qgssgta"
+  ],
+  "train": [
+   "t1_gnpaklyi4nbj4d3id6lwi",
+   "t1_xwfrswzz5oineobpeinjc",
+   "t1_3ljbk5pacuhbvnjswv2qu",
+   "t1_evaxmrhn5btkntbrdjw4o",
+   "t1_k5yxckjfv5gijwdmkadpk",
+   "t1_l2flwedmbzf6g6lppgooc",
+   "t1_zb7p4u3u5ul6veq63vfzw",
+   "t1_vech6jk6rf5ore3wouroo",
+   "t1_3r7bg5ir64tkb6dyftviq",
+   "t1_urnqinnqt2aa3du6n6sfq"
+  ]
+ },
+ "fp.investment_analysis.npv.three_year_salvage_npv.intermediate.v1": {
+  "dev": [
+   "t1_jtcsnukdw7wyrjatfebcm"
+  ],
+  "lb": [
+   "t1_lzdliizs3cyjjoh55uh2y",
+   "t1_oahukot5aterghfjhrgwy"
+  ],
+  "test": [
+   "t1_flcl7w473gtm2ix3tuef2",
+   "t1_zqhn2vhgatyzugyevylro"
+  ],
+  "train": [
+   "t1_aoouzknhy4csyo5cuw4vq",
+   "t1_6p3pybfrmcnuw72zp7bj2",
+   "t1_cnjjuiilw2ulzovxizhzu",
+   "t1_gubb4bgkylta7cpx2emci",
+   "t1_alsmh3tfrkn5bsva5bf6g",
+   "t1_zn7qxqtpt7ot6zbr4st4o",
+   "t1_p547udep4neyjkjj6giaa",
+   "t1_yhtta4ugazdq5auxsvgr4",
+   "t1_i5cajagy3w4uhnbrq7bdc",
+   "t1_bn7pw7lyomwsv4a6hsxls"
+  ]
+ },
+ "fp.investment_analysis.npv.two_year_npv.basic.v1": {
+  "dev": [
+   "t1_pv4e4egpbetmfxlu4wtzy"
+  ],
+  "lb": [
+   "t1_ny7eiqszqxakailsrnyo4",
+   "t1_72d66ynovj2s4do2rwlfg"
+  ],
+  "test": [
+   "t1_7zvwmv5ce2hkjxsb6pu7m",
+   "t1_eixr7v6mp5oqfd5afmfcg"
+  ],
+  "train": [
+   "t1_vqbr665amzbhrxy2iuu42",
+   "t1_52w4qczv6u7pu6hongtwq",
+   "t1_hw4zvlycvtzppbmtbwycm",
+   "t1_q3pheloydie7aji7w4a6e",
+   "t1_igddvcnnlevk7gjiwb4zg",
+   "t1_pu6vqd3eeu3yawo3nnvkk",
+   "t1_id36p5iacxfyqgaa7fam6",
+   "t1_lrcys4gscjjzs7uljgs6q",
+   "t1_mbloadppauv5xvk7ea46i",
+   "t1_yrbsm2rj4rxafgvej6vuc"
+  ]
+ },
+ "fp.investment_analysis.rar.jensen_alpha.intermediate.v1": {
+  "dev": [
+   "t1_o552apxru4kkk25rn6ui2"
+  ],
+  "lb": [
+   "t1_t3jsx2eagvzwpdgyscgbo",
+   "t1_27eh4sdwjytketikhjzqw"
+  ],
+  "test": [
+   "t1_5nrrx7naamx2plyzxuczu",
+   "t1_a7evuugdclv6n5bnpwbhu"
+  ],
+  "train": [
+   "t1_zoiuwm7tqysrk5oamqoow",
+   "t1_j66aqqh7svlp3cuyfbcvw",
+   "t1_3hh5jc3qulddppmfyoivq",
+   "t1_e7r5auei5p5rcmcsvnhfu",
+   "t1_ifsf4uu2ybmpbhkiozbp4",
+   "t1_7dhu2ev2a66lkrooiz7z6",
+   "t1_mxnx7r5dc57b4ugsizcv4",
+   "t1_7y22nxr5xl5fypjbe247a",
+   "t1_rrlvzvut4c7iioz56dqz4",
+   "t1_gsjio4ojowocxfau22y2a"
+  ]
+ },
+ "fp.investment_analysis.rar.m_squared_measure.intermediate.v1": {
+  "dev": [
+   "t1_vil32cvitmkbx3y5lqrnq"
+  ],
+  "lb": [
+   "t1_zuutab4ei644l63jcgd6w",
+   "t1_2x7hanxpjiwglmiihdkms"
+  ],
+  "test": [
+   "t1_ac3567qk6hfnab22yhu3m",
+   "t1_zuqhgix6avpx3xbdztxb2"
+  ],
+  "train": [
+   "t1_fq2fsxeced734kkjoedeo",
+   "t1_67pc5yjoek4kfdyn2t4ui",
+   "t1_ag7xlrleub23k6gjnfdj6",
+   "t1_62zqk5rsgprq4qgyaqsdi",
+   "t1_xqgvcssifyatmevcl7baw",
+   "t1_5mg2xbashg3ofv4peky4y",
+   "t1_uszjqmyxxt3abo5hxub6k",
+   "t1_fnyk2ck4m4s2wlihhiuko",
+   "t1_ebs7gzeowqzv4xsrrlkvc",
+   "t1_t5ywczrts5rawiw7keasi"
+  ]
+ },
+ "fp.investment_analysis.rar.sharpe_ratio.basic.v1": {
+  "dev": [
+   "t1_3yzobgozqup32cbpih26u"
+  ],
+  "lb": [
+   "t1_btv74aqfzfceoo6az3zg6",
+   "t1_eu6a6m4kb26t77n7bc3ak"
+  ],
+  "test": [
+   "t1_dyvd6gbmop3hqvd6mz2ym",
+   "t1_n5ep4xmjej32ryziwluoc"
+  ],
+  "train": [
+   "t1_64mr7rciujxrpgttkndxi",
+   "t1_ncsqtcb7bgtjouc25a7za",
+   "t1_7fwvzllt6lbivl45tobe2",
+   "t1_5qsk4ggaojexcqiiy2fag",
+   "t1_lfjt37n7wjupxlyvces2s",
+   "t1_l4pgq64tzpxou2d7capxe",
+   "t1_75ho5qumkoff5d2ywoqko",
+   "t1_ct3xiidppf7xph7vieg2y",
+   "t1_m33tpd4sk4doqscis47js",
+   "t1_6lt4fcphi24omuuh4l7gk"
+  ]
+ },
+ "fp.investment_analysis.rar.three_asset_capm_portfolio.advanced.v1": {
+  "dev": [
+   "t1_4kba3w2fl5c75ipsdcc5k"
+  ],
+  "lb": [
+   "t1_dvavgq7wpkn4f47rrm6b2",
+   "t1_hqlcowsbp3tivbpymtvbg"
+  ],
+  "test": [
+   "t1_64yzreey5zg2fx7u4ikco",
+   "t1_ohtgjr3e4xwj6d2qm4jkw"
+  ],
+  "train": [
+   "t1_4aafy6udz5spbiytl74io",
+   "t1_c4dtjgni7sgisebuvyvrw",
+   "t1_rb5qzifkqtalrefb3got2",
+   "t1_pfdbynmsoum5yrhitfdvc",
+   "t1_gyabvp2ip7ahxzpmgqrmw",
+   "t1_7pi5vfbyby6r7wdcyd7z2",
+   "t1_zcuwgaeh6wtb22ncgl2ua",
+   "t1_thbqfx4t6blektxqrr6ou",
+   "t1_wia7iwr25zhmhdpjt23fk",
+   "t1_cplabldzins2yvrao4ws6"
+  ]
+ },
+ "fp.investment_analysis.rar.two_asset_perfect_correlation_sd.basic.v1": {
+  "dev": [
+   "t1_ukdppumxbxixj6gcjapcs"
+  ],
+  "lb": [
+   "t1_fu676estmbuf2n5rukr6o",
+   "t1_vmnwel6i5hphzolaiszcy"
+  ],
+  "test": [
+   "t1_hidplw43prxl4dwsanl2w",
+   "t1_uel6z7y2nglcto3fp7ooq"
+  ],
+  "train": [
+   "t1_5rpllmjmwvspr4yc33ec6",
+   "t1_v2vc244hjsmdeluqspbz6",
+   "t1_pmhsknct6wglk2zigpdyc",
+   "t1_jhgqaik75va2fevd3oruq",
+   "t1_hjxf7by5ix5meugpknjp6",
+   "t1_67upuoic3sih7kst2amba",
+   "t1_c5ta6y5yat3cp2e474lna",
+   "t1_preazuw3jpcaf34x7s5nw",
+   "t1_kmi3m4racbhftjnbuggjc",
+   "t1_hm7bshhcrju26tbx6y4t6"
+  ]
+ },
+ "fp.investment_analysis.roi.after_tax_roi.basic.v1": {
+  "dev": [
+   "t1_jjohvhlemcvodkawr76y6"
+  ],
+  "lb": [
+   "t1_pbovpkcfqq4crynrrkowa",
+   "t1_ngvmthq2dvswij42ivzqc"
+  ],
+  "test": [
+   "t1_epfqy5trfzx7p4q2ql2d4",
+   "t1_iy3l3bsz4bjmzeidr6oiy"
+  ],
+  "train": [
+   "t1_3ox24kyxfaikyhpp2msim",
+   "t1_cygzleyicznrknkuek7ai",
+   "t1_5uwlqgrhrg7e6kvl6m2yq",
+   "t1_3hvguzkv45v3covupthim",
+   "t1_2jwok65vosfzxmfyvvctc",
+   "t1_yo67gyy7fpk5kurrtomcm",
+   "t1_mydhi6ux3bzqslskupfew",
+   "t1_mcvzz2eugsaoauogx6gpg",
+   "t1_lrdfhosombru7364qrp3e",
+   "t1_onqfirgui3pfusatwkhlg"
+  ]
+ },
+ "fp.investment_analysis.roi.compound_growth_roi.intermediate.v1": {
+  "dev": [
+   "t1_syqxo5dx463g457yjw5zy"
+  ],
+  "lb": [
+   "t1_tg6jcckkavk4hgdpb4xt4",
+   "t1_7bhy7ydoyxuq3ncpdf7zy"
+  ],
+  "test": [
+   "t1_mescj33jdbl3ndmzw7aes",
+   "t1_rmhfqq54omztans6ztbri"
+  ],
+  "train": [
+   "t1_zqaw3jcoux2govzwsddjo",
+   "t1_liml5unr5k5ss5vdd3qjy",
+   "t1_ote7ckcwihkxn2jin5ubi",
+   "t1_2b7exosbchr6dvojyrk2a",
+   "t1_dwajwv3h6d4e7bhjbgxiy",
+   "t1_27yc4rfhfvpiswpivrbca",
+   "t1_fyfa5tstpywvq7vns24pk",
+   "t1_dx4ahz2i2oiknuytisjzk",
+   "t1_ula5jccggrlgjvh7ub2co",
+   "t1_jgs2k6yq7b6vwhyjp4urs"
+  ]
+ },
+ "fp.investment_analysis.roi.conversion_campaign_roi.intermediate.v1": {
+  "dev": [
+   "t1_qqvu4yac6qc2q5lghrlba"
+  ],
+  "lb": [
+   "t1_eyduv3ma64qsxj4h35num",
+   "t1_lbrhp6pskau5r7izm6kry"
+  ],
+  "test": [
+   "t1_2uzv3jjiwsvwygxulrvao",
+   "t1_uj3ecpuh4c5mip3gheswk"
+  ],
+  "train": [
+   "t1_pbl2rogtqodj2ubx7rwlk",
+   "t1_kqbl5zfu4pvdpmq776yfw",
+   "t1_j34zvbmscbpxirslfo6ni",
+   "t1_3klaexiiempzg44gk7ylc",
+   "t1_xhp5nnc2zvrzhuhhwpwmg",
+   "t1_2fhg746ovpmhz5wfb354w",
+   "t1_s3jrzgemi7sdmkrhys7mg",
+   "t1_4qqbvclpx2szqx273fmos",
+   "t1_bl375prhcedeikwmzcmqa",
+   "t1_uy5kg5hlzqz5mvgxomuq2"
+  ]
+ },
+ "fp.investment_analysis.roi.mutual_fund_total_roi.advanced.v1": {
+  "dev": [
+   "t1_f66x5srxo2jc3asmqbzl6"
+  ],
+  "lb": [
+   "t1_abnljrqpzjfxvhiemzpyw",
+   "t1_c6mxmklzjqpqpqkaxgcls"
+  ],
+  "test": [
+   "t1_drzhl7ef7r6nnlbf44kpi",
+   "t1_gyjfqom4mrr3rrrjtm7zm"
+  ],
+  "train": [
+   "t1_y3stv3rue3zuml2o4siym",
+   "t1_jbq7agsmgelltzk6lylog",
+   "t1_tstr53hlgy56clp4csp64",
+   "t1_iypmqpam3xm4jtuk5plow",
+   "t1_ccpdxcwucefid4isn3354",
+   "t1_5yiiphoyeycqkeb7nf5wm",
+   "t1_ylrkbob67726irgczxt2w",
+   "t1_t5ti7ctp6j7frhkrfzz6q",
+   "t1_ct735f7ak3x2oxomgllfe",
+   "t1_pxy3soeyab7d6j343ahw6"
+  ]
+ },
+ "fp.investment_analysis.roi.property_roi.basic.v1": {
+  "dev": [
+   "t1_xpothscwodi6cs7e2biqc"
+  ],
+  "lb": [
+   "t1_lzsypjvmk73sznzt6uxre",
+   "t1_6bjmbsltim5icktkrxxy4"
+  ],
+  "test": [
+   "t1_ixo4cp3zxxu35gahhsqzm",
+   "t1_vmrkjm5ifpdemauspz7pw"
+  ],
+  "train": [
+   "t1_tjuxe6iiglwm6j7ozyzrc",
+   "t1_he5hblsihhwjft5kripxg",
+   "t1_3dld5xxx7foajyqv7npqg",
+   "t1_4vrt3dtk7rv3nirimvark",
+   "t1_q4yf6b47mub5yomhtyid6",
+   "t1_jc34wwfe44cezggr5skp2",
+   "t1_bk7p3n2hekhdhp2xutwva",
+   "t1_y3xonsd4hewocpolxrovu",
+   "t1_sfvqqnh56yhmdmzzlg6yi",
+   "t1_y7kgc6gh32v7icwvvc33k"
+  ]
+ },
+ "fp.mergers_and_acquisitions.deal_structure.cash_payment_calculation.basic.v1": {
+  "dev": [
+   "t1_x3mnabvx4txdn255xfhfo"
+  ],
+  "lb": [
+   "t1_qhw2gavwd64nabi3yxzzs",
+   "t1_l7tla3xshfv2lavmphfb4"
+  ],
+  "test": [
+   "t1_2bzd55tqxhmkkqbittgmo",
+   "t1_f4wuc2v5gzcpekoxxaqci"
+  ],
+  "train": [
+   "t1_dcbyasma4x2sb6shofzuo",
+   "t1_jziuz67r6rcnxd3z7iyo6",
+   "t1_6kjx3fsppzthxxc62l4qy",
+   "t1_kfvo63sarzleqhdxcay7a",
+   "t1_sqpa3rqo53ln5qwjee52o",
+   "t1_cnl4wd7uyrc4e2twu2uqs",
+   "t1_cxe5hqerdjy67porjwpha",
+   "t1_azhueh4z5quajrvj7k6ok",
+   "t1_c5rr2uw2dqugqkn4f2vwc",
+   "t1_pc6iskvqmw5epqyv4j3zo"
+  ]
+ },
+ "fp.mergers_and_acquisitions.deal_structure.control_premium_debt_earnout_calculation.advanced.v1": {
+  "dev": [
+   "t1_jbk7cqhkvg7vs34dhvgkg"
+  ],
+  "lb": [
+   "t1_evanuxhakr2sid4lktbpu",
+   "t1_kp6ldcnzoinainqftipc4"
+  ],
+  "test": [
+   "t1_6knzx4i3l5cknjkzaxm7k",
+   "t1_7zplhqbdzuqkhlpvxo42u"
+  ],
+  "train": [
+   "t1_dez3rgwzqtkedmeye2qyo",
+   "t1_cvjrk2vpexnepsmtzlarc",
+   "t1_rzbe2kalbyhvnkqusdgci",
+   "t1_zkpshoxf535wtxsxyrmcq",
+   "t1_7inymsgfsfvbxlzglh6lq",
+   "t1_beogekkn66mqklijbjoli",
+   "t1_c6mrsqpaqs3qzpnrrifc6",
+   "t1_uusgrehpzwd4aykhfdy6m",
+   "t1_rtewhhxrxyk3w6ypt35bm",
+   "t1_hfgqb263elbixjlqixbwo"
+  ]
+ },
+ "fp.mergers_and_acquisitions.deal_structure.earnout_with_bonus_calculation.intermediate.v1": {
+  "dev": [
+   "t1_h2z5pghybj4dxu2jsqidm"
+  ],
+  "lb": [
+   "t1_qztzf5ouso6ryexctin2c",
+   "t1_wwpbwj5ogw53xvaryq62e"
+  ],
+  "test": [
+   "t1_7ylmp32ljndebmabzkdzm",
+   "t1_ukb5wlmuzwxpuzeikdhks"
+  ],
+  "train": [
+   "t1_qszzkonaofmkhapgjocho",
+   "t1_el4pyh4s7qkffnoaiwnbc",
+   "t1_3mzkczobkdqdytwdy2xuc",
+   "t1_qqjvyjkojd5sivgzejqk6",
+   "t1_nf2vrzxyp26g5jaorjkaa",
+   "t1_zimrxho5rqoyaessezblo",
+   "t1_kkpr67rwkq447lmiufgpa",
+   "t1_ebebrf2jjnwukyg7bak5s",
+   "t1_fc3xxatlei3rt6v52ezmw",
+   "t1_awwn6gtfybgu2cl44ycvy"
+  ]
+ },
+ "fp.mergers_and_acquisitions.deal_structure.leveraged_buyout_adjusted_shares_calculation.intermediate.v1": {
+  "dev": [
+   "t1_5lk23jk3aqv5p37ccfetq"
+  ],
+  "lb": [
+   "t1_6flmby6pimhxonahta24k",
+   "t1_k3ltb7kac53ndo3ihgqi6"
+  ],
+  "test": [
+   "t1_4dvm5y3krvsildax2rt5g",
+   "t1_afzlqqbsrnzzcxc6ntfgm"
+  ],
+  "train": [
+   "t1_hhi34il2fi23brtaui2ka",
+   "t1_h2roqbjqs4krrhd2qjug4",
+   "t1_gpqzr43vliy6u7nogwwm6",
+   "t1_hohcj3lixj44ft5n7gh76",
+   "t1_3uk3r7iturlxx36ack4ug",
+   "t1_cisn7edz6i67zx356bmlk",
+   "t1_7agplmqn7dezt4npevisk",
+   "t1_3q47lb2nilymliuife4za",
+   "t1_ghhtwkl5xyzl2hprpxel2",
+   "t1_d7gwu2rnumujihw7b5xsi"
+  ]
+ },
+ "fp.mergers_and_acquisitions.deal_structure.stock_swap_calculation.basic.v1": {
+  "dev": [
+   "t1_qftn3dvuwvf4uw67gifoa"
+  ],
+  "lb": [
+   "t1_jmq6i2puklxnkx44hfxni",
+   "t1_pry2i4ey5f7lioab33nyu"
+  ],
+  "test": [
+   "t1_ii57dgvllmuq5eo5wegfo",
+   "t1_yfmzrynsye3ysfvecwv6i"
+  ],
+  "train": [
+   "t1_zf74yumemiuedaezrvtok",
+   "t1_n7eq6c6hjcdhrr3dbzdxw",
+   "t1_puvlzibmp3xfw7lti62km",
+   "t1_pqxautqsmj7a3bulk7npy",
+   "t1_r5vkhpcbcoyna5ko5f56g",
+   "t1_6ux6bizczwzpibjj5o2au",
+   "t1_smtrxyrmddolbxtqbnjta",
+   "t1_gogikpvo5ivllvyr4564u",
+   "t1_glwizfjzzjdjsgc62wdje",
+   "t1_ngebajqjhbpqp34jn77a4"
+  ]
+ },
+ "fp.mergers_and_acquisitions.due_diligence.due_diligence_after_tax_interest_cost.intermediate.v1": {
+  "dev": [
+   "t1_mmkfqe3ihs3tzvn36yx7w"
+  ],
+  "lb": [
+   "t1_fczeiompi7h5dgxnwqsam",
+   "t1_wqqd3yvviso6v2va4jqva"
+  ],
+  "test": [
+   "t1_bapamxsp3nkgh3pehwmuo",
+   "t1_exglw54wj5qfgypmj6vrs"
+  ],
+  "train": [
+   "t1_du3qcbxrgyhcp5nzgy3tk",
+   "t1_iqmw3qo5voczwkcu2ec2e",
+   "t1_fg2b5f6l2fgw657pzwy2u",
+   "t1_o4qgpjbb6tymruguhqov4",
+   "t1_v3wa7sxgkfucyp5l5hc7e",
+   "t1_jdowg54vrbaf6vhnsqjba",
+   "t1_o46zb6kfkklnvpj5b4fps",
+   "t1_ahpuxsg7tbnzuomsdbqei",
+   "t1_7z2mxxtucfvbpohn4ukis",
+   "t1_khzjmbj6fei6qs2ycxdh2"
+  ]
+ },
+ "fp.mergers_and_acquisitions.due_diligence.due_diligence_dcf_valuation.advanced.v1": {
+  "dev": [
+   "t1_hikdyukpq2jmqe37v6n2o"
+  ],
+  "lb": [
+   "t1_ozt5awcfbdsjgdsjymhae",
+   "t1_a55cdxz7wr6addtjos7zi"
+  ],
+  "test": [
+   "t1_hftofqawrewhqqawdujb2",
+   "t1_sqqc5frf3fx4jybt5yh4u"
+  ],
+  "train": [
+   "t1_evuh4uzaahkifkmej5o7a",
+   "t1_vgjllhranfwdcoi3xzwvw",
+   "t1_hy7zhjqo4e5gfay2m4mwm",
+   "t1_nrbrdalgtjy6mgwmox5vo",
+   "t1_q5cugxjrtzgmvgtkz6muo",
+   "t1_7jpgbpiqtr4v2i42c5txi",
+   "t1_34gctb3sezjlq4a26hzm6",
+   "t1_pymk5zrum2uof5f35fcau",
+   "t1_yj4bg46tvrbu4za24itwo",
+   "t1_z7iv7qq253w3uyhizvypo"
+  ]
+ },
+ "fp.mergers_and_acquisitions.due_diligence.due_diligence_pe_valuation.basic.v1": {
+  "dev": [
+   "t1_3sgluincbxcvam2nnam3e"
+  ],
+  "lb": [
+   "t1_3chrrxre4jg4qojoftyxi",
+   "t1_r4ru6evmxptvwog3x2dn6"
+  ],
+  "test": [
+   "t1_6mxbqyyrzz2adh7vc4r54",
+   "t1_pxc2yuakjcno43antuahy"
+  ],
+  "train": [
+   "t1_vn42vtmhaje2nxiszfxei",
+   "t1_yfslxfca5vfsomrpz7pgw",
+   "t1_ann67ucurig5r5nvoxikc",
+   "t1_okvou7l3s22yb2od2eitq",
+   "t1_noxwzhsk74kcjghdkaoyw",
+   "t1_lj4hmcfjnyp2cb2ifotfq",
+   "t1_yrlfcexa5kfon5jdlkfdq",
+   "t1_rwoyqr3gozm6qud4xdx3e",
+   "t1_og66agr4ncwdfxfvh72ls",
+   "t1_o3mnljalbahvrx5q2xg3e"
+  ]
+ },
+ "fp.mergers_and_acquisitions.due_diligence.due_diligence_synergy_estimation.intermediate.v1": {
+  "dev": [
+   "t1_fsmzbhzpkd4iudtb5zzcc"
+  ],
+  "lb": [
+   "t1_udyxpwb7pjfjjqoqmra62",
+   "t1_7oabv43rqo5xaclxiuqdy"
+  ],
+  "test": [
+   "t1_ivewaxgfm6hwifpg74cnw",
+   "t1_qr6rlhdfkmcynvpvo6mto"
+  ],
+  "train": [
+   "t1_ol36tsn5vy2osrdtkpasa",
+   "t1_746ey7qkchu54u64qxgl2",
+   "t1_3zesuboya76vnmr6rvegw",
+   "t1_yb3suhq4aplo4ceong5sq",
+   "t1_p2uein75hhdfucjhwoiz2",
+   "t1_tifseil4z5xx7hp5oeisu",
+   "t1_dib7ag2slqwcahowie32a",
+   "t1_lukph2gnud3okdt37abew",
+   "t1_2hb4mfbazs2fahvxdwgyi",
+   "t1_wwvp2s2qhnuj5uwyg2vda"
+  ]
+ },
+ "fp.mergers_and_acquisitions.due_diligence.due_diligence_working_capital.basic.v1": {
+  "dev": [
+   "t1_tntdm223bixisttfjwycw"
+  ],
+  "lb": [
+   "t1_3zyr7rxjfrp7lu6t2ehss",
+   "t1_3wetpv3up6isjykgeonta"
+  ],
+  "test": [
+   "t1_feuiourksy4yml5wmz2ps",
+   "t1_ndxutl2z4hl4ulqsf4pns"
+  ],
+  "train": [
+   "t1_kniczdwd4kcfjdolxzhss",
+   "t1_dqybj6znxdcbfeeafqpkk",
+   "t1_2l7aotjojsss76ylmyv5y",
+   "t1_dqheyu536hrb45h6amrec",
+   "t1_wjxwx6eckgdwvcw35gyu4",
+   "t1_whuol5ofxl233bhgwyoho",
+   "t1_2h2jp3llykdw6tsbvpnby",
+   "t1_fhxjsbwmsipmjhisl7tfu",
+   "t1_pfjdtbm6drb2t3nwu66yk",
+   "t1_tjbxpwkwd6kkfvg4yfoqc"
+  ]
+ },
+ "fp.mergers_and_acquisitions.post-merger_integration.integration_cost_reduction.intermediate.v1": {
+  "dev": [
+   "t1_pjgw3tzmbcy52m644wbxu"
+  ],
+  "lb": [
+   "t1_okh7b2lt5bkiprod2yao2",
+   "t1_rxti63tqvvy2lvgfzctro"
+  ],
+  "test": [
+   "t1_4axt4rvmme43utikdxtw2",
+   "t1_amo4bmaurmjp3mjf3jhwy"
+  ],
+  "train": [
+   "t1_lkickuj7pv6juszrseyf6",
+   "t1_gjyjjqfjxggdfpol55i6a",
+   "t1_ueeiun4jalwx7xeilehs6",
+   "t1_jez6g4wj45liqkdk2cvme",
+   "t1_ejmlyf24ag3o6pee6jtkw",
+   "t1_du5nxlelcflnlis7azkiu",
+   "t1_fxnuwx5ugdmgyod7agyh4",
+   "t1_oztda5tm4ifwc3wgt6bus",
+   "t1_hd7fjigjgipjnbaeuhdbw",
+   "t1_k2ofwnnneb7yy7knjvaaq"
+  ]
+ },
+ "fp.mergers_and_acquisitions.post-merger_integration.integration_synergy_calculation.basic.v1": {
+  "dev": [
+   "t1_mgeoxcwvm4vqyjtjynn3a"
+  ],
+  "lb": [
+   "t1_rzrjzo6ccslmnzcaxfo5q",
+   "t1_ampvsby4mmwml3tbavry2"
+  ],
+  "test": [
+   "t1_d6zifhmcswbg42avycnye",
+   "t1_o6xnfribreur4skqkm256"
+  ],
+  "train": [
+   "t1_ggdvkjkhcogshtbm4mzly",
+   "t1_r4ftztuz7zs5ktidhf4o6",
+   "t1_ycnuvslmkhoeuw3p72rsy",
+   "t1_n4a7davhclutpnuevmqhy",
+   "t1_hm25aoy3dis2rrq2usck2",
+   "t1_paecvzaope4lfx2fnriga",
+   "t1_5qlqq4ysiboseutjrbwlk",
+   "t1_qfuepspeec73fyzh2jywo",
+   "t1_d6e6cws2nysisf6e6ptcs",
+   "t1_ftss4jumciioykw7skjwy"
+  ]
+ },
+ "fp.mergers_and_acquisitions.post-merger_integration.revenue_synergy_net_gain.intermediate.v1": {
+  "dev": [
+   "t1_7mvlawspzm3rv2kqhptqc"
+  ],
+  "lb": [
+   "t1_k3juh5c3637wkje3ode5c",
+   "t1_k7nrcmzdd2rxqyigaxu4y"
+  ],
+  "test": [
+   "t1_mprwrnxfmp4shwf5yl2cw",
+   "t1_qzq6vyosye6wajj6ysjpw"
+  ],
+  "train": [
+   "t1_haqegqxdhcmwhzjxvutsm",
+   "t1_pilthadbd4y4a6uh3aijm",
+   "t1_qrmwnvzcddvspf5zmuzw2",
+   "t1_pvzz3g75yd2dgw4ii7u7u",
+   "t1_2fbxsvwecgoxvkajny734",
+   "t1_sikyervkkyzuihxslk2w6",
+   "t1_zxi4g2kuw7uxejoonkowc",
+   "t1_5flca2tx7q27dezfwdfng",
+   "t1_s7onpxafioqal3kjlqkcg",
+   "t1_pp62o5abffkbeqhwwywky"
+  ]
+ },
+ "fp.mergers_and_acquisitions.post-merger_integration.supply_chain_npv_net_benefit.advanced.v1": {
+  "dev": [
+   "t1_mhk2lpq3erryrn7n7pp4y"
+  ],
+  "lb": [
+   "t1_jmkv3s4dtwvggqlcl4akm",
+   "t1_pufke4of6hvwj25y5rpf2"
+  ],
+  "test": [
+   "t1_2j6vcogfditbz3fslkzou",
+   "t1_ysft3efmwuuwtahof6nn6"
+  ],
+  "train": [
+   "t1_vddiupvsllilvojfxber2",
+   "t1_sqiuwvpr72wjnqc7gra3k",
+   "t1_ppa7pg6asihsudarhyd2c",
+   "t1_evqt5etsjomt2hu7mf54g",
+   "t1_rgjiuxfmea5v6yiiryoes",
+   "t1_rd3vin3tgzx4uzwynhshy",
+   "t1_6blsk6hip4tuftfkia5um",
+   "t1_rogg2sdofiuesfvc5fdws",
+   "t1_mm5gsx4j4sigai6cxxols",
+   "t1_bluppqa67mmon46fkl3ui"
+  ]
+ },
+ "fp.mergers_and_acquisitions.post-merger_integration.valuation_adjustment_after_integration.basic.v1": {
+  "dev": [
+   "t1_whl4nb3gneyp7mulofgvq"
+  ],
+  "lb": [
+   "t1_w2biactigkxrsweyykewo",
+   "t1_4vgpl7yal3fvezr37cgoq"
+  ],
+  "test": [
+   "t1_7gzntf4yudlykul67niyg",
+   "t1_tibmovlvugntm5jric2re"
+  ],
+  "train": [
+   "t1_gsk6mkkwjqz3wkwpmmq3i",
+   "t1_vheoyvakbhljg3yihdvso",
+   "t1_dndtjwfjzkzmkft3uwzdm",
+   "t1_uelhfcqbdvrmj5d4bcvwi",
+   "t1_s3xmtafyuazn5srleqf32",
+   "t1_zb4gijuescpzut6sludlg",
+   "t1_7vicbqss3v6wcnbkqj5o4",
+   "t1_7mynevvx7kl5zta7lpyfw",
+   "t1_dlcu4m4aq4bmntl6unsa6",
+   "t1_w6yaihqpjq2kdinb6oqws"
+  ]
+ },
+ "fp.mergers_and_acquisitions.synergies_and_cost_savings.synergy_basic_cost_reduction.basic.v1": {
+  "dev": [
+   "t1_qnzjjrp4xbyj4tl7svowq"
+  ],
+  "lb": [
+   "t1_67n4qcibndwervuznr5wy",
+   "t1_kaiax3sq4nxqqs6nqn24e"
+  ],
+  "test": [
+   "t1_l5rhjncwf5g7cscvc3ucg",
+   "t1_wril4ghb7pun6wqn75hhw"
+  ],
+  "train": [
+   "t1_oicmzslfag274h3mwpiam",
+   "t1_5tz4zo262j2dtfeb3iyo2",
+   "t1_xbwmxftqxnikivght3n2q",
+   "t1_xhztv4ri7vaf3d6eqsfja",
+   "t1_7pu4yh5qwd7g6spmrhkom",
+   "t1_hferzfsyhv36zu65mtfdu",
+   "t1_7kcn2a54tkuvcjpanbul6",
+   "t1_mcvz6zaw7wxk63534firo",
+   "t1_emqcmozuqwkfql7waqiss",
+   "t1_qpxjjweixzirjku6jg2pw"
+  ]
+ },
+ "fp.mergers_and_acquisitions.synergies_and_cost_savings.synergy_basic_fixed_savings.basic.v1": {
+  "dev": [
+   "t1_em6e6f2q2tvpu67r6xfru"
+  ],
+  "lb": [
+   "t1_ssnidc6asgyszhpf5i35u",
+   "t1_w3r26zwbhqabuns3tiv4m"
+  ],
+  "test": [
+   "t1_3pxelzj424lvmsy5ak7cg",
+   "t1_wqpc6nhj7e5benihgobdq"
+  ],
+  "train": [
+   "t1_qhsn4go6ysy4apaycslcw",
+   "t1_yr57mzkjocma6gbfhwmce",
+   "t1_2eecsq7weoertiplx3ugm",
+   "t1_7j4ibh5zyp2xzgklwdppq",
+   "t1_dcy3cuxvheouwt44oftum",
+   "t1_rzfsqpqiuqcwmqyxgj57y",
+   "t1_f7pajcrff2ch6tqrqj52u",
+   "t1_sie7nmjc7lovkpxiionao",
+   "t1_eiip7cum344nltbixm6a6",
+   "t1_kngyd7tlobxgxwgjzmzi4"
+  ]
+ },
+ "fp.mergers_and_acquisitions.synergies_and_cost_savings.synergy_complex_after_tax.advanced.v1": {
+  "dev": [
+   "t1_rzl7recaeld3ap5awdby4"
+  ],
+  "lb": [
+   "t1_wtto3purt3hrbmqx3uttk",
+   "t1_2px7oyaw6pmygpz23og56"
+  ],
+  "test": [
+   "t1_e3rxmgmfe4odhzhhunw2k",
+   "t1_w5omwopvztyeqfj5qtyou"
+  ],
+  "train": [
+   "t1_o334qhqpmfk7mumlj5lpm",
+   "t1_57vt5pc3wamk7kx23fniu",
+   "t1_o76klvbjxelfam4ungcmc",
+   "t1_4lh55sgpo53w245t5trqc",
+   "t1_wmkpzkvrsir6bquba2zdy",
+   "t1_jti7dtnglafc3mtdhgpeg",
+   "t1_at4szelkgwpsjprs3ugwa",
+   "t1_gh7rk6dcymp6w7lu6gtdy",
+   "t1_vncqcridr3pbstytir6te",
+   "t1_vhohjyeyhrrzyqj4nzejk"
+  ]
+ },
+ "fp.mergers_and_acquisitions.synergies_and_cost_savings.synergy_complex_multi_category.intermediate.v1": {
+  "dev": [
+   "t1_evptrn2j3zhbkokm76boo"
+  ],
+  "lb": [
+   "t1_2r4buytjcqo7chvh5u3rs",
+   "t1_wjznijnuahokequgxgx76"
+  ],
+  "test": [
+   "t1_2fmqri5eekvmfs4pkn43c",
+   "t1_couf4gksuvcrp2r57ell6"
+  ],
+  "train": [
+   "t1_iu4mnpg5grjuy4uj3zft2",
+   "t1_zgn7zz2nwph3wvaznyi76",
+   "t1_6emiusya7gjxej7gw637g",
+   "t1_j3t4ogy3pznwfrbkancua",
+   "t1_wwecl5tz5uvdmodxgd2eg",
+   "t1_m3ntcforidrkw44nq5jsw",
+   "t1_bgaeef7fcsolovc2nivv6",
+   "t1_3f2xx7rvp2ev3l4xle2ak",
+   "t1_lqz5rm6ld44jjg6qqq4a6",
+   "t1_mudms42dj3hwepctyph56"
+  ]
+ },
+ "fp.mergers_and_acquisitions.synergies_and_cost_savings.synergy_complex_net_savings.intermediate.v1": {
+  "dev": [
+   "t1_uvloqs4vbu3v7midvsrcu"
+  ],
+  "lb": [
+   "t1_hmbsqts52koaapw6utlpc",
+   "t1_h5dp3nkouebxsrw2bo5oa"
+  ],
+  "test": [
+   "t1_h2ij24k5ffvghpq4md6p4",
+   "t1_pgu5qeei2ix4al5kmdc5s"
+  ],
+  "train": [
+   "t1_7ws3mg7lev6g6z7s6el7i",
+   "t1_n5inxozm2i3itv42af2jc",
+   "t1_jwjzxxbxg4sdmyt554nmm",
+   "t1_yrbogxjixwfz62ndflte6",
+   "t1_t2zq7qobshxxxognazke2",
+   "t1_xaspc6z3aajjd5vj7lkvw",
+   "t1_uu66dpsuedyroi6sdho7a",
+   "t1_uilpqilpzscl2jd6gjp7m",
+   "t1_lazptezqh67myzdnaa5xg",
+   "t1_r7gay6voji5qxlgo4ggxq"
+  ]
+ },
+ "fp.mergers_and_acquisitions.valuation_methods.comp_ebitda_multiple_with_net_debt.intermediate.v1": {
+  "dev": [
+   "t1_wibzrcj2s7td6hkbv33bo"
+  ],
+  "lb": [
+   "t1_ado5bytmvqfmtz3q5qp24",
+   "t1_qazhnybjjrvqbrr7mwmg4"
+  ],
+  "test": [
+   "t1_h2gt4dguqzzyadifuvrps",
+   "t1_nn4kcnmzp5g4q2v3ew5pq"
+  ],
+  "train": [
+   "t1_da3sjx3ifn6vghszmzyx2",
+   "t1_nou75u7pgr7nhvgktz3h2",
+   "t1_2gcbnjtgri2qstde7ts62",
+   "t1_njmzo36hlhadf27z6sn6o",
+   "t1_mbccpkvawczngwovtx65i",
+   "t1_b7uv5fqqgx4unzvvjwzao",
+   "t1_tgqpfc5sjicrhyg6wpxsy",
+   "t1_zuwfu6tuowla5vv6ugbnc",
+   "t1_kij77ikwq6vmgfbnptjjc",
+   "t1_coxomwrlotadyt6mtfrbm"
+  ]
+ },
+ "fp.mergers_and_acquisitions.valuation_methods.comparable_revenue_valuation.basic.v1": {
+  "dev": [
+   "t1_3lzkravnysyqjcpcxq7sc"
+  ],
+  "lb": [
+   "t1_fvree5juidqtgvipmxqkk",
+   "t1_dg6ba7ee6tfx3w3n3z67k"
+  ],
+  "test": [
+   "t1_krpw4gvaexiadmmg3d2oi",
+   "t1_l74bnvknl72wem6wnkff6"
+  ],
+  "train": [
+   "t1_6xtfus4hmyjwuhmpjt7iw",
+   "t1_gg7olkg2hql72d7qxznic",
+   "t1_i6khlphazrwrruaoco6h2",
+   "t1_n2ogupbvpqpga7jpbeaqc",
+   "t1_pxdukswxccvxf6npsu3ba",
+   "t1_hit6ki4rrtwicxzknoov6",
+   "t1_owa23kkbuldtgqexm3ka4",
+   "t1_vhw7bzvzuoui7nqfyvhuq",
+   "t1_bjk7qka3gski2o5mq3qjm",
+   "t1_xvdsr6bqejgljw4wpxm3e"
+  ]
+ },
+ "fp.mergers_and_acquisitions.valuation_methods.dcf_3yr_gordon_to_equity.advanced.v1": {
+  "dev": [
+   "t1_xpcitvmvcat3piqd75byw"
+  ],
+  "lb": [
+   "t1_443arelwzdoevoqnevobw",
+   "t1_itbmm6evg4kqwgc4wtq3w"
+  ],
+  "test": [
+   "t1_ol24vfmmetulbc44smjnw",
+   "t1_zfluev2pvomvymineevgy"
+  ],
+  "train": [
+   "t1_grvd2xldwdvmxzdsxxgwm",
+   "t1_74k2t3xjfvsb6l5en7bgy",
+   "t1_gm4aibye5vt63ffxrdclw",
+   "t1_6fau43unqqryjjqyzv4ue",
+   "t1_zivyhcsroihn2nza6rw2w",
+   "t1_qubba466k4jyvnctqacfa",
+   "t1_6j6rbk5prsitviigvm754",
+   "t1_qvlx2fo2awulvhpzdd7be",
+   "t1_ujaqnz3gqv7jaw4birhyo",
+   "t1_4vndbod3scljkymjgfewc"
+  ]
+ },
+ "fp.mergers_and_acquisitions.valuation_methods.dcf_three_year_terminal_to_equity.intermediate.v1": {
+  "dev": [
+   "t1_vdknm37nuc3o7jgyjp5la"
+  ],
+  "lb": [
+   "t1_ofsuqr4bz3ikdwitcla7m",
+   "t1_cb5yg4cpgzjad3sfodtam"
+  ],
+  "test": [
+   "t1_c55ipk4afxhx4336x2eng",
+   "t1_ozaxiwbstqfsbxlr435rk"
+  ],
+  "train": [
+   "t1_rzxmgp6kqeoo6zdv5zyqi",
+   "t1_ox2ryrhjsklq3uusf5ck2",
+   "t1_xmqswhnrq5dhzgihapjl2",
+   "t1_or6vffh373dg6kiwtzdbg",
+   "t1_6ti6kc36qrggiowkwgbko",
+   "t1_x44jjbzfyasctv3ybzj6q",
+   "t1_vdvqemwyd45jz5vbvnck2",
+   "t1_h57v5ljors7bulcwomkbu",
+   "t1_jirc25owqv2gloz2ptaco",
+   "t1_5rdbzepejqoy5gjkmoc4k"
+  ]
+ },
+ "fp.mergers_and_acquisitions.valuation_methods.ebitda_multiple_valuation.basic.v1": {
+  "dev": [
+   "t1_wxba5kbkc64ap53f2i2dy"
+  ],
+  "lb": [
+   "t1_vjdagijwqif65gxsz3yx4",
+   "t1_ahinpqjz5dwuwzlolalhm"
+  ],
+  "test": [
+   "t1_gi63lbknu5tblquwe2urk",
+   "t1_pyibj6pp7zyww34yupdem"
+  ],
+  "train": [
+   "t1_mlx4o6cbbbetxcx4cf2zg",
+   "t1_2dj7j7okg7cwy6rzvrg66",
+   "t1_4vny4pm3wa4wuqq2yhw5a",
+   "t1_mtwbdvrkwyvkstfxyzjq4",
+   "t1_gw3h3zktsknqadl34k2mq",
+   "t1_iljhsasy7447r43bubroy",
+   "t1_756xifhlwahkjkygpg7au",
+   "t1_zklzc2zjea7mn2a7ynzvk",
+   "t1_pckzupepv36xyqar4ygl4",
+   "t1_33d2zffohpql4mmlzolss"
+  ]
+ },
+ "fp.personal_finance.budgeting.cost_reallocation.basic.v1": {
+  "dev": [
+   "t1_lfxh32x6qkaexgapex4f6"
+  ],
+  "lb": [
+   "t1_kfsqryv2av43dfzb2u3ek",
+   "t1_uzfntlfi4msspczjkedge"
+  ],
+  "test": [
+   "t1_a2gefm6j6o56e3lyexmuk",
+   "t1_chbxb6jege27byw3aorkc"
+  ],
+  "train": [
+   "t1_pr2bp2votabulhfd23tj6",
+   "t1_jsabbnnq7m6qz2ljyrzoc",
+   "t1_ybrclr4eeqglcqzdwaltg",
+   "t1_5bmg6wyiq4duahgaf7thk",
+   "t1_serhfvvxqwuh5da2xcdxm",
+   "t1_ivzuxefdajjct5t3jcwu6",
+   "t1_prdf5mtngzn42yeepavi4",
+   "t1_fsj2ekfjkpwocl3gexbge",
+   "t1_t56d3u4nsbxicpm56wdla",
+   "t1_mnhgyhxsoeuh7iepqeueu"
+  ]
+ },
+ "fp.personal_finance.budgeting.cut_reforecast.intermediate.v1": {
+  "dev": [
+   "t1_swugoi4vcfrgdcd5g4xo2"
+  ],
+  "lb": [
+   "t1_jzg2lczjlhaf5rneolklc",
+   "t1_bffwfusw7oljxuliqflea"
+  ],
+  "test": [
+   "t1_b74tkzi2k4wfo3mkikmr4",
+   "t1_m3u7nbdybeq7cgwmlzwsk"
+  ],
+  "train": [
+   "t1_4lot7qphcxn5h7oia2fzu",
+   "t1_xf5f6ruesh3yt6m5v24xq",
+   "t1_afpgaguh2wtvb2tax6ouw",
+   "t1_e46v3fh42xocsacj24yto",
+   "t1_o7fhkcq2uf67yonjforcc",
+   "t1_x2k5l6an32ets5cvikd3e",
+   "t1_22hz7japxysdq6hfib2de",
+   "t1_s6d524dpxdgtywqxu6izm",
+   "t1_7o7wwreoubu2fwn3q57ba",
+   "t1_ahwyekiupr7tofqprvw4s"
+  ]
+ },
+ "fp.personal_finance.budgeting.long_term_growth.advanced.v1": {
+  "dev": [
+   "t1_bee6sjm5s25upekglaa6w"
+  ],
+  "lb": [
+   "t1_lzlkhiaikpg62u7hpfaqm",
+   "t1_kq3pbf66q7f7epkwhhbn4"
+  ],
+  "test": [
+   "t1_qmn5ohiutx4jmq343ff32",
+   "t1_zqj6ney6qzmfnpjknpztm"
+  ],
+  "train": [
+   "t1_tnef7gidldcwa334vn3gi",
+   "t1_ivuadvd3jnsb5glihkmfo",
+   "t1_yuhfe6vpilq4ppwbkcbvo",
+   "t1_qyk7ykowce3mnavyhab3s",
+   "t1_7t2bdibumxmm5j7tupj6o",
+   "t1_exuwvfl3mascerz3zw23w",
+   "t1_2bxk4u7ycra4ditjlzud2",
+   "t1_w46zswglvqrqve3we6vze",
+   "t1_t5hn73zyss23ugtsxekro",
+   "t1_34gi4stoeebdusgyoa3ii"
+  ]
+ },
+ "fp.personal_finance.budgeting.project_adjustment.intermediate.v1": {
+  "dev": [
+   "t1_zjgxwyvyruxqpzpsgquac"
+  ],
+  "lb": [
+   "t1_i4pnekgnbtxp3r6ykggga",
+   "t1_qqg63uetevynvnlm27kio"
+  ],
+  "test": [
+   "t1_3ay5omblfodhikbelfzro",
+   "t1_mvzoijoagi2jrvzqwaqy6"
+  ],
+  "train": [
+   "t1_fa4qqxdzu5cexptisasga",
+   "t1_wfa567erkv73f3j2drzzi",
+   "t1_namrbn32sj5po527ryc3g",
+   "t1_fjaxi3xa4ugvk655rdp2e",
+   "t1_ne6yrmdh45r252ign6df4",
+   "t1_645mqqqwet3nn7q42wv5q",
+   "t1_f5nz6lnzf5gyzimt2qrmu",
+   "t1_rgfgpo5nfafbqfhvkuhne",
+   "t1_ifzxufqu7u2purdiz2m5s",
+   "t1_xxg2fjieapvuzo3h3hlkq"
+  ]
+ },
+ "fp.personal_finance.budgeting.simple_allocation.basic.v1": {
+  "dev": [
+   "t1_47ifuwvy7dwo7hkcnmsa6"
+  ],
+  "lb": [
+   "t1_655qeir6tb26wptm6rrh6",
+   "t1_vpwqhdfp5whoj53qyiuuo"
+  ],
+  "test": [
+   "t1_hb7d25n5xngvivn2sjaiq",
+   "t1_z4sgr4kwgrqy44f5q4m5w"
+  ],
+  "train": [
+   "t1_rklxxj3kiolanjqxgv4l4",
+   "t1_layyk7atoo7ro7rfp6utq",
+   "t1_vbx5obixxqg2s6inet6ns",
+   "t1_vn7yljejiywqywqq7i3d4",
+   "t1_lzst37zllae2hczblmjwy",
+   "t1_pb3nwdmvubgdmbn4ti47c",
+   "t1_kb24qx4t5plzbtzmpizss",
+   "t1_ticbg546bhynv3yzi7ff2",
+   "t1_lnf665v4omrprhn4lyomu",
+   "t1_c3frghye3w5pmnnfuqzni"
+  ]
+ },
+ "fp.personal_finance.loanrepay.early_payoff.advanced.v1": {
+  "dev": [
+   "t1_j4ldcewfif6c5cy7kxluy"
+  ],
+  "lb": [
+   "t1_clzcaqohwyol76nceykks",
+   "t1_paos67l5wp7pt75yup42w"
+  ],
+  "test": [
+   "t1_3sqqtgg56ejxfag23ws6s",
+   "t1_tcyfenfmvz3av46pvbq44"
+  ],
+  "train": [
+   "t1_oyyyavgerkmn7csf7lp7o",
+   "t1_5f7shivodwnb7lcjxz4ee",
+   "t1_s6gmscz37nxbygni4o33q",
+   "t1_qre5xcfxn4rociosjyj6q",
+   "t1_enqfywrzmbrf4p4dv474i",
+   "t1_s4d7644627afzhpdli5cg",
+   "t1_6el73jpslmkna34wkdt5o",
+   "t1_fa7mqgv65l2qffjle4wxi",
+   "t1_s2jhapnnuz3t42677cfgy",
+   "t1_wpbdyx2vu6s5umo5shtum"
+  ]
+ },
+ "fp.personal_finance.loanrepay.extra_payment_total.intermediate.v1": {
+  "dev": [
+   "t1_fkle5vyxfdqhcua34mmqk"
+  ],
+  "lb": [
+   "t1_3tastcxwwoambkvqz2huc",
+   "t1_x3rs73zw24q6lrwqsjtwu"
+  ],
+  "test": [
+   "t1_4nqxswe65p6fedoml5hsy",
+   "t1_s5hvczow5kspulpgr3zgs"
+  ],
+  "train": [
+   "t1_pj65xl2ibr7bsrj52zoi6",
+   "t1_aqdwhf63mikyajxdnflro",
+   "t1_2jhf6dyp6gxpmq5rlgnfq",
+   "t1_7gjrn6huyaw6q7zu33ggw",
+   "t1_bekhun6ubxrkbjta6w7fu",
+   "t1_vg7dpbbgg6niwazfnbkrq",
+   "t1_6uukxsm4boigxyx2d3ilq",
+   "t1_ixakttprfp2iijamsu46s",
+   "t1_ullxcin5netow3b4j6au6",
+   "t1_jsa4x3xwu4uvjatipzogc"
+  ]
+ },
+ "fp.personal_finance.loanrepay.monthly_installment.basic.v1": {
+  "dev": [
+   "t1_l6ueelw4kxvpuzhaypquy"
+  ],
+  "lb": [
+   "t1_qmgmehjd3dnblm3vkkuzm",
+   "t1_kkomr7jvwwhrz6uqkr6c6"
+  ],
+  "test": [
+   "t1_5jjzhmjlymgmmeuuacdeu",
+   "t1_cncmppykv5z2wf2bg2ccs"
+  ],
+  "train": [
+   "t1_alxcytihvfs3nmpthad44",
+   "t1_5lmlys7elstaltadcr6ek",
+   "t1_u6plm3qc6jaabrbin5oqq",
+   "t1_wc7cbqsmrjz3mjivaqgbo",
+   "t1_h7g3y32qjbhxtglppr5pw",
+   "t1_4khaxpacm7bwjk6nj2p2c",
+   "t1_pen6koktrvpobgbzqs77i",
+   "t1_6ogpprl2dtnw3qfqvd3yc",
+   "t1_zwsdizvmurt2m76cxqaec",
+   "t1_5zrci5zendc7glmcomquy"
+  ]
+ },
+ "fp.personal_finance.loanrepay.refinance_benefit.intermediate.v1": {
+  "dev": [
+   "t1_mh35sejyhyn6rl5wbgcpk"
+  ],
+  "lb": [
+   "t1_fpdt3urj74ogjxror45og",
+   "t1_4t76btfvxjhhnjomtzplg"
+  ],
+  "test": [
+   "t1_5isna7kgg7btb3ujmsqim",
+   "t1_mgbg2swurjthz3fni75w4"
+  ],
+  "train": [
+   "t1_r3j2ove4ztyvuyyruozhu",
+   "t1_3ddfx2jkdtnn65mcgrj2c",
+   "t1_lxdjtc7wfwsj6b3qx56vs",
+   "t1_xpyguw3e267yeefbrxhpu",
+   "t1_qicypjzjf3ivpebl4t3na",
+   "t1_jwsofmrmlt6hc5tri2g42",
+   "t1_5csvya4dosujufwdl35c4",
+   "t1_mgdapxsvsuns4b2x6ahl2",
+   "t1_l75pgrcldcdfnwpxgtt3i",
+   "t1_ha5xlle7aixvr7znxizy2"
+  ]
+ },
+ "fp.personal_finance.loanrepay.simple_repayment.basic.v1": {
+  "dev": [
+   "t1_rog4e64jlrz633uyc44wu"
+  ],
+  "lb": [
+   "t1_prqpd37qb6jgo2amezjpc",
+   "t1_eu6hnfjoc7j4tkbfbez6g"
+  ],
+  "test": [
+   "t1_cb7r2runoiwi23psfteju",
+   "t1_nqxxsbqdryv6i3ucfbtsk"
+  ],
+  "train": [
+   "t1_kmhvp7litc6ogg66ahpkw",
+   "t1_ve7j24mgkkpqo6qpg4cwa",
+   "t1_klwxxo6dathxwl2fgo3nw",
+   "t1_bi5l7dvdokboenuq33n4w",
+   "t1_h5cvhagd4fvippmmloib4",
+   "t1_bo6qh7hhnb3tg3gaz3wma",
+   "t1_whrmbfvn5pm3oeivheaxk",
+   "t1_ifbhj667pc2hme3m2fncq",
+   "t1_eg2x35igxunbqokx6l2cm",
+   "t1_oxokwaqmkqdtgogy6qork"
+  ]
+ },
+ "fp.personal_finance.personalinvest.compound_growth.basic.v1": {
+  "dev": [
+   "t1_jfauoxro4ozfwocb5cbz2"
+  ],
+  "lb": [
+   "t1_4g6fmoal6gsx2ffbr3rc4",
+   "t1_ayb6mioqh6gjztk3axnuc"
+  ],
+  "test": [
+   "t1_44byc34mmafzdhopmvc2k",
+   "t1_an7ikllhnnupom47pa6be"
+  ],
+  "train": [
+   "t1_lw7b4tl5xhv5r6nkplyg4",
+   "t1_5cuyvwivihlhb5dfg4sdu",
+   "t1_34hm4vemzhtqm5i3s635s",
+   "t1_e43wltjs67yne2ngdzamu",
+   "t1_ppzxlpihjan3qsqp2myzy",
+   "t1_nuyxvukgaa5pp4rndohni",
+   "t1_jdc3tqg5ktk4ddw424pi2",
+   "t1_sq7wh7scfhrwhkhyv6jja",
+   "t1_vutyzzmlbmlyogxzljqsk",
+   "t1_opwdgbgxzrtk2ibcroey4"
+  ]
+ },
+ "fp.personal_finance.personalinvest.diversification_risk.advanced.v1": {
+  "dev": [
+   "t1_hfjdnydre6ckpzw523sos"
+  ],
+  "lb": [
+   "t1_ihbajbf6gbargpucsgksk",
+   "t1_xz6vfyrwsjtilprrbubii"
+  ],
+  "test": [
+   "t1_rptzqecm7up7bw6kmuydk",
+   "t1_yi3xusaj2wvng2dqywbue"
+  ],
+  "train": [
+   "t1_skmhalp7lg6vtthwg7lzo",
+   "t1_cmyujdlogo5lfwjqaeyu2",
+   "t1_pc2i7klze3oy5esalavdg",
+   "t1_hzjr4i7velhvinvjhadem",
+   "t1_5534dccrdz6w4xarqujoa",
+   "t1_jmfuifse47b7p4bvgz772",
+   "t1_5cqrotsfxzrdfoaykn5u6",
+   "t1_hptvdzitinzlnzy3w7fxc",
+   "t1_poqpiftk56fm2gqkx4qnu",
+   "t1_4nqkrlkyrdmhn66cmnwvq"
+  ]
+ },
+ "fp.personal_finance.personalinvest.portfolio_allocation.basic.v1": {
+  "dev": [
+   "t1_4jdui2w7ngmm4atmjwfaa"
+  ],
+  "lb": [
+   "t1_b3rah5imajty57shzjdx2",
+   "t1_cfkkpp7r3obj3kvd4puy6"
+  ],
+  "test": [
+   "t1_ejkza2enfrve75glijllw",
+   "t1_scfp33xvy3py4tzimd5d4"
+  ],
+  "train": [
+   "t1_rtql67wat2xzhczxzqsjg",
+   "t1_73dis56p5acxtikrauyjs",
+   "t1_espr7f4tpo27nqbtlfeew",
+   "t1_culzn33a7bidiaw5m3ri6",
+   "t1_myrjwcgp7qmxkazz6diko",
+   "t1_jfuyv376ppnir6uul6b7e",
+   "t1_5eqai3hshkbjjlfybgues",
+   "t1_b52ydmbbnxcfrrlr4tx5g",
+   "t1_vsbla7zoti7n5ztuprrak",
+   "t1_3ws4qf7vnc47j4ugc7bji"
+  ]
+ },
+ "fp.personal_finance.personalinvest.volatility_band.intermediate.v1": {
+  "dev": [
+   "t1_lrg6an2cczdsqe4zoluve"
+  ],
+  "lb": [
+   "t1_mj5akm3vyo3eat5y5sv3m",
+   "t1_shwb422jrbqvhsndmzmks"
+  ],
+  "test": [
+   "t1_ejyacsxkxtluyxuch4qrc",
+   "t1_wwkn6f6odogvoqlfnfj7e"
+  ],
+  "train": [
+   "t1_52sxjknl3p4pcm3sqyvms",
+   "t1_5anlyibtdramf6cmjrulc",
+   "t1_mkuvdgupdswd35djxtphg",
+   "t1_2gte64qyp3i4ibrvgha6g",
+   "t1_wqqsjuh6ebuxx7thr3fd6",
+   "t1_izzptazlq6ppoe36f5d2s",
+   "t1_qkwmc2j2f3cu2vm2vsxra",
+   "t1_ijxixsmxnc5j2wnhm76ng",
+   "t1_2nmam4jmfjutreovducx2",
+   "t1_phop7hmqpcak7o2ksjsqa"
+  ]
+ },
+ "fp.personal_finance.personalinvest.withdrawal_balance.intermediate.v1": {
+  "dev": [
+   "t1_h4nltn6c5crfkpicj26zo"
+  ],
+  "lb": [
+   "t1_6wjnsiv7xvux6efnux4x6",
+   "t1_yaqnp5pzbpikxmdanioiq"
+  ],
+  "test": [
+   "t1_4sq5xil3fwfzte7tnucpk",
+   "t1_kvpkcli7rlgvitxvdnfze"
+  ],
+  "train": [
+   "t1_rpahrqy735qckr6ucw47u",
+   "t1_fxrdt2xfguw6qs2tbpceu",
+   "t1_mlcnagfv6zu5m2npv5sig",
+   "t1_i6jol5f7zapyzzle3z2bs",
+   "t1_pvj6etnfh2ngyqxanuuoa",
+   "t1_lbpbsp7ikdzvit7p2zxde",
+   "t1_t2rrpgqxton63ozkkdh76",
+   "t1_dk2yrjtjfojx7ahdh2k5c",
+   "t1_ojcnj2qatdteimzy3p2t6",
+   "t1_pjleorcoafwipdigr7aai"
+  ]
+ },
+ "fp.personal_finance.saveretire.additional_saving.basic.v1": {
+  "dev": [
+   "t1_nuvcuzulasafllpyq3z6i"
+  ],
+  "lb": [
+   "t1_m7ozzmmdsybrrdcmmwraw",
+   "t1_okoj2ecvkkz6tfs253xvu"
+  ],
+  "test": [
+   "t1_7kesils5a3pupldol6o52",
+   "t1_kbw72uenvoohcoai6uhfa"
+  ],
+  "train": [
+   "t1_tl4ultpxsg4qenr3eokke",
+   "t1_odgb5t7napig42jqjttvy",
+   "t1_c6ujfjo2wh4t4ikvgqvtk",
+   "t1_cvatajccodv4lea7jh77m",
+   "t1_6q5sqtu6ionszhzgejvt2",
+   "t1_otcvmuxjo73vmafbint4w",
+   "t1_ppitxr2we6rqcctyvsfdu",
+   "t1_jcs7eteah25i6ob7xvaii",
+   "t1_ud2mivix5ipxrxuzvk77u",
+   "t1_56e4v7bb3sxe5mvfokbkm"
+  ]
+ },
+ "fp.personal_finance.saveretire.early_retirement_bridge.advanced.v1": {
+  "dev": [
+   "t1_tbvr2h3rg4flb4hhmw23c"
+  ],
+  "lb": [
+   "t1_dl6fvoy6lp6bj7h3uqiz6",
+   "t1_djyipx2jual7eqf5r7gve"
+  ],
+  "test": [
+   "t1_as32apcqsdx2bxlkvf6uc",
+   "t1_ybmd6hr4tisjc7lchbq7q"
+  ],
+  "train": [
+   "t1_l4jdhl6xzpmqt656p5tgw",
+   "t1_hpplnl5vmpmnc53aax3nq",
+   "t1_qugynv5pzup2g6r3m3dy2",
+   "t1_rdh57c3zoicxsbi5bi6p4",
+   "t1_i7q7hi5kzgmoitkvrsi5m",
+   "t1_hgoamwycebbmsabrbhbqy",
+   "t1_hpwwe7l7g2dpus5kh37oe",
+   "t1_vjlnqxjbv3zf3gzsz3yxs",
+   "t1_ewxvgjppivedjdphepr3e",
+   "t1_qlsucov6dfxk2yfmvc5ki"
+  ]
+ },
+ "fp.personal_finance.saveretire.inflation_adjustment.intermediate.v1": {
+  "dev": [
+   "t1_dbqmq6slfrh5k3rhn6tqa"
+  ],
+  "lb": [
+   "t1_f4jciwfzkfjlgnbbvasde",
+   "t1_ixkynnmmlcn2tmzfqyuae"
+  ],
+  "test": [
+   "t1_ltrhf4pgt6ap7imaevkzu",
+   "t1_osfelgcyxwgbgq7ndr3fm"
+  ],
+  "train": [
+   "t1_t6cnmypn5bmophipkr3d2",
+   "t1_vo6f3usz2d7b7plznwzba",
+   "t1_qfdt3qckv3hmym53yisvo",
+   "t1_fzyobnflqaqufps6sl4ew",
+   "t1_vb2hcny35axcv6pebirpu",
+   "t1_2o4iyh54qxmklrsbwrcie",
+   "t1_qdakb3mxabibk3x4uk7d4",
+   "t1_r4spl7jj6txrvwxhgnk2g",
+   "t1_qltyhyarllti6n2wtcvce",
+   "t1_b4tdmai4mlb6izbhmcee2"
+  ]
+ },
+ "fp.personal_finance.saveretire.one_period_growth.intermediate.v1": {
+  "dev": [
+   "t1_vfo2mji2tga365kbrjxdc"
+  ],
+  "lb": [
+   "t1_vltiz7apblaetws5q2dxs",
+   "t1_5trn7ojozlvjwtmefry4y"
+  ],
+  "test": [
+   "t1_unl2fmqr6ocjr75g67cvs",
+   "t1_zprb65ybdmyyfvordloze"
+  ],
+  "train": [
+   "t1_ghlrxbw7keiclebm6w25u",
+   "t1_pprmhjxr5ltigv6ql67do",
+   "t1_3bdcvfmx3rdwoysysh4ha",
+   "t1_hhysehufenorhayejtwia",
+   "t1_wquqkvpvpfyfmi4gbywza",
+   "t1_66xtkhqr7526hl3xtckpe",
+   "t1_p7sned5elwpn5bz2awgeu",
+   "t1_ujlfznsgndwuolp3wkw2k",
+   "t1_wdp265v53offnwrzc2jjo",
+   "t1_vim3cw6tk6565yia7gdss"
+  ]
+ },
+ "fp.personal_finance.saveretire.years_to_target.basic.v1": {
+  "dev": [
+   "t1_abi5wonslbqvty3o37524"
+  ],
+  "lb": [
+   "t1_yvyteamxcrdushqs47v6w",
+   "t1_7ofkxe6qw5pghsd7oq25s"
+  ],
+  "test": [
+   "t1_3pc5qnpuyek5lmdp3pzxo",
+   "t1_hydfxmv2lfzm6zxvxg6au"
+  ],
+  "train": [
+   "t1_tmei6xeex2pf4ulop4fte",
+   "t1_skklqgkq4hcsop46wzmdg",
+   "t1_jmcjjyeq4pgar7tpex7a4",
+   "t1_7ojsxd5rz5bw64n57jhqe",
+   "t1_oruywh5fkvahmxh7gzqla",
+   "t1_e663rd73aorvjqqpopyra",
+   "t1_dunfzxv72vdw6kqghkhlw",
+   "t1_ghqecgztggm43asj2j47m",
+   "t1_yslhplttjmw7q5i7rmrzu",
+   "t1_2irk2nmiyt3t5ooqdqdvi"
+  ]
+ },
+ "fp.personal_finance.taxcalc.capital_gains.intermediate.v1": {
+  "dev": [
+   "t1_ufd3hlbjjcnjwvgg45pla"
+  ],
+  "lb": [
+   "t1_oxsbbpjr3vap6g6nv5brg",
+   "t1_3dahfuee3sflwbpchsrgi"
+  ],
+  "test": [
+   "t1_4c3hjt7q4eraaezskyfbm",
+   "t1_uxnmogvtt5dmap6k3brwy"
+  ],
+  "train": [
+   "t1_42ksbar5oh6hcndzyeca4",
+   "t1_tb5ectapngc27mqsnpayg",
+   "t1_sg7gk7metwit23nrbeqte",
+   "t1_f3funpfwxqmnxhkpd6nqe",
+   "t1_qzil3hgar6m2cjc7qz3eo",
+   "t1_xvnnzndpjpoqxno23gvrm",
+   "t1_mthbfla2yvxxq2eqtqtag",
+   "t1_ks6lmh3qyhkt36r57ez4k",
+   "t1_utbxae6d342zkqfl6ngum",
+   "t1_y7e3n6wu7lb4oxgwclbsu"
+  ]
+ },
+ "fp.personal_finance.taxcalc.flat_tax.basic.v1": {
+  "dev": [
+   "t1_fsz5fxhphgh3phewbpn4e"
+  ],
+  "lb": [
+   "t1_juu7jaw45kbh5muy2qfqi",
+   "t1_bfgduwmuubxzq3ic6f5nk"
+  ],
+  "test": [
+   "t1_5g2nbc2lcovccblf5hmng",
+   "t1_ukdism56spqmhmlnxcgmm"
+  ],
+  "train": [
+   "t1_a5lsncs7ks5hkanm6nz6u",
+   "t1_3inp3ixkvzieqvtgc7wrg",
+   "t1_aokiidy64jydadq6yr2gw",
+   "t1_iawgc5zk6uclo44fxdvgo",
+   "t1_ol5x6wfkrb3tqfwrv3ske",
+   "t1_yz5lo4ieftnnt5peus5dq",
+   "t1_4xyy6boycxf2m2sc5z6r6",
+   "t1_cmf5ctxdjijka5ayblcha",
+   "t1_q35aimww4ljotqaqlekyq",
+   "t1_gzesryqooeyrqyts5y67i"
+  ]
+ },
+ "fp.personal_finance.taxcalc.foreign_tax_relief.advanced.v1": {
+  "dev": [
+   "t1_5nn7wo6fpvro4rmjga3ug"
+  ],
+  "lb": [
+   "t1_f2zmujneliymsuxaajnho",
+   "t1_q4j33dtkpmskzns47xx52"
+  ],
+  "test": [
+   "t1_6f4winf5i42macoamvhvc",
+   "t1_er73zbzpgbtwf6p22ijcw"
+  ],
+  "train": [
+   "t1_6axtjet57blsryw273oze",
+   "t1_zs5prvxpbxumx6q6lvtoy",
+   "t1_cngge7aotqfzebeu42k2y",
+   "t1_tvtbxsnwd5xhrvfaiqnb6",
+   "t1_6toljhsydgt6n7syui4ge",
+   "t1_ga4loefdlqanr32bcoodq",
+   "t1_ced7t3ynbglirfx2oq6wk",
+   "t1_nzvdcxt2kl6pvq6xbznfc",
+   "t1_q6gatzsxabrbrhf4isepo",
+   "t1_4yms26f3uubsu3elgkrlg"
+  ]
+ },
+ "fp.personal_finance.taxcalc.itemized_deduction.intermediate.v1": {
+  "dev": [
+   "t1_tdc5aavkignyv2faaikoq"
+  ],
+  "lb": [
+   "t1_c6dlzf6eziviboqdhqdcm",
+   "t1_xhq2gkh7vzdtkntcknudc"
+  ],
+  "test": [
+   "t1_34vo3n7ecnlho2fsgk432",
+   "t1_3jdpqw2n2clb2n63rbrl6"
+  ],
+  "train": [
+   "t1_5omlix2jvk3cuwm7ooa7s",
+   "t1_gwswbtlm2nj7x7upqk3q6",
+   "t1_hbv6quzn2mjqrntpwgde6",
+   "t1_pkpjyoqbrxky7nxemamzu",
+   "t1_66j2ewn4qistxb3tcbbmq",
+   "t1_56ft575cql6uetab775we",
+   "t1_chbziuzady66u7dparjce",
+   "t1_7mjn2ot2q25jlzfeoihdk",
+   "t1_t4aqbxew2uembykxac5yy",
+   "t1_o6m7ievdcnsj2xqryco6s"
+  ]
+ },
+ "fp.personal_finance.taxcalc.standard_deduction.basic.v1": {
+  "dev": [
+   "t1_qwd3ls5wvtermphvrmgyi"
+  ],
+  "lb": [
+   "t1_dp57hrgqqmaugpddinnye",
+   "t1_gj74hfwssvsfuofwbvywu"
+  ],
+  "test": [
+   "t1_22llune4f3br6mnr35pis",
+   "t1_kvl6xaazcsquhwbf5ssno"
+  ],
+  "train": [
+   "t1_ruv5newxrjyxfcw243amg",
+   "t1_ul7t3lu3m62c7dkzm26mo",
+   "t1_2aw3gpkpsbqe7evlczkme",
+   "t1_ls7mubqvgwm32wk4e5xze",
+   "t1_ibfaugxy57elcwqey6uge",
+   "t1_owfnvghfl7qvzq3dmvtdq",
+   "t1_gr7owktaijktdsa6xpzag",
+   "t1_3fum4hozheprxbi7lrbg6",
+   "t1_4isvrcpprcfp3paefivpy",
+   "t1_emeuaawtepynj3jvn2n4a"
+  ]
+ },
+ "fp.risk_management.regulatory_compliance.capital_requirement.intermediate.v1": {
+  "dev": [
+   "t1_kacbjmnc6ox5g7klhzkgw"
+  ],
+  "lb": [
+   "t1_4a6mz2tieqh2voc7e3ve6",
+   "t1_oewsmrt74n7a4f2ugqbkm"
+  ],
+  "test": [
+   "t1_5kib7uxolfnwi3rw5gkry",
+   "t1_esf2rnyynedelrwwduyzm"
+  ],
+  "train": [
+   "t1_mpkb5gr5up3bk2wr5k4ie",
+   "t1_dcb3acr2hjn53sc3ahtba",
+   "t1_s3hni5b2wre6kdee74hgy",
+   "t1_5mvxccwl42c6ivavqgbby",
+   "t1_ka6lornpihrvtmsmxqck2",
+   "t1_slfy5tyff2co4kows6vt6",
+   "t1_hqz4fnf63rc7cwnm7zteq",
+   "t1_7y7a33ilw6rvdueccpgi2",
+   "t1_nqdzm6cwynfznabgc7apg",
+   "t1_d73krf6xb3i2eaeuvu3c4"
+  ]
+ },
+ "fp.risk_management.regulatory_compliance.capital_shortfall.basic.v1": {
+  "dev": [
+   "t1_n2zfmwh4lqohp4qvagao6"
+  ],
+  "lb": [
+   "t1_ymwn6l5irpkueq4adud6s",
+   "t1_v6lzf5g2kertsdrpdmuhc"
+  ],
+  "test": [
+   "t1_222m4w6bamtv6dctrmr5s",
+   "t1_tejwc2u7nm6rxmsjjnai6"
+  ],
+  "train": [
+   "t1_h4sbpekop2bcg32qk52u6",
+   "t1_wtbjbcyrr5dgj7534aqdg",
+   "t1_6bf2o7eoohbjc5vwsidhk",
+   "t1_kvltk4qclx6fvu43bnbww",
+   "t1_6aomkbmeoe5ilsnby4chc",
+   "t1_74j3d5gflppkhi4yanauq",
+   "t1_gjbghli2wsvm27yjbtadu",
+   "t1_gr7f2vbapnu72v4cdws4q",
+   "t1_lqrtucwi6qffxmfesvdxk",
+   "t1_aonowe4xwotuzfvw2ppiu"
+  ]
+ },
+ "fp.risk_management.regulatory_compliance.compliance_penalty.basic.v1": {
+  "dev": [
+   "t1_wowaf2yv3bm4ffcxmd2pe"
+  ],
+  "lb": [
+   "t1_l2xx2mxhz4vj3axuv2s4m",
+   "t1_wescwdmaeobjesempwbzy"
+  ],
+  "test": [
+   "t1_bkodi2lku6ufnf5bopvfc",
+   "t1_o2xxsgpf3aoj5wntw4uee"
+  ],
+  "train": [
+   "t1_5nxddjp7zycplsfw5akyw",
+   "t1_n2eyfyt2a2b4cv4ez45s4",
+   "t1_orbrg72bwt4vkgzupboec",
+   "t1_m5b6sxz5z7on44aoci4ze",
+   "t1_mmyj6gtpbmzv6vclsb2wu",
+   "t1_k6zl2vuy4jxdvyly2iph2",
+   "t1_vfhhx2y5vv7qtpq3i4qja",
+   "t1_rtcjtsxtrhuykrjs53734",
+   "t1_tj6gvzxfioyteqgqaqxlw",
+   "t1_zje4rba6347lgw7lvkyfa"
+  ]
+ },
+ "fp.risk_management.regulatory_compliance.liquidity_gap.intermediate.v1": {
+  "dev": [
+   "t1_hisdttqfnzcbur36covvw"
+  ],
+  "lb": [
+   "t1_nkyhnf4do52naesjtzdcq",
+   "t1_qnpmheg4fmvcwe2ak5ijm"
+  ],
+  "test": [
+   "t1_houd6xkbzgca66sxzj3sc",
+   "t1_tgg7spmozuthpdbdzkgmg"
+  ],
+  "train": [
+   "t1_e3y3ycjh7fkt252dpwiwg",
+   "t1_qneajedzd5tawgpv4uh4g",
+   "t1_7b6odr6mj5wi7xjnglsiq",
+   "t1_zvikvnicxovtmkat24weo",
+   "t1_kymn6u24kqrrxlifpwjpi",
+   "t1_5qys6ssuoskrakakaxsik",
+   "t1_5qalnapiob2kbjk56kirq",
+   "t1_feo2inxfycg2gzbpikbsk",
+   "t1_kq73rvrxmlf3co6qn5swg",
+   "t1_eeynjqjiaftcuuckjzma6"
+  ]
+ },
+ "fp.risk_management.regulatory_compliance.multi_factor_regulatory_compliance.advanced.v1": {
+  "dev": [
+   "t1_ijzio6mrzecxetqzigzsm"
+  ],
+  "lb": [
+   "t1_chkvta2qnbrobztk6n7mw",
+   "t1_mix4yb4qgc3zhy4brqdk4"
+  ],
+  "test": [
+   "t1_3t7eqh4rktryupqwo3lje",
+   "t1_oxhft4rjor5ucnlj3vxly"
+  ],
+  "train": [
+   "t1_yvwrdlbz62af4ztiwhbte",
+   "t1_iv6ospdlvvknbzzsc4hqq",
+   "t1_b6o5sjvt43cnee57qtm3i",
+   "t1_p226gbwtuktzoa2h3xqie",
+   "t1_vtiosx3ad6i5y5r2pmdqs",
+   "t1_x3jnb5nk7bzrbo2bzkcuc",
+   "t1_xnudy2qyfxvh3i2ufy3um",
+   "t1_p5sdhpow2t4hsqfutmk3w",
+   "t1_alxgvcajwnguu4lybhxco",
+   "t1_w6cpaclggrkhxqxd5un5s"
+  ]
+ },
+ "fp.risk_management.risk_appetite.capital_allocation_risk_appetite.basic.v1": {
+  "dev": [
+   "t1_bh2uo23yqmiry3qykepd6"
+  ],
+  "lb": [
+   "t1_3zqjdt3vdtifozllly5aq",
+   "t1_xqehpil6mxvowdn2hzepy"
+  ],
+  "test": [
+   "t1_bbodmnbf473tm5jaf2glc",
+   "t1_e2x6sx723by62nuzlcwkk"
+  ],
+  "train": [
+   "t1_z776ht2uoq2jmdgi7thni",
+   "t1_4miksnm4ajvtxylszpfpk",
+   "t1_l6y2ch3tvnruktfpxftlo",
+   "t1_yzffj2zqy3jef5tsqv7zi",
+   "t1_j4yzwaf6yx755q4qbctsq",
+   "t1_srntmjdcvwkvowtjymmcy",
+   "t1_6y4zltghlzqtkpwh72e7g",
+   "t1_reg3g4uhmlfn7hwsdb5qs",
+   "t1_somxmiwhi75ptestuclzq",
+   "t1_kqzkqu46bnladesdo47be"
+  ]
+ },
+ "fp.risk_management.risk_appetite.multi_factor_risk_appetite_assessment.advanced.v1": {
+  "dev": [
+   "t1_vaevfw6ktdlzfz753pgv4"
+  ],
+  "lb": [
+   "t1_x62cxlz3jrobxymqsqwvs",
+   "t1_ywb4ylzqzj4lstv36gshg"
+  ],
+  "test": [
+   "t1_i5ae75hrqnwvwjiy375ge",
+   "t1_oozrg5s6c43alnegh7dec"
+  ],
+  "train": [
+   "t1_bv5byaszcba2e3wzpe7oy",
+   "t1_v3i4me3lspuirhsgdzl7w",
+   "t1_n5njv2lnf7cxzwvmfdaau",
+   "t1_f3winufpx72who3zqkapg",
+   "t1_3euijyflwluvnocgitrfw",
+   "t1_xzidjrbdtdpxtarjsqb7o",
+   "t1_2wspxoivki5jgnk324faq",
+   "t1_jdytnakbnwa5ns2btg5za",
+   "t1_4pkeyhexyjcdnjfo6vmce",
+   "t1_ymnwnxzhzy2i25m2sxqr6"
+  ]
+ },
+ "fp.risk_management.risk_appetite.risk_adjusted_return.intermediate.v1": {
+  "dev": [
+   "t1_uhtjios7d26ziz2i2xebg"
+  ],
+  "lb": [
+   "t1_rkf4gdmjouyjyw3agluey",
+   "t1_pc7x4s7hjifjacx7uglwa"
+  ],
+  "test": [
+   "t1_f2i2nt7fq2xoiwnitomve",
+   "t1_wevpwyiktxdjk5mgnf3o2"
+  ],
+  "train": [
+   "t1_4m2p6zpo6nt4h7bod6ajs",
+   "t1_kfma27tcxogkntvq4ky7i",
+   "t1_ypt33dobsddpfjmsn2mug",
+   "t1_s7yd7vn7vdavxzjvvanf2",
+   "t1_s7ny5u7lzx3j75cefexde",
+   "t1_ir7cg3dt4yu7ymr3oarm6",
+   "t1_kujbedthxz4gmm7xxthgo",
+   "t1_aylk4cdpfztdelrd6mfsw",
+   "t1_stthsqrza4lq3rhmdheaa",
+   "t1_dgh7pevhsarmkcvtpeqqs"
+  ]
+ },
+ "fp.risk_management.risk_appetite.risk_exposure_limit.intermediate.v1": {
+  "dev": [
+   "t1_cth2d6uupzh2moyhnq7n4"
+  ],
+  "lb": [
+   "t1_hkaywnj6ajwuid3lm5api",
+   "t1_getxx7jgf2ljlv3noz3fy"
+  ],
+  "test": [
+   "t1_wc5owb376fgg7h5xjdfai",
+   "t1_ze7ry2jl5lskaqtehvdvc"
+  ],
+  "train": [
+   "t1_5ediqo5nokhaa4hku4xva",
+   "t1_ztrlaq3pxvwlbnthu6ir6",
+   "t1_dinctbs4c4h7rftukrw3e",
+   "t1_wpu3a7s3nnu7agaieclqu",
+   "t1_azdrqsm2645lk2bze6atq",
+   "t1_iiiq2wupatpgexfy2rm3k",
+   "t1_ybdxdzl6opv2ibtlkg63w",
+   "t1_pt7zw7uft7iu7zraxaqgw",
+   "t1_ud5ys4nbtdburkho3w3rm",
+   "t1_442egrr6hx63niyvsox76"
+  ]
+ },
+ "fp.risk_management.risk_appetite.risk_threshold_measurement.basic.v1": {
+  "dev": [
+   "t1_dxpbt4nazmrr5spxi2vym"
+  ],
+  "lb": [
+   "t1_fb3uep5jnupejwo7hd5qm",
+   "t1_oqxjwur5d22g7h34f4h6y"
+  ],
+  "test": [
+   "t1_354zfelsyfugezupsuery",
+   "t1_4gjk3qwwaoolc2m35ywvs"
+  ],
+  "train": [
+   "t1_d27ycqmhccx6dapnvzdcy",
+   "t1_cecj4wb75d57xgfdqwfky",
+   "t1_zjy2xm76igqzsvohkmc26",
+   "t1_6wbmpit4r7l6zcdn7s3y4",
+   "t1_ykvro34v35eyq4cplkp5c",
+   "t1_6znnbvuel5lokfbfjxcym",
+   "t1_dcch4bofkvjj6or5xivoi",
+   "t1_xnxruf5pgnf3zhcukffqy",
+   "t1_3zjzyvkyxewvqrk6ptxey",
+   "t1_tdchtqby3kfek7vg67clc"
+  ]
+ },
+ "fp.risk_management.risk_metrics.liquidity_risk.intermediate.v1": {
+  "dev": [
+   "t1_4g5lafz33b6bfgxoyf5ic"
+  ],
+  "lb": [
+   "t1_frifyhgjwu5uqoyfjl3rw",
+   "t1_tmfzxhjgygsm55kwx44mw"
+  ],
+  "test": [
+   "t1_f4vla57tdk6qhqtstp6ni",
+   "t1_q2ei67f3yxgguciudxqna"
+  ],
+  "train": [
+   "t1_dsdqv4nuhaixldnolbilu",
+   "t1_ujzpt65nwzmxtw3zhwu3w",
+   "t1_ujicxyojood7jsyk6kouo",
+   "t1_lxuaiwoxerci4m2edy4ju",
+   "t1_66fq57zmlpjy5flv6huaq",
+   "t1_k2lzxhdqdp6a3owltb3eg",
+   "t1_gmtgaz66d5f2cqabkjl42",
+   "t1_cvzawuddunlbvd7pakwlc",
+   "t1_fl3zzk6ofn744iwxfujeq",
+   "t1_kcpipsykxf5iexqoypecm"
+  ]
+ },
+ "fp.risk_management.risk_metrics.multi_factor_portfolio.advanced.v1": {
+  "dev": [
+   "t1_abg6jkbozymexdrf7ybqa"
+  ],
+  "lb": [
+   "t1_ha4dup6h5mn3ecz322ulq",
+   "t1_2qolqitgaxljnzjaeew36"
+  ],
+  "test": [
+   "t1_d4c5tpewronpszfonwtza",
+   "t1_hmrjgclfwacjuf6vniglo"
+  ],
+  "train": [
+   "t1_t4wu5kbochu7r4xxg72js",
+   "t1_c2yckuuzonn4okm2uj4ee",
+   "t1_ncfqyluendvdmifknifzi",
+   "t1_ijwwisjbp5ekzddzx5nos",
+   "t1_uqjfmmocboaa67o3etc7m",
+   "t1_4spsonpuar5bdxa4qoixe",
+   "t1_35mu34e5bo3w7jj6x5g4y",
+   "t1_rhew7cpb2sfhezp4wekpi",
+   "t1_d62qirusatpvuumwqlb5e",
+   "t1_xn7u32qimgent5bnznob6"
+  ]
+ },
+ "fp.risk_management.risk_metrics.portfolio_var.basic.v1": {
+  "dev": [
+   "t1_23cbwbomfrrecyub3xfe4"
+  ],
+  "lb": [
+   "t1_vtazmekkpuvm3chx6jgwg",
+   "t1_6rfqrqezeqsvatuspmg3e"
+  ],
+  "test": [
+   "t1_5yt5tlpga44vmgqzd3zyk",
+   "t1_7m2qisyrmqyjub6drgmw2"
+  ],
+  "train": [
+   "t1_3fxxdr2mun6ooz67s7l4s",
+   "t1_llbi7skvn5qpwnfxxp5i2",
+   "t1_krbtd34tlzzdke3io2qs6",
+   "t1_3roaw5xqqlcv2pkr4a75u",
+   "t1_2px22az4jpvsz23rzllck",
+   "t1_7rg2vhmlpkcitj7ce5cmo",
+   "t1_5it4eurzjestz6uugriky",
+   "t1_y6op3piff4vf5eyzcfqkk",
+   "t1_tl2gibdibihrzddbzczl6",
+   "t1_jsupiykrttwoub4yqkneg"
+  ]
+ },
+ "fp.risk_management.risk_metrics.stock_sensitivity.basic.v1": {
+  "dev": [
+   "t1_r34gtrjt5zrrbobsko3bg"
+  ],
+  "lb": [
+   "t1_3wjjsmiefarogmcaydvrq",
+   "t1_hsjao2vgmo5kwfdkenxmu"
+  ],
+  "test": [
+   "t1_5davuklmuxiamzkwz25ya",
+   "t1_nvqzreuny4me5mk7kjyf2"
+  ],
+  "train": [
+   "t1_xvodq2ivw66s7nbdlujfw",
+   "t1_2a4eskbipcekzplsaj3cu",
+   "t1_hhucyibtoqqzx6aqnh36e",
+   "t1_5mkmrhtrayyxj4gnnidty",
+   "t1_p32ilzndr7236wqzjnhsq",
+   "t1_p5fwltfg457ozhbixkgu2",
+   "t1_uotbouyzdpjsn7n6smn7c",
+   "t1_tc55k52iuiadew6mpffsy",
+   "t1_azpdhzo3hycv4kxemiw4m",
+   "t1_w5lfstv4dtmtlfoa5p4u2"
+  ]
+ },
+ "fp.risk_management.risk_metrics.volatility_sensitivity.intermediate.v1": {
+  "dev": [
+   "t1_77oud3utjwdiefnakt3oa"
+  ],
+  "lb": [
+   "t1_5rbchysnjhwpvdhvias4u",
+   "t1_sk4akvq74dz5e35h55fyw"
+  ],
+  "test": [
+   "t1_pgxvmkogppifafqe6kleg",
+   "t1_xvnm4kwbngxkaoalc6p6e"
+  ],
+  "train": [
+   "t1_ct5lpc4fafn5msh6xnajq",
+   "t1_j4ewr3qjmhe5lqin45vi4",
+   "t1_fjgxvwcu3wpg2kymg2kkc",
+   "t1_g7wsl7moqe7ahbhhens5g",
+   "t1_2mc336fvqznpftg6wogea",
+   "t1_r7sz7y22pd67q47ddkwca",
+   "t1_g4d5pait2kpdpz5vtudqe",
+   "t1_vex3hl6h25xlpqibx4g2a",
+   "t1_md62d22xuivke75bfbu22",
+   "t1_wc2n3fhnfbmdk6cag3vnc"
+  ]
+ },
+ "fp.risk_management.scenario_planning.interest_rate_impact.intermediate.v1": {
+  "dev": [
+   "t1_mkycodi3kfpvpfpcv7p36"
+  ],
+  "lb": [
+   "t1_37mdallyixnzdqhzyjwts",
+   "t1_mn54qg6qevg3trbs7yiwi"
+  ],
+  "test": [
+   "t1_btxbsfwkyej2widrg6zby",
+   "t1_hdfif6mb5qv6hulqkhetc"
+  ],
+  "train": [
+   "t1_pwvc2c7hb5pj7q4afpweu",
+   "t1_sltvejruonjyh6erqybgc",
+   "t1_i43eqwfuftlfct4gheezu",
+   "t1_3pi2xn6u2p3z3p5pfnyog",
+   "t1_lva6lvkp6sw6764lrtkwk",
+   "t1_436ftwkjqr4lzklcbxgrw",
+   "t1_yhlg4fmc7bqk3omvajbrq",
+   "t1_znj3ee4wb4g3pmu7wytvy",
+   "t1_skmimhtyuuw4nvhm47pl6",
+   "t1_kgqedxvqo5btrdiesvrje"
+  ]
+ },
+ "fp.risk_management.scenario_planning.investment_scenario_planning.advanced.v1": {
+  "dev": [
+   "t1_7wyucbvudz4xx43bubhjw"
+  ],
+  "lb": [
+   "t1_l4aozr3vnovphwblt273c",
+   "t1_gejfdkyy2yycweostr3ga"
+  ],
+  "test": [
+   "t1_hgvd2wo7fg7bnesvn3iew",
+   "t1_wkrkfty7s3eqtgvh2q5gs"
+  ],
+  "train": [
+   "t1_a7zfoo2b33honbqdo2wq4",
+   "t1_5xikpottznrjrqzffyn4i",
+   "t1_dv4yzpwsbrasdpi2ku7ng",
+   "t1_ceopvhxige6preotlz2t4",
+   "t1_6ss4hlnwuvajviltjswkm",
+   "t1_6lto2pzsm5pbg4fyq6rew",
+   "t1_mpz63anoeqnde2wrgsazy",
+   "t1_aqzhin6tyio4bzsndhpwe",
+   "t1_7wafbwwunragk36ehux44",
+   "t1_dcl7psl2uusjurscykkso"
+  ]
+ },
+ "fp.risk_management.scenario_planning.market_downturn_revenue.basic.v1": {
+  "dev": [
+   "t1_tqel6632vez3z5vkwiqwk"
+  ],
+  "lb": [
+   "t1_ksbgjwtkfsygcc5lixg5m",
+   "t1_g7dzl5nw3atbjumgpauna"
+  ],
+  "test": [
+   "t1_2rohxnmeeupe3edo4iyik",
+   "t1_wp32ctdrgelbnixnio3ek"
+  ],
+  "train": [
+   "t1_vozyibuclxxwgrcxrwkmw",
+   "t1_vdsadtg2673yblq77kkw2",
+   "t1_jcusxj2q6dnzssp33c6ky",
+   "t1_ry5kiyudxsozos7be3ki6",
+   "t1_u3wyaihbqmsg6dv5vyyla",
+   "t1_3rceakieqihyxmxoybpea",
+   "t1_wltviuqtwjfpdkilv6w5q",
+   "t1_q24nroqeh4zbrabcwlonq",
+   "t1_bvmengfiz6st5cvjel3es",
+   "t1_ehyoklixbkjhnc7nxm2py"
+  ]
+ },
+ "fp.risk_management.scenario_planning.operating_cost_increase.basic.v1": {
+  "dev": [
+   "t1_6ahwq6wbqspz7dbixgrv4"
+  ],
+  "lb": [
+   "t1_4tpcs2goh7tz2yaxr5xzi",
+   "t1_zmax4cjslazol2bizsmx4"
+  ],
+  "test": [
+   "t1_j2ken4tszeewjor37nmf2",
+   "t1_vezq36aeh3muecy2ra77u"
+  ],
+  "train": [
+   "t1_npwpz7oqtgt643lxw5sxc",
+   "t1_3idywjuat2jcjq3wy54ku",
+   "t1_5rk7i6jmvowlhyqror2ce",
+   "t1_teuviggtvwxosyw2oy3xe",
+   "t1_2aucwupetrmax7ox6qdra",
+   "t1_qs4j3u72zsebzkvojwf5g",
+   "t1_c6dmdupiof7g5vihacij6",
+   "t1_55fynuycsn7livvkujrmq",
+   "t1_vcppevzidbw5rhgd65pp6",
+   "t1_z4mzsw6ok6gl7djskmvq4"
+  ]
+ },
+ "fp.risk_management.scenario_planning.revenue_recovery_effect.intermediate.v1": {
+  "dev": [
+   "t1_3otfknhf37uadhaj77pyg"
+  ],
+  "lb": [
+   "t1_q55hftflrb2a3l6qsx7ly",
+   "t1_kqt5kr34bbzehd2m2w3ye"
+  ],
+  "test": [
+   "t1_fdjpmesvingyuyicgyd5s",
+   "t1_oqkw2pdefetsi5wjn2rog"
+  ],
+  "train": [
+   "t1_jmvyklknm7upnmqz6luho",
+   "t1_2mwinwe2wj7hmap6nd5o4",
+   "t1_rs7ki6gba2oqcmms457qm",
+   "t1_32jtsbgdbfvkvbec6mdog",
+   "t1_ra3fot2kss3p6pkkbiwfa",
+   "t1_szjvtpmcqqbc3i7an6lto",
+   "t1_vifxe3uw74t7n4xwxe4ha",
+   "t1_txiqqhabui2jlpm2fxqa2",
+   "t1_go3vcwfr56zzbufoogcfy",
+   "t1_5q44f535z7lnuhk74wuys"
+  ]
+ },
+ "fp.risk_management.sensitivity_analysis.multi_asset_portfolio.intermediate.v1": {
+  "dev": [
+   "t1_ung2vbxly7wpjhz3sk7bg"
+  ],
+  "lb": [
+   "t1_gxpo3aywlawmyqjqvqni4",
+   "t1_lag6jwrj6d3zrgf5stzpq"
+  ],
+  "test": [
+   "t1_imcvxwu3sfwripzdg6szk",
+   "t1_ynczkadvu2ybqrgsnmkbw"
+  ],
+  "train": [
+   "t1_4cqlybszdixvgkanmdlfw",
+   "t1_bwa7pcxp5xt5nn6hfvxyc",
+   "t1_lxrwcg43hosj5d77qq4xy",
+   "t1_sph7odrgo7yhg45duu22m",
+   "t1_wv2vonzmkhd6degufclue",
+   "t1_3kgorn7s64k5n3l7f6guk",
+   "t1_oj7i3frghtpfedee2n7ic",
+   "t1_2wa2j6myypm5o4upzdkzo",
+   "t1_3lny7t3kig3qxhfyib5jg",
+   "t1_hxss7uu5wcfoca6n4riw2"
+  ]
+ },
+ "fp.risk_management.sensitivity_analysis.multi_factor_portfolio.advanced.v1": {
+  "dev": [
+   "t1_75plrcixjcnlyqwlqyss6"
+  ],
+  "lb": [
+   "t1_fj3p6ufux454yft673g6w",
+   "t1_uzcu7jipbu3xupk35j5fk"
+  ],
+  "test": [
+   "t1_cbdqi5eviaj63tzvxpmo6",
+   "t1_hn3vh3vhzovniteygbqsc"
+  ],
+  "train": [
+   "t1_k2amyuu5xmc6jgjceglvy",
+   "t1_qggutqsbknpuam7ge3gku",
+   "t1_whlgwit27g7dqnbgn6r2o",
+   "t1_aqyunmzdgov5ihn4cmshy",
+   "t1_qrgk24qslpueiue7oniaw",
+   "t1_f5qvfvuogwgq2rli4b7nm",
+   "t1_34fsik2risu3567m6io56",
+   "t1_w7dgf67rrqwsleox2qxgy",
+   "t1_3set2dlhdp53eakczl6fm",
+   "t1_oqt3yoqih6xad3jt7fkde"
+  ]
+ },
+ "fp.risk_management.sensitivity_analysis.portfolio_single_factor.basic.v1": {
+  "dev": [
+   "t1_agdjaa5vr7dgpgpcon4e4"
+  ],
+  "lb": [
+   "t1_dim37kfvztnlme3bqubuo",
+   "t1_ceru5x5gzdbfsbkl4psk2"
+  ],
+  "test": [
+   "t1_fzopmn2qnonvhgmusdgim",
+   "t1_kapzjdeqxk7d3tvzsowwi"
+  ],
+  "train": [
+   "t1_7ctj6ynuu3nrswok6fcyc",
+   "t1_rwz5ybiy42flbtv3uwjbe",
+   "t1_n5hebceh2x3flmlbzy4fc",
+   "t1_7i56f5o4ieaxpvieekayg",
+   "t1_hfs3qohsajuohm7637r7y",
+   "t1_nqiw7jr3ilup6jczvymzm",
+   "t1_d423mnyioaswam7bqsy6w",
+   "t1_mnoow45exwjcadw45uyem",
+   "t1_nvva5vvcjq6vkhxpcwjgu",
+   "t1_dze57qquqcc7cqr2xpua6"
+  ]
+ },
+ "fp.risk_management.sensitivity_analysis.stock_sensitivity.basic.v1": {
+  "dev": [
+   "t1_xmoc25vdqamq3zm3euszw"
+  ],
+  "lb": [
+   "t1_ftzf6jlngtzq4fpj4ncgq",
+   "t1_vtnyny64x5ot42emukbfo"
+  ],
+  "test": [
+   "t1_bc4rsn4ynjhhpq2w2psr6",
+   "t1_vvxii5jgn2q7mzpa76lm6"
+  ],
+  "train": [
+   "t1_fa6knbrgngfos77valgxm",
+   "t1_wbzn6lluwtd2viwkscgpg",
+   "t1_kzoupfz4ghvrdso32kfzw",
+   "t1_23wpdczmc2shrfdsfgo4i",
+   "t1_u5nkoq735nsszqp24ui2w",
+   "t1_hinjpxt2etpuspoqxstlc",
+   "t1_kgnlem35olzt275q44nde",
+   "t1_tmhhor6sggbyatglwunqc",
+   "t1_sjrsoqlkftaurtgps57ca",
+   "t1_cjh576ucvujhi2dzy3gw6"
+  ]
+ },
+ "fp.risk_management.sensitivity_analysis.volatility_sensitivity.intermediate.v1": {
+  "dev": [
+   "t1_oxcugembuqjnbpv6mm576"
+  ],
+  "lb": [
+   "t1_wjhdkos6noqujlzwvpot4",
+   "t1_75i4ithfr6mdvclabg3ng"
+  ],
+  "test": [
+   "t1_5bffuuqbjqdsgly45zycc",
+   "t1_bjty63fvywrgsdkzjk44k"
+  ],
+  "train": [
+   "t1_ng67lnvztiaezcrxuluby",
+   "t1_pxacoexrvi3cmoco6lz3m",
+   "t1_ennurbd557iddlcqwjtkw",
+   "t1_ucarqx2hca6t57fu4bprw",
+   "t1_l73fwvyjr6hpgjbx4inxg",
+   "t1_q34jf6w4s33kd5ad6adi2",
+   "t1_274m7cp32q4dtxwfq3cts",
+   "t1_dpt3scjn5rf6wgz7ed7ro",
+   "t1_kdw2p2wfdndjitp4dbfue",
+   "t1_572z57dqamgaizhciywfq"
+  ]
+ },
+ "fp.risk_management.stress_testing.multi_asset_portfolio.intermediate.v1": {
+  "dev": [
+   "t1_ki7f5elh3geabd2ijsdxk"
+  ],
+  "lb": [
+   "t1_j53drlr5tggp4aqbqe32a",
+   "t1_lwace7qxd3mwjl6qxtzdw"
+  ],
+  "test": [
+   "t1_vxpozjbvkxqs3gjipvmw6",
+   "t1_zo22viy2shzckyww53mke"
+  ],
+  "train": [
+   "t1_mcupwyrvr2quco6eu3q7q",
+   "t1_3au7z4cho72eula2qgjto",
+   "t1_xqzvws3dcwm24j4m5x4fi",
+   "t1_kpho3qtq4zfwupekvl3am",
+   "t1_fbxzh6x4evusbjq746hmy",
+   "t1_im5oawkkdrtfm5hojxij6",
+   "t1_l5fiov2ginovhewcual4o",
+   "t1_43nc3qyzkwzf5pcvfwloi",
+   "t1_vzyzuqy2ta6xersaywj2i",
+   "t1_xwrareixzif7d6zoqlchm"
+  ]
+ },
+ "fp.risk_management.stress_testing.multi_factor_portfolio.advanced.v1": {
+  "dev": [
+   "t1_2sgj6n37hmshfhefc6q46"
+  ],
+  "lb": [
+   "t1_5b3uhoeohvawhfg266aqk",
+   "t1_bseh2zwikxkgkh5oyv4y6"
+  ],
+  "test": [
+   "t1_qtm4vxfa55cs2fw6r6myq",
+   "t1_xjhoraa3fncvba6v3s3ms"
+  ],
+  "train": [
+   "t1_xc4d3gxi3d3kd5tdapxhi",
+   "t1_4qzxzv3abp6ueqbatvspe",
+   "t1_u4ujsbyxfihghcilh7xpk",
+   "t1_x22iwa745w6vp2na6ecjo",
+   "t1_umtez6fgtagh6c3bgvi5c",
+   "t1_ljbpqegpw7izpj2t24nl4",
+   "t1_hgyklu2xeaufjxrz2royu",
+   "t1_iffxehn7u7grelgkgnxee",
+   "t1_dnrlxjph57su3rn57gz64",
+   "t1_onfemutgavp6taxpnqw6y"
+  ]
+ },
+ "fp.risk_management.stress_testing.portfolio_single_factor.basic.v1": {
+  "dev": [
+   "t1_dcskica7oah25rnbvc2go"
+  ],
+  "lb": [
+   "t1_gletb7jh3pxdzq7veuzhu",
+   "t1_omvexo4mbzorcjgto4tgi"
+  ],
+  "test": [
+   "t1_3k47dhg7bry2wj6mpqcpe",
+   "t1_tro5l2x5dpvpcklmp5m76"
+  ],
+  "train": [
+   "t1_jokaxhnkm5zle7rl3u27a",
+   "t1_frugw52bpaxpurd7un5n4",
+   "t1_xpxylevcu6p6ikmcl4p7g",
+   "t1_3dynswtgn7dg26ms25mna",
+   "t1_hcz5jxjx2rfgupynzpbv6",
+   "t1_472ozqqabomeezdxqdav6",
+   "t1_m6hjsglmjl5v5nx3quhp2",
+   "t1_dapxglqlaa73nmq5ge7vi",
+   "t1_i52j2j2crzkxc67hwt63o",
+   "t1_hqksm6vjrbrrl2bjlkfmq"
+  ]
+ },
+ "fp.risk_management.stress_testing.sensitivity_of_stock.basic.v1": {
+  "dev": [
+   "t1_chs7dogug7x5hdjeoa7wi"
+  ],
+  "lb": [
+   "t1_hw2foz4ptxdaxk2ewmc7m",
+   "t1_rfhmypfinddjdcl5apthk"
+  ],
+  "test": [
+   "t1_fwoimaa2svyj5epltykf6",
+   "t1_vcawd5y4dwb6hhqvxhyti"
+  ],
+  "train": [
+   "t1_i6kfmpzqbikatuk2bu7jm",
+   "t1_6ecao43hk2srxuonzssk4",
+   "t1_k5bv63lvd7t7szrg6lqe2",
+   "t1_pavs57l6goaatpfwehz3o",
+   "t1_gqpp4wsdy6wtyiukcrxmm",
+   "t1_ebp7x4atrwpjvfrpmam2c",
+   "t1_ygzqikfvh2fcakj3dh5o4",
+   "t1_t3tgfcui2woo55iu2ibsk",
+   "t1_5ydvskf6giuuacqsstkr2",
+   "t1_qxmgnywmvms3hytlv43yu"
+  ]
+ },
+ "fp.risk_management.stress_testing.volatility_sensitivity.intermediate.v1": {
+  "dev": [
+   "t1_dhqz4ze4vldxthvrtst2s"
+  ],
+  "lb": [
+   "t1_g64fyc7ezbtd6epo7jfv4",
+   "t1_2pbw5b6424jxwkqml6eck"
+  ],
+  "test": [
+   "t1_5xooaibj3uhgcmnqil2pi",
+   "t1_pkq5oot3tcaastkqx56v4"
+  ],
+  "train": [
+   "t1_6e7dtj73ahbqm2e2sx3oy",
+   "t1_y254wabfhrpv7sza6lhto",
+   "t1_zvvlkfn6j23sjbyvexb5g",
+   "t1_65whb36d5g55awq5j3mog",
+   "t1_paguetp6x5jknxpnl6inu",
+   "t1_d7ofm7w2ygqewa6kt7qac",
+   "t1_4s3l55cvmlp3eguwxm45s",
+   "t1_qc4mkjbbvhtxe7zk55kds",
+   "t1_xs53ynnvwq3tjrqglcprw",
+   "t1_3umehvx4rdgzg5svfkgts"
+  ]
+ },
+ "fp.risk_management.var.multi_asset.intermediate.v1": {
+  "dev": [
+   "t1_saj7lrouk7mbxq3qq6vmk"
+  ],
+  "lb": [
+   "t1_im6x5jvpmshehw5lumaym",
+   "t1_rfeeqrvfkkdot3g62tpkq"
+  ],
+  "test": [
+   "t1_4d5655se22gn25zrq34d2",
+   "t1_bje4lc5lupsnrxkocuabi"
+  ],
+  "train": [
+   "t1_uxyry6tgzizaqejffkwzk",
+   "t1_bw5cm33auasljke3q7z5s",
+   "t1_l37oen7pb7gkai2yiv7ls",
+   "t1_kmmnavzaye5jlu2wlucwm",
+   "t1_t4mjngestjrrxp6sn5liy",
+   "t1_pwgo22oi377vkqltsaz64",
+   "t1_obisjvyoxanpmbcf6qtu4",
+   "t1_mutut6a6xdvbgqghtcc6e",
+   "t1_mdvnjah7x47tvgkoxrosg",
+   "t1_t62s5zmn5ji6bmgqrotka"
+  ]
+ },
+ "fp.risk_management.var.multi_factor.advanced.v1": {
+  "dev": [
+   "t1_yeemkl4zqjkapfowinyum"
+  ],
+  "lb": [
+   "t1_jqpwmeeqxgkicxpptls7y",
+   "t1_servqckq7rkkhpu2n44ae"
+  ],
+  "test": [
+   "t1_tbrqmq2nbec6ruxjqokda",
+   "t1_zoscdnytfli2gmezjkf6k"
+  ],
+  "train": [
+   "t1_aedvli26qqg464oousnpa",
+   "t1_5tqaftmr6lmrxeb5nj3ve",
+   "t1_zt3j4dl3kkjyb5awbxm5m",
+   "t1_qqasrrgiqxgfzipd3z4a2",
+   "t1_xrjzjpprwalkovrz5lmpw",
+   "t1_4lb6du4ansfj234mavdki",
+   "t1_tcvahozs432gqwwh4iohk",
+   "t1_dxipaxg3hwygbytzmf6rc",
+   "t1_nls4ptnhehnooklsqxr4c",
+   "t1_ddue7fslufthxthk2siuy"
+  ]
+ },
+ "fp.risk_management.var.single_asset.basic.v1": {
+  "dev": [
+   "t1_yypnznxfpvccolpqadxza"
+  ],
+  "lb": [
+   "t1_t4kmwyl26bffte4gq23ce",
+   "t1_zfazgv5lrncw5s4qakwtw"
+  ],
+  "test": [
+   "t1_kvns7srhsouvv5jn5uojm",
+   "t1_pnrvtb43ml4nuesqfgz3o"
+  ],
+  "train": [
+   "t1_sekrtgpzjrhdpctsvxav4",
+   "t1_zkmxafifwtgq76kiyqelw",
+   "t1_62ixgqdyepdgrjhrueiiy",
+   "t1_sunaiycmuil6qea45aaew",
+   "t1_5yspzupcaylzccbtkwspk",
+   "t1_ncye4ghiez7hrjz2uzvts",
+   "t1_s7ge7hvojxub5iwlsxlbg",
+   "t1_l2bxarjxcv4alnk6p422s",
+   "t1_ctgecoqc2nkrf7igqtnv2",
+   "t1_ojbqjnt4twwngbrrcz72a"
+  ]
+ },
+ "fp.risk_management.var.stock_return.basic.v1": {
+  "dev": [
+   "t1_jt5ml3abb2ibk7i4jym3c"
+  ],
+  "lb": [
+   "t1_gch3kvyr36ftzlqt6qlz6",
+   "t1_cpustgjyancwa72czkyya"
+  ],
+  "test": [
+   "t1_ffuo3hblsn2jm2y6vkqwk",
+   "t1_zoeu54iap6dktwavvwhr4"
+  ],
+  "train": [
+   "t1_zdn3m4xpboqlmegl7yqry",
+   "t1_bveroo67gh57mdwnrhl7s",
+   "t1_qcnoh7sc6cxqz3ve4qgcs",
+   "t1_7h5uzvh73dkqk2gtpubv4",
+   "t1_mjskqaq2ncr25j246vxw4",
+   "t1_wy4svf2ukozn7ibkuye24",
+   "t1_km6csfnrw4i5xfkse7lle",
+   "t1_lndnn24gqfoa23otkymva",
+   "t1_sbdczjl2qg7j7c7twdq5a",
+   "t1_qegcwe5dwcciivre5epo6"
+  ]
+ },
+ "fp.risk_management.var.time_horizon.intermediate.v1": {
+  "dev": [
+   "t1_fky7yx37deje2cqgsa6v2"
+  ],
+  "lb": [
+   "t1_rwnjqcclbhklj5alwfa74",
+   "t1_ytawjd2x4slirtfbuty2a"
+  ],
+  "test": [
+   "t1_wgb2rzhhru6ihxufw3voc",
+   "t1_ynjxezmm4iwolip4wzhoy"
+  ],
+  "train": [
+   "t1_dcqidzhhh7whe5nhblpkk",
+   "t1_qk6cfoznm5jv7s3gwgc2y",
+   "t1_37g2yk63q7sle7lciqzhk",
+   "t1_4sge4rytkylreesn6pwd4",
+   "t1_t6wqkmvlyhajvrxuzfsa2",
+   "t1_fkkkb3fghw5xd7e3vyvyk",
+   "t1_omrmw6kik4pmj4uzowgpo",
+   "t1_6r25cssmkl2so62zs372o",
+   "t1_2sebrdlp5rvyunxsdsugu",
+   "t1_i2wrxrva4jmdhujeflvr2"
+  ]
+ },
+ "fp.sustainable_finance.carbon_credits.comprehensive_strategy.advanced.v1": {
+  "dev": [
+   "t1_4yaoptzi3spb47u2r6r6m"
+  ],
+  "lb": [
+   "t1_lwk3q37ab7ymppr55edzs",
+   "t1_77c7g3txhgg5ze7s7oilk"
+  ],
+  "test": [
+   "t1_d4c3fmic4ae376rvjs7yk",
+   "t1_tgufuts5i7y3lr4jq66ms"
+  ],
+  "train": [
+   "t1_bt56bzvdg5qriwxw5jo7o",
+   "t1_mkrz55lo2tje7coexsnka",
+   "t1_hrf6vmillu3cswgdma25g",
+   "t1_5r7tgbb72qebsfhrlfgp2",
+   "t1_igz6nekkjpp3dqzd27a7q",
+   "t1_see5n6mcrn7feuapz7k5e",
+   "t1_5awa7ozcs4hhaykxtzbew",
+   "t1_54k7wwzg44b4s6xqaowyy",
+   "t1_a4qgxxqalpj4cazuusnr4",
+   "t1_wwkqqkmjxgsfy7clkcqhy"
+  ]
+ },
+ "fp.sustainable_finance.carbon_credits.credit_purchase.basic.v1": {
+  "dev": [
+   "t1_k2xp6tufqetgcpi2or7zy"
+  ],
+  "lb": [
+   "t1_sfrk3qlgl6gqgi6l4reyy",
+   "t1_e7wku2zgwc5y3l2a2lotg"
+  ],
+  "test": [
+   "t1_3anmv45cx2s2gpfyuvkgo",
+   "t1_m4emo2exdctrlb4wogzki"
+  ],
+  "train": [
+   "t1_zv5budjpgj7xnv4hw5ote",
+   "t1_hplic6de3pb5wjrcn7tim",
+   "t1_6i3mirlqkfafumeo3wmmc",
+   "t1_juqkc2ljqixrgigtcnk4m",
+   "t1_cq7xk6csgoo3ccg4uoyy2",
+   "t1_tweekmx4scgmyvjk2e5ci",
+   "t1_aj3g5ljl5egrcn7hv5kgi",
+   "t1_65bz24okdpzpiuo2ws4bk",
+   "t1_fxlea7ovetno4mavaqnpw",
+   "t1_qrl27al26l2yxpjlry7t4"
+  ]
+ },
+ "fp.sustainable_finance.carbon_credits.credit_rebate.basic.v1": {
+  "dev": [
+   "t1_cb65nrn5v3mc3low3hfrg"
+  ],
+  "lb": [
+   "t1_ojwiremfn4o32tx44uzim",
+   "t1_rnjxlmx2nfm4dvz7rs63m"
+  ],
+  "test": [
+   "t1_ngicz4mufolyk6gnx4ltg",
+   "t1_vvsgns7vqoimbgstngrzo"
+  ],
+  "train": [
+   "t1_nbkampnvb6iklzzp2gnbi",
+   "t1_wa4suwonpiy2r3o7ztp2c",
+   "t1_yjxigpj7m5u7rqmgxncps",
+   "t1_tqst26kuhfsuefp3r7zsm",
+   "t1_cjw4e5ci6tyo2fbd2igwq",
+   "t1_yksdsalc4sv24go7luci6",
+   "t1_byvn6qrs6vydh4htzdhz6",
+   "t1_etlo7ya3afbzx3doh6bmo",
+   "t1_sf7kdazcdb25wll2q2hxu",
+   "t1_sctgmo25hpxrsda2kubg6"
+  ]
+ },
+ "fp.sustainable_finance.carbon_credits.multi_company_synergy.intermediate.v1": {
+  "dev": [
+   "t1_p7m7aeqapohy6p2e36njk"
+  ],
+  "lb": [
+   "t1_44iotizxspu2uikq4tcns",
+   "t1_vrisqo4ksf3hosiyjvbp6"
+  ],
+  "test": [
+   "t1_me635wbljji2n27efwft6",
+   "t1_yr6lie5jp5k7ee22dcg3s"
+  ],
+  "train": [
+   "t1_gxjmtkn4aoe4lu4mvuwts",
+   "t1_feurewcp4gsykxz6tp3m2",
+   "t1_joifjo3fid3dua2yxoduc",
+   "t1_4fwy2bv3y34yhp5od4czk",
+   "t1_vbtdnzgl7v3xbcvfsayim",
+   "t1_rzvlmd723jiz6snvayhtc",
+   "t1_izacrg33fv5q3fplszkji",
+   "t1_s3vnrgnddtpx6ashvoxmm",
+   "t1_6mzd4rmlnsbz47yynlwvc",
+   "t1_qi7vlmnczy2hei5wwc436"
+  ]
+ },
+ "fp.sustainable_finance.carbon_credits.offset_cost_savings.intermediate.v1": {
+  "dev": [
+   "t1_rf42hdbr63547hshzyaj2"
+  ],
+  "lb": [
+   "t1_3fu7uhukbizp5ikrthx2c",
+   "t1_k4psdoujqg2hxv2lktenu"
+  ],
+  "test": [
+   "t1_nzuscz2liiapwydacmgr4",
+   "t1_pmparuvtnveqnl7hcwfxy"
+  ],
+  "train": [
+   "t1_zebi7abysiwby5bohjrw2",
+   "t1_nur3ceogfahycitrerquq",
+   "t1_pj76bicvi67nvy2vsd5io",
+   "t1_qaz4cixhyutuinb3nfn2i",
+   "t1_nr4d2fojykfrjmzde2yrg",
+   "t1_3mnkhmbwbis6qfkm5fipa",
+   "t1_aiwfj7pl6dgijmwzqbceo",
+   "t1_632yuti53kqn3bz4qat4e",
+   "t1_xm4beb6cz62lymkina74s",
+   "t1_wna22do4r2gtfwgl4xqmg"
+  ]
+ },
+ "fp.sustainable_finance.esg_investing.dual_savings.intermediate.v1": {
+  "dev": [
+   "t1_lwkg4lekhghrqnrvk4e7g"
+  ],
+  "lb": [
+   "t1_xjomchcqziyt5rmamudeo",
+   "t1_j3bbrnmwbfjhfp4cia4gs"
+  ],
+  "test": [
+   "t1_a6kjdbvt3geqwdsnatq6g",
+   "t1_z6lok2eod7l7fjalwooms"
+  ],
+  "train": [
+   "t1_gtdg2f57zvb7mqgakjl2e",
+   "t1_ehidtoqglaij5l6ot2622",
+   "t1_rzvqvc3kikdysingr7ajq",
+   "t1_ljs3wgnexvzmw4zulyyny",
+   "t1_x2cb3svietnbedcbd5uim",
+   "t1_krpe3tkzhxlsowiarcnvq",
+   "t1_xuf5b5yjfpw46daec3ppg",
+   "t1_nk4qhbwfi6np42ybm2zwe",
+   "t1_7ezxqqp5pzulo226kvmr2",
+   "t1_bndzpdaddvswy7hxdbxuw"
+  ]
+ },
+ "fp.sustainable_finance.esg_investing.green_bond_yield.basic.v1": {
+  "dev": [
+   "t1_mxmt2lnrdf5b3e5fb4rbs"
+  ],
+  "lb": [
+   "t1_clqsqtdtaaurj254gwddw",
+   "t1_3tkhxbku36fwwlq4o42xc"
+  ],
+  "test": [
+   "t1_4xxx357nsfjejgzakxwyw",
+   "t1_qcx5a3ukqasp7ff3pjnqg"
+  ],
+  "train": [
+   "t1_6bu75xysajwbx3eympqji",
+   "t1_pl3mkstp2zvzvqpihl6ju",
+   "t1_rwtgv4kchxxqckoncqrko",
+   "t1_pemzvpod4pq5odxd75rz6",
+   "t1_xo2s4mrss74rorvsn6ydo",
+   "t1_evfwp4herxunrcwurmkag",
+   "t1_4ecoqiivlv2vnt4ilo43s",
+   "t1_cg7z66vvth3cgneuodmz6",
+   "t1_wqmn6kkbaplhjnspl7opg",
+   "t1_xdq4ozh2ssgzcf7vl6t26"
+  ]
+ },
+ "fp.sustainable_finance.esg_investing.multi_factor_synergy.advanced.v1": {
+  "dev": [
+   "t1_zeukhgsudczxd4fh4oafy"
+  ],
+  "lb": [
+   "t1_xeobmmgremdqpp2fpxmtq",
+   "t1_kfdbwiud7hs36sloydyu6"
+  ],
+  "test": [
+   "t1_dy2e7suvkvhkfy7es6p4g",
+   "t1_nolyxrnset2ycl2nt5srs"
+  ],
+  "train": [
+   "t1_ud7vuipcpxx5bj6elom2i",
+   "t1_az3jr35qsfghcorhmfso2",
+   "t1_wvvodsufbugquoip3h4vk",
+   "t1_ymmhukquyoaidzx7lnyxs",
+   "t1_7km5oxrebdrz7h5u6cp6o",
+   "t1_qnv5z4tw3d2cywngbo2lk",
+   "t1_2agujecrnh75mtisngfde",
+   "t1_mcgz7ovmr3awb5fxbnf4a",
+   "t1_vwruulhixnirgj6v4bdps",
+   "t1_hd2iouxf2e6uvjmfcsyu4"
+  ]
+ },
+ "fp.sustainable_finance.esg_investing.project_roi.intermediate.v1": {
+  "dev": [
+   "t1_hv6gs2k4au3zgjcsrzd4s"
+  ],
+  "lb": [
+   "t1_ket7a6k6ttx52kbxi52im",
+   "t1_4m2twwa7j6e3gymhzgmfo"
+  ],
+  "test": [
+   "t1_qhilw3bqxkpc7iyjavyco",
+   "t1_rcgproveg4ep3nmbjuez4"
+  ],
+  "train": [
+   "t1_t3njthsokrvmcmwuxqtg6",
+   "t1_jirevrj2k73mwt2ooom6i",
+   "t1_xmcfwdmbfiijwismbtjvu",
+   "t1_3ynneqcjdcbpsimnu2c5u",
+   "t1_aeajjbzcdayawenxuvc4o",
+   "t1_5ettxqssjoaijpcwllprs",
+   "t1_yr7kjyqacqzvxd7zfak6a",
+   "t1_dd4qxgjfniszkkypbweu2",
+   "t1_5p2yl3y45ybkgcurjswkk",
+   "t1_xtnhlzuas2jxlwutsk7ia"
+  ]
+ },
+ "fp.sustainable_finance.esg_investing.simple_cost_savings.basic.v1": {
+  "dev": [
+   "t1_wq4uwvhfbcuctq5zoycew"
+  ],
+  "lb": [
+   "t1_7atrgg6ibvyhrxabfzj5e",
+   "t1_3lj7utms2cxxvlkvjmj4u"
+  ],
+  "test": [
+   "t1_hjhvgdvnhzo44qecjtx56",
+   "t1_u4uv7ddvdm4puisbdpbbs"
+  ],
+  "train": [
+   "t1_hrgnx44apjkxcw4r7a7wq",
+   "t1_vhojjul4jctqplyhlbpsm",
+   "t1_iyoxxnbhn22skbhpuwwhu",
+   "t1_pb3ujju3hh6hgklo53sia",
+   "t1_lqxlbayjutixhs2h6zq2m",
+   "t1_e3656kgacfiy7gbyfauq4",
+   "t1_efvhavucrjwqkgjr4qs2w",
+   "t1_qyqyc3o7kxkrgvuojmkwo",
+   "t1_uzuet4d5y573uow43s7dk",
+   "t1_b5bobqsrflikloqwhlxxo"
+  ]
+ },
+ "fp.sustainable_finance.green_bonds.compound_yield.basic.v1": {
+  "dev": [
+   "t1_ebft4ziumtki5ba3rvf76"
+  ],
+  "lb": [
+   "t1_e7gitmkisjz4epemnx5tg",
+   "t1_764k5lc52j2r43a5fjwte"
+  ],
+  "test": [
+   "t1_qvisyfmi47lrpiso4n3l6",
+   "t1_vmfw7aaropakkmuabgpim"
+  ],
+  "train": [
+   "t1_qq4vmvy7jct6g3bt5nycw",
+   "t1_i2mslshqjgpnxzsjemxao",
+   "t1_bo24ehu3trzo4bm6qybiu",
+   "t1_bcoqsimnpvhjj6o7yidve",
+   "t1_qrzzmxzz6hkcn4rmiwimg",
+   "t1_fnrmh4vfdarmfilwxp4lm",
+   "t1_fziovzeu2suvg7u7vyaui",
+   "t1_ahygammmjqjsalrcrrghs",
+   "t1_i4dicw4aliutp562a7v7k",
+   "t1_jitg2y43ct7ngtofinez6"
+  ]
+ },
+ "fp.sustainable_finance.green_bonds.comprehensive_analysis.advanced.v1": {
+  "dev": [
+   "t1_d7gybrk36ivomoco5gjdm"
+  ],
+  "lb": [
+   "t1_z2h4pxu6vtsutbd77ie5w",
+   "t1_s5d56zmt5ngr7xhu6w4ew"
+  ],
+  "test": [
+   "t1_bzezrzbu7uwykoropqecy",
+   "t1_kfg52f4k5edvrk76hdkh2"
+  ],
+  "train": [
+   "t1_ggadkb7q7qvykzzbgdelo",
+   "t1_jvaj2i52ixk3iysif7gg4",
+   "t1_p47mnixojwamwpgyxndo2",
+   "t1_n3567cew5nfleqommhyqu",
+   "t1_olyimqh76ez4hojwkbxkq",
+   "t1_hxqgwx6t6tj4qin47pd52",
+   "t1_nq6sff74igja2cgjqwtd2",
+   "t1_r4voacdg3mxjnj4ixeaf6",
+   "t1_wj7temj7bbletu7ckh23q",
+   "t1_7vb7fprefn5ebiy3s7gxo"
+  ]
+ },
+ "fp.sustainable_finance.green_bonds.financing_cost_reduction.intermediate.v1": {
+  "dev": [
+   "t1_tob4ynr2hqlzn5xquvdlw"
+  ],
+  "lb": [
+   "t1_5aotkcv54i5at4l4hn5fi",
+   "t1_zl2r54bog7yqk5t6sdl3w"
+  ],
+  "test": [
+   "t1_47323ugiu7df22nqodjgw",
+   "t1_cih34uzs3qswlm6kbue2u"
+  ],
+  "train": [
+   "t1_tlvee3kg6gkzurffi5u3e",
+   "t1_jwgwta2xanineoe32qbww",
+   "t1_pvkqaymxqssixzxllvhue",
+   "t1_uogd2e3tvzj6jrkawcdey",
+   "t1_wbw4s4sx53kx3m6gt6ws6",
+   "t1_7zw3kuo5w75xoi5ylesn6",
+   "t1_yjydsz4fi3kziybbr52h6",
+   "t1_qpytopsf6e56whm3mvdie",
+   "t1_wzwt26np2wj7zpy3gtnkc",
+   "t1_cxcrzelbi2jy7bzgdaiy2"
+  ]
+ },
+ "fp.sustainable_finance.green_bonds.synergy_benefit.intermediate.v1": {
+  "dev": [
+   "t1_kbzunrc6sun2x3g4dm32s"
+  ],
+  "lb": [
+   "t1_23zeklp2b4jhks7xndrpq",
+   "t1_fdceafekxi7cakw3zfu4q"
+  ],
+  "test": [
+   "t1_ez3bmvdgrwx45ydbn56sq",
+   "t1_q3yorlr4echf3me54gep4"
+  ],
+  "train": [
+   "t1_kn6xq2bpg5bezyqbrzrjy",
+   "t1_bjy3bu4vvfsi6an3p5t54",
+   "t1_niezi2s5odmlucdk625x4",
+   "t1_vj2mcarn43x5aojqnz7tu",
+   "t1_nfzlupepv7fh6aln2yupk",
+   "t1_wss2z4yg4yofmc7pqfmee",
+   "t1_ermv5ni3la7mvwlqxj7ma",
+   "t1_acjbq5ermevqmljlea3v4",
+   "t1_l6jyumnpnef2jcie5t2me",
+   "t1_45dxmbrhcuxorhlbkynho"
+  ]
+ },
+ "fp.sustainable_finance.green_bonds.tax_incentive.basic.v1": {
+  "dev": [
+   "t1_vdko35pucceafhgr6whgg"
+  ],
+  "lb": [
+   "t1_o2tb6illqelmfjdfgiz5w",
+   "t1_7hqh2ux7xc2ggo43llv2w"
+  ],
+  "test": [
+   "t1_2oddldrw5n7cc4vvsqjb2",
+   "t1_7djfgdpy4ghqo2e24yfqa"
+  ],
+  "train": [
+   "t1_mccmynymk2txgcjcmhr5m",
+   "t1_a6qxpajye5dllob33rgf6",
+   "t1_wkx5ppmmaimdtn256rgmu",
+   "t1_ro3twdwjy2rlf67bswypa",
+   "t1_cq6nfbeqkpsffguiwld4c",
+   "t1_6hrfzzb4j5n7peg6ttbqk",
+   "t1_fqnv5ktkcxdz2bpajtipg",
+   "t1_obmmdisyzdw7cnqiof6og",
+   "t1_7wn7zvmoh3nrcwn2vnepk",
+   "t1_lmosae7vg4ejhrfggqlcg"
+  ]
+ },
+ "fp.sustainable_finance.social_impact_investing.combined_cost_tax_savings.intermediate.v1": {
+  "dev": [
+   "t1_7okwf6ohsl6drut6xpzes"
+  ],
+  "lb": [
+   "t1_ddgnvdpimlzpi43f2bqoa",
+   "t1_xghunwho5nv2l2z4tmwmk"
+  ],
+  "test": [
+   "t1_5dyqpujdw257ggavnfhaw",
+   "t1_n24v3rmmi5af3yps726ig"
+  ],
+  "train": [
+   "t1_ql4cyxw2dewgzp7tibls4",
+   "t1_shpq3p2eitnmgsr66iyrm",
+   "t1_3irseg6c7n3nm3t5lgoog",
+   "t1_zgtcve2x5pf67qpkgw2ha",
+   "t1_ukz5rxmiukjqpcsegtcbw",
+   "t1_nzmsnjfby2hu2adnhpwha",
+   "t1_i3373lmr52apa4gla736c",
+   "t1_thnyjo7w5cuihh26c4f5a",
+   "t1_6hgmhxxeao5xandpcfzyw",
+   "t1_ouhb2lkqfnaupido6qckk"
+  ]
+ },
+ "fp.sustainable_finance.social_impact_investing.energy_efficiency_savings.basic.v1": {
+  "dev": [
+   "t1_fgbfsnyx6nl74fleryf3m"
+  ],
+  "lb": [
+   "t1_hjww27temhholyseeryk6",
+   "t1_oy2rtdztqdfcwl2zgaxqy"
+  ],
+  "test": [
+   "t1_etjvuqbwg6phhg2laq4ye",
+   "t1_u3eq3ktckua3zhywutn3i"
+  ],
+  "train": [
+   "t1_4nr4mwhwls425jpm7clho",
+   "t1_ve6ovwzf3bozdydzkl56m",
+   "t1_nu6s55q7alkmx45g6v7go",
+   "t1_tesmibkuk7x5ao66ou7wg",
+   "t1_xngjerbkdbl4l26akqwkq",
+   "t1_odrimaqi7v3z6u7gp7pi2",
+   "t1_zcslwppw5fhbgkkf2c4ew",
+   "t1_2upvxz7a7mdfrlw5wzxaw",
+   "t1_e6ypb4gkd4hvtp77ulg6o",
+   "t1_h7yyklz4rbozaxyjxjphe"
+  ]
+ },
+ "fp.sustainable_finance.social_impact_investing.financing_cost_reduction.basic.v1": {
+  "dev": [
+   "t1_uepnbgh7ecabhdntdwzxo"
+  ],
+  "lb": [
+   "t1_czyvjbsuufwwmvfikkvyu",
+   "t1_lbjsoyrmu5akcmjimd7dq"
+  ],
+  "test": [
+   "t1_it75w7cew6o7b3qyzbfqo",
+   "t1_vkxixbw7sujh2hqxbdc26"
+  ],
+  "train": [
+   "t1_qiv33gxn5zzlsyzbdscda",
+   "t1_iis3nglgicmq7uk4oxghm",
+   "t1_2osq4jjzj7bk6ike4cfie",
+   "t1_iqw2gikqvn42s4eyubita",
+   "t1_r5lysyybulfbs25qv7ifi",
+   "t1_vx3ivzpbtwoyx5ppigmj4",
+   "t1_dv4szbubmhj5mtaxkpppq",
+   "t1_jrh5yg6x34jd73qzynp2s",
+   "t1_gk46beyrwfvlmhvyvaqvy",
+   "t1_gjdaujkxyl3domwa2bp6u"
+  ]
+ },
+ "fp.sustainable_finance.social_impact_investing.multiphase_investment.advanced.v1": {
+  "dev": [
+   "t1_zfdrdfnakapy3v5coxbt4"
+  ],
+  "lb": [
+   "t1_3au5427hgj6tefagomud2",
+   "t1_a2sfvlkn3gx7fj2qu36fe"
+  ],
+  "test": [
+   "t1_bgl2fharqvdrqkp3wvyyw",
+   "t1_hjmy5dtpzqhhvzehfib64"
+  ],
+  "train": [
+   "t1_aevryrwbsrupo23pshgek",
+   "t1_w4hpt4goe4hxuwulddm3q",
+   "t1_wenbyjtzmdmawyyhivpwu",
+   "t1_fyrpqgjps46tgwc4qnmt2",
+   "t1_xeisusmlcwra2yhq77lp2",
+   "t1_44sb7kxczz2gx6ymybsee",
+   "t1_cccdectcki3zcjaaf2qwi",
+   "t1_smjqd2mdrve24v6iwsxia",
+   "t1_iwguz3qtoejcdqp24u5f6",
+   "t1_pk56qlzgxvtcmzjwsi2qi"
+  ]
+ },
+ "fp.sustainable_finance.social_impact_investing.supply_chain_integration.intermediate.v1": {
+  "dev": [
+   "t1_sqnbdb3z5p4jdt4gfp2zq"
+  ],
+  "lb": [
+   "t1_t2pmabxfppjsoghddbxjc",
+   "t1_jq6urxlav5vcy2seuell6"
+  ],
+  "test": [
+   "t1_6c567bojbvyn6leewd6hm",
+   "t1_qpdjacketf3emdud2kyxw"
+  ],
+  "train": [
+   "t1_75qpaxtbbftafph6uzdmo",
+   "t1_jfelqs7j5soa4bekyuila",
+   "t1_2lcb77se7tkhoxt4zijzw",
+   "t1_maopghul5p7rg3g4y7t3k",
+   "t1_bexugbjareolxiffr3gok",
+   "t1_jmkyzhrt5cgbl42h53sf2",
+   "t1_xx5ev2wrijd5cglyo7zcy",
+   "t1_jklg77qjf2nwmk66l7fmk",
+   "t1_5qxbmrruc5ums4facsimy",
+   "t1_undtzv22bvsqytch6vabg"
+  ]
+ },
+ "fp.sustainable_finance.sustainability_reporting.dual_operational_savings.intermediate.v1": {
+  "dev": [
+   "t1_7fkrl45d2fyb4urwy2gzc"
+  ],
+  "lb": [
+   "t1_szuhcfssjo4fowqmijkus",
+   "t1_2dhirzkynqb6xalzauwvw"
+  ],
+  "test": [
+   "t1_dckvplh25wi2zkrbgzmvw",
+   "t1_iwhg2grqvg74ngtree4qy"
+  ],
+  "train": [
+   "t1_jpcikonu67bskwkckrw5k",
+   "t1_jacdhageugxqbqvo73soe",
+   "t1_jc3edis5oyhiez2bpeyxg",
+   "t1_oeypablb3g27mju2ahoq4",
+   "t1_45d7j7bbeoegbzjz4hlxc",
+   "t1_xunv67zj2fuwz5mf6ljoq",
+   "t1_6axt5fbhejtn7lzlviuko",
+   "t1_rphauquaix65a2aibdtes",
+   "t1_wvgngoeorwbpm4rf7jm3u",
+   "t1_7i3gpvnvuebimfylcsi4c"
+  ]
+ },
+ "fp.sustainable_finance.sustainability_reporting.energy_cost_savings.basic.v1": {
+  "dev": [
+   "t1_ieas5tyiduetwmy7iuxrw"
+  ],
+  "lb": [
+   "t1_dibtbkoalc2btqqjjfc2g",
+   "t1_aplpa7l7ufcflueku2rfw"
+  ],
+  "test": [
+   "t1_mf47ihojh53ssuyo3rydm",
+   "t1_viyrvz46h2xqiijyqejgc"
+  ],
+  "train": [
+   "t1_64r4tix2wgsu4sv3e6oiu",
+   "t1_ytdkz4jpugizwbpt3hhxc",
+   "t1_ygakw5jsap74faz4akhhy",
+   "t1_7l7kt55rcxwmsv6d6pipw",
+   "t1_zthupnjrkuecl6q5pqyw4",
+   "t1_j7justqw2vglqre235g5g",
+   "t1_wx6bsijldto6tzeahhkcg",
+   "t1_rb2wysfdxtc2zscqgk6fa",
+   "t1_dok6hs34cfafr4ezy637q",
+   "t1_sos6ddhkozo46bw7yot2q"
+  ]
+ },
+ "fp.sustainable_finance.sustainability_reporting.supply_chain_savings.intermediate.v1": {
+  "dev": [
+   "t1_hzu2rhpxibirwvce5mg4y"
+  ],
+  "lb": [
+   "t1_d6oznv7f4c7o7gif3fz6i",
+   "t1_blvwge6ewilrjdoj2pfto"
+  ],
+  "test": [
+   "t1_76357yffx5hjkjudr7z3o",
+   "t1_tbvpqcpielgrwr2j3jcr2"
+  ],
+  "train": [
+   "t1_x5i4sozkfmk6bxlschfwu",
+   "t1_eaq6szd4h7p3ovirmh4tg",
+   "t1_ftkavds5lmpbztzcjlc6i",
+   "t1_aly5jaxcd6mubuchymfmi",
+   "t1_kardl4fo7hts6nbjwglvm",
+   "t1_7carkn66cobxwunzol66m",
+   "t1_cwqihdxs6jqcnqeup4wvm",
+   "t1_7shquccaez7b37lrf7l66",
+   "t1_w25obeufyqjtmkm5apsgk",
+   "t1_ajcftrbsxq7g3pad4zauq"
+  ]
+ },
+ "fp.sustainable_finance.sustainability_reporting.sustainability_roi_analysis.advanced.v1": {
+  "dev": [
+   "t1_dhxgu5ozwxlatt3aqc2kq"
+  ],
+  "lb": [
+   "t1_5eqaofddozxrjwxarz722",
+   "t1_xoor5jutxfou3qj34lzv6"
+  ],
+  "test": [
+   "t1_nm7kwwiz73uyjrth5acvy",
+   "t1_vj7qd2zrk7u72tqij5mii"
+  ],
+  "train": [
+   "t1_7argzfm5o3anji5pl5k2u",
+   "t1_2jsrogjrv55f2ppg7i6em",
+   "t1_hladtn5ot3tn2ios2fsuk",
+   "t1_hgjjyfrvawcrco4zykykc",
+   "t1_ljz3lqg3n5r6eojce7ch2",
+   "t1_gntpmhr4zmsrlvj7gzetq",
+   "t1_wle7rxof6edjha6xslrm6",
+   "t1_vecumdds4hp25xmhpwnsg",
+   "t1_bqo5mwrntj76co4w2y74q",
+   "t1_qry6ru7ivrfo42ita4bh6"
+  ]
+ },
+ "fp.sustainable_finance.sustainability_reporting.waste_management_savings.basic.v1": {
+  "dev": [
+   "t1_yfkhyj4a5ajg7h5bysnnm"
+  ],
+  "lb": [
+   "t1_hn4xfkocyddnyfw7v4hca",
+   "t1_j4r73mg2v3io6ntsvcgfa"
+  ],
+  "test": [
+   "t1_nhymi7fud64uft5cvhox6",
+   "t1_v33qxczzifibmhop7sjvu"
+  ],
+  "train": [
+   "t1_pf3vvbcnow4j6xq2kcb6y",
+   "t1_5irq25dhelzea3gjw4qpq",
+   "t1_l6ga3zdjhpj7yddxtmkwc",
+   "t1_7ycgjque5csf3od23pd3o",
+   "t1_klyyr5jo6qryfbs5zpztc",
+   "t1_piq5egsb6ogszk576laly",
+   "t1_x3dhnbrjv4bmnoyozxv6g",
+   "t1_qlc76jk2yqbp5tkgbd3e4",
+   "t1_24ytv5paizsjfk52qthhi",
+   "t1_qlbpmoaoqqe3xt7wy6vuk"
+  ]
+ }
+}

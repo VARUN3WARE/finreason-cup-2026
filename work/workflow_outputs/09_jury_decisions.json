@@ -1,0 +1,6 @@
+{"rule": "flip a field only if >=4 of 6 blind jurors (2 Opus, 2 Sonnet, 2 Fable) agree on a value different from the current selection; the chosen variant is a juror solver from the majority group on every field",
+ "decisions": [
+  {"cluster": "h040", "variant": "jury2", "method": "jury_majority_checkpoint_5of6"},
+  {"cluster": "h091", "variant": "jury1", "method": "jury_unanimous_checkpoint_6of6"}
+ ],
+ "unchanged": {"h012": "6/6 all fields", "h027": "6/6 all fields", "h031": "3/3 split on checkpoint + one final; current kept", "h058": "6/6 all fields", "h105": "6/6 all fields"}}

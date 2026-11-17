@@ -1,0 +1,288 @@
+{
+ "clusters": 116,
+ "questions": 348,
+ "vs_submitted": {
+  "literal_lens_only": {
+   "finals": 348,
+   "final_diff": 0,
+   "checkpoints": 456,
+   "checkpoint_diff": 6,
+   "clusters": [
+    "h040",
+    "h091"
+   ]
+  },
+  "hand_solve_lens_only": {
+   "finals": 348,
+   "final_diff": 1,
+   "checkpoints": 456,
+   "checkpoint_diff": 6,
+   "clusters": [
+    "h040",
+    "h058",
+    "h091"
+   ]
+  },
+  "finance_model_lens_only": {
+   "finals": 348,
+   "final_diff": 1,
+   "checkpoints": 456,
+   "checkpoint_diff": 0,
+   "clusters": [
+    "h040"
+   ]
+  },
+  "ambiguity_lens_only": {
+   "finals": 348,
+   "final_diff": 2,
+   "checkpoints": 456,
+   "checkpoint_diff": 3,
+   "clusters": [
+    "h031",
+    "h058"
+   ]
+  },
+  "four_lenses_plurality": {
+   "finals": 348,
+   "final_diff": 0,
+   "checkpoints": 456,
+   "checkpoint_diff": 6,
+   "clusters": [
+    "h040",
+    "h091"
+   ]
+  },
+  "four_lenses_adjudicated": {
+   "finals": 348,
+   "final_diff": 0,
+   "checkpoints": 456,
+   "checkpoint_diff": 6,
+   "clusters": [
+    "h040",
+    "h091"
+   ]
+  },
+  "after_red_team_and_blind_review": {
+   "finals": 348,
+   "final_diff": 0,
+   "checkpoints": 456,
+   "checkpoint_diff": 6,
+   "clusters": [
+    "h040",
+    "h091"
+   ]
+  },
+  "after_jury_submitted": {
+   "finals": 348,
+   "final_diff": 0,
+   "checkpoints": 456,
+   "checkpoint_diff": 0,
+   "clusters": []
+  }
+ },
+ "lens_agreement": {
+  "lit": {
+   "model": "Opus",
+   "pre_jury": 804,
+   "submitted": 798,
+   "total": 804
+  },
+  "dom": {
+   "model": "Sonnet",
+   "pre_jury": 797,
+   "submitted": 803,
+   "total": 804
+  },
+  "skep": {
+   "model": "Fable",
+   "pre_jury": 793,
+   "submitted": 799,
+   "total": 804
+  },
+  "hand": {
+   "model": "Opus",
+   "pre_jury": 803,
+   "submitted": 797,
+   "total": 804
+  }
+ },
+ "dispute_visibility_per_instance": {
+  "h031": {
+   "instances": 3,
+   "instances_showing_any_dispute": 3,
+   "instances_showing_final_answer_dispute": 1,
+   "disputed_fields": 4,
+   "groups": [
+    [
+     "lit",
+     "dom",
+     "hand"
+    ],
+    [
+     "skep"
+    ]
+   ]
+  },
+  "h040": {
+   "instances": 3,
+   "instances_showing_any_dispute": 3,
+   "instances_showing_final_answer_dispute": 1,
+   "disputed_fields": 4,
+   "groups": [
+    [
+     "lit",
+     "hand"
+    ],
+    [
+     "dom"
+    ],
+    [
+     "skep"
+    ]
+   ]
+  },
+  "h058": {
+   "instances": 3,
+   "instances_showing_any_dispute": 1,
+   "instances_showing_final_answer_dispute": 1,
+   "disputed_fields": 1,
+   "groups": [
+    [
+     "lit",
+     "dom"
+    ],
+    [
+     "skep",
+     "hand"
+    ]
+   ]
+  },
+  "h091": {
+   "instances": 3,
+   "instances_showing_any_dispute": 3,
+   "instances_showing_final_answer_dispute": 0,
+   "disputed_fields": 3,
+   "groups": [
+    [
+     "lit",
+     "hand"
+    ],
+    [
+     "dom",
+     "skep"
+    ]
+   ]
+  }
+ },
+ "single_instance_perturbation": {
+  "trials": {
+   "layout_fallback": 348,
+   "trials": 3480,
+   "agree": 3335,
+   "disagree": 140,
+   "some_version_failed": 5
+  },
+  "flagged": {
+   "h001": [
+    true,
+    true,
+    false
+   ],
+   "h015": [
+    true,
+    true,
+    true
+   ],
+   "h031": [
+    true,
+    true,
+    true
+   ],
+   "h040": [
+    true,
+    true,
+    true
+   ],
+   "h058": [
+    true,
+    true,
+    false
+   ],
+   "h090": [
+    false,
+    false,
+    true
+   ],
+   "h091": [
+    true,
+    true,
+    true
+   ],
+   "h098": [
+    false,
+    true,
+    true
+   ],
+   "h102": [
+    false,
+    true,
+    false
+   ],
+   "h115": [
+    true,
+    false,
+    false
+   ]
+  }
+ },
+ "logged_tokens": {
+  "seen_library_and_gold_blind_proxy": {
+   "agents": 116,
+   "tokens": 8166768
+  },
+  "seen_dev_no_execution_baseline": {
+   "agents": 29,
+   "tokens": 1394026
+  },
+  "seen_test_no_execution_check": {
+   "agents": 58,
+   "tokens": 2757012
+  },
+  "hidden_synthesis_logged": {
+   "agents": 117,
+   "tokens": 8289681
+  },
+  "hidden_adjudication_h091": {
+   "agents": 3,
+   "tokens": 167753
+  },
+  "hidden_no_execution_opus": {
+   "agents": 116,
+   "tokens": 5248296
+  },
+  "hidden_no_execution_fable": {
+   "agents": 117,
+   "tokens": 5303608
+  },
+  "hidden_no_execution_sonnet": {
+   "agents": 116,
+   "tokens": 5358812
+  },
+  "hidden_red_team": {
+   "agents": 114,
+   "tokens": 5401241
+  },
+  "hidden_blind_review": {
+   "agents": 16,
+   "tokens": 798759
+  },
+  "hidden_jury": {
+   "agents": 42,
+   "tokens": 2301217
+  },
+  "total": {
+   "agents": 844,
+   "tokens": 45187173
+  }
+ }
+}

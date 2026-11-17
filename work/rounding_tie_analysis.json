@@ -1,0 +1,26 @@
+{
+ "seen_labeled": {
+  "fields": 3091,
+  "ties": 117,
+  "float_fmt_wrong": 54,
+  "float_decimal_wrong": 5
+ },
+ "seen_lb": {
+  "fields": 562,
+  "ties": 12,
+  "float_fmt_wrong": 6,
+  "float_decimal_wrong": 0
+ },
+ "seen_test": {
+  "fields": 562,
+  "ties": 15,
+  "float_fmt_wrong": 11,
+  "float_decimal_wrong": 2
+ },
+ "hidden_test": {
+  "fields": 720,
+  "ties": 58,
+  "float_fmt_wrong": 22,
+  "float_decimal_wrong": 0
+ }
+}

@@ -1,0 +1,3361 @@
+[
+ {
+  "answers": [
+   {
+    "case_id": "t1_22fssfijtudmqkacxy252",
+    "final": "63.13",
+    "slots": {
+     "post_purchase_assets_checkpoint": "124.00"
+    },
+    "interpretation": "I read the required current ratio as 1 + 0.4 = 1.4. Current assets after the purchase are 153 - 29 = 124. Solving (124 + B)/(1975/28 + B) = 1.4 gives B = (124 - 98.75)/0.4 = 63.125 exactly, which rounds half-up to 63.13."
+   },
+   {
+    "case_id": "t1_bde7ujoeqgyzto3tyn7rc",
+    "final": "15.14",
+    "slots": {
+     "post_purchase_assets_checkpoint": "120.32"
+    },
+    "interpretation": "I read the required current ratio as 1 + 0.8 = 1.8. Current assets after the purchase are 152.315 - 32 = 120.315, and the slot shows this rounded half-up to 120.32. The final answer uses the exact value: B = (120.315 - 1.8*541/9)/0.8 = (120.315 - 108.2)/0.8 = 15.14375, which rounds to 15.14."
+   },
+   {
+    "case_id": "t1_bobr6f7eip7vx7crcx3ls",
+    "final": "340.86",
+    "slots": {
+     "post_purchase_assets_checkpoint": "225.27"
+    },
+    "interpretation": "I read the required current ratio as 1 + 0.4 = 1.4. Current assets after the purchase are 264.267 - 39 = 225.267, shown as 225.27 in the slot. The final answer uses the exact value: B = (225.267 - 1.4*44461/700)/0.4 = (225.267 - 88.922)/0.4 = 340.8625, which rounds half-up to 340.86."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_2fj6f2wc3dz67kstnl5ik",
+    "final": "6.53",
+    "slots": {
+     "market_loss_checkpoint": "6.04"
+    },
+    "interpretation": "Market loss is value x shock x sensitivity: 98*0.2*0.308 = 6.0368. Liquidity loss is value x ratio: 98*0.005 = 0.49. Gross loss is 6.5268, and with 0 recovered the net is 6.5268, which rounds to 6.53."
+   },
+   {
+    "case_id": "t1_hr3fsphtnhid3sprgpw56",
+    "final": "0.00",
+    "slots": {
+     "market_loss_checkpoint": "0.99"
+    },
+    "interpretation": "Market loss is 99*0.2*0.05 = 0.99 and liquidity loss is 99*0.01 = 0.99, so gross loss is 1.98. A recovery ratio of 1 recovers the whole gross loss, so the net reserve is 0.00."
+   },
+   {
+    "case_id": "t1_u5esjzrkjmpu3ykl4u6bo",
+    "final": "8.83",
+    "slots": {
+     "market_loss_checkpoint": "7.84"
+    },
+    "interpretation": "Market loss is 98*0.2*0.4 = 7.84 and liquidity loss is 98*0.04 = 3.92, so gross loss is 11.76. Recovery is 0.24875*11.76 = 2.9253, so the net is 8.8347, which rounds to 8.83 (rounded only at the end)."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_2vhqeflyl6yukmhkk5wsa",
+    "final": "2.19",
+    "slots": {
+     "derivative_equivalent_checkpoint": "25.50"
+    },
+    "interpretation": "Derivative-equivalent shares = 63.7575 x 0.4 = 25.503. Net exposure = 41 + 89 + 25.503 - 102 = 53.503 shares. Dividing by 2441 gives 2.191848...%. Each figure was rounded half up on its own, from exact values."
+   },
+   {
+    "case_id": "t1_dtcq3nmm6o7sz5p3fnoa2",
+    "final": "-1.70",
+    "slots": {
+     "derivative_equivalent_checkpoint": "19.52"
+    },
+    "interpretation": "Derivative-equivalent shares = 48.7875 x 0.4 = exactly 19.515, which rounds half up to 19.52. The signed net is 92 + 49 + 19.515 - 194 = -33.485, and -33.485 / 1974 = -1.696302...%, which rounds to -1.70. The negative sign is kept because the task asks for the signed result."
+   },
+   {
+    "case_id": "t1_gmpopcfaanawfvpna7sqq",
+    "final": "2.28",
+    "slots": {
+     "derivative_equivalent_checkpoint": "29.60"
+    },
+    "interpretation": "Derivative-equivalent shares = 74 x 0.4 = 29.6. Net exposure = 101 + 61 + 29.6 - 144.8 = 46.8 shares. Dividing by 2053 gives 2.279591...%. Each figure was rounded half up on its own, from exact values."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_2p7jxf5ruvcfmxvjo37y2",
+    "final": "41.07",
+    "slots": {
+     "implied_depreciation_checkpoint": "24.68"
+    },
+    "interpretation": "Carrying amount = cost - accumulated depreciation, so accumulated depreciation = 27739/375 - 3697/75 = 9254/375 (about 24.677). Under straight-line, accumulated depreciation = 0.75*(cost - residual). That makes the depreciable base 37016/1125 and the residual 46201/1125 = 41.06755..., which rounds to 41.07."
+   },
+   {
+    "case_id": "t1_3p5qcmfqxj7f3vsufqniw",
+    "final": "31.49",
+    "slots": {
+     "implied_depreciation_checkpoint": "32.19"
+    },
+    "interpretation": "Accumulated depreciation = 71.72975 - 39.5395 = 32.19025. That makes the depreciable base 32.19025/0.8 = 40.2378125. The residual is 71.72975 - 40.2378125 = 31.4919375, which rounds to 31.49. Rounding is applied only to the final values."
+   },
+   {
+    "case_id": "t1_xltqz2wvxvheo7gj5dz2w",
+    "final": "19.14",
+    "slots": {
+     "implied_depreciation_checkpoint": "42.30"
+    },
+    "interpretation": "Accumulated depreciation = 72.01 - 29.71 = 42.30. That makes the depreciable base 42.30/0.8 = 52.875. The residual is 72.01 - 52.875 = 19.135 exactly, which rounds half up to 19.14."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_2qo73ablqa6d5jdwyi3ps",
+    "final": "101.11",
+    "slots": {
+     "network_b_after_ratio_fee_checkpoint": "91.80"
+    },
+    "interpretation": "Network A: 153 x 21001/30000 = 107.1051, minus 6 gives exactly 101.1051. That is at least 94, so A is selected and rounds to 101.11. The slot is Network B's 153 x 0.6 = 91.8, taken before its fixed fee and bonus. B's full receipt would be (91.8 - 9) x 1.4 = 115.92, but B is not selected."
+   },
+   {
+    "case_id": "t1_dnmxiqyxbzk6uvizsbcbm",
+    "final": "99.60",
+    "slots": {
+     "network_b_after_ratio_fee_checkpoint": "88.80"
+    },
+    "interpretation": "Network A: 148 x 0.7 - 4 = 99.6. That is at least 99, so A is selected. The slot is Network B's 148 x 0.60002 = 88.80296, which rounds to 88.80. B's full receipt would be 91.083256, but B is not selected."
+   },
+   {
+    "case_id": "t1_opm6lxzsbqdyqnthvsl5o",
+    "final": "122.26",
+    "slots": {
+     "network_b_after_ratio_fee_checkpoint": "131.31"
+    },
+    "interpretation": "Network A: 202 x 0.63 - 5 = 122.26. That is at least 109, so A is selected. The slot is Network B's 202 x 0.650025 = 131.30505, which rounds half up to 131.31. B's full receipt would be 123.1703025, but B is not selected."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_2yjpyaop7ywpd2hybz3ac",
+    "final": "151.50",
+    "slots": {
+     "single_threshold_retention_checkpoint": "0.750001"
+    },
+    "interpretation": "Concentration is 885/1314, about 0.6735, which is at least 0.65, so the single-transfer branch applies. The threshold is 978*0.7500005 = 733.500489 and the excess is 885 - 733.500489 = 151.499511, which rounds to 151.50. The retained fraction 0.7500005 rounds half up to 0.750001."
+   },
+   {
+    "case_id": "t1_arwlvxiaptuvkyyq5fyci",
+    "final": "112.18",
+    "slots": {
+     "single_threshold_retention_checkpoint": "0.800000"
+    },
+    "interpretation": "Concentration is 920.975/1228, about 0.75, which is at least 0.7, so the single-transfer branch applies. The threshold is 1011*0.8 = 808.8 and the excess is 112.175, which rounds half up to 112.18."
+   },
+   {
+    "case_id": "t1_ya2hfdiqktoujqbuainkw",
+    "final": "104.00",
+    "slots": {
+     "single_threshold_retention_checkpoint": "0.700000"
+    },
+    "interpretation": "Concentration is 876/1213, about 0.722, which is below 0.8, so the three-transfer branch applies. The three transfers sum to 876+81+122 = 1079 (not the 1213 horizon total), and the excess over 975 is 104. The retained fraction is still reported as 0.7000003, which rounds to 0.700000."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_2m2e4aqw25hkyredlbyuo",
+    "final": "Bond B",
+    "slots": {
+     "a_outlay_checkpoint": "103.48",
+     "b_outlay_checkpoint": "112.86"
+    },
+    "interpretation": "Outlay is clean price plus settlement cost, with no further accrued interest added. Bond A's return is 15.5639/103.482, about 0.1504, but it fails because its duration of 7 is above 6. Bond B qualifies: its return is 8.75776/112.864, about 0.0776, which is at least 0.05, and its duration of 5 is at most 6."
+   },
+   {
+    "case_id": "t1_5hbrepcaq63b3yvhmfq5e",
+    "final": "Bond B",
+    "slots": {
+     "a_outlay_checkpoint": "106.00",
+     "b_outlay_checkpoint": "120.57"
+    },
+    "interpretation": "Both bonds qualify. Bond A's return is 14.75/106, about 0.1392, with duration 3. Bond B's return is 19.9629/120.565, about 0.1656, with duration 4. Cross-multiplying confirms B is higher (2116.0674 vs 1778.33375). Bond B's outlay of 120.565 rounds half-up to 120.57."
+   },
+   {
+    "case_id": "t1_flv2pprwrlewdxjahus2g",
+    "final": "Neither",
+    "slots": {
+     "a_outlay_checkpoint": "102.00",
+     "b_outlay_checkpoint": "110.00"
+    },
+    "interpretation": "Bond A's gain is 20.208, which is below the required 0.2 x 102 = 20.4. Bond B's gain is 15, below the required 0.2 x 110 = 22. Neither meets the 0.2 return threshold, so the durations do not change the result."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_3aipvkpjzoryvi4jkvmq4",
+    "final": "11.38",
+    "slots": {
+     "weighted_volatility_a_checkpoint": "0.075000",
+     "weighted_volatility_b_checkpoint": "0.140000"
+    },
+    "interpretation": "Weighted volatility is weight times volatility (0.3*0.25, 0.7*0.2). Because 0.8 >= 0.4, the stress contribution 0.01125 is used, so variance = 0.005625+0.0196+0.01125 = 0.036475. Then R = 0.05+0.02+1.2*0.036475 = 0.11377, which is 11.377% and rounds half up to 11.38."
+   },
+   {
+    "case_id": "t1_hhzku6ff6f2v4f4gytdnc",
+    "final": "5.62",
+    "slots": {
+     "weighted_volatility_a_checkpoint": "0.090000",
+     "weighted_volatility_b_checkpoint": "0.110000"
+    },
+    "interpretation": "The test 0.5 >= 0.5 is non-strict, so it is true and the stress contribution 0.012 is used. Variance = 0.0081+0.0121+0.012 = 0.0322, so R = 0.016+0.008+1*0.0322 = 0.0562, which is 5.62%."
+   },
+   {
+    "case_id": "t1_wwcsabvam2t4ck5uou6j6",
+    "final": "3.54",
+    "slots": {
+     "weighted_volatility_a_checkpoint": "0.080000",
+     "weighted_volatility_b_checkpoint": "0.090000"
+    },
+    "interpretation": "Because 0.2 < 0.5, the base contribution 0.0032 is used. Variance = 0.0064+0.0081+0.0032 = 0.0177, so R = 0+0+2*0.0177 = 0.0354, which is 3.54%."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_23an3zdwszbc7fnpqojo4",
+    "final": "-3.19",
+    "slots": {
+     "moderate_weighted_loss_checkpoint": "78.4000",
+     "severe_weighted_loss_checkpoint": "157.6000"
+    },
+    "interpretation": "State probabilities are minor 0.2, moderate 0.8*0.5=0.4, severe 0.4. Actual expected reimbursement is 116.94. The benchmark uses the probability-weighted mean rate (0.47) times expected gross loss (255.6), giving 120.132. The difference, -3.192, is rounded only at the end."
+   },
+   {
+    "case_id": "t1_2qsrspxc5gnpiaedbnjv4",
+    "final": "-0.44",
+    "slots": {
+     "moderate_weighted_loss_checkpoint": "78.4000",
+     "severe_weighted_loss_checkpoint": "162.4000"
+    },
+    "interpretation": "State probabilities are 0.2, 0.4 and 0.4. Actual expected reimbursement is 117.0968125. The benchmark is 0.44996875*261.2 = 117.5318375. The difference, -0.435025, rounds half up to -0.44."
+   },
+   {
+    "case_id": "t1_ysvpffbkd43zl6d7rajke",
+    "final": "0.10",
+    "slots": {
+     "moderate_weighted_loss_checkpoint": "80.4000",
+     "severe_weighted_loss_checkpoint": "157.6000"
+    },
+    "interpretation": "State probabilities are 0.2, 0.4 and 0.4. Actual expected reimbursement is 116.38. The benchmark is 0.45*258.4 = 116.28. The difference is exactly 0.10."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_2ggyp2vmmf5k3l5yzqdjk",
+    "final": "28.75",
+    "slots": {
+     "planned_abatement_checkpoint": "101.5000"
+    },
+    "interpretation": "Planned abatement = capacity x utilization = 203 x 0.5 = 101.5 t (fractional tons allowed, 1 credit = 1 t). Break-even price p solves p*Q = 989.5 + 19*Q, so p = 989.5/101.5 + 19 = 1979/203 + 19 = 28.7488 \u2192 28.75."
+   },
+   {
+    "case_id": "t1_pnelawedzzyh33iyy5se4",
+    "final": "30.12",
+    "slots": {
+     "planned_abatement_checkpoint": "101.5801"
+    },
+    "interpretation": "Planned abatement = 203.1601 x 0.5 = 101.58005 t, kept exact in the calculation and rounded half up to 101.5801 only for the slot. The break-even price is p = 1942/101.58005 + 11 \u2248 30.1179, which rounds to 30.12."
+   },
+   {
+    "case_id": "t1_zccowwqsuall53qwhw75u",
+    "final": "28.96",
+    "slots": {
+     "planned_abatement_checkpoint": "119.2000"
+    },
+    "interpretation": "Planned abatement = 298 x 0.4 = 119.2 t. The break-even price is p = 1783/119.2 + 14 = 14.95805... + 14 \u2248 28.9581, which rounds to 28.96."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_2ve7ogjulw6g3bxzwv4sm",
+    "final": "155.56",
+    "slots": {
+     "gross_requirement_checkpoint": "28.0000",
+     "frechet_lower_bound_checkpoint": "0.300000"
+    },
+    "interpretation": "Expected net benefit = 0.75*21 + 0.55*11 + J*9 - 3, so the gross requirement is 25 + 3 = 28. This gives J = 6.2/9 = 31/45. The band runs from 0.30 to 0.55 (width 0.25), so the share used is (31/45 - 0.3)/0.25 = 14/9 = 155.56%. That is above 100%, so the target is infeasible, but the percentage is reported as asked."
+   },
+   {
+    "case_id": "t1_gqdpxfjf7pl7jdbhv7pnk",
+    "final": "109.09",
+    "slots": {
+     "gross_requirement_checkpoint": "25.0000",
+     "frechet_lower_bound_checkpoint": "0.300000"
+    },
+    "interpretation": "The gross requirement is 22 + 3 = 25 and the standalone expected benefits are 12.8 + 6.5 = 19.3, so J = 5.7/11 = 57/110. The band runs from 0.30 to 0.50 (width 0.20), so the share used is (57/110 - 0.3)/0.2 = 12/11 = 109.09%, which is infeasible."
+   },
+   {
+    "case_id": "t1_wpg3n3qvyju3crtfc2qxu",
+    "final": "27.86",
+    "slots": {
+     "gross_requirement_checkpoint": "32.3553",
+     "frechet_lower_bound_checkpoint": "0.300000"
+    },
+    "interpretation": "The gross requirement is 29.3553 + 3 = 32.3553 and the standalone expected benefits are 14.7 + 9.6 = 24.3, so J = 8.0553/21. The band runs from 0.30 to 0.60 (width 0.30), so the share used is (8.0553 - 6.3)/(21*0.3) = 1.7553/6.3 = 0.278619..., which rounds to 27.86%."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_2h33ohc4sfqtc7tdl2iye",
+    "final": "-209.18",
+    "slots": {
+     "exposed_value_checkpoint": "98.00"
+    },
+    "interpretation": "The exposed value is 196 x 0.5 = 98. The value change equals the exposed value x sensitivity x shock, so shock = -205/(98 x 1) = -2.0918367..., which is -209.18%. The shock is not capped, so it can exceed -100%."
+   },
+   {
+    "case_id": "t1_4ghn56bewcwqy7dcm54fu",
+    "final": "2.03",
+    "slots": {
+     "exposed_value_checkpoint": "101.50"
+    },
+    "interpretation": "The exposed value is 203 x 0.5 = 101.5. Shock = 6.18/(101.5 x 3) = 6.18/304.5 = 0.0202956, which is 2.03%. Only the unexposed share is left out of the calculation."
+   },
+   {
+    "case_id": "t1_avxk35ar6aizumyfmrin6",
+    "final": "292.92",
+    "slots": {
+     "exposed_value_checkpoint": "101.56"
+    },
+    "interpretation": "The exposed value is 203.11 x 0.5 = 101.555, which rounds half up to 101.56 for the slot. The shock uses the unrounded value: 297.4708218/101.555 = 2.92916, which is 292.92%."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_3v2pzyuge2snqwyidwqxq",
+    "final": "41.19",
+    "slots": {
+     "penalty_cap_checkpoint": "179.96"
+    },
+    "interpretation": "The cap available for penalty is the maximum total remedy minus fixed interest: 198.96 - 19 = 179.96. The pre-credit base is max(102*3=306, 152) = 306, so c = 1 - 179.96/306 = 6302/153 % = 41.1895...%, which rounds to 41.19."
+   },
+   {
+    "case_id": "t1_6iaugpmsrstqp7ejornni",
+    "final": "27.53",
+    "slots": {
+     "penalty_cap_checkpoint": "147.84"
+    },
+    "interpretation": "The cap is 171.836 - 24 = 147.836, which rounds independently to 147.84 for the slot. The base is max(82*1=82, 204) = 204, so c = 1 - 147.836/204 = 0.2753137..., or 27.53%. The unrounded cap was used to compute c."
+   },
+   {
+    "case_id": "t1_m2qtxyjlxkikcs33lmvs4",
+    "final": "66.32",
+    "slots": {
+     "penalty_cap_checkpoint": "103.06"
+    },
+    "interpretation": "The cap is 132.055 - 29 = 103.055, which rounds half up to 103.06 for the slot. The base is max(306, 153) = 306, so c = 1 - 103.055/306 = 0.6632189..., or 66.32%. The exact cap was used, not the rounded one."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_4gs7si7dgfcjdu4m7tsgg",
+    "final": "29.49",
+    "slots": {
+     "upfront_stock_consideration_checkpoint": "4044.8000"
+    },
+    "interpretation": "Because every share is issued at the same fixed price, value shares stand in for share counts. The sellers hold 0.8*5056 = 4044.8 of upfront stock plus 1943 of earnout stock, which is 5987.8 out of a post-settlement base of 14320 + 5987.8 = 20307.8. That gives 29.4852%, which rounds half up to 29.49."
+   },
+   {
+    "case_id": "t1_ce4sldb2yoyawhknpumbs",
+    "final": "20.95",
+    "slots": {
+     "upfront_stock_consideration_checkpoint": "39.2000"
+    },
+    "interpretation": "The stock portion is 0.4*98 = 39.2. Adding the earnout stock of 39 gives the sellers 78.2 of shares. The common-share base after settlement is 295 + 78.2 = 373.2, so ownership is 78.2/373.2 = 20.9539%, which rounds to 20.95."
+   },
+   {
+    "case_id": "t1_v3dt5eqjmihjdymwt2tdy",
+    "final": "17.74",
+    "slots": {
+     "upfront_stock_consideration_checkpoint": "29.4000"
+    },
+    "interpretation": "The stock portion is 0.3*98 = 29.4. Adding the earnout stock of 59 gives the sellers 88.4 of shares. The common-share base after settlement is 410 + 88.4 = 498.4, so ownership is 88.4/498.4 = 17.7368%, which rounds to 17.74."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_4ngrvbqgai6vgveg3jfbo",
+    "final": "2.96",
+    "slots": {
+     "dilution_multiple_checkpoint": "1.234568"
+    },
+    "interpretation": "Post-issuance share base = 1 + 0.2345675 = 1.2345675 times current shares. Post-issuance EPS is (4.81078375 - D) / 1.2345675 >= 1.5, so the largest D is exactly 2.9589325, which rounds half up to 2.96 as the spec requires."
+   },
+   {
+    "case_id": "t1_d6czs24fa4f3vy4kelp7w",
+    "final": "4.47",
+    "slots": {
+     "dilution_multiple_checkpoint": "1.200000"
+    },
+    "interpretation": "Post-issuance share base = 1 + 0.2 = 1.2 times current shares. Post-issuance EPS is (5.67 - D) / 1.2 >= 1, so the largest D is exactly 4.47, and no rounding is needed."
+   },
+   {
+    "case_id": "t1_ofqwkb2frqtndhujw7n5a",
+    "final": "1.53",
+    "slots": {
+     "dilution_multiple_checkpoint": "1.314159"
+    },
+    "interpretation": "Post-issuance share base = 1 + 0.3141593 = 1.3141593 times current shares. Post-issuance EPS is (4.1586695 - D) / 1.3141593 >= 2, so the largest D is exactly 1.5303509, which rounds half up to 1.53. The multiple is reported rounded to 6 decimal places."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_4hsn7z73yc5ctgyqmom3y",
+    "final": "plan_a",
+    "slots": {
+     "one_stage_leverage_cap_checkpoint": "0.800001"
+    },
+    "interpretation": "The one-stage checkpoint is 1 - t = 0.8000005, which rounds half-up to 0.800001. The final ceiling is (0.8000005)^3, about 0.51200096. Plan A's ratio is 122/295, about 0.4136, and Plan B's is 92/199, about 0.4623. Both qualify, and Plan A has the lower ratio."
+   },
+   {
+    "case_id": "t1_rfhtocnkbut7d3o7436uk",
+    "final": "neither_plan",
+    "slots": {
+     "one_stage_leverage_cap_checkpoint": "0.700000"
+    },
+    "interpretation": "The one-stage checkpoint is 1 - t = 0.7000003, which rounds to 0.700000. The final ceiling is (0.7000003)^3, about 0.343000441. Plan A's ratio is 148/302, about 0.4901, and Plan B's is 88/148, about 0.5946. Both are above the ceiling, so neither plan qualifies."
+   },
+   {
+    "case_id": "t1_vnqutjkfyjtl6c63dj2ck",
+    "final": "plan_b",
+    "slots": {
+     "one_stage_leverage_cap_checkpoint": "0.900000"
+    },
+    "interpretation": "The one-stage checkpoint is 1 - t = 0.9, and the final ceiling is 0.9^3 = 0.729. Plan A's ratio is 122/196, about 0.6224, and Plan B's is 90/157, about 0.5732. Both qualify, and Plan B has the lower ratio."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_3j42mq2dlsrml4dewkrwm",
+    "final": "capital_pass",
+    "slots": {
+     "joint_rate_checkpoint": "0.022500"
+    },
+    "interpretation": "Joint rate = 0.05*0.2 + 0.05*0.2 + (0.05*0.05)*1 = 0.0225. 'Their product' means the product of the two shock ratios. Joint loss is 98*0.0225 = 2.205 and alternative loss is 98*(3*0.05^2) = 0.735. The larger is 2.205, which leaves 4.795, and that is at least 3 (pass)."
+   },
+   {
+    "case_id": "t1_7b55lrpmarmqvpw77av3a",
+    "final": "capital_fail",
+    "slots": {
+     "joint_rate_checkpoint": "0.010000"
+    },
+    "interpretation": "Joint rate = 0.0025 + 0.0025 + (0.05*0.05)*2 = 0.01, using the product of the shock ratios, so the joint loss is 0.98. The alternative loss is 98*(2*0.2^2) = 7.84, which is larger. That leaves 1.16, below 6 (fail)."
+   },
+   {
+    "case_id": "t1_owtxhmx7vputhr4qkigj2",
+    "final": "capital_fail",
+    "slots": {
+     "joint_rate_checkpoint": "0.090358"
+    },
+    "interpretation": "Joint rate = 0.2*0.05 + 0.2*0.2 + (0.2*0.2)*1.00895 = 0.01 + 0.04 + 0.040358 = 0.090358, using the product of the shock ratios. Joint loss is 8.855084, versus an alternative loss of 0.735. That leaves 0.144916, below 7 (fail)."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_5ar2imm42txclles7vppu",
+    "final": "Neutral",
+    "slots": {
+     "tweet_retention_factor_checkpoint": "0.800001"
+    },
+    "interpretation": "The one-stage retention factor is 1-u = 0.8000005, which rounds half-up to 0.800001. Exactly: tweet 24*(0.8000005)^3 = 12.288023040014400003, plus news 7, plus market -19.406462199848874901875, gives -0.118439159834474898875. That is between -1 and 6, so the answer is Neutral."
+   },
+   {
+    "case_id": "t1_qnzrvm3xwmzlrqnibdhbs",
+    "final": "Bullish",
+    "slots": {
+     "tweet_retention_factor_checkpoint": "0.800000"
+    },
+    "interpretation": "The one-stage retention factor is 1-u = 0.8. Tweet: 15*0.6875 = 10.3125, times 0.512 = 5.28. News: 7*1*7/11 = 49/11. Adding market 5 gives 14.7345... (exactly 810.5/55), which is at least 9, so the answer is Bullish."
+   },
+   {
+    "case_id": "t1_ynvfdpblvyqohrnedxo2u",
+    "final": "Bearish",
+    "slots": {
+     "tweet_retention_factor_checkpoint": "0.750000"
+    },
+    "interpretation": "The one-stage retention factor is 1-u = 0.75. Tweet: -5*(27/64) = -135/64. News: 22*(-0.5)*(7/19) = -77/19. Adding market -5 gives about -11.162, which is at most -9, so the answer is Bearish."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_3d5vawvis23xeixtwu3ay",
+    "final": "51.69",
+    "slots": {
+     "one_stage_payout_factor_checkpoint": "0.800000"
+    },
+    "interpretation": "Distributable earnings = 131.958984375 - 31 = 100.958984375 (= 100 + 491/512). The policy limit is that amount x 0.8^3 = 0.512, which gives exactly 51.691. That is below the 56 liquidity cap, so the dividend is 51.691, which rounds to 51.69. The checkpoint is the share left after one stage, 1 - t."
+   },
+   {
+    "case_id": "t1_pveobdbkk5goavov5iyva",
+    "final": "55.16",
+    "slots": {
+     "one_stage_payout_factor_checkpoint": "0.765433"
+    },
+    "interpretation": "Distributable earnings = 172 - 49 = 123. (1 - t) = 0.7654325 exactly, which rounds half up to 0.765433 for the slot. Cubed it is about 0.4484568838, so the policy limit is about 55.1602, below the 59.7 cap. The answer is 55.16."
+   },
+   {
+    "case_id": "t1_rhbogqftjljga227dcaak",
+    "final": "58.88",
+    "slots": {
+     "one_stage_payout_factor_checkpoint": "0.812346"
+    },
+    "interpretation": "Distributable earnings = 207 - 66 = 141. (1 - t) = 0.81234567, which rounds to 0.812346 for the slot. Cubed it is about 0.5360713654, so the policy limit is about 75.586. That is above the 58.88 liquidity cap, so the cap binds and the answer is 58.88."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_2em4ib7qnlsffamiokpcg",
+    "final": "74.69",
+    "slots": {
+     "segment_a_shared_cost_burden_ratio_checkpoint": "0.102956",
+     "segment_b_shared_cost_burden_ratio_checkpoint": "0.206122"
+    },
+    "interpretation": "Each segment's pre-shared profit is its revenue times its margin. A receives xC of the pool and B receives (1-x)C. I set (1-tA)(PA-xC)/RA equal to (1-tB)(PB-(1-x)C)/RB, which gives x = 232497/311282 = 74.690152%, and rounded only at the end. The checkpoints are the pool C divided by each segment's revenue."
+   },
+   {
+    "case_id": "t1_7wpajvpxryr6tqfsuntps",
+    "final": "39.83",
+    "slots": {
+     "segment_a_shared_cost_burden_ratio_checkpoint": "0.100102",
+     "segment_b_shared_cost_burden_ratio_checkpoint": "0.199187"
+    },
+    "interpretation": "PA = 979 x 0.37251375 = 364.69096125. The equal after-tax margin condition gives x = 42117.962348/105732.2 = 39.83457%, which rounds half up to 39.83 and does not reach the 39.835 boundary. The checkpoints are the pool divided by each segment's revenue."
+   },
+   {
+    "case_id": "t1_ppcv5yxoogssakarsfhla",
+    "final": "50.15",
+    "slots": {
+     "segment_a_shared_cost_burden_ratio_checkpoint": "0.099899",
+     "segment_b_shared_cost_burden_ratio_checkpoint": "0.200811"
+    },
+    "interpretation": "PA = 396.4 and PB = 246.5. Setting 0.8(396.4-99x)/991 equal to 0.7(246.5-99(1-x))/493 gives x = 54019.41/107721.9 = 50.1471%. Both resulting pre-tax profits stay positive. The checkpoints are the pool divided by each segment's revenue."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_5khboidtf6s3eu4gfytfy",
+    "final": "63.62",
+    "slots": {
+     "post_credit_factor_checkpoint": "0.700001"
+    },
+    "interpretation": "I added the base and the delay charge to get the credit base: 31 + 10*5 = 81. I multiplied it by the exact retained fraction 0.7000005 to get 56.7000405, then added the 6.918 monitoring cost outside the credit base, giving 63.6180405, which rounds to 63.62. The checkpoint was rounded on its own (0.7000005 to 0.700001, half up), and that rounded value was not used in the total."
+   },
+   {
+    "case_id": "t1_ggujuf22xwhtkzrfmieck",
+    "final": "52.98",
+    "slots": {
+     "post_credit_factor_checkpoint": "0.812345"
+    },
+    "interpretation": "The credit base is 11 + 7*7 = 60. Multiplying by the exact retained fraction 0.8123453 gives 48.740718, and adding the 4.24 monitoring cost gives 52.980718, which rounds to 52.98. The checkpoint 0.8123453 rounds half up to 0.812345, and that rounding is reported separately."
+   },
+   {
+    "case_id": "t1_m2qye2lyxzvftxi7nrfda",
+    "final": "29.72",
+    "slots": {
+     "post_credit_factor_checkpoint": "0.730000"
+    },
+    "interpretation": "The credit base is 19 + 7*2 = 33. Multiplying by the retained fraction 0.73 gives 24.09, and adding the 5.625 monitoring cost gives exactly 29.715, which rounds half up to 29.72. The checkpoint is 0.73 written to six decimal places."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_5snfeqvks5hdtz2p4m5kk",
+    "final": "reduce_exposure",
+    "slots": {
+     "stressed_ratio_checkpoint": "0.250001"
+    },
+    "interpretation": "I applied the haircut as a multiplier: 0.500001 x (1-0.5) / (1+0) = 0.2500005, which rounds half-up to 0.250001. The stressed budget is 99 x 0.2500005 = 24.7500495 and excess liquidity is 99-11 = 88, so the binding limit is about 24.75. The proposed exposure of 31 is above it."
+   },
+   {
+    "case_id": "t1_j4k4lmii22upus5uzmauq",
+    "final": "within_appetite",
+    "slots": {
+     "stressed_ratio_checkpoint": "0.250000"
+    },
+    "interpretation": "I applied the haircut as a multiplier: 0.5 x 0.5 / 1 = 0.25. The budget is 101 x 0.25 = 25.25 and excess liquidity is 34-9 = 25, so the binding limit is 25. The proposed exposure of 11 is within it, and I read 'within' as less than or equal to the limit."
+   },
+   {
+    "case_id": "t1_lpednxja6o52zdp65cq3u",
+    "final": "liquidity_block",
+    "slots": {
+     "stressed_ratio_checkpoint": "0.333333"
+    },
+    "interpretation": "I applied the haircut as a multiplier: (2/3) x 0.5 / 1 = 1/3, reported as 0.333333. Liquid assets of 6 are below the reserve of 11, so liquidity_block applies before any exposure check, even though the exposure is 0."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_33hmke3t6w7fswxxdcyek",
+    "final": "-17.71",
+    "slots": {
+     "period_1_equity_value_checkpoint": "0.250000",
+     "period_1_bond_value_checkpoint": "0.500000"
+    },
+    "interpretation": "The period-1 checkpoints are the equity and bond values after period-1 growth, before the midpoint charges (0.25 and 0.5). The advisory charge leaves wealth at 0.65. The purchase P solves 0.25+P = 0.5(0.65-0.1P), so P = 1/14 and each side ends at 9/28. Managed terminal wealth is 9/28*4.5209 = 1.4531464..., the benchmark is 1.630225, and the difference is -17.7079%, which rounds to -17.71."
+   },
+   {
+    "case_id": "t1_75hv6n7kzofkadbxbphes",
+    "final": "5.36",
+    "slots": {
+     "period_1_equity_value_checkpoint": "0.250000",
+     "period_1_bond_value_checkpoint": "0.500000"
+    },
+    "interpretation": "The checkpoints are values after period-1 growth, before the midpoint charges. The midpoint math is the same as in the first case: P = 1/14 and each side ends at 9/28. Managed terminal wealth is 9/28*(2+0.5) = 45/56 and the benchmark is 0.25*2+0.5*0.5 = 3/4. The difference is 3/56 = 5.357%, which rounds to 5.36."
+   },
+   {
+    "case_id": "t1_plqmv4jswglfiibv3fybk",
+    "final": "-17.86",
+    "slots": {
+     "period_1_equity_value_checkpoint": "1.000000",
+     "period_1_bond_value_checkpoint": "0.500000"
+    },
+    "interpretation": "The checkpoints are values after period-1 growth (1.0 and 0.5). After the charge, equity is 1.0 out of 1.4, which is above the 50% target, so the question's 'below target' claim is false here. I applied the stated rule as a signed equation: 1+P = 0.5(1.4-0.1P) gives P = -2/7, which leaves each side at 5/7. Managed terminal wealth is 15/14, the benchmark is 1.25, and the difference is -5/28 = -17.857%, which rounds to -17.86. Charging the 0.1 fee on the sale amount instead would give -22.37, and making no trade would give -5.00."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_5inkyvtdkz3ubx6ffj3aq",
+    "final": "137.43",
+    "slots": {
+     "threshold_adjustment_factor_checkpoint": "1.307470"
+    },
+    "interpretation": "I read 'increased by ratio r' as a factor of (1+r) = 1.3074703, so the adjusted threshold is 912 x 1.3074703 = 1192.4129136. The required transfer is 1192.4129136 + 198 - (503 + 749.98027) = 137.4326436. I rounded only the final value, half up."
+   },
+   {
+    "case_id": "t1_k64urpkqsueev4izay7ks",
+    "final": "-54.09",
+    "slots": {
+     "threshold_adjustment_factor_checkpoint": "1.125000"
+    },
+    "interpretation": "The factor is 1.125, so the adjusted threshold is 1093.5. The prior transfers total 1223.59, which already exceeds the threshold by 130.09, more than the 76 asked for. The formula 1093.5 + 76 - 1223.59 therefore gives -54.09. I reported that signed value as calculated, with no floor at zero, because the question states no floor."
+   },
+   {
+    "case_id": "t1_yqji5tbfi2clmad4dx5vo",
+    "final": "331.88",
+    "slots": {
+     "threshold_adjustment_factor_checkpoint": "1.296191"
+    },
+    "interpretation": "The factor is 1 + 0.2961905 = 1.2961905, which rounds half up to 1.296191 for the slot. The adjusted threshold is 793 x 1.2961905 = 1027.8790665. The required transfer is 1027.8790665 + 196 - 892 = 331.8790665, which rounds to 331.88."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_6ldyzkmouq5b7juyevswo",
+    "final": "5.20",
+    "slots": {
+     "charge_budget_checkpoint": "0.96"
+    },
+    "interpretation": "The budget left for the exposure charge is 3.963 - 1 - 2 = 0.963. The maximum exposure is 4 + 0.963/0.8 = 5.20375, which rounds half up to 5.20. The checkpoint is the unrounded charge budget, 0.963, rounded to 2 dp."
+   },
+   {
+    "case_id": "t1_gdphndrbun7v6qwxkix4w",
+    "final": "1.03",
+    "slots": {
+     "charge_budget_checkpoint": "0.00"
+    },
+    "interpretation": "The fixed costs (2 + 3) equal the budget of 5, so the assumption that the budget exceeds them only just fails. The charge budget is 0, so no excess is allowed and the maximum exposure is the threshold, 1.03."
+   },
+   {
+    "case_id": "t1_kwndgdl4thj4cxhl2arne",
+    "final": "11.50",
+    "slots": {
+     "charge_budget_checkpoint": "3.00"
+    },
+    "interpretation": "The charge budget is 5 - 2 - 0 = 3. The maximum exposure is 4 + 3/0.4 = 11.5, reported as 11.50."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_66zm67vlsvs23i7lu6fqk",
+    "final": "-0.80",
+    "slots": {
+     "market_premium_checkpoint": "0.100000"
+    },
+    "interpretation": "The Sharpe constraint (0.092-f)/0.2 >= 0.125 gives f <= 0.067. The alpha constraint (0.092-f) - (0 + 1*0.1) >= 0 gives f <= -0.008. The binding maximum is f = -0.008 (-0.80%). Nothing in the problem says the fee must be non-negative, so I reported the negative value: the portfolio already has a gross alpha of -0.8%."
+   },
+   {
+    "case_id": "t1_ug7imupk6ln4z7c34l2fy",
+    "final": "2.10",
+    "slots": {
+     "market_premium_checkpoint": "0.105000"
+    },
+    "interpretation": "The market premium is 0.115 - 0.01 = 0.105. The Sharpe constraint (0.115-f)/0.18 >= 0.5 gives f <= 0.025. The alpha constraint 0.125 - f - (0.01 + 0.8*0.105) >= 0.01 gives f <= 0.021. Both bounds are non-strict, so the maximum is f = 0.021 = 2.10%."
+   },
+   {
+    "case_id": "t1_xjblsdhgo47uqbchj2dbe",
+    "final": "-1.50",
+    "slots": {
+     "market_premium_checkpoint": "0.060000"
+    },
+    "interpretation": "The market premium is 0.1 - 0.04 = 0.06. The alpha constraint gives f <= 0.10505 - 0.055 = 0.05005. The Sharpe constraint (0.06505-f)/0.2 >= 0.4 gives f <= -0.01495, and that one binds. The exact maximum is -1.495%, which sits exactly on a rounding tie. I applied half-up as round-half-away-from-zero (Decimal ROUND_HALF_UP), giving -1.50."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_5ethmih55hphgzfgzws6m",
+    "final": "target_payout",
+    "slots": {
+     "one_period_growth_multiple_checkpoint": "1.234568"
+    },
+    "interpretation": "I read the one-period growth multiple as 1 + g = 1.2345675, rounded half-up to 6 places as 1.234568. Distributable earnings are 276 - 69 = 207. The target dividend is 82.8, which is within the 88 cap, and it retains 124.2, which meets the 104 floor. The stable dividend is 42.849 x 1.2345675^3 = about 80.6279, and it retains about 126.37, which meets the 94 floor. Both qualify, and 82.8 >= 80.63, so target_payout wins."
+   },
+   {
+    "case_id": "t1_oizxsx7eimjbhkjxgwq6k",
+    "final": "target_payout",
+    "slots": {
+     "one_period_growth_multiple_checkpoint": "1.160000"
+    },
+    "interpretation": "I read the one-period growth multiple as 1 + g = 1.16. Distributable earnings are 266 - 61 = 205. The target dividend is 92.25, which is within the 101 cap, and it retains 112.75, which meets the 81 floor. The stable dividend is 51 x 1.560896 = 79.605696, and it retains 125.394304, which meets the 91 floor. Both qualify, and 92.25 >= 79.61, so target_payout wins."
+   },
+   {
+    "case_id": "t1_zdaoz4ty34ikegwajhcxi",
+    "final": "no_feasible_policy",
+    "slots": {
+     "one_period_growth_multiple_checkpoint": "1.175432"
+    },
+    "interpretation": "I read the one-period growth multiple as 1 + g = 1.17543219, which rounds to 1.175432. Distributable earnings are 242 - 66 = 176. The target dividend of 84.48 is over the 74 cap, so it fails. The stable dividend is 41 x 1.17543219^3 = about 66.585, which is within the cap, but it retains only about 109.4, below the 123 floor. Neither policy qualifies."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_74wyxngjbbz6623bxbozg",
+    "final": "51.60",
+    "slots": {
+     "acquisition_outlay_checkpoint": "97.71"
+    },
+    "interpretation": "Total outlay is 97.71 + 0 = 97.71. The required coupon cash is C = 97.71 x 1.05 - 51 = 51.5955, and I rounded only this final value half up to 51.60."
+   },
+   {
+    "case_id": "t1_hecax2jrazttjmg6esc34",
+    "final": "28.90",
+    "slots": {
+     "acquisition_outlay_checkpoint": "78.00"
+    },
+    "interpretation": "Total outlay is 78 + 0 = 78. The required coupon cash is C = 78 x 1.5 - 88.1 = 117 - 88.1 = 28.9, which needs no rounding beyond two decimal places."
+   },
+   {
+    "case_id": "t1_rjgiglpwirt6yfiq6z4ko",
+    "final": "83.80",
+    "slots": {
+     "acquisition_outlay_checkpoint": "102.00"
+    },
+    "interpretation": "The settlement cost of 3 already includes accrued interest and fees, so total outlay is 99 + 3 = 102. The required coupon cash is C = 102 x 1.4 - 59 = 142.8 - 59 = 83.8."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_6n5geqegwcfszqbtafmae",
+    "final": "102.00",
+    "slots": {
+     "post_shock_retention_checkpoint": "0.666667"
+    },
+    "interpretation": "Loss ratio 1/3 = 0.3333... is less than 0.3333334, so the mild policy applies. Retention 2/3 rounds to 0.666667, the post-shock price is 176, and 176 x 1.4 - 144.4 = 102."
+   },
+   {
+    "case_id": "t1_famny7xecrw6quhlrzcoo",
+    "final": "173.63",
+    "slots": {
+     "post_shock_retention_checkpoint": "0.750001"
+    },
+    "interpretation": "Loss 0.2499995 >= 0.24999925 (non-strict), so the severe policy applies. Retention 0.7500005 = 1500001/2000000, so the post-shock price is exactly 232.944, and 232.944 x 1.3 - 129.2 = 173.6272, which rounds to 173.63. The retention checkpoint 0.7500005 rounds half-up to 0.750001."
+   },
+   {
+    "case_id": "t1_qtgycrlavrrcu7fd25eaq",
+    "final": "155.82",
+    "slots": {
+     "post_shock_retention_checkpoint": "0.800000"
+    },
+    "interpretation": "Loss 0.2 < 0.3, so the mild policy applies. The post-shock price is 254 x 0.8 = 203.2, and 203.2 x 1.4 - 128.66 = 155.82."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_5gz4cw5yqfjohwbiwhl7y",
+    "final": "-1.06",
+    "slots": {
+     "deal_share_issuance_checkpoint": "0.195437",
+     "pretax_interest_checkpoint": "4.9500"
+    },
+    "interpretation": "The 0.5 is the cash fraction of the base: 49.5 in cash and 49.5 in stock. The earnout of 49 is extra stock, so new shares are 98.5/504 of the predeal base. Pro forma net income is 102 + 9 + 17*0.8 - 4.95*0.8 = 120.64, giving an EPS ratio of 60802.56/61455 = 0.98938..., or -1.0617%, which rounds half up only at the end to -1.06."
+   },
+   {
+    "case_id": "t1_rjgt7k2crinvmnjczuzha",
+    "final": "-0.68",
+    "slots": {
+     "deal_share_issuance_checkpoint": "0.199803",
+     "pretax_interest_checkpoint": "5.0500"
+    },
+    "interpretation": "Cash is 50.5 and base stock is 50.5; adding the 51 earnout gives 101.5 in new stock, or 101.5/508 of the predeal shares. Pro forma net income is 101 + 9 + 14.4 - 4.04 = 120.36, giving an EPS ratio of 61142.88/61559.5, or -0.6768%, rounded at the end to -0.68."
+   },
+   {
+    "case_id": "t1_yewhwuvgexiitl4ok2lbm",
+    "final": "0.26",
+    "slots": {
+     "deal_share_issuance_checkpoint": "0.197183",
+     "pretax_interest_checkpoint": "4.9000"
+    },
+    "interpretation": "Cash is 49 and base stock is 49; adding the 49 earnout gives 98 in new stock, or 98/497 = 14/71 of the predeal shares. Pro forma net income is 102 + 9 + 15.356 - 3.92 = 122.436, giving an EPS ratio of 8692.956/8670, or +0.2648% accretion, rounded at the end to 0.26."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_3oaa3gm4vh24rdqm55llu",
+    "final": "neither_option",
+    "slots": {
+     "a_one_stage_share_multiple_checkpoint": "1.234568"
+    },
+    "interpretation": "I read 'adds total earnings of X per current share' as extra earnings on top of current EPS, so pro forma EPS = (current EPS + X) / (1+r)^3. For A, (1.5)/1.2345675^3 = 1.5/1.881674588525... \u2248 0.79716, which is below 0.8; B is 1/2.744 \u2248 0.3644. The one-stage checkpoint is 1+r = 1.2345675, rounded half-up to 1.234568."
+   },
+   {
+    "case_id": "t1_wj7gj3ukb4b27wknt64zs",
+    "final": "option_a",
+    "slots": {
+     "a_one_stage_share_multiple_checkpoint": "1.314159"
+    },
+    "interpretation": "Pro forma EPS = (current EPS + added earnings per current share) / (1+r)^3. A is 4/2.2695723843 \u2248 1.76245 and B is 3.00915/2.2696070974 \u2248 1.32584. Both meet the floor of 1, and A is higher. The one-stage multiple is 1.3141593, which rounds to 1.314159."
+   },
+   {
+    "case_id": "t1_wxozu3vyetaizbyzlngdo",
+    "final": "neither_option",
+    "slots": {
+     "a_one_stage_share_multiple_checkpoint": "1.700000"
+    },
+    "interpretation": "Pro forma EPS = (current EPS + added earnings) / (1+r)^3. A is 1.0/4.913 \u2248 0.2035 and B is 1.5/5.832 \u2248 0.2572, so both fall below 0.8. The one-stage multiple is 1+0.7 = 1.7."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_6xsvdhdhnep3qko35gn2m",
+    "final": "50.32",
+    "slots": {
+     "headline_savings_checkpoint": "101.0000",
+     "pairwise_overlap_checkpoint": "31.0000"
+    },
+    "interpretation": "Deduplicated = 101 - 31 + 6 = 76. Realized = 0.9 x 76 = 68.4, less the 4.875 charge = 63.525, then x 0.8 after tax = 50.82. 50.82/101 = 50.3168%, which rounds half up at the final step only."
+   },
+   {
+    "case_id": "t1_eq5ao4kybfocggsgbohpa",
+    "final": "36.75",
+    "slots": {
+     "headline_savings_checkpoint": "101.0000",
+     "pairwise_overlap_checkpoint": "16.0000"
+    },
+    "interpretation": "Deduplicated = 101 - 16 + 1 = 86. Realized = 77.4, less the 31 charge = 46.4, which stays positive, so no floor at zero applies. After tax: 46.4 x 0.8 = 37.12. 37.12/101 = 36.7525%."
+   },
+   {
+    "case_id": "t1_qb5s46adyq7inmvjiz6a6",
+    "final": "30.10",
+    "slots": {
+     "headline_savings_checkpoint": "101.0000",
+     "pairwise_overlap_checkpoint": "16.0000"
+    },
+    "interpretation": "Deduplicated = 101 - 16 + 3 = 88. Realized = 0.5 x 88 = 44, less the 6 charge = 38, then x 0.8 after tax = 30.4. 30.4/101 = 30.0990%, which rounds to 30.10."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_6e7zubf3rvoply63kq5lm",
+    "final": "1101.78",
+    "slots": {
+     "one_stage_price_retention_checkpoint": "0.800000"
+    },
+    "interpretation": "The retention ratio is 1 minus the per-stage downside, which is 0.8, so the stressed price is 25761/13312 x 0.512 = 25761/26000. The burn cap is 910 x 1.2 x 25761/26000 = 1081.962, which is below the 1090 floor. So the emission policy applies: 1112 x 25761/26000 = 1101.778..., which rounds to 1101.78."
+   },
+   {
+    "case_id": "t1_jin6yi3ltp5slih3vfvh4",
+    "final": "1669.45",
+    "slots": {
+     "one_stage_price_retention_checkpoint": "0.700000"
+    },
+    "interpretation": "The retention ratio is 0.7000003, which shows as 0.700000 at 6 decimal places. The burn cap is 1014 x 4 x 1.2 x 0.7000003^3 = 1669.4517..., which meets the 1458 floor, so the burn policy is selected."
+   },
+   {
+    "case_id": "t1_urr3lfubvf4qdx4psfnhe",
+    "final": "1401.81",
+    "slots": {
+     "one_stage_price_retention_checkpoint": "0.750001"
+    },
+    "interpretation": "The retention ratio is exactly 0.7500005, and half-up rounding to 6 decimal places gives 0.750001. The burn cap is 923 x 3 x 1.2 x 0.7500005^3 = 1401.80905..., which meets the 816 floor, so the burn policy is selected."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_7haysv33dfi2i5ld6bqzi",
+    "final": "84.71",
+    "slots": {
+     "debt_after_borrowing_checkpoint": "222.04"
+    },
+    "interpretation": "Debt after borrowing is 201.483 + 20.554 = 222.037. After the 40.706 repayment, debt is 181.331. At a D/E ceiling of 1, required equity is 181.331, so the injection is 181.331 - 96.618 = 84.713, which rounds to 84.71. Debt and equity are both treated as book values in USD millions, and the repayment is assumed not to change equity."
+   },
+   {
+    "case_id": "t1_cff2rp3qh5yhfj5mgmt5w",
+    "final": "91.02",
+    "slots": {
+     "debt_after_borrowing_checkpoint": "150.95"
+    },
+    "interpretation": "Debt after borrowing is 108.419 + 42.528 = 150.947. After the 11.4 repayment, debt is 139.547. At a ratio of 1, the injection is 139.547 - 48.5225 = 91.0245. Rounding half up at 2 decimals gives 91.02 because the third decimal is 4."
+   },
+   {
+    "case_id": "t1_sleecy6wabuunvejabl3w",
+    "final": "76.53",
+    "slots": {
+     "debt_after_borrowing_checkpoint": "152.00"
+    },
+    "interpretation": "Debt after borrowing is 94 + 58 = 152. After the 26 repayment, debt is 126. At a ratio of 1, the injection is 126 - 49.47 = 76.53. It is positive, so no floor at zero is needed."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_7o5ikpeffr6pfimpxlkv4",
+    "final": "74.16",
+    "slots": {
+     "first_payment_balance_checkpoint": "936.30"
+    },
+    "interpretation": "Balance after period 1 = 986*1.05 - 99 = 936.3; after period 2 = 936.3*1.05 - X = 983.115 - X = 908.96, so X = 74.155 exactly, which rounds half up to 74.16."
+   },
+   {
+    "case_id": "t1_acs3hnmtvr6fvgi4budtc",
+    "final": "187.27",
+    "slots": {
+     "first_payment_balance_checkpoint": "971.68"
+    },
+    "interpretation": "Balance after period 1 = 1021.603*1.05 - 101 = 971.68315 (reported 971.68); period 2 accrues to 1020.2673075, so X = 1020.2673075 - 833 = 187.2673075, which rounds to 187.27."
+   },
+   {
+    "case_id": "t1_lw7njmfuwivrrentlzlhc",
+    "final": "113.48",
+    "slots": {
+     "first_payment_balance_checkpoint": "1101.08"
+    },
+    "interpretation": "Balance after period 1 = 1177*1.04 - 123 = 1101.08; period 2 accrues to 1145.1232, so X = 1145.1232 - 1031.64 = 113.4832, which rounds to 113.48."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_7uo4nhqq7vlux7mzfzqu6",
+    "final": "program_a",
+    "slots": {
+     "program_a_net_cost_checkpoint": "53.96"
+    },
+    "interpretation": "The checkpoint is program A's cost minus its financial benefit: 877 - 823.037 = 53.963, which rounds to 53.96. A is feasible (cost 877 <= 977, effective reduction 128*0.8 = 102.4 >= 98); B is not, because its cost of 1014 is above 977. That leaves A as the only feasible program."
+   },
+   {
+    "case_id": "t1_fli7ehul3z625onfoumu4",
+    "final": "program_a",
+    "slots": {
+     "program_a_net_cost_checkpoint": "81.22"
+    },
+    "interpretation": "Both programs are feasible. A: cost 1170 <= 1229, effective reduction 204.8 >= 98. B: cost 806, effective reduction 101.6 >= 98. A's net cost per effective ton is 81.22/204.8 \u2248 0.3966 and B's is 66/101.6 \u2248 0.6496, so A is lower. The checkpoint is A's net cost before dividing by tons, 81.22."
+   },
+   {
+    "case_id": "t1_heh55damadekon7hpr4ue",
+    "final": "no_feasible_program",
+    "slots": {
+     "program_a_net_cost_checkpoint": "222.00"
+    },
+    "interpretation": "A fails the cost cap (1110 > 982). B fails the reduction minimum, since its effective reduction is 98*0.8 = 78.4 < 99, so neither program qualifies. The checkpoint is still reported as A's net cost, 1110 - 888 = 222.00."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_3ogroffcortpslex6ehjq",
+    "final": "-14.17",
+    "slots": {
+     "combined_capital_requirement_ratio_checkpoint": "0.100001"
+    },
+    "interpretation": "k = 0.06 + 0.0400005 = 0.1000005, which rounds half-up to 0.100001; the exact value is used downstream. The capacities are: capital 7.37879524/3.9000045 \u2248 1.8919966, leverage 7.164/2.9 \u2248 2.4703 and liquidity (45.6 - 78.2)/2.3 = -326/23 \u2248 -14.1739. The liquidity constraint is already breached at x = 0, so no positive capacity exists for it. I applied the stated rule literally (smallest of the three formula values), giving -14.17; if a breached constraint were instead floored at zero, the answer would be 0.00."
+   },
+   {
+    "case_id": "t1_rq4y6loazf54xhcfyao22",
+    "final": "0.96",
+    "slots": {
+     "combined_capital_requirement_ratio_checkpoint": "0.150000"
+    },
+    "interpretation": "k = 0.1 + 0.05 = 0.15. The capacities are: capital 15.8/4.35 \u2248 3.6322, leverage 5.4559/2.99 \u2248 1.8247 and liquidity 2.9645/3.08 = 0.9625 exactly. Liquidity binds, and 0.9625 rounds half-up to 0.96 at two decimals."
+   },
+   {
+    "case_id": "t1_snbjumosphy7ffiitku5q",
+    "final": "1.35",
+    "slots": {
+     "combined_capital_requirement_ratio_checkpoint": "0.132468"
+    },
+    "interpretation": "k = 0.08 + 0.0524683 = 0.1324683, reported as 0.132468; the exact value is used downstream. The capacities are: capital 5.6751892/4.1922147 \u2248 1.3537449, leverage 3.39/1.4 \u2248 2.4214 and liquidity 7.8174/1.22 \u2248 6.4077. Capital binds, giving 1.35."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_75srcm3y6cx5ceig6s2eg",
+    "final": "-43847.76",
+    "slots": {
+     "immediate_tax_reduction_checkpoint": "1068.0000"
+    },
+    "interpretation": "Tax reduction = 2136*0.5 = 1068, invested at t=0 together with principal: harvest = 3621*(1.25)^8 = 21582.841873...; the no-harvest path keeps 2553 in the intended exposure: 2553*(1.5)^8 = 65430.59765625. The advantage is harvest minus no-harvest, rounded only at the end."
+   },
+   {
+    "case_id": "t1_7ulzthlyfkwikpqiufqok",
+    "final": "-43969.08",
+    "slots": {
+     "immediate_tax_reduction_checkpoint": "1077.3432"
+    },
+    "interpretation": "Tax reduction = 2154.6864*0.5 = 1077.3432; harvest = 3639.3432*(5/4)^8 = 21692.175865...; no-harvest = 2562*(3/2)^8 = 65661.2578125. The signed advantage is harvest minus no-harvest, rounded half up at the end."
+   },
+   {
+    "case_id": "t1_n27c7u3degdl4zpw2jrwq",
+    "final": "-41398.72",
+    "slots": {
+     "immediate_tax_reduction_checkpoint": "1122.5000"
+    },
+    "interpretation": "Tax reduction = 2245*0.5 = 1122.5; harvest = 3567.5*(1.25)^8 = 21263.957024...; no-harvest = 2445*(1.5)^8 = 62662.67578125. The replacement rate is 0.5-0.25 = 0.25, compounded annually for 8 years."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_7o7czxboabcsfhc26365k",
+    "final": "6379.03",
+    "slots": {
+     "retry_success_fraction_checkpoint": "0.4550",
+     "backup_processing_fees_checkpoint": "434.93",
+     "terminal_failure_cost_checkpoint": "168.48"
+    },
+    "interpretation": "I read the retry success fraction as unconditional: 0.65 x 0.7 of the original attempts. The terminal failure cost is only the extra 9 per order where both attempts fail; the 3 per primary failure is counted separately. Revenue is 77.28 settlements x 99 = 7650.72. Costs are primary fees 286.08, backup fees 434.928, handling 187.2 + 168.48, and the 195 batch fee, giving 6379.032 before final rounding."
+   },
+   {
+    "case_id": "t1_jdzpnjyimh7b2oz7dlw4w",
+    "final": "3982.63",
+    "slots": {
+     "retry_success_fraction_checkpoint": "0.1950",
+     "backup_processing_fees_checkpoint": "320.41",
+     "terminal_failure_cost_checkpoint": "401.31"
+    },
+    "interpretation": "I read the retry success fraction as unconditional: 0.65 x 0.3. Backup fees apply to all 63.7 expected retries. Revenue is 53.41 x 101 = 5394.41. Costs are 295.96 + 320.411 + 191.1 + 401.31 + 203 = 1411.781, so net proceeds are 3982.629, rounded at the end."
+   },
+   {
+    "case_id": "t1_ntrvbnksncp7dpptmcxiy",
+    "final": "6055.46",
+    "slots": {
+     "retry_success_fraction_checkpoint": "0.1050",
+     "backup_processing_fees_checkpoint": "240.47",
+     "terminal_failure_cost_checkpoint": "169.79"
+    },
+    "interpretation": "I read the retry success fraction as unconditional: 0.35 x 0.3. The terminal failure cost is 7 x 24.255 = 169.785. Revenue is 74.745 x 98 = 7325.01. Costs are 491.04 + 240.471 + 173.25 + 169.785 + 195 = 1269.546, so net proceeds are 6055.464, rounded half up only at the end."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_aainix2n2evcofson5cta",
+    "final": "23185.70",
+    "slots": {
+     "standard_taxable_checkpoint": "80679.00",
+     "itemized_taxable_checkpoint": "71130.00"
+    },
+    "interpretation": "Taxable income is gross minus the deduction, floored at 0. Liability is rate times taxable minus the credit, floored at 0. The itemized method gives a lower liability (19827) but it is not eligible because its condition is false, so the standard liability of 23185.7 applies."
+   },
+   {
+    "case_id": "t1_kw5bnndzgl2xxsoxjznku",
+    "final": "19532.41",
+    "slots": {
+     "standard_taxable_checkpoint": "92391.00",
+     "itemized_taxable_checkpoint": "82160.00"
+    },
+    "interpretation": "Standard liability is 0.25*92391-2033 = 21064.75. Itemized liability is 0.25*82160-1007.59 = 19532.41. The itemized method is eligible and strictly lower, so it is used."
+   },
+   {
+    "case_id": "t1_wbmsfmdhbw3udothxv5x2",
+    "final": "12539.20",
+    "slots": {
+     "standard_taxable_checkpoint": "67756.00",
+     "itemized_taxable_checkpoint": "72889.00"
+    },
+    "interpretation": "Standard liability is 0.2*67756.003-1012 = 12539.2006. Itemized liability is 0.2*72889.003-487 = 14090.8006. The itemized method is eligible but not lower, so the standard method is used. Values are kept exact and only the final value and checkpoints are rounded half up to 2 places."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_7tpvozkbs6zsvafesrrzq",
+    "final": "11.84",
+    "slots": {
+     "debt_to_equity_checkpoint": "1.358984"
+    },
+    "interpretation": "WACC = [Re + (D/E)*Rd*(1-t)]/(1+D/E). I set WACC to the 10% ceiling and solved for Rd, which gives Rd = (10*21.230859 - 108)/(12.230859*0.72) = 11.84488%. Because WACC rises with Rd, this solution is the maximum. D/E = 12.230859/9, rounded only for the checkpoint."
+   },
+   {
+    "case_id": "t1_gceqzlpeemm3pmq55enmk",
+    "final": "10.91",
+    "slots": {
+     "debt_to_equity_checkpoint": "0.405941"
+    },
+    "interpretation": "I set the market-value-weighted after-tax WACC equal to the 10.1875% ceiling. That gives Rd = (10.1875*142 - 1111)/(41*0.75) = 335.625/30.75 = 10.9146%. D/E = 41/101, rounded only for the checkpoint."
+   },
+   {
+    "case_id": "t1_yrt5cns3pz3bnhuahzpx2",
+    "final": "8.31",
+    "slots": {
+     "debt_to_equity_checkpoint": "0.396960"
+    },
+    "interpretation": "I set the after-tax WACC equal to the 9% ceiling. That gives Rd = (9*4.190881 - 30)/(1.190881*0.78) = 7.717929/0.92888718 = 8.3088%. D/E = 1.190881/3, rounded only for the checkpoint; the final value is rounded half-up at the end."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_46e6pywda3gjnr5nbn5g2",
+    "final": "0.7801",
+    "slots": {
+     "comparable_a_tax_adjusted_debt_checkpoint": "2052.0000",
+     "comparable_b_tax_adjusted_debt_checkpoint": "4750.4000"
+    },
+    "interpretation": "The tax-adjusted debt checkpoint is (1-t)*D. Each comparable is unlevered as beta*E/(E+(1-t)D) (A = 0.696224*43/52 \u2248 0.575724, B \u2248 0.679181). The simple mean, \u2248 0.627452, is relevered by the target factor 18936.8/15232, giving 0.780064, which rounds to 0.7801. The final is computed at full precision and rounded only at the end."
+   },
+   {
+    "case_id": "t1_bt3z23bnksghmg4rsxqpe",
+    "final": "0.9970",
+    "slots": {
+     "comparable_a_tax_adjusted_debt_checkpoint": "1970.4000",
+     "comparable_b_tax_adjusted_debt_checkpoint": "4904.0000"
+    },
+    "interpretation": "The checkpoint is (1-t)*D for each comparable. The unlevered betas are 8676.8/11830.4 \u2248 0.733433 and 14525.36/16618 \u2248 0.874074, with mean \u2248 0.803753. Multiplying by the target factor (15277+3672.4)/15277 gives 0.996965, which rounds to 0.9970."
+   },
+   {
+    "case_id": "t1_rxjv3dlef7ceur3nke2ke",
+    "final": "1.2817",
+    "slots": {
+     "comparable_a_tax_adjusted_debt_checkpoint": "1955.2000",
+     "comparable_b_tax_adjusted_debt_checkpoint": "4746.4000"
+    },
+    "interpretation": "A's tax-adjusted debt is exactly 0.8*2444.0000375 = 1955.20003, which displays as 1955.2000; the unrounded value is what feeds the calculation. The unlevered betas are \u2248 0.885460 and \u2248 1.084351, with mean \u2248 0.984905. Multiplying by the target factor 1+4588/15226 gives 1.281684, which rounds half-up to 1.2817."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_ac4brczqkdjaa46lglt2o",
+    "final": "review_required",
+    "slots": {
+     "lower_stage_factor_checkpoint": "0.800000"
+    },
+    "interpretation": "I read the one-layer lower factor as 1-t = 0.8. Audited energy savings of 508 fall below the final lower bound, 1026*0.8^3 = 525.312, so the energy test fails, even though waste, coverage and the conclusion pass."
+   },
+   {
+    "case_id": "t1_k3zhx7psoksfu3qixfbyu",
+    "final": "assured",
+    "slots": {
+     "lower_stage_factor_checkpoint": "0.900001"
+    },
+    "interpretation": "1-t = 0.9000005, which rounds half-up to 0.900001 at 6 decimal places. Energy: 1219 lies inside [about 741.39, about 1353.63]. Waste: 1018 lies inside [about 592.68, about 1082.10]. Coverage 0.9 is at least 0.8, and the flag is true."
+   },
+   {
+    "case_id": "t1_rttnucw5hjs3kzvsotbyc",
+    "final": "review_required",
+    "slots": {
+     "lower_stage_factor_checkpoint": "0.850000"
+    },
+    "interpretation": "1-t = 0.8500003, which rounds to 0.850000. Audited energy savings of 1614 exceed the final upper bound, 984*(1.1499997)^3, about 1496.54, so the energy test fails."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_aen3saojkqnpyzv3dhel2",
+    "final": "-102.92",
+    "slots": {
+     "horizon_volume_checkpoint": "8208.0000",
+     "horizon_count_checkpoint": "96"
+    },
+    "interpretation": "Horizon volume = 1026*8 = 8208, count = 12*8 = 96. A = 82.08+192+72+205 = 551.08; B = 164.16+96+112+76 = 448.16; savings = B - A = -102.92 (setup fees charged once)."
+   },
+   {
+    "case_id": "t1_fghqqksft6iiky6cfbcsw",
+    "final": "86.02",
+    "slots": {
+     "horizon_volume_checkpoint": "2424.0000",
+     "horizon_count_checkpoint": "45"
+    },
+    "interpretation": "Horizon volume = 808*3 = 2424, count = 45. A = 48.48+90+33+49 = 220.48; B = 72.72+135+48+50.775 = 306.495; savings = 86.015, rounded half up only at the final step to 86.02."
+   },
+   {
+    "case_id": "t1_xq77hrnbsiltgn3cwbewo",
+    "final": "164.70",
+    "slots": {
+     "horizon_volume_checkpoint": "11670.0000",
+     "horizon_count_checkpoint": "110"
+    },
+    "interpretation": "Horizon volume = 1167*10 = 11670, count = 110. A = 175.05+110+110+204 = 599.05; B = 291.75+220+170+82 = 763.75; savings = B - A = 164.70."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_af5p47x3l33t7vuwjp6h2",
+    "final": "Call",
+    "slots": {
+     "call_payoff_checkpoint": "105.13",
+     "put_payoff_checkpoint": "78.00"
+    },
+    "interpretation": "Call bull payoff 164-58.87=105.13; expected profit 0.6*105.13-11=52.078, worst -11 (meets >= -11). Put bear payoff 119-41=78; expected profit 0.4*78-4=27.2, worst -4. Both qualify; Call has higher expected profit."
+   },
+   {
+    "case_id": "t1_rfrb3wvbkigy47owegk4u",
+    "final": "Put",
+    "slots": {
+     "call_payoff_checkpoint": "78.00",
+     "put_payoff_checkpoint": "98.83"
+    },
+    "interpretation": "Call bull payoff 157-79=78; expected profit 0.4*78-4=27.2, worst -4. Put bear payoff 137.825-39=98.825 (rounded half up to 98.83 for the slot only); expected profit 0.6*98.825-11=48.295, worst -11 meets the non-strict -11 floor. Both qualify; Put is higher."
+   },
+   {
+    "case_id": "t1_wnbhyl7oy52rf26rap7jk",
+    "final": "Neither",
+    "slots": {
+     "call_payoff_checkpoint": "68.60",
+     "put_payoff_checkpoint": "58.92"
+    },
+    "interpretation": "Call bull payoff 156-87.397=68.603; expected profit 0.55*68.603-4=33.73165 < 41. Put bear payoff 97.916-39=58.916; expected profit 0.45*58.916-9=17.5122 < 41. Neither meets the expected-profit threshold."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_abnkb3gcv72hqhx7xlqlu",
+    "final": "94.12",
+    "slots": {
+     "post_downturn_checkpoint": "102.00"
+    },
+    "interpretation": "I read the downturn ratio as the fraction of revenue lost, so post-downturn revenue = 204 x (1 - 0.5) = 102. Rate = (198 - 102)/102 = 16/17 = 94.1176...%, rounded half up only at the end."
+   },
+   {
+    "case_id": "t1_ol54ju57chprgdce26skm",
+    "final": "0.94",
+    "slots": {
+     "post_downturn_checkpoint": "102.05"
+    },
+    "interpretation": "I read the downturn ratio as a 1% fractional decline, so post-downturn revenue = 6803/66 x 0.99 = 20409/200 = 102.045 exactly; the slot rounds half up to 102.05. Rate = (103 - 102.045)/102.045 = 191/20409 = 0.93586...%, from the exact value."
+   },
+   {
+    "case_id": "t1_r3zbejyqwf4t26h47utv4",
+    "final": "1.68",
+    "slots": {
+     "post_downturn_checkpoint": "99.00"
+    },
+    "interpretation": "I read the downturn ratio as the fraction lost, so post-downturn revenue = 198 x (1 - 0.5) = 99. Rate = (100.66 - 99)/99 = 166/99 % = 1.6767...%, rounded half up to 1.68."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_7x4olykyj3g5tfuthawro",
+    "final": "19063.72",
+    "slots": {
+     "two_year_gross_capital_checkpoint": "87799.96"
+    },
+    "interpretation": "I read the reserve condition as P(1+r)^3 - W[(1+r)^2 + g(1+r) + g^2] = R, where g = 1.04 is the withdrawal growth factor. The checkpoint is P(1.04)^2 = 87799.9616. That gives W = 61857.960064/3.2448 \u2248 19063.7204, rounded only at the end."
+   },
+   {
+    "case_id": "t1_cyderntqcljwptiuovayg",
+    "final": "30629.27",
+    "slots": {
+     "two_year_gross_capital_checkpoint": "112025.03"
+    },
+    "interpretation": "Each withdrawal is the year-end balance with interest minus the withdrawal; withdrawals grow by 1.02 while the balance earns 5%. The checkpoint is 101610*1.1025 = 112025.025, which rounds half up to 112025.03. W = 98439.4252875/3.2139 \u2248 30629.27449."
+   },
+   {
+    "case_id": "t1_wynv3xgkgjv4i2sdztr2g",
+    "final": "17805.31",
+    "slots": {
+     "two_year_gross_capital_checkpoint": "96283.04"
+    },
+    "interpretation": "The balance earns 3% and withdrawals grow by 1.06. The checkpoint is 90756.003*1.0609 = 96283.0435827. W = (90756.003*1.092727 - 40836)/(1.0609 + 1.0918 + 1.1236) = 58335.534890181/3.2763 \u2248 17805.3093."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_aggrp7dxfnskvykyayswu",
+    "final": "25.09",
+    "slots": {
+     "energy_savings_checkpoint": "97.42"
+    },
+    "interpretation": "Energy savings = 487.075 x 0.2 = 97.415, so waste savings needed = 148.85 - 97.415 = 51.435. The rate is 51.435 / 205 = 25.0902...%. Only the final values are rounded, half up, and the checkpoint 97.415 rounds to 97.42."
+   },
+   {
+    "case_id": "t1_q2uhwmhxszp56ewoge5vg",
+    "final": "40.27",
+    "slots": {
+     "energy_savings_checkpoint": "77.86"
+    },
+    "interpretation": "Energy savings = 389.295 x 0.2 = 77.859, so waste savings needed = 196.663 - 77.859 = 118.804. The rate is 118.804 / 295 = 40.2725...%, the share of waste expenditure that must be cut."
+   },
+   {
+    "case_id": "t1_rojb2hot6albweuovbokm",
+    "final": "19.31",
+    "slots": {
+     "energy_savings_checkpoint": "102.60"
+    },
+    "interpretation": "Energy savings = 513 x 0.2 = 102.6, so waste savings needed = 141.42 - 102.6 = 38.82. The rate is 38.82 / 201 = 19.3134...%, the share of waste expenditure that must be cut."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_3hbs2b5a5uqocfkbrbvfi",
+    "final": "35.69",
+    "slots": {
+     "first_phase_growth_checkpoint": "2.143589",
+     "smoothed_phase_growth_checkpoint": "4.299817"
+    },
+    "interpretation": "Actual path: the initial cash grows 1.1^8 and then 1.3^8, and the boundary cash grows 1.3^8. Smoothed path: both phases grow at the mean factor 1.2, so the initial cash grows 1.2^16 and the boundary cash grows 1.2^8. Drag = 2529(1.2^16 - 1.43^8) and uplift = 290(1.3^8 - 1.2^8); each is divided by 2819 and the two ratios are multiplied, then x100 = 35.6904 percent. Only the final value is rounded."
+   },
+   {
+    "case_id": "t1_ao6bjeyu6s3wocnr4p3oy",
+    "final": "11790.65",
+    "slots": {
+     "first_phase_growth_checkpoint": "1.407100",
+     "smoothed_phase_growth_checkpoint": "8.172151"
+    },
+    "interpretation": "The mean factor is (1.05+1.65)/2 = 1.35, applied over 7 periods per phase. Drag = 11(1.35^14 - 1.7325^7) and uplift = 18(1.65^7 - 1.35^7), each divided by 29 nominal contributions. The product is x100 = 11790.6495 percent, rounded half-up only at the end."
+   },
+   {
+    "case_id": "t1_zq6wjgtn7abkacv4drcsc",
+    "final": "38.30",
+    "slots": {
+     "first_phase_growth_checkpoint": "2.357948",
+     "smoothed_phase_growth_checkpoint": "5.159780"
+    },
+    "interpretation": "The mean factor is 1.2 over 9 periods per phase. Drag = 1027(1.2^18 - 1.43^9) and uplift = 49(1.3^9 - 1.2^9), each divided by 1076. The product is x100 = 38.3023 percent. The slots are 1.1^9 and 1.2^9, each rounded to 6 places."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_bhu7yx3cumxk5wd25lfuw",
+    "final": "5.95",
+    "slots": {
+     "joint_ratio_checkpoint": "0.000100"
+    },
+    "interpretation": "Each linear rate is shock times sensitivity (0.01 + 0.04). The joint rate is 0.05 x 0.2 x 0.01 = 0.0001, and the concentration term is 0.1^2 = 0.01, so the total rate is 0.0601. Applied to 99 this gives 5.9499, which is above the stress loss of 3, so the answer is 5.9499 rounded half up."
+   },
+   {
+    "case_id": "t1_xohneoz64hdsbn4ksemju",
+    "final": "17.62",
+    "slots": {
+     "joint_ratio_checkpoint": "0.008000"
+    },
+    "interpretation": "The linear rates are 0.08 + 0.08. The joint rate is 0.2 x 0.2 x 0.2 = 0.008, and the concentration term is 0.01, so the total rate is 0.178. Applied to 99 this gives 17.622, which is above 5.4, so 17.622 is rounded to 17.62."
+   },
+   {
+    "case_id": "t1_z4b2fnsg3o4rqu6x4qacu",
+    "final": "5.25",
+    "slots": {
+     "joint_ratio_checkpoint": "0.002000"
+    },
+    "interpretation": "The linear rates are 0.02 + 0.02. The joint rate is 0.05 x 0.2 x 0.2 = 0.002, and the concentration term is 0.01, so the total rate is 0.052. Applied to 101 this gives 5.252, which is above the stress loss of 5, so 5.252 is rounded to 5.25."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_c4qbgdmqcjmiykzcjfuru",
+    "final": "Suspend and refresh records",
+    "slots": {
+     "risk_migration_checkpoint": "7.00"
+    },
+    "interpretation": "Migration is 8 - 1 = 7, which reaches the threshold of 4, and current risk 8 is at least 7, so the base result is Enhanced review. Stale documentation is true and suspicious activity is false, so the stale-documentation override applies and the result is Suspend and refresh records."
+   },
+   {
+    "case_id": "t1_itzuo3b6ykpkqyufyudou",
+    "final": "Routine monitoring",
+    "slots": {
+     "risk_migration_checkpoint": "-2.81"
+    },
+    "interpretation": "Migration is 4.12 - 6.93 = -2.81. A negative migration cannot reach the positive threshold of 1, and current risk 4.12 is below 7. Neither override flag is set, so the result is Routine monitoring."
+   },
+   {
+    "case_id": "t1_lakn3256kl3xw7t7gg6wa",
+    "final": "Enhanced review",
+    "slots": {
+     "risk_migration_checkpoint": "3.85"
+    },
+    "interpretation": "Migration is exactly 7.845 - 4 = 3.845, which reaches the threshold of 3 (read as at least 3), so the result is Enhanced review even though current risk 7.845 is below 8. The slot is rounded half-up to 3.85, and neither override flag is set."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_arjzf6d5miq44ksrd4l7w",
+    "final": "budget_breach",
+    "slots": {
+     "convexity_ratio_checkpoint": "0.038938"
+    },
+    "interpretation": "I took the convexity loss ratio to be the multiplier times the shock squared: 0.97345*0.04 = 0.038938. The linear rate is the sensitivity times the shock: 0.1*0.2 = 0.02. Total rate 0.058938 on 98 gives a gross loss of 5.775924, which is capped at 4; 4 > 2, so the budget is breached."
+   },
+   {
+    "case_id": "t1_iektljrmxrprfosqxsk4i",
+    "final": "within_budget",
+    "slots": {
+     "convexity_ratio_checkpoint": "0.005000"
+    },
+    "interpretation": "The convexity ratio is 2*0.05^2 = 0.005 and the linear rate is 0.4*0.05 = 0.02, for a total of 0.025. On 98 that gives a loss of 2.45, capped at 2. The budget test is non-strict ('does not exceed'), so 2 <= 2 is within budget."
+   },
+   {
+    "case_id": "t1_p4lrtokaqd6npwr7zfdze",
+    "final": "budget_breach",
+    "slots": {
+     "convexity_ratio_checkpoint": "0.020000"
+    },
+    "interpretation": "The convexity ratio is 0.5*0.2^2 = 0.02 and the linear rate is 0.4*0.2 = 0.08, for a total of 0.1. On 101 that gives a loss of 10.1, capped at 4; 4 > 3, so the budget is breached. Reading the sensitivity as a rate on its own, without multiplying by the shock, gives the same verdict."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_bm4nntrjwbeqtnpbi2rpa",
+    "final": "0.00",
+    "slots": {
+     "primary_miss_checkpoint": "0.500000"
+    },
+    "interpretation": "Required backup ratio = max(0, (T - p)/(1 - p)). The primary ratio of 0.5 already equals the 0.5 target, even though the question says it is strictly below. So (0.5 - 0.5)/0.5 = 0 and the minimum backup ratio is 0%. The miss complement is 1 - 0.5 = 0.5."
+   },
+   {
+    "case_id": "t1_mllejjnvctl5gnna2sqmq",
+    "final": "0.00",
+    "slots": {
+     "primary_miss_checkpoint": "0.400000"
+    },
+    "interpretation": "The primary ratio of 0.6 is above the 0.57325 target, which contradicts the stated premise. The raw formula gives (0.57325 - 0.6)/0.4 = -0.066875, which would be -6.69%. A detection ratio cannot be negative and the target is already met, so I set the minimum required backup ratio to 0%. The miss complement is 1 - 0.6 = 0.4."
+   },
+   {
+    "case_id": "t1_nzk674kkjgypwoszgyscw",
+    "final": "0.00",
+    "slots": {
+     "primary_miss_checkpoint": "0.333333"
+    },
+    "interpretation": "The primary ratio of 2/3 equals the 2/3 target, despite the premise saying it is strictly below. So (2/3 - 2/3)/(1/3) = 0 and the minimum backup ratio is 0%. The miss complement is 1 - 2/3 = 1/3, which rounds half-up to 0.333333."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_bjzxf7exy7eaorimjmqvg",
+    "final": "100.00",
+    "slots": {
+     "discounted_unit_price_checkpoint": "97.6000"
+    },
+    "interpretation": "Baseline unit gross profit = 0.3*122 = 36.6; discounted price = 122*(1-0.2) = 97.6; new gross profit = 97.6-61 = 36.6; retention = 36.6/36.6 = 100%."
+   },
+   {
+    "case_id": "t1_ernw3566d2enqwkwrvz72",
+    "final": "71.10",
+    "slots": {
+     "discounted_unit_price_checkpoint": "79.2000"
+    },
+    "interpretation": "Baseline unit gross profit = 0.4*99 = 39.6; discounted price = 99*0.8 = 79.2; new gross profit = 79.2-51.046 = 28.154; retention = 28.154/39.6 = 71.0959...% rounded half-up to 71.10."
+   },
+   {
+    "case_id": "t1_fuprg74f5iaispu7eqb2e",
+    "final": "201.97",
+    "slots": {
+     "discounted_unit_price_checkpoint": "78.3120"
+    },
+    "interpretation": "Baseline unit gross profit = 0.3*97.89004 = 29.367012; discounted price = 97.89004*0.8 = 78.312032 (checkpoint shown to 4 dp, exact value used downstream); new gross profit = 59.312032; retention = 59.312032/29.367012 = 201.968...% rounded to 201.97."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_bu36eo6aulfyiad3ja5my",
+    "final": "Routine monitoring",
+    "slots": {
+     "corridor_threshold_residual_factor_checkpoint": "0.812345"
+    },
+    "interpretation": "The one-stage retention factor is 1 - 0.1876547 = 0.8123453, which rounds to 0.812345. Growth is 11/9, about 1.222, which is above 0.6. The effective threshold is 11 x 0.8123453^3, about 5.897, and the corridor total of 5 does not strictly exceed it. Both metadata flags (rapid-velocity and incomplete-originator) are false; I did not count mandatory-hold as a metadata flag. So the investigation trigger is false and the answer is Routine monitoring, even though the mandatory-hold flag is true."
+   },
+   {
+    "case_id": "t1_fkdnq3mnfygaxbdi45vbw",
+    "final": "Hold",
+    "slots": {
+     "corridor_threshold_residual_factor_checkpoint": "0.700001"
+    },
+    "interpretation": "The retention factor is 1 - 0.2999995 = 0.7000005, which rounds half-up to 0.700001. Growth is 13/9, which is above 0. The corridor total of 6 strictly exceeds the effective threshold of 11 x 0.7000005^3, about 3.773. The investigation trigger is true and the mandatory-hold flag is true, so the answer is Hold."
+   },
+   {
+    "case_id": "t1_tb7e5dwqjsvdqbbihv52w",
+    "final": "Investigate",
+    "slots": {
+     "corridor_threshold_residual_factor_checkpoint": "0.750000"
+    },
+    "interpretation": "The retention factor is 1 - 0.25 = 0.75. Growth is 23/39, about 0.59, which does not exceed 2, so the combined threshold condition fails. The rapid-velocity metadata flag is true, so the investigation trigger is true. The mandatory-hold flag is false, so the answer is Investigate."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_ahx7ktv3dj5l2onw7wjiu",
+    "final": "43.22",
+    "slots": {
+     "category_1_exposure_checkpoint": "2048.00",
+     "category_2_exposure_checkpoint": "5897.41"
+    },
+    "interpretation": "P_i = volume x 0.5 (2048.002, 5897.406, 2049.602 USD). Because all three ratios are equal, the shares match the volume shares. 100H = 100 x 172698312316976/399600899600400, about 43.2177, so 43.22. The slots are rounded half-up to cents."
+   },
+   {
+    "case_id": "t1_lzpm5zmjo54pg4de6bv6e",
+    "final": "38.07",
+    "slots": {
+     "category_1_exposure_checkpoint": "98.50",
+     "category_2_exposure_checkpoint": "58.00"
+    },
+    "interpretation": "P_i = volume x 0.5 (98.5, 58, 39.5 USD). 100H = 100 x 58506/153664, about 38.07398, which rounds half-up to 38.07."
+   },
+   {
+    "case_id": "t1_nlgpg45lhrmi7wh7ibyta",
+    "final": "66.28",
+    "slots": {
+     "category_1_exposure_checkpoint": "10.50",
+     "category_2_exposure_checkpoint": "9.50"
+    },
+    "interpretation": "P_i = volume x 0.5 (10.5, 9.5, 81 USD). 100H = 100 x 27046/40804, about 66.2827, which rounds half-up to 66.28."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_cf2dueekn2nx7g62b3icy",
+    "final": "reduce_flexible_spending",
+    "slots": {
+     "post_cut_budget_checkpoint": "812.80",
+     "reducible_spending_checkpoint": "315.00"
+    },
+    "interpretation": "I read the 0.2 cut as a fractional reduction of the budget, so 1016 x 0.8 = 812.8. The gap is (611 + 511) - 812.8 = 309.2. Flexible spending can fall by 511 - 196 = 315, which covers the gap, so reducing flexible spending is chosen."
+   },
+   {
+    "case_id": "t1_k33o3mjzesadker2irhce",
+    "final": "no_feasible_response",
+    "slots": {
+     "post_cut_budget_checkpoint": "1027.31",
+     "reducible_spending_checkpoint": "118.00"
+    },
+    "interpretation": "The post-cut budget is exactly 1284.13125 x 0.8 = 1027.305, which rounds half-up to 1027.31 for the slot only. The gap is 1423 - 1027.305 = 395.695. Neither the reducible flexible spending (514 - 396 = 118) nor the outside funding (342) covers it on its own, so there is no feasible response."
+   },
+   {
+    "case_id": "t1_tgdlvhig4l3vm4ci35v66",
+    "final": "use_external_funding",
+    "slots": {
+     "post_cut_budget_checkpoint": "926.25",
+     "reducible_spending_checkpoint": "36.00"
+    },
+    "interpretation": "The budget after the cut is 1235 x 0.75 = 926.25, and the gap is 1201 - 926.25 = 274.75. Reducible flexible spending (492 - 456 = 36) is not enough. Outside funding of 298 is at least 274.75, so outside funding is used."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_7ufeprkc6mxm54xvw44ui",
+    "final": "-76.61",
+    "slots": {
+     "early_cleanup_growth_factor_checkpoint": "1.948717",
+     "terminal_discount_factor_checkpoint": "0.232568"
+    },
+    "interpretation": "Both cleanup payments and the admin fee are outflows. The difference is 1953*1.1^7/1.2^7 - (1953*1.1^8 + 710)/1.2^8, which is exactly -32941555037/429981696. The terminal discount factor is 1/1.2^8 = (5/6)^8, and only the final value was rounded."
+   },
+   {
+    "case_id": "t1_igmuoeiz6u22cyx4i3q7q",
+    "final": "-635.22",
+    "slots": {
+     "early_cleanup_growth_factor_checkpoint": "2.143589",
+     "terminal_discount_factor_checkpoint": "0.232568"
+    },
+    "interpretation": "Both plans pay the escalated cleanup at year 8, so that cost cancels. The difference is only the discounted admin outflow, -2731.316416*(5/6)^8, about -635.2169. The terminal discount factor is 1/1.2^8."
+   },
+   {
+    "case_id": "t1_xjropb5ujd2j4too74bjm",
+    "final": "80.45",
+    "slots": {
+     "early_cleanup_growth_factor_checkpoint": "2.143589",
+     "terminal_discount_factor_checkpoint": "0.134588"
+    },
+    "interpretation": "The difference is 1024*[(11/12)^8 - (11/12)^11] - 273.7*(5/6)^11, which is exactly 59772887175168/743008370688, about 80.4471, so deferral is favored. The terminal discount factor is 1/1.2^11, and the escalation factor is 1.1^8 to the early date."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_cya24xq7gnooym5wkkyf4",
+    "final": "99.00",
+    "slots": {
+     "annual_net_benefit_checkpoint": "99.00"
+    },
+    "interpretation": "Annual net benefit is 59+59-19 = 99, so PV = 99*2 = 198. Setting ROI = (PV - I)/I = 1 gives I = PV/(1+1) = 99."
+   },
+   {
+    "case_id": "t1_oy5q3u3e7ua4ovjbgr6wg",
+    "final": "61.91",
+    "slots": {
+     "annual_net_benefit_checkpoint": "103.19"
+    },
+    "interpretation": "Annual net benefit is 82+41-19.81 = 103.19, so PV = 309.57. The maximum investment is I = 309.57/(1+4) = 61.914, which rounds half up to 61.91."
+   },
+   {
+    "case_id": "t1_vzhedisly4hqwrzmbo7uy",
+    "final": "34.14",
+    "slots": {
+     "annual_net_benefit_checkpoint": "102.43"
+    },
+    "interpretation": "Annual net benefit is 41+91-29.575 = 102.425, reported half up as 102.43 for the checkpoint only; I kept the exact value for the rest of the calculation. I = 102.425/(1+2) = 34.141666..., which rounds to 34.14."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_c5r7tjb5se3khqyt25dcm",
+    "final": "114.45",
+    "slots": {
+     "retention_ratio_checkpoint": "0.600001"
+    },
+    "interpretation": "The retention ratio is 1 - t = 0.6000005, which rounds half up to 0.600001. Revenue = (NI/(1-t) + fixed costs + interest)/(1 - COGS rate) = (35.13603/0.6000005 + 33)/0.8 \u2248 114.4500015, which rounds to 114.45. Using the rounded checkpoint instead also gives 114.45."
+   },
+   {
+    "case_id": "t1_cvspqy7wtcuhomuppgtgq",
+    "final": "100.54",
+    "slots": {
+     "retention_ratio_checkpoint": "0.600000"
+    },
+    "interpretation": "The retention ratio is 1 - t = 0.6. Pre-tax income needed = 34/0.6 = 170/3. Revenue = (170/3 + 16.768 + 7)/0.8 = 30163/300 = 100.5433..., which rounds to 100.54."
+   },
+   {
+    "case_id": "t1_oeyx3bevkl5fivhq75x66",
+    "final": "119.76",
+    "slots": {
+     "retention_ratio_checkpoint": "0.750000"
+    },
+    "interpretation": "The retention ratio is 1 - t = 0.7500003, which rounds to 0.750000 at 6 places. Revenue = (34.4013885/0.7500003 + 8 + 12)/0.55 \u2248 119.7609085, which rounds to 119.76. Using the rounded checkpoint instead also gives 119.76."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_dadqaarahx7db2vebpfho",
+    "final": "8.26",
+    "slots": {
+     "intrinsic_checkpoint": "81.92"
+    },
+    "interpretation": "The intrinsic payoff is 132.92 - 51 = 81.92. Setting (81.92 - 40.6 - P)/P = 4 gives P = 41.32/5 = 8.264 exactly, which rounds to 8.26."
+   },
+   {
+    "case_id": "t1_h3roicj6atjcsflqswgjo",
+    "final": "66.80",
+    "slots": {
+     "intrinsic_checkpoint": "102.50"
+    },
+    "interpretation": "The intrinsic payoff is 153.5 - 51 = 102.5. Setting (102.5 - 19 - P)/P = 0.25 gives P = 83.5/1.25 = 66.8 exactly."
+   },
+   {
+    "case_id": "t1_p3p2cv7gw4fjitgezhwiy",
+    "final": "7.13",
+    "slots": {
+     "intrinsic_checkpoint": "29.69"
+    },
+    "interpretation": "The intrinsic payoff is 78.691 - 49 = 29.691, reported as 29.69. Setting (29.691 - 19 - P)/P = 0.5 gives P = 10.691/1.5 = 21382/3000 = 7.12733... exactly, which rounds to 7.13."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_dk5e23w4nve2pwta3hw3e",
+    "final": "100.85",
+    "slots": {
+     "pre_rebate_checkpoint": "76.68"
+    },
+    "interpretation": "Net = (G*(1-0.2) - 4) + 24.32. The pre-rebate checkpoint is the amount left after the fixed fee and before the rebate: 101 - 24.32 = 76.68. Then (76.68 + 4) / 0.8 = 100.85."
+   },
+   {
+    "case_id": "t1_fopt4bcvocdntl3ovfosw",
+    "final": "132.87",
+    "slots": {
+     "pre_rebate_checkpoint": "101.30"
+    },
+    "interpretation": "Pre-rebate checkpoint = 131.64 - 30.342 = 101.298, which rounds to 101.30 for the slot only. The exact value is carried forward: (101.298 + 5) / 0.8 = 132.8725, which rounds half up to 132.87."
+   },
+   {
+    "case_id": "t1_ukdmu65qkkhyaema2bvta",
+    "final": "116.06",
+    "slots": {
+     "pre_rebate_checkpoint": "79.73"
+    },
+    "interpretation": "Pre-rebate checkpoint = 117 - 37.275 = 79.725, which rounds half up to 79.73 for the slot only. The exact value is carried forward: (79.725 + 5) / 0.73 = 84.725 / 0.73 = 116.0616..., which rounds to 116.06."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_dk6hegkpwtnglarkkikpi",
+    "final": "2.56",
+    "slots": {
+     "market_ratio_checkpoint": "0.080000"
+    },
+    "interpretation": "I read the market-shock loss ratio as the shock ratio times the loss sensitivity: 0.2 x 0.4 = 0.08. The maximum value is the budget divided by the combined ratio: 0.307/(0.08+0.04) = 2.558333..., which rounds to 2.56."
+   },
+   {
+    "case_id": "t1_rcwon2mk5ggowsctzlozc",
+    "final": "80.00",
+    "slots": {
+     "market_ratio_checkpoint": "0.012500"
+    },
+    "interpretation": "I read the market-shock loss ratio as 0.05 x 0.25 = 0.0125. The maximum value is 9/(0.0125+0.1) = 9/0.1125 = 80 exactly."
+   },
+   {
+    "case_id": "t1_xh2lwogys5ksbifxs2vua",
+    "final": "13.45",
+    "slots": {
+     "market_ratio_checkpoint": "0.048740"
+    },
+    "interpretation": "I read the market-shock loss ratio as 0.0974805 x 0.5 = 0.04874025, which rounds to 0.048740 at 6 places. The maximum value is 2/(0.04874025+0.1) = 2/0.14874025 = 13.44626..., rounded only at the end to 13.45."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_akidkrcaa54dknsgb73lg",
+    "final": "0.10",
+    "slots": {
+     "low_state_retained_cash_checkpoint": "10.2000",
+     "incremental_retained_cash_checkpoint": "4.0800",
+     "incremental_repayment_checkpoint": "6.1200"
+    },
+    "interpretation": "Net proceeds equal the recovery rate times the carrying amount. Pre-sale liabilities are 79 + 0.6*35.7 = 100.42, so low-state liabilities are 85.12. The gap is the expected quick ratio (0.3098436) minus the ratio of expected quick assets to expected liabilities (0.3088248), which is 0.0010188. Times 100 that is 0.1019 percentage points."
+   },
+   {
+    "case_id": "t1_gtycyglcsssz4m3i2j2uk",
+    "final": "0.60",
+    "slots": {
+     "low_state_retained_cash_checkpoint": "8.8200",
+     "incremental_retained_cash_checkpoint": "4.9000",
+     "incremental_repayment_checkpoint": "9.1000"
+    },
+    "interpretation": "Pre-sale liabilities are 74 + 0.65*39.2 = 99.48, so low-state liabilities are 83.1. The state quick ratios are 1384/925 and 5291/4155, with expected value 1.4182325. The ratio of expected quick assets to expected liabilities is 109.005/77.185 = 1.4122563. The gap is 0.0059762, or 0.5976 percentage points."
+   },
+   {
+    "case_id": "t1_zteiudfirxim7qwtz2skw",
+    "final": "0.26",
+    "slots": {
+     "low_state_retained_cash_checkpoint": "10.2000",
+     "incremental_retained_cash_checkpoint": "4.0800",
+     "incremental_repayment_checkpoint": "6.1200"
+    },
+    "interpretation": "Pre-sale liabilities are 82 + 21.42 = 103.42, so low-state liabilities are 88.12. The state quick ratios are 111.2/88.12 and 115.28/82, which average 1.3338846. The ratio of expected quick assets to expected liabilities is 113.24/85.06 = 1.3312956. The gap is 0.0025891, or 0.2589 percentage points."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_dwhsglz6aqauusodbkgws",
+    "final": "76.36",
+    "slots": {
+     "net_receipts_checkpoint": "100.45"
+    },
+    "interpretation": "Net terminal receipts are gross proceeds minus exit cost plus dividends: 89 - 9 + 20.445 = 100.445. The outlay is 100.445/1.25 = 80.356, so the exact quote is 80.356 - 4 = 76.356, which rounds half up to 76.36. The checkpoint 100.445 rounds half up to 100.45."
+   },
+   {
+    "case_id": "t1_ni5burwzpeyb5g3lwe5t2",
+    "final": "54.49",
+    "slots": {
+     "net_receipts_checkpoint": "87.73"
+    },
+    "interpretation": "Net receipts are 89 - 11 + 9.73 = 87.73. The outlay is 87.73/1.5 = 58.48666..., so the exact quote is 58.48666... - 4 = 54.48666..., which rounds half up to 54.49."
+   },
+   {
+    "case_id": "t1_uv4ygmztsfgh5c3x7wl6y",
+    "final": "21.94",
+    "slots": {
+     "net_receipts_checkpoint": "86.82"
+    },
+    "interpretation": "Net receipts are 88 - 11 + 9.822 = 86.822, and a target ratio of 2 means a 200% return, so outlay = 86.822/3 = 28.940666.... The exact quote is 28.940666... - 7 = 21.940666..., which rounds to 21.94. The checkpoint 86.822 rounds to 86.82."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_cvnxibkdcuui4cjg2v5fq",
+    "final": "0.02",
+    "slots": {
+     "period_one_return_checkpoint": "0.346939"
+    },
+    "interpretation": "Subperiod 1 return is 132/98 - 1 = 17/49. Subperiod 2 adds the terminal distribution back to the ending value: (176+20)/(132+19). That gives TWR = 113/151. For Modified Dietz, the contribution gets weight 0.4 and the end-of-period distribution gets weight 0: MD = (176-98-(19-20))/(98+0.4*19) = 395/528. The difference is 19/79728, or 0.0238 percentage points, rounded only at the end."
+   },
+   {
+    "case_id": "t1_lsczsawkbydecnbmneapc",
+    "final": "-0.24",
+    "slots": {
+     "period_one_return_checkpoint": "0.247525"
+    },
+    "interpretation": "Subperiod 1 return is 126/101 - 1 = 25/101. Subperiod 2 is (162+21)/(126+24) = 1.22, so TWR = 1318/2525. For Modified Dietz, the contribution has weight 0.4 and the terminal distribution has weight 0: MD = 58/110.6 = 290/553. The difference is -3396/1396325, or about -0.2432 percentage points."
+   },
+   {
+    "case_id": "t1_tz6jdefg543vsykb4zq7y",
+    "final": "-0.18",
+    "slots": {
+     "period_one_return_checkpoint": "0.193878"
+    },
+    "interpretation": "Subperiod 1 return is 117/98 - 1 = 19/98. Subperiod 2 is (157+15.0725)/136, which gives TWR of about 0.5105404. For Modified Dietz, the contribution has weight 0.5 and the terminal distribution has weight 0: MD = 55.0725/107.5, about 0.5123023. The difference is about -0.1762 percentage points."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_dczk6cbnhn6beyy6gwxm2",
+    "final": "119.93",
+    "slots": {
+     "pre_action_asset_base_checkpoint": "146.9100"
+    },
+    "interpretation": "Pre-action assets = 97.91003 + 49 = 146.91003. I read the sales fall of 0.4 as a fractional (40%) decline, since no sales level is given. Uplift = S0/A1 - S0/A0 and drag = d*S0/A1, so the offset ratio = d*A0/R = 0.4*146.91003/49 = 1.1992656, which gives 119.93%."
+   },
+   {
+    "case_id": "t1_n5fb7nyrz6dww6prn5shq",
+    "final": "50.26",
+    "slots": {
+     "pre_action_asset_base_checkpoint": "197.0000"
+    },
+    "interpretation": "Pre-action assets = 99 + 98 = 197. I read the sales fall of 0.250025 as a fractional decline. Offset = drag (d*S0/A1) divided by gross uplift (S0/A1 - S0/A0), which equals d*A0/R = 0.250025*197/98 = 0.5026013, giving 50.26%."
+   },
+   {
+    "case_id": "t1_u3tyle4d2qdh6mdcitltm",
+    "final": "97.56",
+    "slots": {
+     "pre_action_asset_base_checkpoint": "200.0000"
+    },
+    "interpretation": "Pre-action assets = 118 + 82 = 200. I read the sales fall of 0.4 as a fractional (40%) decline. Offset = d*A0/R = 0.4*200/82 = 80/82 = 0.9756098, giving 97.56%."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_dqvtyfgnyflw264e7xslg",
+    "final": "Scenario A",
+    "slots": {
+     "a_one_stage_retention_factor_checkpoint": "0.800001"
+    },
+    "interpretation": "Carrying amount is 277-59=218. Only the amount above residual is depreciated geometrically: A's base is 97 with retention 0.8000005 (shown half-up as 0.800001), giving cumulative depreciation of about 47.3359 and 49.6641 remaining. B's base is 149, giving cumulative depreciation of 57.495375 and 91.504625 remaining. Both qualify and A's depreciation is lower."
+   },
+   {
+    "case_id": "t1_gwm53hazneme5ha5lociq",
+    "final": "Neither scenario",
+    "slots": {
+     "a_one_stage_retention_factor_checkpoint": "0.720000"
+    },
+    "interpretation": "Carrying amount is 315-81=234. A's base is 126 at 0.72 retention, so cumulative depreciation is 78.970752, above the 64 cap. B's base is 82 at 0.8 retention, so its remaining balance is 41.984, below the 46 minimum. Neither scenario qualifies."
+   },
+   {
+    "case_id": "t1_urdsehbr5dw7fooeiib3y",
+    "final": "Scenario A",
+    "slots": {
+     "a_one_stage_retention_factor_checkpoint": "0.789123"
+    },
+    "interpretation": "Carrying amount is 292-71=221. A's base is 122 with retention 0.7891234, so cumulative depreciation is about 62.0493 (at most 67) and about 59.9507 remains (at least 41), and A qualifies. B's base is 63 at 0.85 retention, so 38.689875 remains, below 41, and B fails."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_dx7si6oqxcmmbo6nqx7dc",
+    "final": "90.43",
+    "slots": {
+     "green_maturity_factor_checkpoint": "1.27628156"
+    },
+    "interpretation": "Green factor 1.05^5=1.2762815625, conventional 1.1^5=1.61051; blended factor 0.7*1.2762815625+0.3*1.61051=1.37655009375; principal = 124.478505/1.37655009375 \u2248 90.42788, rounded only at the end."
+   },
+   {
+    "case_id": "t1_xqepc35azhoszpv5vwpys",
+    "final": "239.56",
+    "slots": {
+     "green_maturity_factor_checkpoint": "1.09368527"
+    },
+    "interpretation": "Green factor 1.01^9=1.093685272684360901, conventional share 0.8 with 1.05^5=1.2762815625; blended factor 1.23976230453687218; principal = 297/blended \u2248 239.56205."
+   },
+   {
+    "case_id": "t1_yss4nwshjwn2lflgx3tb6",
+    "final": "79.03",
+    "slots": {
+     "green_maturity_factor_checkpoint": "1.27628156"
+    },
+    "interpretation": "Green factor 1.05^5=1.2762815625 on share 11/21, conventional 1.2^9=5.159780352 on share 10/21; blended factor 65.6369007075/21; principal = 5187/65.6369007075 \u2248 79.02567."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_eylosu5lgs3qr3a2a2dhq",
+    "final": "8.41",
+    "slots": {
+     "combined_capital_requirement_ratio_checkpoint": "0.120000"
+    },
+    "interpretation": "Combined ratio = 0.08+0.04 = 0.12; capital gap = 0.12*1018 - (39+74.75) = 122.16-113.75 = 8.41; leverage gap = 0.08*509-39 = 1.72; x = max = 8.41 (USD millions)."
+   },
+   {
+    "case_id": "t1_k423m3u6wxzcqkkhrfpss",
+    "final": "6.15",
+    "slots": {
+     "combined_capital_requirement_ratio_checkpoint": "0.135792"
+    },
+    "interpretation": "Combined ratio = 0.1357923 (exact used downstream); capital gap = 134.2985847-133.6737 = 0.6248847; leverage gap = 49.5-43.35 = 6.15; x = larger gap = 6.15."
+   },
+   {
+    "case_id": "t1_nkxfgbkbbvxlrhmyg3av6",
+    "final": "-8.42",
+    "slots": {
+     "combined_capital_requirement_ratio_checkpoint": "0.123457"
+    },
+    "interpretation": "Combined ratio = 0.1234565 (rounded half up to 0.123457 for the slot only); capital gap = 121.3577395-130.0145 = -8.6567605; leverage gap = 34.58-43 = -8.42; larger (less negative) gap is -8.42, meaning a 8.42 withdrawal is permitted."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_c6ein6vre2sgsa3y4acaq",
+    "final": "1.479221",
+    "slots": {
+     "gross_growth_checkpoint": "1.210615"
+    },
+    "interpretation": "I read the quote as reporting-currency units per base unit, so the base amount is C(1-0.02)/E. The net return is 0.98*0.93*X/E - 0.0306153 - 1 = 0.18, which gives X = E*1.2106153/0.9114 = 1.47922108745... The checkpoint is the required gross multiple, 1 + return + carry = 1.2106153."
+   },
+   {
+    "case_id": "t1_ikzeoqfhhqvgl5eujv2om",
+    "final": "1.757521",
+    "slots": {
+     "gross_growth_checkpoint": "1.500000"
+    },
+    "interpretation": "The fees are applied multiplicatively to the converted amounts, retaining 0.8 and then 0.5. The financing charge is 0.4 times the initial capital and is subtracted after exit. This gives X = 0.46867216*(1+0.1+0.4)/(0.8*0.5) = 1.7575206 exactly, which is 1.757521 after half-up rounding."
+   },
+   {
+    "case_id": "t1_nevur2x5cialxazxg7oca",
+    "final": "1.631358",
+    "slots": {
+     "gross_growth_checkpoint": "1.200000"
+    },
+    "interpretation": "The required gross multiple is 1 + 0.16 + 0.04 = 1.2. Solving gives X = 1.2*1.2/(0.91*0.97) = 1.44/0.8827 = 1.6313583324..., which rounds to 1.631358."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_fhgbpk3jmxnyikyzrudyi",
+    "final": "10.00",
+    "slots": {
+     "horizon_volatility_checkpoint": "0.300000"
+    },
+    "interpretation": "The holding period of 9 is in days, so horizon volatility is 0.1*sqrt(9)=0.3. Maximum exposure is budget/(z*sigma_h) = 9/(3*0.3) = 10, and the budget is non-binding at equality."
+   },
+   {
+    "case_id": "t1_qbzaofeo2zkaytlrywxg2",
+    "final": "2.50",
+    "slots": {
+     "horizon_volatility_checkpoint": "0.066667"
+    },
+    "interpretation": "The holding period of 4 is in days, so horizon volatility is 0.0333335*2=0.066667. Exposure is 0.5/(3*0.066667) = 0.5/0.200001 = 2.49998750..., which rounds half up to 2.50."
+   },
+   {
+    "case_id": "t1_ybzlhcrsqztnl36klrwra",
+    "final": "2.72",
+    "slots": {
+     "horizon_volatility_checkpoint": "0.150000"
+    },
+    "interpretation": "The holding period of 9 is in days, so horizon volatility is 0.05*3=0.15. Exposure is 1.222/(3*0.15) = 1.222/0.45 = 2.71555..., which rounds half up to 2.72."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_dhh34rszsb27vxbzyu6kc",
+    "final": "earlier_date",
+    "slots": {
+     "earlier_growth_factor_checkpoint": "1.215509",
+     "later_growth_factor_checkpoint": "1.276285"
+    },
+    "interpretation": "Projected capital = (77760+19720)=97480 compounded annually at 5.00005%; at 4 years it is about 118487.78, which is 13283.78 above the requirement of 105204, more than the 4862 margin. The earlier date is feasible, so it is selected."
+   },
+   {
+    "case_id": "t1_gl3ko5vfgafn5z523c6jy",
+    "final": "neither_date",
+    "slots": {
+     "earlier_growth_factor_checkpoint": "1.003004",
+     "later_growth_factor_checkpoint": "1.000500"
+    },
+    "interpretation": "The 'earlier' date is taken as labelled (6 years) and the 'later' date as labelled (1 year). Capital 121407 grows to about 121771.68 at 6 years, short of 120451+2042=122493, and to 121467.70 at 1 year, short of 120642+2042=122684. Neither date is feasible."
+   },
+   {
+    "case_id": "t1_k65bllmechikkm6fq4274",
+    "final": "earlier_date",
+    "slots": {
+     "earlier_growth_factor_checkpoint": "1.082432",
+     "later_growth_factor_checkpoint": "1.171659"
+    },
+    "interpretation": "Capital 88417 compounded annually at 2% grows to about 95705.40 at 4 years, which is 5110.40 above the requirement of 90595 and more than the 3041 margin. The earlier date is feasible, so it is preferred."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_ft5tce4c3tclzg47zzpv6",
+    "final": "16.84",
+    "slots": {
+     "net_debt_checkpoint": "20.0000"
+    },
+    "interpretation": "Net debt is total debt minus cash (31 - 11 = 20), so EV = 81 + 20 = 101. The required normalized EBITDA is 101/6, the deduction of 0.01 is added back to get reported EBITDA (101/6 + 0.01 = 16.84333...), and only the final value is rounded."
+   },
+   {
+    "case_id": "t1_i6ihctgkcoskhtlhirkti",
+    "final": "29.00",
+    "slots": {
+     "net_debt_checkpoint": "-20.0000"
+    },
+    "interpretation": "Net debt is 9 - 29 = -20, a net cash position, so EV = 101 - 20 = 81. The required normalized EBITDA is 81/3 = 27, and adding back the deduction of 2 gives reported EBITDA of 29."
+   },
+   {
+    "case_id": "t1_us7622nhj6e4draeebydo",
+    "final": "18.29",
+    "slots": {
+     "net_debt_checkpoint": "0.0000"
+    },
+    "interpretation": "Net debt is 24 - 24 = 0, so EV equals the equity value of 121. The required normalized EBITDA is 121/7, and adding back the deduction of 1 gives reported EBITDA of 128/7 = 18.2857..., which is rounded half up only at the end."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_f24wco3ieosoqym5vcrno",
+    "final": "129.84",
+    "slots": {
+     "period_one_net_to_floor_ratio_checkpoint": "0.344243"
+    },
+    "interpretation": "Period-one net is 68.1601 and cumulative net through period two is 86.1601. The binding floor is period one: 198 - 68.1601 = 129.8399. The checkpoint ratio is 68.1601/198."
+   },
+   {
+    "case_id": "t1_lsacml2kjliqejs5ozvpm",
+    "final": "262.12",
+    "slots": {
+     "period_one_net_to_floor_ratio_checkpoint": "0.247063"
+    },
+    "interpretation": "Period-one net is 72.88359. Period two's net is -40, so cumulative net is 32.88359. The binding floor is period two: 295 - 32.88359 = 262.11641. The checkpoint ratio is 72.88359/295."
+   },
+   {
+    "case_id": "t1_olbofxcudneroeegktcoc",
+    "final": "59.04",
+    "slots": {
+     "period_one_net_to_floor_ratio_checkpoint": "0.391514"
+    },
+    "interpretation": "Period-one net is 8803/150 - 20.7 = 2849/75 and cumulative net is 2849/75 + 12. The binding floor is period one: 3881/40 - 2849/75 = 35423/600 \u2248 59.0383. The checkpoint ratio is 22792/58215."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_56ahdr57pycvfu5calkiq",
+    "final": "13932.82",
+    "slots": {
+     "normal_interim_present_value_checkpoint": "2091.39",
+     "stressed_interim_present_value_checkpoint": "1254.20"
+    },
+    "interpretation": "Each scenario NPV is -cost + interim/(1+r)^4 + (S - cleanup)/(1+r)^8. The expected-NPV floor only needs S of about 8933.45, so the stressed floor (NPV_s >= 496) is the binding one: S = 815 + 859689375/65536 = 13932.8188..., rounded half up at the end."
+   },
+   {
+    "case_id": "t1_buytxrpcghtkrmjd2hxzm",
+    "final": "6413.71",
+    "slots": {
+     "normal_interim_present_value_checkpoint": "1728.42",
+     "stressed_interim_present_value_checkpoint": "802.68"
+    },
+    "interpretation": "Here the interim flow is discounted over 6 years and the terminal (S - 917) over 3 years. The expected-NPV floor needs S of about 5571.9, while the stressed floor (NPV_s >= 694) needs S = 917 + 2814.315072/0.512 = 6413.709125, so the stressed floor binds."
+   },
+   {
+    "case_id": "t1_gpdjkdxfumizi2x7uxtlq",
+    "final": "25298.44",
+    "slots": {
+     "normal_interim_present_value_checkpoint": "1592.84",
+     "stressed_interim_present_value_checkpoint": "650.96"
+    },
+    "interpretation": "The interim flow is discounted over 7 years and the terminal (S - 1167.46625) over 10 years. The expected-NPV floor needs S of about 13768, while the stressed floor (NPV_s >= 305) needs S = 1167.46625 + 25303164250/1048576 = 25298.4441..., so the stressed floor binds; rounding is half up at the end only."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_et73aawtztcesdhtigiay",
+    "final": "1195.08",
+    "slots": {
+     "later_contribution_growth_checkpoint": "1.610510"
+    },
+    "interpretation": "I took the sentences literally. The required principal is P = (T - C*(1+r)^k)/(1+r)^N, with k = 5 periods of growth on the contribution and N = 1 period on the principal. So P = (1472.4206 - 98*1.61051)/1.1 = 1314.59062/1.1 = 1195.0824, which rounds to 1195.08."
+   },
+   {
+    "case_id": "t1_kkhmw36x6ggufarcpyzgq",
+    "final": "-589.04",
+    "slots": {
+     "later_contribution_growth_checkpoint": "2.660020"
+    },
+    "interpretation": "Same literal formula: the contribution grows for k = 7 periods even though the target horizon is N = 1. That gives (1166 - 693*1.15^7)/1.15 = -677.3937771648/1.15 = -589.0381. No floor at zero is stated, so I kept the negative result and rounded half-up on the magnitude."
+   },
+   {
+    "case_id": "t1_lbb7gfr5qxrt44mmf64j2",
+    "final": "-207.95",
+    "slots": {
+     "later_contribution_growth_checkpoint": "4.299817"
+    },
+    "interpretation": "Same literal formula: the contribution grows for k = 8 periods (1.2^8 = 4.29981696) and the principal is discounted over N = 7 periods (1.2^7 = 3.5831808). That gives (1465 - 2210.10591744)/3.5831808 = -207.9454. No floor is stated, so I kept the negative result."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_g3jljwfqir2k5feplxzju",
+    "final": "54.85",
+    "slots": {
+     "procurement_marginal_after_it_checkpoint": "1857.0000"
+    },
+    "interpretation": "Procurement's share is the simple average of its first-mover savings (8854) and its savings when added after IT (9764-7907=1857), giving 5355.5. That share is divided by combined savings of 9764, so 535550/9764 = 54.8494...%, rounded half up only at the end."
+   },
+   {
+    "case_id": "t1_k4tte7vctjxhbgkfva7yo",
+    "final": "62.35",
+    "slots": {
+     "procurement_marginal_after_it_checkpoint": "40.0000"
+    },
+    "interpretation": "Procurement's share is (61 + (81-41))/2 = 50.5. Dividing by combined savings of 81 gives 5050/81 = 62.3457...%, rounded half up at the end."
+   },
+   {
+    "case_id": "t1_vjh4mvv5qemgxa2tlgw22",
+    "final": "39.66",
+    "slots": {
+     "procurement_marginal_after_it_checkpoint": "23.0000"
+    },
+    "interpretation": "Procurement's share is (46 + (87-64))/2 = 34.5. Dividing by combined savings of 87 gives 3450/87 = 39.6552...%, rounded half up at the end."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_glgldujldvsvqitwk4fb2",
+    "final": "credits_only",
+    "slots": {
+     "variable_abatement_total_checkpoint": "867.54"
+    },
+    "interpretation": "Abate-then-buy abates min(118,98)=98 t: variable 98*8.85243=867.53814, plus fixed 821 and 20 credits*16=320, giving 2008.53814. Credits-only costs 118*16=1888 and is feasible because 118<=148, so credits-only is cheaper."
+   },
+   {
+    "case_id": "t1_gyiamqexu7k3ervios6im",
+    "final": "abate_then_buy",
+    "slots": {
+     "variable_abatement_total_checkpoint": "968.34"
+    },
+    "interpretation": "Abate-then-buy abates min(151,98)=98 t: variable 98*9.88105=968.3429, plus fixed 787 and 53 credits*19=1007, giving 2762.3429. Credits-only costs 151*19=2869 (feasible, 151<=162), so abate-then-buy is cheaper."
+   },
+   {
+    "case_id": "t1_wa3naofoqwb2gmwhkhm7c",
+    "final": "no_feasible_strategy",
+    "slots": {
+     "variable_abatement_total_checkpoint": "0.00"
+    },
+    "interpretation": "Operational availability is false, so no internal abatement happens; I take the variable abatement cost as 0 and treat abate-then-buy as infeasible (it would need 82 credits, which is more than 41). Credits-only also needs 82 > 41 credits, so neither strategy is feasible."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_cqkmq7nmplxr4knxzazek",
+    "final": "no_feasible_structure",
+    "slots": {
+     "structure_a_annual_factor_checkpoint": "1.05000000"
+    },
+    "interpretation": "The checkpoint is the gross factor for one period, 1 + 0.05. Structure A's cost is 1020*(1.05^7 - 1) + 980, about 1395.24, which is above the 1023 cap. Structure B's eligible share of 0.4 is below 0.6, so neither structure qualifies."
+   },
+   {
+    "case_id": "t1_crejypzcryj2swac5gyxi",
+    "final": "no_feasible_structure",
+    "slots": {
+     "structure_a_annual_factor_checkpoint": "1.09840001"
+    },
+    "interpretation": "The factor is 1.098400005, and rounding half-up to 8 decimal places gives 1.09840001. Structure A's cost is 1019*(1.0984^7 - 1) + 298.15, about 1244.8, above the 782 cap. Structure B's cost is 1019*(1.1^6 - 1) + 258 = 1044.22, also above the cap, so neither qualifies."
+   },
+   {
+    "case_id": "t1_lnix4q2iiyujmv6gaa5va",
+    "final": "structure_b",
+    "slots": {
+     "structure_a_annual_factor_checkpoint": "1.04914500"
+    },
+    "interpretation": "Structure A's cost is 98260*(1.049145003^8 - 1) + 2706.55. The factor is about 1.46786, so the cost is about 48678, above the 14573 cap. Structure B's cost is 98260*(1.02^6 - 1) + 1886, about 14282.72, which is within the cap, and its 0.8 share meets the 0.6 minimum, so B is the only feasible structure."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_h3aqye4wusy6jo2k6kr2g",
+    "final": "wait",
+    "slots": {
+     "post_downturn_checkpoint": "99.00"
+    },
+    "interpretation": "Revenue after the downturn is 198 x (1 - 0.5) = 99, before any recovery is applied. Expansion surplus is 99 x 1 - 61 - 19 = 19, which is below 41. Defensive surplus is 99 - 61 = 38, also below 41, so neither passes."
+   },
+   {
+    "case_id": "t1_ixnltg23hqgcnuryjxupg",
+    "final": "defensive",
+    "slots": {
+     "post_downturn_checkpoint": "102.00"
+    },
+    "interpretation": "Revenue after the downturn is 204 x 0.5 = 102. Expansion surplus is 102 x 1.2 - 61 - 11 = 50.4, which clears 41, but cash of 4 is less than the outlay of 11, so expansion fails. Defensive surplus is 102 - 61 = 41, and 'at least 41' is a non-strict test, so it passes."
+   },
+   {
+    "case_id": "t1_vpfcnjlnhffsh64vtkbcy",
+    "final": "wait",
+    "slots": {
+     "post_downturn_checkpoint": "99.13"
+    },
+    "interpretation": "Revenue after the downturn is (99133/990) x 0.99 = 99.133, rounded half-up to 99.13 for the slot only. Expansion surplus is 99.133 - 91 - 21 = -12.867, and defensive surplus is 8.133. Both are below 19, so the answer is wait."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_guaou65nfqomr3ao2tdrs",
+    "final": "24.68",
+    "slots": {
+     "current_first_payment_balance_checkpoint": "943.65",
+     "refinance_first_payment_balance_checkpoint": "932.02"
+    },
+    "interpretation": "Each period, I add the interest first and then subtract the payment. The refinance fee of 2 is added to the opening balance, giving 995. The answer is the current loan's balance after period 2 minus the refinance balance after period 2: 891.8325 - 867.1506 = 24.6819. Only the final value is rounded."
+   },
+   {
+    "case_id": "t1_ialx23cdhaqhdwz4fuwdm",
+    "final": "-1.16",
+    "slots": {
+     "current_first_payment_balance_checkpoint": "965.25",
+     "refinance_first_payment_balance_checkpoint": "965.59"
+    },
+    "interpretation": "Interest is added before each payment. The 0.5 fee is added to the refinance opening balance, giving 1015.5. The difference is the current loan minus the refinance, keeping the sign: 913.0125 - 914.17255 = -1.16005. The refinance checkpoint of 965.585 rounds half up to 965.59."
+   },
+   {
+    "case_id": "t1_mvfjibji5taooxjqkbwmg",
+    "final": "2.14",
+    "slots": {
+     "current_first_payment_balance_checkpoint": "980.93",
+     "refinance_first_payment_balance_checkpoint": "980.42"
+    },
+    "interpretation": "Interest is added before each payment. The fee of 2 is added to the refinance opening balance, giving 1030.503. The difference is the current loan minus the refinance, keeping the sign: 930.9745575 - 928.8306327 = 2.1439248. Nothing is rounded until the final value."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_gtgj27alrhcz6iarikvke",
+    "final": "2.4734",
+    "slots": {
+     "tranche_a_interest_checkpoint": "2967.3000",
+     "tranche_b_interest_checkpoint": "4601.7000"
+    },
+    "interpretation": "Interest = debt x per-period rate (A exact 2967.30003, B exact 4601.69996); EBIT = 5137 + exact interests = 12705.99999, DFL = 12705.99999/5137 = 2.473428..., rounded only at the end."
+   },
+   {
+    "case_id": "t1_l6bhaj6za4rgajqjfuhjw",
+    "final": "1.9790",
+    "slots": {
+     "tranche_a_interest_checkpoint": "3907.6000",
+     "tranche_b_interest_checkpoint": "6085.8000"
+    },
+    "interpretation": "Interest = debt x per-period rate; EBIT = 10208 + 3907.6 + 6085.8 = 20201.4; DFL = 20201.4/10208 = 1.978977..., rounded half-up to 4 decimals."
+   },
+   {
+    "case_id": "t1_z3hga63srh5uha6cxqbge",
+    "final": "1.5196",
+    "slots": {
+     "tranche_a_interest_checkpoint": "2038.6000",
+     "tranche_b_interest_checkpoint": "3062.1000"
+    },
+    "interpretation": "Interest = debt x per-period rate; EBIT = 9817 + 2038.6 + 3062.1 = 14917.7; DFL = 14917.7/9817 = 1.519578..., rounded half-up to 4 decimals."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_7nf3qyzrtz5lettqg5skk",
+    "final": "362",
+    "slots": {
+     "ceiling_utilization_checkpoint": "0.744374"
+    },
+    "interpretation": "I took 'current supply' to mean the 779 units outstanding before the burn. Their benchmark market cap at the expected price is 756.097886875, which is 0.744374x the ceiling. The ceiling-compatible total supply is 779 divided by that multiple, which equals C/P = 1625200000/1552961, about 1046.517. Subtracting the 685 units left after the burn gives 361.517, which rounds half-up to 362."
+   },
+   {
+    "case_id": "t1_skxzjpfqrsw25tn463ti4",
+    "final": "1536",
+    "slots": {
+     "ceiling_utilization_checkpoint": "0.414297"
+    },
+    "interpretation": "I took 'current supply' to mean the 1020 units outstanding before the burn. Their market cap at 1 USD is 1020, which is 510/1231 = 0.414297x the ceiling. The ceiling-compatible total supply is C/P = 2462. Subtracting the 926 units left after the burn gives 1536."
+   },
+   {
+    "case_id": "t1_vubrlykmrapylvetpspec",
+    "final": "-411",
+    "slots": {
+     "ceiling_utilization_checkpoint": "2.376582"
+    },
+    "interpretation": "I took 'current supply' to mean the 1221 units outstanding before the burn. Their market cap at 2 USD is 2442, which is 2.376582x the ceiling. The ceiling-compatible total supply is 1027.526/2 = 513.763. Subtracting the 925 units left after the burn gives -411.237, which rounds to -411. The problem gives no rule setting a floor of zero, so I reported the negative value."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_hedysax42wzc5fi5uwa6a",
+    "final": "1328.92",
+    "slots": {
+     "variable_fee_checkpoint": "61.48",
+     "fixed_fee_checkpoint": "58.60",
+     "chargeback_loss_checkpoint": "49.00"
+    },
+    "interpretation": "The variable fee is the rate times gross sales: 0.04*1537. The fixed fee is 0.2 times 293 transactions. The unrecovered chargeback is 98*(1-0.5). Net settlement is gross minus all four deductions, including the reserve of 39, with only the final value rounded."
+   },
+   {
+    "case_id": "t1_onvqeyfpqaoeu2if54dqq",
+    "final": "1781.96",
+    "slots": {
+     "variable_fee_checkpoint": "81.24",
+     "fixed_fee_checkpoint": "98.00",
+     "chargeback_loss_checkpoint": "40.80"
+    },
+    "interpretation": "The variable fee is 0.04*2031 and the fixed fee is 0.5*196. The unrecovered chargeback is 102*(1-0.6). Net settlement is 2031 minus all deductions, including the reserve of 29."
+   },
+   {
+    "case_id": "t1_zdqeinqfgikk7rk3a6j7y",
+    "final": "1870.50",
+    "slots": {
+     "variable_fee_checkpoint": "77.07",
+     "fixed_fee_checkpoint": "71.68",
+     "chargeback_loss_checkpoint": "87.75"
+    },
+    "interpretation": "The variable fee is kept exact as 2158/28 = 1079/14 and is rounded only for its slot. The fixed fee is 0.28*256 and the unrecovered chargeback is 117*0.75. Net = 2158 - 1079/14 - 71.68 - 87.75 - 51 = 1870.4986, which rounds half up to 1870.50."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_hp4acfazicznrqxlfpjrw",
+    "final": "4.35",
+    "slots": {
+     "combined_risk_checkpoint": "11.60"
+    },
+    "interpretation": "Combined score = 8.4 + 3.2 = 11.6. The condition 11.6 - 2.5 - x <= 4.75 holds with equality at x = 4.35, which is non-negative, so the minimum additional credit is 4.35. Values were rounded only at the end."
+   },
+   {
+    "case_id": "t1_lcn765omuuqmcxauskpds",
+    "final": "6.37",
+    "slots": {
+     "combined_risk_checkpoint": "10.84"
+    },
+    "interpretation": "Combined score = 3.895 + 6.942 = 10.837 exactly; the checkpoint is rounded half up to 10.84 for reporting only. The required credit is 10.837 - 1.27 - 3.2 = 6.367, which rounds half up to 6.37. Equality meets the 'no greater than' condition."
+   },
+   {
+    "case_id": "t1_tloqbp2llv42zhc5ilurw",
+    "final": "0.87",
+    "slots": {
+     "combined_risk_checkpoint": "9.87"
+    },
+    "interpretation": "Combined score = 6.943 + 2.93 = 9.873 exactly; the checkpoint rounds to 9.87. The required credit is 9.873 - 2 - 7 = 0.873, which is positive, so the zero floor does not apply. It rounds half up to 0.87."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_hdqx6ec7w2gubwh7hacbi",
+    "final": "13.44",
+    "slots": {
+     "expected_cost_benefit_checkpoint": "5.6000",
+     "expected_revenue_benefit_checkpoint": "11.4000"
+    },
+    "interpretation": "Total expected gross benefit = 0.4*14 + 0.6*19 + (0.4*0.6)*11 = 5.6 + 11.4 + 2.64 = 19.64. Joint share = 2.64/19.64 = 66/491 = 13.4419...%, rounded half up only at the end."
+   },
+   {
+    "case_id": "t1_iqfcvuweioe2urpc24y62",
+    "final": "39.99",
+    "slots": {
+     "expected_cost_benefit_checkpoint": "5926.0000",
+     "expected_revenue_benefit_checkpoint": "5903.2000"
+    },
+    "interpretation": "Under independence the joint probability is 0.5*0.4 = 0.2, so expected joint benefit = 7881.8. Total = 5926 + 5903.2 + 7881.8 = 19711, and the joint share is 7881.8/19711 = 39.9868...%."
+   },
+   {
+    "case_id": "t1_mfup4g5a4fry4njvf7uia",
+    "final": "21.09",
+    "slots": {
+     "expected_cost_benefit_checkpoint": "10.4265",
+     "expected_revenue_benefit_checkpoint": "5.6000"
+    },
+    "interpretation": "Expected cost benefit = 0.51*20.4441 = 10.426491, which is 10.4265 at 4 dp; the unrounded value is used downstream. Joint = 0.204*21 = 4.284, total = 20.310491, so the share is 21.0925...%."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_gs4t3x3vvrgyhymyw3fpi",
+    "final": "Current sale",
+    "slots": {
+     "current_gain_checkpoint": "1648.00",
+     "base_gain_checkpoint": "2699.29",
+     "downside_gain_checkpoint": "1980.00"
+    },
+    "interpretation": "Basis 5469 across 111 shares. Amount realized is shares x price minus total sale cost; gain is taxed at 0.2; dividend is taxed at 0.25 and added to terminal cash; PV divides by 1.4. Current after-tax cash is 6787.4, which meets 6136. Downside PV is 7136.25/1.4 = 5097.32, below 5348, so the hold fails and only the current sale qualifies."
+   },
+   {
+    "case_id": "t1_iz2hmnd5gaiesrsnhdjme",
+    "final": "Hold then sell",
+    "slots": {
+     "current_gain_checkpoint": "1174.69",
+     "base_gain_checkpoint": "3708.00",
+     "downside_gain_checkpoint": "2278.00"
+    },
+    "interpretation": "Basis 5544 across 110 shares. Current after-tax cash is 6483.7556, which meets 5624. Downside PV is 7613.9/1.1 = 6921.73, which meets 5532. Expected PV is (0.7*8757.9 + 0.3*7613.9)/1.1 = 7649.73, above 6483.76, so Hold then sell wins."
+   },
+   {
+    "case_id": "t1_u23q7nmam4amlfdovwnm4",
+    "final": "Neither",
+    "slots": {
+     "current_gain_checkpoint": "1425.08",
+     "base_gain_checkpoint": "2166.41",
+     "downside_gain_checkpoint": "933.17"
+    },
+    "interpretation": "Basis 5137 across 103 shares. Current after-tax cash is 6562.08249 - 285.016498 = 6277.07, below 6372. Downside PV is 5960.782552/1.4 = 4257.70, below 5669. Neither strategy qualifies."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_j2ddrvd2qd76py5yju5sw",
+    "final": "263.80",
+    "slots": {
+     "buffered_high_risk_allocation_target": "122.40",
+     "buffered_target_checkpoint": "122.40"
+    },
+    "interpretation": "Buffered target = 102 x 1.2 = 122.4. This target is divided by the risk-appetite ratio: 122.4 / 0.5 = 244.8. The reserve of 19 is then added, giving 263.8."
+   },
+   {
+    "case_id": "t1_mdc5r44qyga7hggk5ndha",
+    "final": "129.40",
+    "slots": {
+     "buffered_high_risk_allocation_target": "116.45",
+     "buffered_target_checkpoint": "116.45"
+    },
+    "interpretation": "Buffered target = 97.043 x 1.2 = 116.4516, reported as 116.45. Allocable capital = 116.4516 / 0.9 = 129.390666... Adding the reserve of 0.012 gives 129.402666..., and only this final value is rounded, to 129.40."
+   },
+   {
+    "case_id": "t1_wk2hhsv6q2etqv5q3xjo6",
+    "final": "5.62",
+    "slots": {
+     "buffered_high_risk_allocation_target": "2.40",
+     "buffered_target_checkpoint": "2.40"
+    },
+    "interpretation": "Buffered target = 2 x 1.2 = 2.4. Allocable capital = 2.4 / 0.5 = 4.8. Adding the reserve of 0.815 gives exactly 5.615, which rounds half up to 5.62."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_iqboasqtk52jf7gzaso4q",
+    "final": "-2.67",
+    "slots": {
+     "cash_flow_after_working_capital_checkpoint": "41.4000"
+    },
+    "interpretation": "Normalized OCF = 43.4 - 2 (WC release) - 1 (tax refund) = 40.4; max add-back A solves 40.4/(61+A) >= 0.6, so A <= 19/3 (6.3333...), and the headroom is 19/3 - 9 = -8/3, which rounds to -2.67. The checkpoint slot is OCF after removing only the working-capital release."
+   },
+   {
+    "case_id": "t1_my24ziaz4qemr4kld6x3e",
+    "final": "5.45",
+    "slots": {
+     "cash_flow_after_working_capital_checkpoint": "32.7225"
+    },
+    "interpretation": "Normalized OCF = 38.7225 - 6 - 1 = 31.7225; the max add-back is 31.7225/0.5 - 49 = 14.445, and the headroom is 14.445 - 9 = 5.445 exactly, which rounds half up to 5.45. The checkpoint is OCF after removing only the WC release."
+   },
+   {
+    "case_id": "t1_rrgldtd2bfr6tt3b2e24q",
+    "final": "-4.00",
+    "slots": {
+     "cash_flow_after_working_capital_checkpoint": "36.0000"
+    },
+    "interpretation": "Normalized OCF = 39 - 3 - 2 = 34; the max add-back is 34/0.5 - 61 = 7, and the headroom is 7 - 11 = -4. The checkpoint is OCF after removing only the WC release (39 - 3 = 36)."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_jmsipwk3lxjvqtzcpvzug",
+    "final": "25.00",
+    "slots": {
+     "loss_budget_checkpoint": "1516.00"
+    },
+    "interpretation": "The allowable loss is V - F = 10203.003 - 8687 = 1516.003. The stress limit is w <= 1516.003/(0.3*10203.003), about 0.4953. The 0.25 policy cap is tighter, so the exact weight is 0.25, reported as 25.00%."
+   },
+   {
+    "case_id": "t1_ummdavbozg6cehb6mctpq",
+    "final": "30.46",
+    "slots": {
+     "loss_budget_checkpoint": "6221.00"
+    },
+    "interpretation": "The allowable loss is 40848 - 34627 = 6221. The stress limit is w <= 6221/(0.5*40848) = 6221/20424, about 0.304593. That is below the 0.45 cap, so the stress floor sets the weight, which rounds to 30.46%."
+   },
+   {
+    "case_id": "t1_w6yhplemuikba7fbwnel2",
+    "final": "30.00",
+    "slots": {
+     "loss_budget_checkpoint": "1381.00"
+    },
+    "interpretation": "The allowable loss is 10112 - 8731 = 1381. The stress limit is w <= 1381/(0.4*10112) = 1381/4044.8, about 0.3414. The 0.3 policy cap is tighter, so the exact weight is 0.3, reported as 30.00%."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_gfrvwivku7mlkluld7iyw",
+    "final": "63.60",
+    "slots": {
+     "strategy_a_weighted_upside_checkpoint": "10697.44",
+     "strategy_b_downturn_checkpoint": "8228.80"
+    },
+    "interpretation": "Feasible range: 1907/10286 <= w <= 39253/61716. If all capital goes to A, its expected value is 1.14C, versus 1.04C for B. A is higher, so the upper endpoint w = 39253/61716 \u2248 0.636026 is chosen. The checkpoints use all capital in one strategy: A's upside is 0.8*1.3*C and B's downturn is 0.8*C."
+   },
+   {
+    "case_id": "t1_ttcc4efnten5tlt2oocc6",
+    "final": "26.84",
+    "slots": {
+     "strategy_a_weighted_upside_checkpoint": "9977.58",
+     "strategy_b_downturn_checkpoint": "9238.50"
+    },
+    "interpretation": "With all capital in one strategy, A and B both have an expected value of 0.99C (0.6*0.2 = 0.4*0.3), an exact tie. The tie selects the lower endpoint, w = 661.3/2463.6 = 6613/24636 \u2248 0.268428. The checkpoints use all capital in one strategy: A's upside is 0.6*1.35*C and B's downturn is 0.75*C."
+   },
+   {
+    "case_id": "t1_xhxofiyqq2jsyzm6a6w5s",
+    "final": "21.67",
+    "slots": {
+     "strategy_a_weighted_upside_checkpoint": "4113.99",
+     "strategy_b_downturn_checkpoint": "8634.30"
+    },
+    "interpretation": "If all capital goes to A, its expected value is 0.825C, versus 0.925C for B. A is lower, so the lower endpoint w = 550.3877625/2539.50075 \u2248 0.216731 is chosen; the upper endpoint is about 0.788. The checkpoints use all capital in one strategy: A's upside is 0.3*1.35*C and B's downturn is 0.85*C."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_jrgmsev3527o6gkqaapts",
+    "final": "198.54",
+    "slots": {
+     "rebound_ratio_checkpoint": "0.097981"
+    },
+    "interpretation": "Rebound ratio = 0.4899025 x 0.2 = 0.0979805 (rounded half-up to 0.097981 for the slot). Current price = pre-shock x 0.8 x 1.0979805 = pre-shock x 0.8783844, so pre-shock = 174.39848/0.8783844 = 198.5446..., which rounds to 198.54."
+   },
+   {
+    "case_id": "t1_snja7i72us4ld65yncxac",
+    "final": "158.88",
+    "slots": {
+     "rebound_ratio_checkpoint": "0.266667"
+    },
+    "interpretation": "Rebound ratio = (4/3) x 0.2 = 4/15. The combined factor is 0.8 x 19/15 = 76/75, so pre-shock = 161 x 75/76 = 12075/76 = 158.8816..., which rounds to 158.88."
+   },
+   {
+    "case_id": "t1_whdzgr77ofifl2wc3v3cw",
+    "final": "137.39",
+    "slots": {
+     "rebound_ratio_checkpoint": "0.100000"
+    },
+    "interpretation": "Rebound ratio = (1/3) x 0.3 = 0.1. The combined factor is 0.7 x 1.1 = 0.77, so pre-shock = 105.7866/0.77 = 137.3852..., which rounds to 137.39."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_hv3zsk264dezrc4iw7mnm",
+    "final": "Package A",
+    "slots": {
+     "one_stage_leverage_cap_checkpoint": "0.800001"
+    },
+    "interpretation": "I took the one-stage cap factor to be 1-t = 0.8000005, which rounds half-up to 0.800001. The final ceiling (0.8000005)^3 is about 0.512001. Package A has equity 122 and a ratio of 40/162 (about 0.2469). Package B has equity 144 and a ratio of 4482/14130 (about 0.3172). Both qualify, and A has the lower ratio."
+   },
+   {
+    "case_id": "t1_iiy2hxyxv2vva2vdciys2",
+    "final": "Neither package",
+    "slots": {
+     "one_stage_leverage_cap_checkpoint": "0.700000"
+    },
+    "interpretation": "I took the one-stage cap factor to be 1-t = 0.7000004, which rounds to 0.700000. The final ceiling is about 0.3430006. Package A has a ratio of 3071/6569 (about 0.4675) and Package B has 272/613 (about 0.4437). Both pass the equity minimum (132 and 124 against 99) but both are above the ceiling, so neither qualifies."
+   },
+   {
+    "case_id": "t1_qqnkxyrxwuptj7rbdr7tc",
+    "final": "Package B",
+    "slots": {
+     "one_stage_leverage_cap_checkpoint": "0.789123"
+    },
+    "interpretation": "I took the one-stage cap factor to be 1-t = 0.7891234, which rounds to 0.789123. The final ceiling is about 0.49140. Package A has equity 130 and a ratio of 2523/6553 (about 0.3850). Package B has equity 110 and a ratio of 67/221 (about 0.3032). Both meet the equity minimum of 108 and are under the ceiling, and B has the lower ratio."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_jk3wmmhk27ph7yh2jp6wi",
+    "final": "capital_priority",
+    "slots": {
+     "capital_coverage_checkpoint": "0.801980"
+    },
+    "interpretation": "The capital gap is 101-81=20 and the liquidity gap is 101-82=19. Fixing both costs 10+9.5+6=25.5, which is over the budget of 24. Capital is the larger gap, and fixing it alone costs 10+6=16, which fits the budget. Coverage is 81/101=0.80198..., rounded half-up to 0.801980."
+   },
+   {
+    "case_id": "t1_luajnrpwlqwelqi3lxlxg",
+    "final": "full_remediation",
+    "slots": {
+     "capital_coverage_checkpoint": "1.016201"
+    },
+    "interpretation": "Current capital is above the requirement, so the capital gap is floored at 0, even though the text says requirements exceed resources. The liquidity gap is 30, so fixing both costs 0+7.5+0=7.5, which is within the budget of 15. Coverage is the uncapped ratio 1.016201/1."
+   },
+   {
+    "case_id": "t1_wx255ni6rohiwu6a2mtgk",
+    "final": "no_feasible_plan",
+    "slots": {
+     "capital_coverage_checkpoint": "0.826531"
+    },
+    "interpretation": "The capital gap is 17 and the liquidity gap is 7. Fixing both costs 34+3.5+4=41.5, which is over the budget of 36. Capital is the larger gap, but fixing it alone costs 34+4=38, also over 36, so no plan is feasible. Coverage is 81/98=0.8265306..., rounded to 0.826531."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_ikmtkr7sdwigzo2qfzcpc",
+    "final": "14.62",
+    "slots": {
+     "year_two_present_value_checkpoint": "203.3058"
+    },
+    "interpretation": "At r=0.1, NPV = 10345/484 and the derivative's absolute value is 112/1.1^2 + 2*246/1.1^3 = 615200/1331. One Newton step gives r1 = 0.1 + 113795/2460800 \u2248 0.146243, which is 14.62%. The checkpoint is the PV of the year-2 cash flow, 246/1.21 = 24600/121."
+   },
+   {
+    "case_id": "t1_p4dr3jg6adb4idla7yvze",
+    "final": "22.31",
+    "slots": {
+     "year_two_present_value_checkpoint": "101.6529"
+    },
+    "interpretation": "At r=0.1, NPV = 8307/121 and the derivative's absolute value is 742100/1331. One Newton step gives r1 = 0.1 + 91377/742100 \u2248 0.223133, which is 22.31%. The checkpoint is 123/1.21 = 12300/121."
+   },
+   {
+    "case_id": "t1_pybryq2urxonrh2frwhe4",
+    "final": "16.89",
+    "slots": {
+     "year_two_present_value_checkpoint": "99.1736"
+    },
+    "interpretation": "The outlay is the exact fraction 3035/11. At r=0.1, NPV = 3035/121 and the derivative's absolute value is 484200/1331. One Newton step gives r1 = 0.1 + 6677/96840 \u2248 0.168949, which is 16.89%. The checkpoint is 120/1.21 = 12000/121."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_hxzkgks2txqglsrwkp7xi",
+    "final": "Tax exposure loss is larger",
+    "slots": {
+     "attrition_case_ebitda_checkpoint": "102.0000",
+     "uninsured_tax_exposure_checkpoint": "79.2000"
+    },
+    "interpretation": "The savings are target-controlled, confirmed and not already in the 102, so I added them to base EBITDA (102+11=113) and kept them in the attrition state (113-11=102). Base EV is 113*8=904 and attrition EV is 102*7=714; customer loss is 0.2*190=38 against tax loss 0.5*(99*0.8)=39.6."
+   },
+   {
+    "case_id": "t1_jvmsxsdnr2igfxsg7bf2y",
+    "final": "Customer attrition loss is larger",
+    "slots": {
+     "attrition_case_ebitda_checkpoint": "102.0000",
+     "uninsured_tax_exposure_checkpoint": "203.0000"
+    },
+    "interpretation": "I added the eligible savings to base EBITDA (121) and kept them in the attrition state (121-19=102). EVs are 1331 and 714, so customer loss is 0.25*617=154.25 against tax loss 0.5*(406*0.5)=101.5."
+   },
+   {
+    "case_id": "t1_yhqocplkauslffmytsrvi",
+    "final": "Customer attrition loss is larger",
+    "slots": {
+     "attrition_case_ebitda_checkpoint": "102.0000",
+     "uninsured_tax_exposure_checkpoint": "241.5000"
+    },
+    "interpretation": "I added the eligible savings to base EBITDA (123) and kept them in the attrition state (123-21=102). EVs are 1353 and 918, so customer loss is 0.3*435=130.5 against tax loss 0.5*241.5=120.75. If the savings were left out entirely, this case would flip to the tax side (117.9)."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_jvisa2wizuddo36tn3rdo",
+    "final": "7.71",
+    "slots": {
+     "weighted_contribution_checkpoint": "149.2500"
+    },
+    "interpretation": "Gain = EMV + terminal distribution - BMV - contribution = 1174+91-979-199 = 87; denominator = 979 + 0.75*199 = 1128.25 (distribution weight 0); ROI = 87/1128.25 = 7.7111% rounded at the end."
+   },
+   {
+    "case_id": "t1_kje65ivkhfub54byixdde",
+    "final": "9.81",
+    "slots": {
+     "weighted_contribution_checkpoint": "147.5000"
+    },
+    "interpretation": "Gain = 1523+80-1178-295 = 130; denominator = 1178 + 0.5*295 = 1325.5 with zero weight on the terminal distribution; ROI = 130/1325.5 = 9.8076%."
+   },
+   {
+    "case_id": "t1_zwicp47j2cuqqilj2yqqq",
+    "final": "13.34",
+    "slots": {
+     "weighted_contribution_checkpoint": "61.7500"
+    },
+    "interpretation": "Gain = 1226+20.93125-875-247 = 124.93125; denominator = 875 + 0.25*247 = 936.75 (distribution weight 0); ROI = 124.93125/936.75 = 13.33667%, which is above the 13.335 tie point, so it rounds half up to 13.34."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_jxkp624azqvbohehkfgk6",
+    "final": "337.58",
+    "slots": {
+     "existing_reward_checkpoint": "69.2960"
+    },
+    "interpretation": "Net reward = existing principal*0.1 + 0.25*x - fixed fee; solved x = (51 + 102.69164 - 69.29598)/0.25 = 337.58264, rounded only at the end."
+   },
+   {
+    "case_id": "t1_p76u4l57b2nol6ak6gsxq",
+    "final": "103.47",
+    "slots": {
+     "existing_reward_checkpoint": "102.6164"
+    },
+    "interpretation": "Net reward = 820.9312*0.125 + 0.2*x - 6 = 117.3104, so x = (123.3104 - 102.6164)/0.2 = 103.47 exactly."
+   },
+   {
+    "case_id": "t1_zscvapsnbbvl5mu63gogq",
+    "final": "194.86",
+    "slots": {
+     "existing_reward_checkpoint": "81.0689"
+    },
+    "interpretation": "Existing reward = 567.4823/7 = 81.0689 exactly; x = (103.29785 + 7 - 81.0689)/0.15 = 29.22895/0.15 = 194.85966..., rounded half up at the end."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_k3cewgreszf6ra37rd3oi",
+    "final": "Enhanced review",
+    "slots": {
+     "spike_threshold_residual_factor_checkpoint": "0.770000"
+    },
+    "interpretation": "The one-stage retention factor is 1 - 0.23 = 0.77. The first critical flag is true, so the route is Enhanced review whatever the other tests show (aggregate is 10, not above 15; spike ratio is 7/3)."
+   },
+   {
+    "case_id": "t1_ya5ba4dnpgprbvgm7t4gq",
+    "final": "Standard review",
+    "slots": {
+     "spike_threshold_residual_factor_checkpoint": "0.812345"
+    },
+    "interpretation": "The retention factor is 1 - 0.1876547 = 0.8123453, which rounds half-up to 0.812345. Aggregate 22 is above 21, but the spike ratio 13/9 (about 1.444) is not above 4*0.8123453^3 (about 2.144), and both flags are false, so the route is Standard review."
+   },
+   {
+    "case_id": "t1_yraujfphgffos3zejsv34",
+    "final": "Enhanced review",
+    "slots": {
+     "spike_threshold_residual_factor_checkpoint": "0.800001"
+    },
+    "interpretation": "The retention factor is 1 - 0.1999995 = 0.8000005 exactly. Half-up rounding to six decimals gives 0.800001. Aggregate 26 is above 21 and the spike ratio 14/11 (about 1.273) is above 0.8000005^3 (about 0.512), so the route is Enhanced review."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_igezw3wt3tlmbayoq5woe",
+    "final": "0.357037",
+    "slots": {
+     "news_score_checkpoint": "0.584074"
+    },
+    "interpretation": "News = 19*(2/13)*(1198889/6000000) = 22778891/39000000 \u2248 0.5840741. Engagement ratio = (9.69903 - news)/(14*31/17) = 6043215743/16926000000 \u2248 0.3570374, rounded only at the end."
+   },
+   {
+    "case_id": "t1_q74f7jqoalqxrlz7wzbb6",
+    "final": "0.668135",
+    "slots": {
+     "news_score_checkpoint": "3.464394"
+    },
+    "interpretation": "News = 6*(2/7)*2.0208964 = 24.2507568/7 \u2248 3.4643938. Engagement ratio = (10.388701 - news)/(6*19/11) = 533.1716522/798 \u2248 0.6681349, rounded half up only at the end."
+   },
+   {
+    "case_id": "t1_rbc44fg3fur4lst4uaupw",
+    "final": "0.595739",
+    "slots": {
+     "news_score_checkpoint": "11.920195"
+    },
+    "interpretation": "News = 25*(6/19)*1.50989142 = 226.483713/19 \u2248 11.9201954. Engagement ratio = (36.164178 - news)/(24*39/23) = 10594.620387/17784 \u2248 0.5957389, rounded half up only at the end."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_ibmz3xu6h724upwo75cb2",
+    "final": "22.05",
+    "slots": {
+     "noncash_charges_checkpoint": "112.60",
+     "working_capital_cash_uses_checkpoint": "70.13",
+     "direct_cash_uses_checkpoint": "95.82"
+    },
+    "interpretation": "Indirect OCF = 122.873+112.599-70.126+55.948+52.8 = 274.094; direct OCF = 493.152-95.818 = 397.334. I worked out both margins as decimal fractions of revenue 1476. The score is the mean margin (0.22744851) minus the squared difference (0.00697157), which gives 0.22047694. I multiplied that by 100 to report a percentage. The sign of the difference does not matter because it is squared."
+   },
+   {
+    "case_id": "t1_jlda7oqfrmfxcsrjjfuhk",
+    "final": "19.15",
+    "slots": {
+     "noncash_charges_checkpoint": "99.26",
+     "working_capital_cash_uses_checkpoint": "49.54",
+     "direct_cash_uses_checkpoint": "80.27"
+    },
+    "interpretation": "Indirect OCF = 116.39+99.26-49.54+54.06+40.3 = 260.47; direct OCF = 233.45-80.27 = 153.18. I worked out both margins as decimal fractions of revenue 1021. The score is the mean (0.20257101) minus the squared difference (0.01104249), which gives 0.19152852. I multiplied that by 100 to report a percentage."
+   },
+   {
+    "case_id": "t1_rkifn5njawtkyqs6ajy22",
+    "final": "23.62",
+    "slots": {
+     "noncash_charges_checkpoint": "100.35",
+     "working_capital_cash_uses_checkpoint": "59.88",
+     "direct_cash_uses_checkpoint": "88.82"
+    },
+    "interpretation": "Indirect OCF = 179.19+100.349-59.878+85.932+69.885 = 375.478; direct OCF = 325-88.82 = 236.18. I worked out both margins as decimal fractions of revenue 1228. The score is the mean (0.24904642) minus the squared difference (0.01286747), which gives 0.23617895. I multiplied that by 100 to report a percentage."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_onemvegwjjnpsnvpicspy",
+    "final": "70.00",
+    "slots": {
+     "revenue_value_checkpoint": "177.00",
+     "ebitda_value_checkpoint": "81.00"
+    },
+    "interpretation": "The revenue EV is 59x3 = 177 and the EBITDA EV is 9x9 = 81. The gap is 96, which exceeds the allowed 81x0.2 = 16.2, so the lower EV of 81 is used. Equity = 81 - 14 + 3 = 70."
+   },
+   {
+    "case_id": "t1_uxirj5q7s72bulaevbcs4",
+    "final": "42.00",
+    "slots": {
+     "revenue_value_checkpoint": "49.00",
+     "ebitda_value_checkpoint": "126.00"
+    },
+    "interpretation": "The revenue EV is 49x1 = 49 and the EBITDA EV is 9x14 = 126. The gap is 77, which exceeds the allowed 49x0.2 = 9.8, so the lower EV of 49 is used. Equity = 49 - 11 + 4 = 42."
+   },
+   {
+    "case_id": "t1_xn5e4k7kdnul65itqxeko",
+    "final": "105.87",
+    "slots": {
+     "revenue_value_checkpoint": "147.00",
+     "ebitda_value_checkpoint": "110.00"
+    },
+    "interpretation": "The revenue EV is 49x3 = 147 and the EBITDA EV is 11x10 = 110. The gap is 37, which exceeds the allowed 110x0.15 = 16.5, so the lower EV of 110 is used. Equity = 110 - 9 + 4.865 = 105.865, rounded half up only at the end to 105.87."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_kcgjueov4og5blnfkarfg",
+    "final": "18.24",
+    "slots": {
+     "monitoring_surplus_value_checkpoint": "9.90"
+    },
+    "interpretation": "Combined fixed costs are 147+99=246, and the required value is 246*1.1=270.6. Scale = 270.6*4001/59358 = 18.2397, which rounds to 18.24. The monitoring slot is the surplus ratio times the monitoring cost: 99*0.1=9.9."
+   },
+   {
+    "case_id": "t1_uq56zvm7ntj2kypifsvyi",
+    "final": "14.25",
+    "slots": {
+     "monitoring_surplus_value_checkpoint": "9.71"
+    },
+    "interpretation": "Combined fixed costs are 272.075, and the required value is 272.075*1.1=299.2825. Scale = 299.2825/21 = 14.2515, which rounds to 14.25. The monitoring slot is 97.075*0.1=9.7075, which rounds half up to 9.71."
+   },
+   {
+    "case_id": "t1_zlvfkbgppg24poyapjryw",
+    "final": "12.45",
+    "slots": {
+     "monitoring_surplus_value_checkpoint": "19.14"
+    },
+    "interpretation": "Combined fixed costs are 295, and the required value is 295*1.097675=323.814125. Scale = 323.814125/26 = 12.4544, which rounds to 12.45. The monitoring slot is 196*0.097675=19.1443, which rounds to 19.14."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_r37hfzj4rzytmnqpgobn2",
+    "final": "753.00",
+    "slots": {
+     "cash_needs_checkpoint": "602.40"
+    },
+    "interpretation": "Fixed commitments are 307.4 + 196 + 99 = 602.4. Savings take 0.2 of income, so the minimum income I solves 0.8I = 602.4, giving I = 753 exactly. The checkpoint is the fixed-outlay total and leaves out the savings."
+   },
+   {
+    "case_id": "t1_vov6q64fcyomzokd5exkc",
+    "final": "754.60",
+    "slots": {
+     "cash_needs_checkpoint": "603.68"
+    },
+    "interpretation": "Fixed commitments are 196 + 306 + 101.683 = 603.683, shown as 603.68. The exact minimum income is 603.683/0.8 = 754.60375, rounded half up only at the end to 754.60."
+   },
+   {
+    "case_id": "t1_y6ss5xnw5v675bwm4l542",
+    "final": "1064.00",
+    "slots": {
+     "cash_needs_checkpoint": "798.00"
+    },
+    "interpretation": "Fixed commitments are 254 + 148 + 396 = 798. Savings take 0.25 of income, so the minimum income is 798/0.75 = 1064 exactly."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_lkprbqhk355tyk3o3bxpw",
+    "final": "No trade",
+    "slots": {
+     "a_gross_multiplier_checkpoint": "0.40000000",
+     "b_gross_multiplier_checkpoint": "0.80624000"
+    },
+    "interpretation": "The pairs 'fee 0.1 or 0.1' and 'cost 13 or 21' map to Route A and Route B in that order. Terminal value = 99*multiplier*(1-fee) - fixed cost: A = 22.64 and B = 50.83598422275. Neither reaches the hurdle 99*1.08 = 106.92, so the answer is No trade. Multipliers are rounded only for the slots."
+   },
+   {
+    "case_id": "t1_oi6nug72svt4dlesm3jag",
+    "final": "Route A",
+    "slots": {
+     "a_gross_multiplier_checkpoint": "5.83920002",
+     "b_gross_multiplier_checkpoint": "0.80000000"
+    },
+    "interpretation": "Fees and costs map to A and B in the order given. A = 101*5.83920002*0.9 - 16 = 514.783281818, which meets the zero-return hurdle (at least 101, non-strict). B = 101*0.8*0.9 - 17 = 55.72, which fails, so the answer is Route A."
+   },
+   {
+    "case_id": "t1_pruqrmzhhafidbr2dl2ic",
+    "final": "Route B",
+    "slots": {
+     "a_gross_multiplier_checkpoint": "1.32873000",
+     "b_gross_multiplier_checkpoint": "2.46480001"
+    },
+    "interpretation": "Fees and costs map to A and B in the order given, and the hurdle is 101*1.1 = 111.1 (non-strict). A = 101*1.328730003*0.9 - 6 = 114.7815572727 and B = 101*2.464800008*0.9 - 4 = 220.0503207272. Both qualify, and B is higher, so the answer is Route B."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_tskz47b33fvyym6kvkels",
+    "final": "493.35",
+    "slots": {
+     "target_margin_ratio_checkpoint": "0.246025"
+    },
+    "interpretation": "Operating margin = (Revenue - COGS - OpEx)/Revenue, so max COGS = R(1 - m) - OpEx = 1031*0.7539747 - 284 = 493.3479157. Margin given in percent (24.60253%) and all amounts in USD millions."
+   },
+   {
+    "case_id": "t1_ws37mbousc5ufeikigmds",
+    "final": "313.82",
+    "slots": {
+     "target_margin_ratio_checkpoint": "0.341636"
+    },
+    "interpretation": "Max COGS = R(1 - m) - OpEx = 1025*0.6583645 - 361 = 313.8236125. The ratio slot is rounded half up from 0.3416355 to 0.341636, but the unrounded ratio is used in the main calculation."
+   },
+   {
+    "case_id": "t1_zqfq4vevepewnpksqu2be",
+    "final": "21.27",
+    "slots": {
+     "target_margin_ratio_checkpoint": "0.360000"
+    },
+    "interpretation": "Max COGS = 99*0.64 - 42.095 = 21.265 exactly. Rounding half up at the final step gives 21.27."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_q6alh23gckpqofgosfd5u",
+    "final": "3.00",
+    "slots": {
+     "portfolio_sigma_checkpoint": "0.00506499"
+    },
+    "interpretation": "Single common factor: the signed loadings are summed first (0 + 0.00506499), so sigma = |sum| = 0.00506499. VaR = 1 x 0.00506499 x 98 + 0 = 0.49636902, which is below the stress loss of 3, so capital = 3.00."
+   },
+   {
+    "case_id": "t1_v3j5umojnvk4ywr5u65qc",
+    "final": "81.00",
+    "slots": {
+     "portfolio_sigma_checkpoint": "0.40000000"
+    },
+    "interpretation": "The signed loadings sum to -0.4, and sigma is its absolute value, 0.4. VaR = 1 x 0.4 x 99 + 0 = 39.6, which is below the stress loss of 81, so capital = 81.00."
+   },
+   {
+    "case_id": "t1_zfhjaoptujzckroje3qjc",
+    "final": "6.88",
+    "slots": {
+     "portfolio_sigma_checkpoint": "0.02000000"
+    },
+    "interpretation": "The signed loadings sum to -0.02, so sigma = 0.02 (summed, not combined as sqrt of sum of squares). VaR = 3 x 0.02 x 98 = 5.88; adding the liquidity charge in USD gives 6.875, which is above 3.05 and rounds half up to 6.88."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_lt5fwznd5q2dwyl4zxevu",
+    "final": "1654.96",
+    "slots": {
+     "committed_tax_budget_share_checkpoint": "0.197596"
+    },
+    "interpretation": "Tax on additional gross G is 0.8*0.6*G = 0.48G. The budget test is committed + 0.48G <= 990, so G_max = 794.3797/0.48 = 1654.957708..., which is 1654.96 after rounding. The committed share is 195.6203/990 = 0.19759626..., or 0.197596."
+   },
+   {
+    "case_id": "t1_nd22sbezt73u4j7f5fuau",
+    "final": "104366.67",
+    "slots": {
+     "committed_tax_budget_share_checkpoint": "0.238385"
+    },
+    "interpretation": "Tax on additional gross G is 0.3*0.3*G = 0.09G. With a non-strict budget test, G_max = (12333-2940)/0.09 = 9393/0.09 = 104366.666..., which is 104366.67 after rounding. The committed share is 2940/12333 = 0.2383848..., or 0.238385."
+   },
+   {
+    "case_id": "t1_yoac5mfif6tw53tlrvud4",
+    "final": "49505.13",
+    "slots": {
+     "committed_tax_budget_share_checkpoint": "0.200404"
+    },
+    "interpretation": "Tax on additional gross G is 0.2*0.4*G = 0.08G. With a non-strict budget test, G_max = 3960.41/0.08 = 49505.125 exactly, which rounds half up to 49505.13. The committed share is 992.6025/4953.0125 = 0.20040379..., or 0.200404."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_nhdbncyfblksz4yyi66qc",
+    "final": "program_a",
+    "slots": {
+     "program_a_failure_probability_checkpoint": "0.600000"
+    },
+    "interpretation": "Per-opportunity failure probability is 1 - 0.3999997 = 0.6000003, which rounds half-up to 0.600000. Program A costs 203 + 7*99 = 896 and is feasible, with expected net value 2079*(1 - 0.6000003^3) - 896, about 733.94. Program B costs 257 + 8*102 = 1073, which is over the 982 cap, so A is the only feasible program."
+   },
+   {
+    "case_id": "t1_o6tpwnedszjm5ejaf76zi",
+    "final": "no_feasible_program",
+    "slots": {
+     "program_a_failure_probability_checkpoint": "0.400000"
+    },
+    "interpretation": "Program A's per-opportunity failure probability is 1 - 0.6 = 0.4. A costs 202 + 7*119 = 1035, which is over the 979 cap. B costs 914, which is within the cap, but its volume of 79 does not reach 98. Neither program is feasible."
+   },
+   {
+    "case_id": "t1_ueh6p36kzslb7dompjtzy",
+    "final": "program_b",
+    "slots": {
+     "program_a_failure_probability_checkpoint": "0.500001"
+    },
+    "interpretation": "The failure probability is exactly 1 - 0.4999995 = 0.5000005, which rounds half-up to 0.500001. A's volume of 81 counts as reaching 81 (non-strict), so A is feasible at a cost of 1090. A's expected net value is 1539*(1 - 0.5000005^3) - 1090, about 256.62. B costs 796 and its expected net value is 1188*0.936 - 796 = 315.968, so B is higher."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_pudraokojtscy6karon6a",
+    "final": "176.76",
+    "slots": {
+     "covered_loss_ratio_checkpoint": "0.120000"
+    },
+    "interpretation": "The unhedged loss is 982*0.15 = 147.3, which does not exceed 196, so the position stays unhedged and pays no cost. Net = 324.06491 - 147.3 = 176.76491, which rounds to 176.76. I read the checkpoint as the covered-loss ratio of the hedge branch, 0.8*0.15 = 0.12, even though that branch is not selected."
+   },
+   {
+    "case_id": "t1_vmz23x26gqlalctk4pkrk",
+    "final": "224.02",
+    "slots": {
+     "covered_loss_ratio_checkpoint": "0.100001"
+    },
+    "interpretation": "The unhedged loss is 292.2, which exceeds 248, so the hedge is activated. Covered ratio = 0.3*0.333335 = 0.1000005, which rounds half up to 0.100001 for the slot only. Net = 457.78 - (292.2 - 97.400487) - 38.96 = 224.020487, which rounds to 224.02."
+   },
+   {
+    "case_id": "t1_wq4xvllwhdvl3b2krttro",
+    "final": "154.46",
+    "slots": {
+     "covered_loss_ratio_checkpoint": "0.285714"
+    },
+    "interpretation": "The unhedged loss is 2544/7 (about 363.43), which exceeds 307, so the hedge is activated. Covered ratio = 3/7*2/3 = 2/7. Net = 593.6 - 848/7 - 318 = 1081.2/7 = 154.457142..., which rounds to 154.46."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_jvtxg33e2n5z7jma3b3sm",
+    "final": "Plan A",
+    "slots": {
+     "plan_a_residual_factor_checkpoint": "0.600000"
+    },
+    "interpretation": "The checkpoint is the retained factor for one stage, 1 - 0.4 = 0.6. A's residual is 0.8*0.6^3 = 0.1728 and its net cost is 80*0.8 = 64. B's residual is 0.8*0.65^3 = 0.2197 and its net cost is 92*0.8 = 73.6. Both qualify, so the lower cost wins: Plan A."
+   },
+   {
+    "case_id": "t1_sodiwdfc6a332dm5fssue",
+    "final": "Neither plan",
+    "slots": {
+     "plan_a_residual_factor_checkpoint": "0.700001"
+    },
+    "interpretation": "A's retained factor is exactly 0.7000005, which rounds half-up to 0.700001. A's residual is 0.8*0.7000005^3 = 0.2744005880004200001, above the 0.22360029400021005 limit, so A fails even though its cost of 61.6 is within the limit. B's residual of 0.1728 passes, but its net cost is 102*0.8 = 81.6, above 71, so B fails too. Neither plan qualifies."
+   },
+   {
+    "case_id": "t1_ybpdvombp4upykgadkkvi",
+    "final": "Plan A",
+    "slots": {
+     "plan_a_residual_factor_checkpoint": "0.612345"
+    },
+    "interpretation": "A's retained factor is 0.6123453. Its cube is about 0.2296, below the 0.25 cutoff, so A's residual of about 0.1837 is no more than 0.2, and its net cost is 87.625*0.8 = 70.1. B's residual is 0.8*0.58^3 = 0.1560896 and its net cost is 89.3675*0.8 = 71.494. Both qualify, so the lower cost wins: Plan A."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_mx6zg3snaxnasiorw35ak",
+    "final": "85.22",
+    "slots": {
+     "liability_relief_weight_checkpoint": "0.750000"
+    },
+    "interpretation": "With target k=1.25, (Q + f*r*C)/(L - (1-f)*r*C) = k gives r*C = (kL - Q)/(f + k(1-f)) = 78.3988/1.15, so C = 78.3988/0.92 = 85.216087, which rounds to 85.22. I read the checkpoint as the target-weighted repayment fraction k(1-f) = 1.25*0.6, per unit of recovered cash."
+   },
+   {
+    "case_id": "t1_oq6xegc7xhtdrlmnykd4m",
+    "final": "137.46",
+    "slots": {
+     "liability_relief_weight_checkpoint": "0.421644"
+    },
+    "interpretation": "With k=1.405481, kL - Q = 115.633112 and the weight k(1-f) = 0.4216443, which rounds to 0.421644. Then r*C = 115.633112/1.1216443 = 103.092497, so C = 137.456663, which rounds to 137.46. The checkpoint is per unit of recovered cash, not per unit of carrying amount."
+   },
+   {
+    "case_id": "t1_qfds2w5qwh7mfi6wlzmmq",
+    "final": "51.25",
+    "slots": {
+     "liability_relief_weight_checkpoint": "0.500000"
+    },
+    "interpretation": "With k=1.25, kL - Q = 147.5 - 102.4 = 45.1 and k(1-f) = 0.5. Then r*C = 45.1/1.1 = 41 exactly, so C = 41/0.8 = 51.25 exactly. The checkpoint is k times the repayment fraction (1-f)."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_lc36bfzgblxjkn37gha2w",
+    "final": "-0.20",
+    "slots": {
+     "combined_sales_effect_checkpoint": "1.200000",
+     "shared_second_period_asset_base_checkpoint": "135929.0000"
+    },
+    "interpretation": "I took the pre-action base as the retained base plus the reduction (106739+55258=161997). Capex-first gives sales factors 1.5 then 1.2 over assets 191187 and 135929, so the normalized factor is 2.7*161997/327116. Reduction-first gives 0.8 then 1.2 over assets 106739 and 135929, so the factor is 2*161997/242668. The difference is -0.19828%, which rounds to -0.20."
+   },
+   {
+    "case_id": "t1_ufltoy5ayhbkdvokmuiiq",
+    "final": "-8.01",
+    "slots": {
+     "combined_sales_effect_checkpoint": "1.200000",
+     "shared_second_period_asset_base_checkpoint": "122.0000"
+    },
+    "interpretation": "The pre-action base is 101+39=140. Capex-first is 2.7*140/283=378/283 and reduction-first is 2*140/223=280/223. The difference is -5054/63109, or -8.0084%, which rounds to -8.01. The sales factors 1.5 and 0.8 compound to 1.2."
+   },
+   {
+    "case_id": "t1_vfjnj3u7feff25sttn2ni",
+    "final": "-0.49",
+    "slots": {
+     "combined_sales_effect_checkpoint": "1.200000",
+     "shared_second_period_asset_base_checkpoint": "122.0000"
+    },
+    "interpretation": "The pre-action base is 101+56=157. Capex-first is 2.7*157/300=1.413 and reduction-first is 314/223. The difference is -1.099/223, or -0.49283%, which rounds to -0.49. Rounding is applied only to the final percent."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_kc3s6lxn4k434fik6onds",
+    "final": "Scenario A",
+    "slots": {
+     "one_stage_debt_ratio_cap_checkpoint": "0.800000"
+    },
+    "interpretation": "The checkpoint is the ceiling left after one stage, 1-t = 0.8. The final ceiling is 0.8^3 = 0.512. WACC is the after-tax WACC in percent: A = 897.25/102 \u2248 8.797 and B = 1315.5/122 \u2248 10.783, both at or below 12. Debt ratios are A = 31/102 \u2248 0.304 and B = 49/122 \u2248 0.402, both within the ceiling. Both qualify, so A wins on its lower WACC. Limits are treated as inclusive."
+   },
+   {
+    "case_id": "t1_qcsvatiswawba2nduc24q",
+    "final": "Scenario B",
+    "slots": {
+     "one_stage_debt_ratio_cap_checkpoint": "0.812345"
+    },
+    "interpretation": "The checkpoint is 1-t = 0.8123453, rounded half-up to 0.812345. The final ceiling is about 0.53607. After-tax WACC is A = 1120.88/137 \u2248 8.1816 and B = 1181.61/147 \u2248 8.0382, both at or below 10. Debt ratios are A \u2248 0.197 and B \u2248 0.248, both within the ceiling. Both qualify, so B wins on its lower WACC."
+   },
+   {
+    "case_id": "t1_z2vkgkmnqoa4cipxg73lk",
+    "final": "Neither scenario",
+    "slots": {
+     "one_stage_debt_ratio_cap_checkpoint": "0.800001"
+    },
+    "interpretation": "The checkpoint is exactly 1-t = 0.8000005, which rounds half-up to 0.800001. The final ceiling (0.8000005)^3 is about 0.51200096. Scenario A's debt ratio is about 0.512371, above that ceiling, so A fails even though its WACC (about 5.023) is under the 6.6405 limit. Scenario B's debt ratio of about 0.5014 is within the ceiling, but its after-tax WACC of about 7.447 is above the limit, so B also fails."
+   }
+  ]
+ },
+ {
+  "answers": [
+   {
+    "case_id": "t1_t3zfwvrftsc4mop4iwnce",
+    "final": "14.28",
+    "slots": {
+     "net_sale_proceeds_after_cost_checkpoint": "615.5000"
+    },
+    "interpretation": "Net proceeds are 0.9 x 6155/9 = 615.5. The gain tax is 0.2 x (615.5 - 336) = 55.9, so the year-2 cash flow is 559.6. At 12%, NPV = 9087/392 (about 23.1811) and |NPV'| is about 1016.6500. The raw step is about 0.022801, which is under the 0.04 cap, so the new rate is about 14.2801%."
+   },
+   {
+    "case_id": "t1_ve5izofhyynrvswx4rufg",
+    "final": "9.71",
+    "slots": {
+     "net_sale_proceeds_after_cost_checkpoint": "542.9600"
+    },
+    "interpretation": "Net proceeds are 0.88 x 617 = 542.96. The gain tax is 0.25 x (542.96 - 214.6) = 82.09, so the year-2 cash flow is 460.87. At 8%, NPV is about 15.2699 and |NPV'| is about 894.0869. The raw step is about 0.017079, which is under the 0.07 cap, so the new rate is about 9.7079%."
+   },
+   {
+    "case_id": "t1_wdi3woitp565ggnxhntig",
+    "final": "15.01",
+    "slots": {
+     "net_sale_proceeds_after_cost_checkpoint": "687.7500"
+    },
+    "interpretation": "Net proceeds are 0.875 x 786 = 687.75. The gain tax is 0.2 x 459.75 = 91.95, so the year-2 cash flow is 595.8. At 10%, NPV = 8496/121 and |NPV'| = 1432500/1331. The raw step is 93456/1432500 (about 0.06524), which is over the cap, so the 0.05005 cap applies. The new rate is exactly 15.005%, which rounds half up to 15.01."
+   }
+  ]
+ }
+]
